@@ -313,6 +313,7 @@ label[for] {
 
 .btn-toggle-mobile-side-bar>div {
     position: absolute;
+    margin-top: 10px;
     top: 0;
     left: 0;
     width: 100%;
@@ -356,6 +357,8 @@ label[for] {
     background-color: black;
     color: white;
     height: 60px;
+    width: 100%;
+    position: fixed;
 }
 .top-bar .logo{
     padding: 0 30px;
@@ -365,15 +368,17 @@ label[for] {
     position: relative;
 
 }
-.top-bar .menu-box-1 ul>li>a {
+.top-bar .menu-box-1 ul > li > a {
+    display: block;
     font-weight: bold;
+    padding: 15px;
 }
-.top-bar .menu-box-1>ul>li:hover>a {
+.top-bar .menu-box-1> ul > li:hover>a {
     background-color: white;
     color: black;
     text-decoration: underline;
 }
-.top-bar .menu-box-1>ul ul {
+.top-bar .menu-box-1 > ul ul {
     display: none;
     position: absolute;
     top: 100%;
@@ -383,15 +388,10 @@ label[for] {
     color: black;
     border-top: 0;
 }
-.top-bar .menu-box-1>ul>li:hover>ul {
+.top-bar .menu-box-1 > ul > li:hover > ul {
     display: block;
 }
-.top-bar .menu-box-1>ul ul>li>a {
-    display: block;
-    text-align: center;
-    padding:20px 0;
-    
-}
+
 .top-bar .menu-box-1>ul ul>li:hover>a {
     background-color: black;
     color: white;
@@ -402,6 +402,8 @@ label[for] {
 .mobile-top-bar {
     height: 50px;
     background-color: black;
+    position: fixed;
+    width: 100%;
 }
 
 .mobile-top-bar .btn-toggle-mobile-side-bar {
@@ -413,7 +415,7 @@ label[for] {
 /* 모바일 사이드바 시작 */
 
 .mobile-side-bar{
-    position: absolute;
+    position: fixed;
     top:50px;
     left: -250px;
     width: 250px;
@@ -425,36 +427,33 @@ label[for] {
 .mobile-side-bar.active{
     left: 0;
 }
-.mobile-side-bar>.mobile-menu-bar>ul{
-    text-align: center;
+.mobile-side-bar .mobile-menu-bar ul > li > a {
+  padding: 10px;  
 }
-.mobile-side-bar>.mobile-menu-bar ul>li{
-    position: relative;
-    border-bottom: 1px solid #dfdfdf;
-    
+.mobile-side-bar .mobile-menu-bar ul > li > a:not(:only-child)::after {
+    content:"[+]";
+    float:right;
 }
-.mobile-side-bar>.mobile-menu-bar > ul>li:last-child > a::after{
-    content: "[+]";
+
+.mobile-side-bar .mobile-menu-bar ul > li.active > a:not(:only-child)::after {
+    content:"[-]";
 }
-.mobile-side-bar>.mobile-menu-bar ul > li > a{
-  padding:10px;  
+
+.mobile-side-bar .mobile-menu-bar ul > li.active > a:not(:only-child) {
+    background-color:black;
+    color:white;
+}
+
+.mobile-side-bar .mobile-menu-bar ul > li.active > ul {
+    display: block;
 }
 .mobile-side-bar>.mobile-menu-bar ul > li:hover > a{
     color: red;
 }
 .mobile-side-bar>.mobile-menu-bar>ul ul{
     display: none;
-    position: absolute;
-    top:0;
-    left: 100%;
-    width: 250px;
-    background-color: white;
-    
-}
-
-.mobile-side-bar>.mobile-menu-bar ul > li:hover>ul{
-    display: block;
-}
+    padding-left: 20px;
+  
 }
 .mobile-side-bar-bg {
     position: fixed;
@@ -470,4 +469,10 @@ label[for] {
 .mobile-side-bar-bg.active {
     visibility: visible;
     background-color:rgba(0,0,0,.7);
+}
+@media (max-width:799px) {
+    html.mobile-side-bar-actived{
+        overflow-y: hidden;
+    }
+}
 /* 모바일 사이드바 끝 */

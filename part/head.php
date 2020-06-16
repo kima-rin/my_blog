@@ -12,20 +12,41 @@
 </head>
 
 <body>
-<div>
-        <div class="mobile-top-bar visible-sm-down flex">
-            <a href="#" class="btn-toggle-mobile-side-bar flex-as-c">
-                <div></div>
-                <div></div>
-                <div></div>
-            </a>
-        </div>
+    
+    <div class="mobile-top-bar visible-sm-down flex">
+        <a href="#" class="btn-toggle-mobile-side-bar flex-as-c">
+            <div></div>
+            <div></div>
+            <div></div>
+        </a>
     </div>
-<div class="mobile-side-bar-bg">
+
+    <div class="mobile-side-bar-bg visible-sm-down">    
     </div>
-    <div class="mobile-side-bar">
-</div>    
-<div class="top-bar visible-md-up">
+
+    <div class="mobile-side-bar visible-sm-down">
+       <nav class="mobile-menu-bar">
+           <ul>
+              <li><a href="#" class="block">Home</a></li>
+              <li><a href="#" class="block">Articles</a>
+              <ul>
+                  <li><a href="#">Notice</a></li>
+                  <li><a href="#">Fee</a></li>
+              </ul>
+            </li>
+              <li><a href="#" class="block">About Me</a></li>
+              <li><a href="#" class="block">SNS</a>
+           <ul>
+              <li><a href="#" target="_block">GITHUD</a></li>
+              <li><a href="#" target="_block">FACE BOOK</a></li>
+              <li><a href="#">INSTAGRAM</a></li>
+                </ul>
+              </li>
+           </ul>
+       </nav>
+    </div>
+    
+    <div class="top-bar visible-md-up">
         <div class="con height-100p flex">
         <a href="/" class="logo flex flex-ai-c"><i class="fab fa-artstation"></i></a>
             <nav class="menu-box-1 flex flex-1-0-0">
@@ -46,19 +67,3 @@
             </nav>
         </div>
     </div>
-<div class="mobile-side-bar">
-  <nav class="mobile-menu-bar">
-      <ul>
-          <li><a href="#" class="block">Home</a></li>
-          <li><a href="#" class="block">Articles</a></li>
-          <li><a href="#" class="block">About Me</a></li>
-          <li><a href="#" class="block">SNS</a>
-          <ul>
-              <li><a href="#" class="block">GITHUD</a></li>
-              <li><a href="#" class="block">FACE BOOK</a></li>
-              <li><a href="#" class="block">INSTAGRAM</a></li>
-          </ul>
-          </li>
-      </ul>
-  </nav>
-</div>
