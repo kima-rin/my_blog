@@ -41,3 +41,13 @@ $(function() {
   $('btn-toggle-mobile-side-bar').click();
   $('mobile-side-bar>.mobile-menu-bar > ul>li:last-child').click();
 });
+
+$('.sbs-slider .side-bars > div').click(function(){
+  var $this = $(this);
+  var $slider = $this.parent().parent();
+  var $current = $slider.find('> .slides > img.active');
+  var $post = $current.next();
+
+ $current.removeClass('active');
+ $post.addClass('active');
+});
