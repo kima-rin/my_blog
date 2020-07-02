@@ -1,11 +1,18 @@
 .top-img{
-    width:100%;
-    height: 300px;
+    width: 100%;
+    margin: :0 auto;
 }
+
 .top-img>div{
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.top-img>div::after{
+    content: "";
+    padding-top: 15%;
+    display: block;
+    
 }

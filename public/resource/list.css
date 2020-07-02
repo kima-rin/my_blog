@@ -1,4 +1,4 @@
-.img-box > img {
+.img-box img {
     width:100%;
     display:block;
   }
@@ -75,14 +75,23 @@
       display: none;
     }
   }
-.item>.title{
+.item .title{
     font-size:1rem;
 }
-.item>.review{
+.item .review{
     font-size:.5rem;
 }
 .item>.txt-box{
     font-size:.5rem;
+
+    
 }
 
+.more{
+  padding: 2% 10%;
+  margin-top: 3%;
+  color: white;
+  font-size: .6rem;
+  background-color: #A6C9BE;
+}
 
