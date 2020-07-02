@@ -18,7 +18,11 @@ FROM article
 WHERE cateItemId = {$cateItemId}
 ORDER BY ID DESC
 ";
-print_r($sql);
+
+$rs = mysqli_query($dbConn, $sql);
+$row = mysqli_fetch_assoc($rs);
+
+var_dump($row);
 exit;
-//http://localhost:8023/list_test.php?cateItemId=2
+//http://localhost:8077/list_test.php?cateItemId=2
 ?>
