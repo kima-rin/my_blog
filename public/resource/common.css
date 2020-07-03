@@ -315,7 +315,7 @@ body{
     margin: 0 auto;
 }
 .wrapper{
-    height: 100vh;
+    min-height: 100%;
     position: relative;
 }
 /* 탑 바 시작*/
@@ -343,6 +343,7 @@ body{
     width: 2%;
     height: 100%;
     position: fixed;
+    
 }
 .copyright>div{
     width: 30px;
@@ -359,12 +360,12 @@ body{
     position: fixed;
     height: 100%;
     top:0;
-    right: -270px;
+    right: -290px;
     transition: right .5s;
     background-color: #F5F3F1;
     z-index: 150;
 }
-.right-side-bar:hover{
+.right-side-bar.active{
     right: 0;
 }
 .right-side-bar>.rs-menu-bar{
@@ -372,7 +373,8 @@ body{
     height: 100%;
     width: 350px;
     bottom: 0;
-    transition: right .5s;  
+    transition: right .5s; 
+
 }
 .right-side-bar>.side-dc{
     position: absolute;

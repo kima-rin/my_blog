@@ -22,7 +22,7 @@ include "../part/head.php"
         </div>
 
         <div class="logo block">
-            <img src="/resource/img/logo.png" alt="">
+            <div class="main-logo" style="background-image:url(/resource/img/logo-4.png)"></div>
             <div class="article-box flex">
                <nav class="article-list flex">
                     <ul>

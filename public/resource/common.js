@@ -43,11 +43,25 @@ function gridSlide(){
     $grid.masonry('layout');
   });
 }
-
+function MobileSideBar__init() {
+  $('.btn-toggle-mobile-side-bar').click(function() {
+    var $this = $(this);
+    
+    if ( $this.hasClass('active') ) {
+      $this.removeClass('active');
+      $('.right-side-bar').removeClass('active');
+    }
+    else {
+      $this.addClass('active')
+      $('.right-side-bar').addClass('active');
+    }
+  });
+}
 
 $(function () {
   slide();
   gridSlide();
+  MobileSideBar__init();
 });
 
 function a(){
