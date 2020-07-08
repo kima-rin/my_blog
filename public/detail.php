@@ -165,7 +165,7 @@ function renderRepl(wrapperId, replUrl) {
 
   var urlParams = getUrlParams(replUrl);
 
-  var height = 600;
+  var height = 400;
 
   if ( urlParams.height ) {
     height = urlParams.height;
