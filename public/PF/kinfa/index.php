@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>서민금융지원진흥원</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
-    <link rel="stylesheet" href="/pf/kinfa/common.css">
+    <link rel="stylesheet" href="/pf/kinfa/index.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/pf/kinfa/index.js"></script>
 </head>
@@ -26,7 +26,7 @@
     </div>
     <div class="top-md-bar con">
         <div class="flex">
-            <div class="logo flex flex-grow-1 flex-align-items-center">
+            <div class="logo flex flex-grow-1 flex-ai-c">
                 <a href="#"><img src="https://kima-rin.github.io/img1/pf/sm/logo.png" alt=""></a>
             </div>
             <div class="top-btn">
@@ -41,8 +41,24 @@
 
     </div>
     <div class="top-menu-bar">
-        <div class="menu-box"></div>
-
+        <div class="menu-box con">
+            <nav class="">
+                <ul class="flex flex-ai-c flex-jc-c">
+                    <li class="flex-1-0-0"><a href="#" cless="block border-red">휴먼예금 관리</a></li>
+                    <li class="flex-1-0-0"><a href="#" cless="block">일반기부</a></li>
+                    <li class="flex-1-0-0"><a href="#" cless="block">서비스안내</a></li>
+                    <li class="flex-1-0-0"><a href="#" cless="block">고객지원</a></li>
+                    <li class="flex-1-0-0"><a href="#" cless="block">나의 정보 조회</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="bg-visual">
+        <div class="visual-box">
+            <div class="bg_visula1" style="background-image:url(https://kima-rin.github.io/img1/pf/sm/bg_visual1.jpg)"></div>
+            <div></div>
+            <div></div>
+        </div>
     </div>
 </body>
 

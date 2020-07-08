@@ -27,7 +27,7 @@ a{
 *>.flex-1-0-0 {
     flex: 1 0 0;
 }
-.flex-align-items-center{
+*>.flex-align-items-center{
     align-items:center;
 }
 .con {
@@ -35,7 +35,7 @@ a{
 }
 
 
-
+/* 탑 시작*/
 .top{
     height: 44px;
     background-color: #eaeef1;
@@ -47,6 +47,7 @@ a{
     position: absolute;
     left: 0;
     padding: 10px 0;
+    color: #374a5b;
 }
 .top>.inner>.sns{
     float: right;
@@ -56,6 +57,7 @@ a{
    margin-top:5%;
 }
 /*탑 끝*/
+/* 탑 중간 바 시작*/
 .top-md-bar{
     width: 100%;
     min-height: 89px;
@@ -73,9 +75,22 @@ a{
 .top-btn>ul>li>a>i{
     padding: 10px;
 }
+/* 탑 중간 바 끝*/
+
+/* 탑 메뉴 바 시작*/
 
 .top-menu-bar>.menu-box{
     min-height: 59px;
     border-top:1px solid #dfdfdf;
     border-bottom: 1px solid #dfdfdf;
 }
+.top-menu-bar>.menu-box>nav{
+    text-align: center;
+}
+
+.top-menu-bar>.menu-box>nav>ul>li{
+    
+}
+
+
+/* 탑 메뉴 바 끝*/

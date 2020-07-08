@@ -1,8 +1,12 @@
 /* 폰트적용 */
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Noto+Sans+KR:wght@100;300;500;700&family=Open+Sans&family=Roboto&display=swap');
 
 html {
-    font-family: "Noto Sans KR", sans-serif;
+    font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 /* 노말라이즈 */
@@ -291,9 +295,7 @@ label[for] {
 *>.flex-1-0-0 {
     flex: 1 0 0;
 }
-.flex-align-items-center{
-    align-items:center;
-}
+
 /* 공통 css */
 @media (max-width:799px){
     .visible-md-up{
@@ -312,8 +314,8 @@ html, body{
 .con {
     max-width: 1200px;
 }
-/*탑시작*/
 
+/* 탑 시작*/
 .top{
     height: 44px;
     background-color: #eaeef1;
@@ -324,40 +326,97 @@ html, body{
 .top>.inner>a{
     position: absolute;
     left: 0;
-    padding: 8px 0;
+    padding: 10px 0;
+    color: #374a5b;
 }
 .top>.inner>.sns{
     float: right;
+
 }
 .top>.inner>.sns>a>img{
-    padding: 8px 0;
+   margin-top:5%;
 }
+
 /*탑 끝*/
+/* 탑 중간 바 시작*/
+.top-md-bar{
+    width: 100%;
+    min-height: 89px;
 
-/*md 탑 시작*/
-.md-top{
-    height: 89px;
-    border: 2px solid red;
-} 
-.md-top>.top-btn{
-    border: 2px solid red;
 }
-.md-top>.top-btn>ul>li>a{
-    display: inline-block;
-    padding: 20px;
+.top-md-bar>.logo{
+    left: 0;
+}
 
-    border: 2px solid red;
+.top-btn>ul>li>a{
+    padding: 30px 10px;
+    white-space: nowrap;
+    font-size: .9rem;
+    position: relative;
+    color: #505050;
+}
+.top-btn>ul>li>a::before{
+    content: "";
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 1px;
+    height: 13px;
+    background-color: black;
+}
+.top-btn>ul>li:first-child>a::before{
+    display: none;
+}
+.top-btn>ul>li>a>i{
+    padding: 10px;
+}
+/* 탑 중간 바 끝*/
+
+/* 탑 메뉴 바 시작*/
+.top-menu-bar{
+    border-top:1px solid #a1a1a1;
+    border-bottom: 1px solid #a1a1a1;
+}
+
+.top-menu-bar>.menu-box>nav{
+    text-align: center;
+}
+.top-menu-bar>.menu-box>nav>ul{
    
+    min-height: 59px;
 }
-/*md탑 끝*/
-.menu {
-    height: 89px;
+.top-menu-bar>.menu-box>nav>ul>li{
+    position: relative;
 }
-.menu > div {
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-    display: flex;
-    height: 100%;
-    background-color: red;
+
+.top-menu-bar>.menu-box>nav>ul>li::before{
+    content: "";
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 1px;
+    height: 13px;
+    background-color: black;
 }
+.top-menu-bar>.menu-box>nav>ul>li:first-child::before{
+    display: none;
+}
+
+.top-menu-bar>.menu-box>nav>ul>li>a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #505050;
+}
+
+/* 탑 메뉴 바 끝*/
+/*백그라운드 비쥬얼 박스 시작*/
+.bg_visula1{
+    min-height: 557px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*백그라운드 비쥬얼 박스 끝*/
