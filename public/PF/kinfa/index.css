@@ -3,10 +3,10 @@
 
 html {
     font-family: 'Lato', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Noto Sans KR', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* 노말라이즈 */
@@ -247,7 +247,7 @@ label[for] {
 }
 
 .border-red {
-    border:3px solid red;
+    border: 3px solid red;
 }
 
 /* 라이브러리 - flex */
@@ -297,126 +297,190 @@ label[for] {
 }
 
 /* 공통 css */
-@media (max-width:799px){
-    .visible-md-up{
+@media (max-width:799px) {
+    .visible-md-up {
         display: none;
     }
 }
-@media (min-width:800px){
-    .visible-sm-down{
+
+@media (min-width:800px) {
+    .visible-sm-down {
         display: none;
     }
 }
+
 /* 커스텀 */
-html, body{
+html,
+body {
     overflow-x: hidden;
 }
+
 .con {
     max-width: 1200px;
 }
 
 /* 탑 시작*/
-.top{
+.top {
     height: 44px;
     background-color: #eaeef1;
 }
-.top>.inner{
+
+.top>.inner {
     position: relative;
 }
-.top>.inner>a{
+
+.top>.inner>a {
     position: absolute;
     left: 0;
     padding: 10px 0;
     color: #374a5b;
 }
-.top>.inner>.sns{
+
+.top>.inner>.sns {
     float: right;
 
 }
-.top>.inner>.sns>a>img{
-   margin-top:5%;
+
+.top>.inner>.sns>a>img {
+    margin-top: 5%;
 }
 
 /*탑 끝*/
 /* 탑 중간 바 시작*/
-.top-md-bar{
+.top-md-bar {
     width: 100%;
     min-height: 89px;
 
 }
-.top-md-bar>.logo{
+
+.top-md-bar>.logo {
     left: 0;
 }
 
-.top-btn>ul>li>a{
+.top-btn>ul>li>a {
     padding: 30px 10px;
     white-space: nowrap;
     font-size: .9rem;
     position: relative;
     color: #505050;
 }
-.top-btn>ul>li>a::before{
+
+.top-btn>ul>li>a::before {
     content: "";
     position: absolute;
-    top:50%;
+    top: 50%;
     transform: translateY(-50%);
     left: 0;
     width: 1px;
     height: 13px;
     background-color: black;
 }
-.top-btn>ul>li:first-child>a::before{
+
+.top-btn>ul>li:first-child>a::before {
     display: none;
 }
-.top-btn>ul>li>a>i{
+
+.top-btn>ul>li>a>i {
     padding: 10px;
 }
+
 /* 탑 중간 바 끝*/
 
 /* 탑 메뉴 바 시작*/
-.top-menu-bar{
-    border-top:1px solid #a1a1a1;
+.top-menu-bar {
+    border-top: 1px solid #a1a1a1;
     border-bottom: 1px solid #a1a1a1;
-}
-
-.top-menu-bar>.menu-box>nav{
-    text-align: center;
-}
-.top-menu-bar>.menu-box>nav>ul{
-   
-    min-height: 59px;
-}
-.top-menu-bar>.menu-box>nav>ul>li{
     position: relative;
 }
 
-.top-menu-bar>.menu-box>nav>ul>li::before{
+.top-menu-bar>.menu-box>nav {
+    text-align: center;
+
+}
+
+.top-menu-bar>.menu-box>nav>ul {
+    min-height: 59px;
+}
+
+.top-menu-bar>.menu-box>nav>ul>li::before {
     content: "";
     position: absolute;
-    top:50%;
+    align-items: center;
     transform: translateY(-50%);
     left: 0;
     width: 1px;
     height: 13px;
     background-color: black;
+    border: 2px solid red;
+    z-index: 100;
 }
-.top-menu-bar>.menu-box>nav>ul>li:first-child::before{
+
+.top-menu-bar>.menu-box>nav>ul>li:first-child::before {
     display: none;
 }
 
-.top-menu-bar>.menu-box>nav>ul>li>a{
+.top-menu-bar>.menu-box>nav>ul>li>a {
     font-size: 18px;
     font-weight: bold;
     color: #505050;
 }
-
+.top-menu-bar>.menu-box>nav>ul>li>div{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width:100%;
+    background-color: white;
+    opacity: 0.5;
+    border: 2px solid red;
+    z-index: 99;
+}
 /* 탑 메뉴 바 끝*/
 /*백그라운드 비쥬얼 박스 시작*/
-.bg_visula1{
+.bg-visual {
+    position: relative;
     min-height: 557px;
+}
+.bg-visual>.visual-box>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 557px;
+    width: 100%;
+    opacity: 0;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-
+.bg-visual>.visual-box>div.active{
+    opacity: 1;
+}
+/*슬라이드 버튼*/
+.bg-visual>.side-bars{
+    height: 557px;
+}
+.bg-visual>.side-bars>div {
+    position: absolute;
+    left: 0;
+    top:50%;
+    transform: translateY(-50%);
+    width:60px;
+    height:60px;
+    background-color:white;
+    border-radius: 50%;
+    opacity: 0.5;
+    z-index: 99;
+}
+.bg-visual>.side-bars>div:last-child{
+    left: auto;
+    right: 0;
+}
+.bg-visual>.side-bars>div:active{
+    transform: translateY(-45%);
+}
+.bg-visual>.side-bars>div>img{
+    margin-top:50%;
+    margin-left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
 /*백그라운드 비쥬얼 박스 끝*/
