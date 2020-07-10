@@ -394,7 +394,7 @@ body {
 }
 
 .top-menu-bar>.menu-box>nav {
-    text-align: center;
+    
 
 }
 
@@ -402,38 +402,53 @@ body {
     min-height: 59px;
 }
 
-.top-menu-bar>.menu-box>nav>ul>li::before {
-    content: "";
-    position: absolute;
-    align-items: center;
-    transform: translateY(-50%);
-    left: 0;
-    width: 1px;
-    height: 13px;
-    background-color: black;
-    border: 2px solid red;
-    z-index: 100;
-}
-
-.top-menu-bar>.menu-box>nav>ul>li:first-child::before {
-    display: none;
+.top-menu-bar>.menu-box>nav>ul>li:not(:first-child){
+    border-left: 1px solid black;
 }
 
 .top-menu-bar>.menu-box>nav>ul>li>a {
     font-size: 18px;
     font-weight: bold;
+    padding: 0 50px;
     color: #505050;
 }
+
 .top-menu-bar>.menu-box>nav>ul>li>div{
+    display: none;
     position: absolute;
     top: 100%;
     left: 0;
     right: 0;
     width:100%;
+    height: 150px;
     background-color: white;
-    opacity: 0.5;
-    border: 2px solid red;
+    opacity: 0.8;
     z-index: 99;
+}
+.top-menu-bar>.menu-box>nav>ul>li:hover>div{
+    display:inline-block;
+
+}
+.top-menu-bar>.menu-box>nav>ul>li>div>div{
+    left: 0;
+    display: inline-block;
+}
+.top-menu-bar>.menu-box>nav>ul>li>div>div>a{
+    display: block;
+    padding: 20px;
+    padding-right: 153px;
+    border: 1px solid black;
+}
+.top-menu-bar>.menu-box>nav>ul>li>div>div>ul>li{
+    border: 1px solid black;
+
+}
+.top-menu-bar>.menu-box>nav>ul>li>div>div>ul>li>a{
+    display: block;
+    font-weight: bold;
+    text-align: left;
+    border: 1px solid black;
+    
 }
 /* 탑 메뉴 바 끝*/
 /*백그라운드 비쥬얼 박스 시작*/
