@@ -44,68 +44,92 @@
         <div class="menu-box con">
             <nav class="">
                 <ul class="flex flex-ai-c flex-jc-c">
-                    <li class="flex-1-0-0"><a href="#" cless="block border-red">휴면예금 관리</a>
+                    <li class="flex-1-0-0">
+                        <a href="#" class="block">휴면예금 관리</a>
                         <div>
-                            <div>
-                                <a>휴면예금 관리</a>
-                            </div>
-                            <div class="con">
-                                <ul class="flex">
-                                    <li><a href="#">휴면예금 조회 및<br>지급신청따라하기</a></li>
-                                    <li><a href="#">휴면예금 조회 및<br>지급신청</a></li>
-                                    <li><a href="#">출연휴면예금 상속인<br>조회신청 따라하기</a></li>
-                                    <li><a href="#">출연휴면예금 상속인<br>조회신청</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="flex-1-0-0"><a href="#" cless="block">일반기부</a>
-                        <div>
-                            <div>
-                                <ul class="flex">
-                                    <li><a href="#">기부 따라하기</a></li>
-                                    <li><a href="#">일반 기부자</a></li>
-                                    <li><a href="#">기부자 안내</a></li>
-                                </ul>
-
-                            </div>
-                        </div>
-
-                    </li>
-                    <li class="flex-1-0-0"><a href="#" cless="block">서비스안내</a>
-                        <div>
-                            <div>
-                                <ul class="flex">
-                                    <li><a href="#">휴면예금 안내</a></li>
-                                    <li><a href="#">기부하기 안내</a></li>
-                                    <li><a href="#">출연 휴면예금 상속인 조회</a></li>
-                                    <li><a href="#">출연 금융회사 안내</a></li>
-                                    <li><a href="#">금융권 미청구재산<br>조회하기</a></li>
-                                </ul>
+                            <div class="con flex">
+                                <div class="flex">
+                                    <h1>휴면예금 관리</h1>
+                                </div>
+                                <div class="flex"">
+                                    <ul class=" flex">
+                                        <li class="flex-1-0-0"><a href="#" class="block">휴면예금 조회 및<br>지급신청따라하기</a></li>
+                                        <li class="flex-1-0-0"><a href="#" class="block">휴면예금 조회 및<br>지급신청</a></li>
+                                        <li class="flex-1-0-0"><a href="#" class="block">출연휴면예금 상속인<br>조회신청 따라하기</a></li>
+                                        <li class="flex-1-0-0"><a href="#" class="block">출연휴면예금 상속인<br>조회신청</a></li>
+                                     </ul>
+                                </div>
                             </div>
                         </div>
                     </li>
-                    <li class="flex-1-0-0"><a href="#" cless="block">고객지원</a>
+                    <li class="flex-1-0-0">
+                        <a href="#" class="block">일반기부</a>
                         <div>
-                            <div>
-                                <ul class="flex">
-                                    <li><a href="#">공지사항</a></li>
-                                    <li><a href="#">자주하는 질문</a></li>
-                                    <li><a href="#">프로그램 설치</a></li>
-                                    <li><a href="#">묻고 답하기</a></li>
-                                    <li><a href="#">서식 자료실</a></li>
-                                </ul>
-
+                            <div class="con flex">
+                                <div class="flex">
+                                    <h1>일반기부</h1>
+                                </div>
+                                <div>
+                                     <ul class="flex">
+                                        <li><a href="#">기부 따라하기</a></li>
+                                        <li><a href="#">일반 기부자</a></li>
+                                        <li><a href="#">기부자 안내</a></li>
+                                    </ul>
+                                 </div>
                             </div>
+                        </div>
+                    </li>
+                    <li class="flex-1-0-0">
+                        <a href="#" class="block">서비스안내</a>
+                        <div>
+                            <div class="con flex">
+                                <div class="flex">
+                                    <h1>서비스안내</h1>
+                                </div>
+                                <div>
+                                    <ul class="flex">
+                                        <li><a href="#">휴면예금 안내</a></li>
+                                        <li><a href="#">기부하기 안내</a></li>
+                                        <li><a href="#">출연 휴면예금 상속인 조회</a></li>
+                                        <li><a href="#">출연 금융회사 안내</a></li>
+                                        <li><a href="#">금융권 미청구재산<br>조회하기</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                         </div>
+                      </li>
+                    <li class="flex-1-0-0">
+                        <a href="#" class="block">고객지원</a>
+                        <div>
+                            <div class="con flex">
+                                 <div class="flex">
+                                    <h1>고객지원</h1>
+                                </div>
+                                <div>
+                                    <ul class="flex">
+                                        <li><a href="#">공지사항</a></li>
+                                        <li><a href="#">자주하는 질문</a></li>
+                                        <li><a href="#">프로그램 설치</a></li>
+                                        <li><a href="#">묻고 답하기</a></li>
+                                        <li><a href="#">서식 자료실</a></li>
+                                    </ul>
+                                </div>
+                             </div>
                         </div>
 
                     </li>
-                    <li class="flex-1-0-0"><a href="#" cless="block">나의 정보 조회</a>
+                    <li class="flex-1-0-0">
+                        <a href="#" class="block">나의 정보 조회</a>
                         <div>
-                            <div>
-                                <ul class="flex">
-                                    <li><a href="#">신청 내역 조회 및<br>증명서 발급</a></li>
-                                </ul>
+                            <div class="con flex">
+                                <div class="flex">
+                                    <h1>나의 정보 조회</h1>
+                                </div>
+                                <div>
+                                    <ul class="flex">
+                                        <li><a href="#">신청 내역 조회 및<br>증명서 발급</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
 
