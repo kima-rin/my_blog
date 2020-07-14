@@ -344,6 +344,15 @@ body {
 .top>.inner>.sns>a>img {
     margin-top: 5%;
 }
+.border-color-blue{
+    border: 2px solid #5990d9;
+}
+.border-color-red{
+    border: 2px solid #e67396;
+}
+.border-color-green{
+    border: 2px solid #499f5c;
+}
 
 /*탑 끝*/
 /* 탑 중간 바 시작*/
@@ -401,14 +410,19 @@ body {
 .top-menu-bar>.menu-box>nav>ul {
     min-height: 59px;
 }
-
+.top-menu-bar>.menu-box>nav>ul>li{
+    width: 100%;
+    height: 59px;
+}
 .top-menu-bar>.menu-box>nav>ul>li>a {
+    top:50%;
+    transform: translateY(-50%);
     font-size: 18px;
     font-weight: bold;
     color: #505050;
     position: relative;
 }
-.top-menu-bar>.menu-box>nav>ul>li>a::after {
+.top-menu-bar>.menu-box>nav>ul>li:not(:first-child)>a::after {
     content: "";
     position: absolute;
     top:50%;
@@ -492,6 +506,7 @@ body {
 .bg-visual {
     position: relative;
     min-height: 557px;
+
 }
 .bg-visual>.visual-box>div {
     position: absolute;
@@ -535,4 +550,63 @@ body {
     margin-left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
+.bg-visual>.circle-btn{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
 /*백그라운드 비쥬얼 박스 끝*/
+/*아티클 박스 시작*/
+.article{
+    width: 100%;
+    height: 250px;
+    background-color: #dfdfdf;
+    
+}
+/*아이콘박스 시작*/
+.icon-box{
+    position: absolute;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 189px;
+  
+}
+.icon-box>ul{
+    margin-left: -7px;
+    margin-right: -7px;
+}
+.icon-box>ul>li{
+    width: 189px;
+    height: 189px;
+    margin: 0 6.666px;
+    
+}
+.icon-box>ul>li>div{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.icon-box>ul>li>div>a{
+    position: absolute;
+    display: block;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+.icon-box>ul>li>div>img{
+    display: block;
+    margin-top:50%;
+    transform: translateY(-80%);
+    margin-left: auto;
+    margin-right: auto;
+}
+/*아이콘박스 시작*/
+
+/*아티클 박스 끝*/

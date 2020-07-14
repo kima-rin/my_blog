@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div class="top">
+<div class="top">
         <div class="inner con">
             <a href="#">포용금융을 현장에서 뒷받침하는 서민금융 종합상담기구</a>
             <div class="sns">
@@ -149,6 +149,62 @@
         <div class="side-bars relative height-100p con">
             <div><img src="https://kima-rin.github.io/img1/pf/sm/ico_main_slider_prev.png" alt=""></div>
             <div><img src="https://kima-rin.github.io/img1/pf/sm/ico_main_slider_next.png" alt=""></div>
+        </div>
+        <div class="circle-btn">
+            <span><i class="far fa-dot-circle"></i></span>
+            <span><i class="far fa-dot-circle"></i></span>
+            <span><i class="far fa-dot-circle"></i></span>
+            <span><i class="fas fa-pause"></i></span>
+            <span><i class="fas fa-play"></i></span>
+        </div>
+    </div>
+    <div class="article">
+        <div class="con">
+            <div class="icon-box">
+                <ul class="row">
+                    <li class="cell">
+                        <div class="border-color-blue">
+                            <img src="https://kima-rin.github.io/img1/pf/sm/ico_main_btn1_off.png" alt="">
+                            <a href="#">휴면예금통합조회</a>
+                        </div>
+                    </li>
+                    <li class="cell">
+                        <div class="border-color-red"><img
+                                src="https://kima-rin.github.io/img1/pf/sm/ico_main_btn2_off.png" alt="">
+                            <a href="#">출연/지급확인서발급</a>
+                        </div>
+                    </li>
+                    <li class="cell">
+                        <div class="border-color-green"><img
+                                src="https://kima-rin.github.io/img1/pf/sm/ico_main_btn3_off.png" alt="">
+                            <a href="#">상속인조회신청</a>
+                        </div>
+                    </li>
+                    <li class="cell">
+                        <div class="border-color-blue"><img
+                                src="https://kima-rin.github.io/img1/pf/sm/ico_main_btn4_off.png" alt="">
+                            <a href="#">지급신청</a>
+                        </div>
+                    </li>
+                    <li class="cell">
+                        <div class="border-color-red"><img
+                                src="https://kima-rin.github.io/img1/pf/sm/ico_main_btn5_off.png" alt="">
+                            <a href="#">이체결과조회</a>
+                        </div>
+                    </li>
+                    <li class="cell">
+                        <div class="border-color-green"><img
+                                src="https://kima-rin.github.io/img1/pf/sm/ico_main_btn6_off.png" alt="">
+                            <a href="#">기부하기</a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="notice">
+            <div></div>
+            <div></div>
         </div>
     </div>
 </body>
