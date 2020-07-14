@@ -2,11 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 html{
-    font-family: 'Lato', sans-serif;
-    font-family: 'Montserrat', sans-serif;
     font-family: 'Noto Sans KR', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
+
 }
 /* 노말라이즈 */
 body,
@@ -16,6 +13,7 @@ h1 {
     margin: 0;
     padding: 0;
     list-style: none;
+    letter-spacing: -0.025em;
 }
 
 a {
@@ -277,7 +275,10 @@ label[for] {
     display: flex;
     align-items: center;
 }
-
+*>.flex-ai-end{
+    display: flex;
+    align-items:flex-end;
+}
 *>.flex-row-nowrap {
     flex-direction: row;
     flex-wrap: nowrap;
@@ -405,33 +406,106 @@ body {
 
 /*슬라이더 박스 시작*/
 .slide-box{
-    width: 100%;
+    position: relative;
+    height: 781px;
+    z-index: 1;
 }
 .slide-box>.slides>div{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
     height: 781px;
+    opacity: 0;
     background-position: center;
     background-repeat: no-repeat;
 }
-/*슬라이더 버튼*/
-/*슬라이더 밑 배너 박스*/
-.slide-box{
-    position: relative;
+.slide-box>.slides>div.active{
+    opacity: 1;
 }
-.slide-box>.slide-bn-bar{
+.slide-box>.slides>div>.text-box{
     position: absolute;
-    top:739px;
+    top:50%;
     left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    height: 84px;
-    background-color :rgba(110,0,0);
-}
-.slide-box>.slide-bn-bar>div:nth-child(2){
-    border-left: 1px solid white;
-    border-right: 1px solid white;
-}
-.slide-box>.slide-bn-bar>div>a{
+    transform: translateX(-50%) translateY(-50%);
     color: white;
-    border: 2px solid white;
+    text-align: center;
+
+}
+.slide-box>.slides>div>.text-box>div:nth-child(1){
+    display: inline-block;
+    font-style: italic;
+    font-family: "Georgia";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1em;
+}
+.slide-box>.slides>div>.text-box>div:nth-child(2){
+    letter-spacing: -0.025em;
+    line-height: 70px;
+    font-size: 60px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.slide-box>.slides>div>.text-box>div:nth-child(3){
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 30px;
+    border: 1px solid white;
+}
+/*슬라이더 버튼*/
+.slide-box>.slides-btn{
+    position: absolute;
+    top:721px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.slide-box>.slides-btn>li{
+    width: 44px;
+    height: 3px;
+    background-color: white;
+    opacity: .6;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.slide-box>.slides-btn>li.btn-opacity-1{
+    opacity: 1;
+}
+/*슬라이더 밑 배너 박스*/
+.banner-box{
+    width: 1132px;
+    margin-top: -42px;
+    z-index: 99;
+}
+.banner-box>a{
+    color: white;
+    background-color: rgba(110,0,0);
+    padding: 30px 0;
+    white-space: nowrap;
+    letter-spacing: -.5px;
+}
+.banner-box>a:nth-child(2){
+    border-left: 1px solid rgba(255,255,255,0.3);
+    border-right: 1px solid rgba(255,255,255,0.3);
+
+}
+
+.banner-box>a>div:nth-child(1){
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-left: 20px;
+}
+.banner-box>a>div:nth-child(2){
+    opacity: .6;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.banner-box>a>div:nth-child(3){
+    height: 20px;
+    width: 33px;
+    padding-right: 30px;
+    background-image:url(https://www.bonif.co.kr/resources/web/css/images/main_arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 /*슬라이더 박스 끝*/

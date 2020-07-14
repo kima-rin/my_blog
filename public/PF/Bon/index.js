@@ -34,6 +34,27 @@ function TopBox__init() {
        
 
 }
+function SlideBox__init(){
+  var $slideBox=$('.slide-box');
+
+  $slideBox.find('>.slides-btn>li').click(function(){
+    var $this=$(this);
+    var $slides = $this.parent().parent();
+    var $current = $slides.find('>.slides>div.active');
+    var $post = $current.next();
+
+    if($post.length == 0){
+      $post = $slides.find('>.slides>div:first-child');
+    }
+
+    $current.removeClass('active');
+    $post.addClass('active');
+
+  });
+
+}
+
 $(function(){
     TopBox__init();
+    SlideBox__init();
 });

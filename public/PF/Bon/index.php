@@ -165,30 +165,51 @@
     </div>
     <div class="slide-box con-min-width">
         <div class="slides">
-            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200710102032VEm.jpg)"></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div class="active"
+                style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200710102032VEm.jpg)">
+                <div class="text-box">
+                    <div>NEW,본도시락</div>
+                    <div>새로워진 본도시락<br>리뉴얼 O/P/E/N</div>
+                    <div>자세히보기</div>
+                </div>
+            </div>
+            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200709100937cYR.jpg)"></div>
+            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200604081428EQr.jpg)"></div>
+            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_202005261329008ia.jpg)"></div>
+            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200522110346wYc.jpg)"></div>
+            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200522083908iHe.jpg)"></div>
+            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_202007100934457d3.jpg)"></div>
+            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200529165153Ekq.jpg)"></div>
         </div>
-        <div class="slides-btn">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <div class="slide-bn-bar con flex">
-            <div class="flex-1-0-0 flex-ac-c"><a href="#" class="block">주문하기</a></div>
-            <div class="flex-1-0-0"><a href="#" class="block">선물하기</a></div>
-            <div class="flex-1-0-0"><a href="#" class="block">단체주문</a></div>
-        </div>
+
+        <ul class="slides-btn flex">
+            <li></li>
+            <li></li
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+    </div>
+    <div class="banner-box con flex">
+        <a href="#" class="flex flex-1-0-0 flex-ai-c">
+            <div>주문하기</div>
+            <div class="flex-grow-1">간편한 결제와 신속한 배달</div>
+            <div></div>
+        </a>
+        <a href="#" class="flex flex-1-0-0 flex-ai-c">
+            <div>선물하기</div>
+            <div class="flex-grow-1">본으로 전하는 따뜻한 마음</div>
+            <div></div>
+        </a>
+        <a href="#" class="flex flex-1-0-0 flex-ai-c">
+            <div>단체주문</div>
+            <div class="flex-grow-1">02-6908-0000(200개 이상 주문시)</div>
+            <div></div>
+        </a>
     </div>
 
 
