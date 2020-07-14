@@ -323,6 +323,7 @@ html, body{
     top:0;
     left:0;
     width:100%;
+    z-index: 99;
   }
 .top-box > .ad-bar {
     width: 100%;
@@ -410,17 +411,27 @@ body {
     height: 781px;
     background-position: center;
     background-repeat: no-repeat;
-    position: relative;
 }
 /*슬라이더 버튼*/
 /*슬라이더 밑 배너 박스*/
-
-.slide-box> .slide-bn-bar{
+.slide-box{
+    position: relative;
+}
+.slide-box>.slide-bn-bar{
     position: absolute;
+    top:739px;
     left: 50%;
+    bottom: 0;
     transform: translateX(-50%);
-    bottom: 70px;
     height: 84px;
     background-color :rgba(110,0,0);
+}
+.slide-box>.slide-bn-bar>div:nth-child(2){
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.slide-box>.slide-bn-bar>div>a{
+    color: white;
+    border: 2px solid white;
 }
 /*슬라이더 박스 끝*/

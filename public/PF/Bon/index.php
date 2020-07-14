@@ -185,9 +185,9 @@
             <span></span>
         </div>
         <div class="slide-bn-bar con flex">
-            <div></div>
-            <div></div>
-            <div></div>
+            <div class="flex-1-0-0 flex-ac-c"><a href="#" class="block">주문하기</a></div>
+            <div class="flex-1-0-0"><a href="#" class="block">선물하기</a></div>
+            <div class="flex-1-0-0"><a href="#" class="block">단체주문</a></div>
         </div>
     </div>
 
