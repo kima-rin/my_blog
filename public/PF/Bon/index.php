@@ -302,7 +302,7 @@
                     <div class="nth-child-1">본설</div>
                     <div class="nth-child-2">기존에 없던 새로운 경험,<br>설레는 새로움</div>
                     <div class="nth-child-3"></div>
-                    <div class="nth-child-4">백, 홍, 황 3가지 육수와 밥, 면, 만두 3가지 구성으로<br>취향에 따라 조합하는 9가지 맛과 즐거움을 만나보세요.<br></div>
+                    <div class="nth-child-4">백, 홍, 황 3가지 육수와 밥, 면, 만두 3가지 구성으로<br>취향에 따라 조합하는 9가지 맛과 즐거움을 만나보세요.</div>
                     <div class="nth-child-5">자세히 보기</div>
                 </div>
             </div>
