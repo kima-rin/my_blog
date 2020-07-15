@@ -34,27 +34,74 @@ function TopBox__init() {
        
 
 }
-function SlideBox__init(){
-  var $slideBox=$('.slide-box');
 
-  $slideBox.find('>.slides-btn>li').click(function(){
-    var $this=$(this);
-    var $slides = $this.parent().parent();
-    var $current = $slides.find('>.slides>div.active');
-    var $post = $current.next();
+function resizeImg() {
+  if ( $(window).width() > 1279 ){
+    $('.slide-box > .slides > div').css('min-width', $(window).width() + 'px');
+  }
 
-    if($post.length == 0){
-      $post = $slides.find('>.slides>div:first-child');
+  $(window).resize(function(){
+    var windowWidth = $(window).width();
+    if (windowWidth > 1279 ) {
+      $('.slide-box > .slides > div').css('min-width', windowWidth + 'px');
     }
+  })
+}
 
-    $current.removeClass('active');
-    $post.addClass('active');
 
-  });
+function slide(){
+  var $this = $(this);
+  var $btnIndex = $this.index();
+  var $parent = $this.closest('.slide-box');
+  var $activeDot = $parent.find(' > .slides-btn > .active');
+  var $activeSlide = $parent.find(' > .slides > .active');
+  var $slides = $parent.find(' > .slides > div');
+  var $nowSlide = $slides.eq($btnIndex);
+  
+
+  $activeDot.removeClass('active');
+  $activeSlide.removeClass('active');
+  $this.addClass('active');
+  $nowSlide.addClass('active');
+
+  
+
+
+
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function slideBox__init(){
+  var imgP = [];
+  for (var i = 0 ; i < $('.slide-box > .slides > div').length; i++ ) {
+    imgP.push($('.slide-box > .slides > div').eq(i).position().left);
+  }
+  console.log(imgP);
+
+  $('.slide-box > .slides-btn > li').click(slide);
+}
+
+
 $(function(){
     TopBox__init();
-    SlideBox__init();
+    resizeImg();
+    slideBox__init();
 });

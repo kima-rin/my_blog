@@ -314,7 +314,7 @@ html, body{
     min-height: 100vh;
 }
 .con{
-    min-width: 1132px;
+    width: 1130px;
 }
 
 /*탑박스 시작*/
@@ -342,7 +342,7 @@ body {
 .top-box.ad-bar-closed >.ad-bar{
     display: none;
 }
-.top-box .con-min-width{
+.con-min-width{
     min-width:1132px
 }
 .top-box .con {
@@ -409,19 +409,19 @@ body {
     position: relative;
     height: 781px;
     z-index: 1;
+    overflow: hidden;
+}
+.slide-box>.slides{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 1s;
 }
 .slide-box>.slides>div{
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
+    min-width:1280px;
     height: 781px;
-    opacity: 0;
     background-position: center;
     background-repeat: no-repeat;
-}
-.slide-box>.slides>div.active{
-    opacity: 1;
 }
 .slide-box>.slides>div>.text-box{
     position: absolute;
@@ -473,8 +473,10 @@ body {
 }
 /*슬라이더 밑 배너 박스*/
 .banner-box{
-    width: 1132px;
+    width: 1144px;
     margin-top: -42px;
+    margin-left: auto;
+    margin-right: auto;
     z-index: 99;
 }
 .banner-box>a{

@@ -164,7 +164,7 @@
         </div>
     </div>
     <div class="slide-box con-min-width">
-        <div class="slides">
+        <div class="slides flex">
             <div class="active"
                 style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200710102032VEm.jpg)">
                 <div class="text-box">
@@ -183,8 +183,8 @@
         </div>
 
         <ul class="slides-btn flex">
+            <li class="active"></li>
             <li></li>
-            <li></li
             <li></li>
             <li></li>
             <li></li>
@@ -194,7 +194,7 @@
         </ul>
 
     </div>
-    <div class="banner-box con flex">
+    <div class="banner-box flex relative">
         <a href="#" class="flex flex-1-0-0 flex-ai-c">
             <div>주문하기</div>
             <div class="flex-grow-1">간편한 결제와 신속한 배달</div>
