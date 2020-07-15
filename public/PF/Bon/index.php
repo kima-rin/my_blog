@@ -12,6 +12,11 @@
     <!--제이쿼리 불러오기-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/PF/bon/index.js"></script>
+    <!-- owl 캐러셀 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
 </head>
 
 <body>
@@ -163,56 +168,65 @@
             </div>
         </div>
     </div>
-    <div class="slide-box con-min-width">
-        <div class="slides flex">
-            <div class="active"
+
+
+    <div class="my-slider-1 con-min-width">
+        <div class="owl-carousel owl-theme">
+            <div class="item"
                 style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200710102032VEm.jpg)">
                 <div class="text-box">
                     <div>NEW,&nbsp;본도시락</div>
                     <div>새로워진 본도시락<br>리뉴얼 O/P/E/N</div>
-                    <div class="text-align-left"><span>자세히보기</span></div>
+                    <div><span>자세히보기</span></div>
                 </div>
             </div>
-            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200709100937cYR.jpg)">
+            <div class="item"
+                style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200709100937cYR.jpg)">
                 <div class="text-box">
                     <div><span>자세히보기</span></div>
                 </div>
             </div>
-            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200604081428EQr.jpg)">
+            <div class="item"
+                style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200604081428EQr.jpg)">
 
                 <div class="text-box dark">
                     <div><span>자세히보기</span></div>
                 </div>
 
             </div>
-            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_202005261329008ia.jpg)">
+            <div class="item"
+                style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_202005261329008ia.jpg)">
                 <div class="text-box dark">
                     <div><span>자세히보기</span></div>
                 </div>
 
             </div>
-            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200522110346wYc.jpg)">
+            <div class="item"
+                style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200522110346wYc.jpg)">
                 <div class="text-box">
                     <div>본죽,&nbsp;&nbsp;New Menu</div>
                     <div>속을 개운하게 풀어주는 한그릇<br>"해물김치해장죽"</div>
                     <div><span>자세히보기</span></div>
                 </div>
             </div>
-            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200522083908iHe.jpg)">
+            <div class="item"
+                style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200522083908iHe.jpg)">
                 <div class="text-box">
                     <div>본죽&비빔밥cafe,&nbsp;&nbsp;Season Best</div>
                     <div>노릇노릇 소고기 맥적과 아삭 열무 <br>"맥적구이 열무 비빔밥" </div>
                     <div><span>자세히보기</span></div>
                 </div>
             </div>
-            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_202007100934457d3.jpg)">
+            <div class="item"
+                style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_202007100934457d3.jpg)">
                 <div class="text-box">
                     <div>본도시락,&nbsp;&nbsp;New Menu</div>
                     <div>바싹 불고기와 오징어의 환상 궁합 <br> "바싹불고기오징어 한상"</div>
                     <div><span>자세히보기</span></div>
                 </div>
             </div>
-            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200529165153Ekq.jpg)">
+            <div class="item"
+                style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200529165153Ekq.jpg)">
                 <div class="text-box">
                     <div>본설,&nbsp;&nbsp;New Menu</div>
                     <div>힘이 필요한 순간 생각나는 <br> "전복낙지활력설"</div>
@@ -220,19 +234,9 @@
                 </div>
             </div>
         </div>
-
-        <ul class="slides-btn flex">
-            <li class="active"></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-
     </div>
+
+
     <div class="banner-box flex relative">
         <a href="#" class="flex flex-1-0-0 flex-ai-c">
             <div>주문하기</div>
@@ -252,7 +256,58 @@
     </div>
 
     <div class="prod-list-box-1">
-        <a href="#">Life Style</a>
+        <div class="text-box-2 block ">
+            <a href="#">Life Style</a>
+            <a href="#">본과 함께하는 일상</a>
+        </div>
+        <div class="prod-box-1 flex">
+            <div class="photo flex-jc-end flex-6-0-0"><img src="https://kima-rin.github.io/img1/pf/Bon/bnr_20200120131107ir8.jpg" alt=""></div>
+            <div class="intro flex-5-0-0">
+                <div class="text-box">
+                    <div class="nth-child-1">본죽</div>
+                    <div class="nth-child-2">죽이 요리가 되는<br>선물같은시간</div>
+                    <div class="nth-child-3"></div>
+                    <div class="nth-child-4">프리미엄 토핑을 만나 죽이 요리가 되다<br>본죽만의 시그니처 별미 요리죽,<br>죽의 새로운 경험으로 초대합니다</div>
+                    <div class="nth-child-5">자세히 보기</div>
+                </div>
+            </div>
+        </div>
+        <div class="prod-box-2 flex">            
+            <div class="intro flex-5-0-0 flex-jc-end">
+                <div class="text-box">
+                    <div class="nth-child-1">본죽&비빔밥</div>
+                    <div class="nth-child-2">한식으로 함께<br>한 곳에서 함께</div>
+                    <div class="nth-child-3"></div>
+                    <div class="nth-child-4">다채로운 한색을 만나는 새로운 공간.<br>새로운 죽과 비빔밥,<br>더 풍성하고 맛있는 우리 음식 이야기를 만나보세요.</div>
+                    <div class="nth-child-5">자세히 보기</div>
+                </div>
+            </div>
+            <div class="photo flex-6-0-0"><img src="https://kima-rin.github.io/img1/pf/Bon/bnr_20190919163155L7F.jpg" alt=""></div>
+        </div>
+        <div class="prod-box-3 flex">
+            <div class="photo flex-jc-end flex-6-0-0"><img src="https://kima-rin.github.io/img1/pf/Bon/bnr_202006220929256Xz.jpg" alt=""></div>
+            <div class="intro flex-5-0-0">
+                <div class="text-box">
+                    <div class="nth-child-1">본도시락</div>
+                    <div class="nth-child-2">한식의 정성을 담은<br>잘 차린 한 상</div>
+                    <div class="nth-child-3"></div>
+                    <div class="nth-child-4">한식 전문가가 만든 밥,국,찬을<br>자연을 생각한 그릇에 담습니다.</div>
+                    <div class="nth-child-5">자세히 보기</div>
+                </div>
+            </div>
+        </div>
+        <div class="prod-box-4 flex">            
+            <div class="intro flex-5-0-0 flex-jc-end">
+                <div class="text-box">
+                    <div class="nth-child-1">본설</div>
+                    <div class="nth-child-2">기존에 없던 새로운 경험,<br>설레는 새로움</div>
+                    <div class="nth-child-3"></div>
+                    <div class="nth-child-4">백, 홍, 황 3가지 육수와 밥, 면, 만두 3가지 구성으로<br>취향에 따라 조합하는 9가지 맛과 즐거움을 만나보세요.<br></div>
+                    <div class="nth-child-5">자세히 보기</div>
+                </div>
+            </div>
+            <div class="photo flex-6-0-0"><img src="https://kima-rin.github.io/img1/pf/Bon/bnr_20181017140406.jpg" alt=""></div>
+        </div>
 
     </div>
 
