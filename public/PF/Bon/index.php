@@ -168,18 +168,57 @@
             <div class="active"
                 style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200710102032VEm.jpg)">
                 <div class="text-box">
-                    <div>NEW,본도시락</div>
+                    <div>NEW,&nbsp;본도시락</div>
                     <div>새로워진 본도시락<br>리뉴얼 O/P/E/N</div>
-                    <div>자세히보기</div>
+                    <div class="text-align-left"><span>자세히보기</span></div>
                 </div>
             </div>
-            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200709100937cYR.jpg)"></div>
-            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200604081428EQr.jpg)"></div>
-            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_202005261329008ia.jpg)"></div>
-            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200522110346wYc.jpg)"></div>
-            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200522083908iHe.jpg)"></div>
-            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_202007100934457d3.jpg)"></div>
-            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200529165153Ekq.jpg)"></div>
+            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200709100937cYR.jpg)">
+                <div class="text-box">
+                    <div><span>자세히보기</span></div>
+                </div>
+            </div>
+            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200604081428EQr.jpg)">
+
+                <div class="text-box dark">
+                    <div><span>자세히보기</span></div>
+                </div>
+
+            </div>
+            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_202005261329008ia.jpg)">
+                <div class="text-box dark">
+                    <div><span>자세히보기</span></div>
+                </div>
+
+            </div>
+            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200522110346wYc.jpg)">
+                <div class="text-box">
+                    <div>본죽,&nbsp;&nbsp;New Menu</div>
+                    <div>속을 개운하게 풀어주는 한그릇<br>"해물김치해장죽"</div>
+                    <div><span>자세히보기</span></div>
+                </div>
+            </div>
+            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200522083908iHe.jpg)">
+                <div class="text-box">
+                    <div>본죽&비빔밥cafe,&nbsp;&nbsp;Season Best</div>
+                    <div>노릇노릇 소고기 맥적과 아삭 열무 <br>"맥적구이 열무 비빔밥" </div>
+                    <div><span>자세히보기</span></div>
+                </div>
+            </div>
+            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_202007100934457d3.jpg)">
+                <div class="text-box">
+                    <div>본도시락,&nbsp;&nbsp;New Menu</div>
+                    <div>바싹 불고기와 오징어의 환상 궁합 <br> "바싹불고기오징어 한상"</div>
+                    <div><span>자세히보기</span></div>
+                </div>
+            </div>
+            <div style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200529165153Ekq.jpg)">
+                <div class="text-box">
+                    <div>본설,&nbsp;&nbsp;New Menu</div>
+                    <div>힘이 필요한 순간 생각나는 <br> "전복낙지활력설"</div>
+                    <div><span>자세히보기</span></div>
+                </div>
+            </div>
         </div>
 
         <ul class="slides-btn flex">
@@ -210,6 +249,11 @@
             <div class="flex-grow-1">02-6908-0000(200개 이상 주문시)</div>
             <div></div>
         </a>
+    </div>
+
+    <div class="prod-list-box-1">
+        <a href="#">Life Style</a>
+
     </div>
 
 
