@@ -62,6 +62,7 @@ function TopBox__init() {
 }
 
 
+
 function slideBox__init() {
   $('.my-slider-1 > .owl-carousel').owlCarousel({
     items: 1,
@@ -75,4 +76,5 @@ function slideBox__init() {
 $(function () {
   TopBox__init();
   slideBox__init();
+  interviewSlider1__init();
 });
