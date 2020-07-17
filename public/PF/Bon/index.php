@@ -8,10 +8,10 @@
     <title>본아이에프</title>
     <!--폰트어썸 불러오기-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
-    <link rel="stylesheet" href="/PF/bon/index.css">
+    <link rel="stylesheet" href="/PF/Bon/index.css">
     <!--제이쿼리 불러오기-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="/PF/bon/index.js"></script>
+    <script src="/PF/Bon/index.js"></script>
     <!-- owl 캐러셀 불러오기 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
@@ -369,7 +369,8 @@
         </div>
     </div>
     <div class="prod-slide back-white flex con-min-width">
-        <div class="intro relative flex-1-0-0">
+        <div class="text-back absolute-left"></div>
+        <div class="intro relative flex-1-0-0 flex-jc-end">
             <div class="text-box">
                 <div class="nth-child-1">본도시락</div>
                 <div class="nth-child-2">바싹불고기제육 한상</div>
@@ -401,12 +402,34 @@
         <div class="block text-center">
             <a href="#">BonVision</a>
             <a href="#">행복한 삶을 창조하는 그룹</a>
-            <a href="#">/<br>모두가 협력하여 선을 이룬다 <br>성공보다<strong>사명</strong> ,경쟁보다 <strong>협력</strong>,빨리보다 <strong>멀리</strong> <br>/</a>
+            <a href="#">/<br>모두가 협력하여 선을 이룬다 <br>성공보다<strong>사명</strong> ,경쟁보다 <strong>협력</strong>,빨리보다
+                <strong>멀리</strong> <br>/</a>
         </div>
     </div>
-    <div class="text-box-4 back-white">
-
+    <div class="text-box-4 back-white con-min-width">
+        <div class="block text-center">
+            <a href="#" class="prod-text-box-1">Bon News</a>
+            <a href="#" class="prod-text-box-2">본아이에프의 새로운 소식</a>
+        </div>
+        <div class="notice flex con">
+            <div class="flex-1-0-0">
+                <a href="#" class="block">공지사항</a>
+                <a href="#" class="block">[공지]본도시락 메뉴별 알레르기 유발 <br> 물질 정보 안내 (2020년 7월 1일 기준)</a>
+                <a href="#" class="block">2020.06.29</a>
+            </div>
+            <div class="flex-1-0-0">
+                <a href="#" class="block">보도자료</a>
+                <a href="#" class="block">본도시락, 한식 가치 높인 ‘잘 차린 한 <br>상’으로 전면 리뉴얼</a>
+                <a href="#" class="block">2020.07.06</a>
+            </div>
+            <div class="flex-1-0-0">
+                <a href="#" class="block">나눔뉴스</a>
+                <a href="#" class="block">본아이에프-본사랑, 연세의료원에 10년<br>간 10억원 기부 </a>
+                <a href="#" class="block">2020.05.19</a>
+            </div>
+        </div>
     </div>
+
 
 
 </body>

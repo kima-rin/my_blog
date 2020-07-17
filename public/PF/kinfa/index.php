@@ -7,9 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>서민금융지원진흥원</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
-    <link rel="stylesheet" href="/pf/kinfa/index.css">
+    <link rel="stylesheet" href="/PF/kinfa/index.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="/pf/kinfa/index.js"></script>
+    <script src="/PF/kinfa/index.js"></script>
 </head>
 
 <body>
