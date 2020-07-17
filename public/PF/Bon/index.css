@@ -888,6 +888,7 @@ body {
 .text-box-4{
     width: 100%;
     height:597px;
+    background-color:#E6E6E6;
 }
 .text-box-4>div:first-child{
     padding-top: 180px;
@@ -895,30 +896,174 @@ body {
 /*텍스트 박스 4 끝*/
 /*게시판 박스 시작*/
 .notice>div{
-   padding-top: 50px;
+    margin-top: 50px;
 }
 .notice>div:nth-child(1){
-    padding-right: 10px;
+    margin-right: 10px;
 }
 .notice>div:nth-child(2){
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .notice>div:nth-child(3){
-    padding-left: 10px;
+    margin-left: 10px;
+    padding: 10px 0;
 }
 .notice>div>a:first-child{
     font-size: 26px;
     padding: 10px 20px;
-    border-bottom: 1px solid #dfdfdf;
+    border-bottom: 1px solid #E6E6E6;
 }
 .notice>div>a:nth-child(2){
     font-size: 20px;
-    padding: 0 20px;
+    padding:20px;
 
 }
 .notice>div>a:last-child{
     color: #999999;
     padding: 5px 20px;
 }
+.dots{
+    color: #6e0000;
+    position:absolute;
+    right: 20px;
+}
 /*게시판 박스 끝*/
+.footer{
+    height:51px;
+    background-color:#222;
+    border-top: 1px solid #46464a;
+    border-bottom:1px solid #4d4d50;
+  }
+  .footer>div{
+    white-space:nowrap;
+  }
+  .footer>div>div>div{
+    padding: 14px 30px;
+    font-size:16px; 
+  }
+  .text-gray{
+    color:#999;
+  }
+  .text-white{
+    color:white;
+  }
+  /*푸터-1 시작*/
+  .footer>div>div>div>.logo{
+    background: url(https://www.bonif.co.kr/resources/web/css/images/ico_sns.png) left -200px no-repeat;
+    width:31px;
+    height:20px;
+    background-position: 0 -226px;
+  }
+  .footer>div>div>div>.icon-1{
+    background: url(https://www.bonif.co.kr/resources/web/css/images/ico_sns.png) left -200px no-repeat;
+    width:16px;
+    height:21px;
+    background-position: 0 -200px;
+  }
+  .footer>div>div>div>.icon-2{
+    background: url(https://www.bonif.co.kr/resources/web/css/images/ico_sns.png) left -200px no-repeat;
+    width:16px;
+    height:21px;
+    background-position: -20px -200px;
+  }
+  .footer>div>div>div>span:nth-child(2){
+    position:relative;
+    padding-right:10px;
+    padding-left:5px;
+  }
+  .footer>div>div>div>span:nth-child(3){
+    padding-left:5px;
+  }
+  .footer>div>div>div>span:nth-child(2)::after{
+    content:"";
+    position:absolute;
+    width:1px;
+    height:15px;
+    background-color:#999;
+    top:50%;
+    transform:translatey(-45%);
+    right:0;
+  }
+  .family-site{
+    padding: 14px 30px;
+    font-size:16px; 
+    border-left:1px solid #4d4d50;
+    border-right:1px solid #4d4d50;
+  }
+  .family-site>a:first-child{
+    padding-right:100px;
+  }
+  /*푸터-2 시작*/
+  .footer-2{
+    height:222px;
+    background-color:#222;
+    border-bottom:1px solid #999;
+  }
+  .footer-2>div>.icon-box>div{
+    margin:30px 10px;
+  }
+  .footer-2>div>.icon-box>div:nth-child(1){
+      display: block;
+      width: 45px;
+      height: 45px;
+      text-indent: -999em;
+      overflow: hidden;
+      background: url(https://kima-rin.github.io/img1/pf/Bon/ico_sns.png) no-repeat;
+      background-position: center -150px;
+  }
+  .footer-2>div>.icon-box>div:nth-child(2){
+      display: block;
+      width: 45px;
+      height: 45px;
+      text-indent: -999em;
+      overflow: hidden;
+      background: url(https://kima-rin.github.io/img1/pf/Bon/ico_sns.png) no-repeat;
+      
+  }
+  .footer-2>div>.icon-box>div:nth-child(3){
+      display: block;
+      width: 45px;
+      height: 45px;
+      text-indent: -999em;
+      overflow: hidden;
+      background: url(https://kima-rin.github.io/img1/pf/Bon/ico_sns.png) no-repeat;
+     background-position: center -50px;
+  }
+  .footer-2>div>.icon-box>div:nth-child(4){
+      display: block;
+      width: 45px;
+      height: 45px;
+      text-indent: -999em;
+      overflow: hidden;
+      background: url(https://kima-rin.github.io/img1/pf/Bon/ico_sns.png) no-repeat;
+      background-position: center -100px;
+  }
+  .footer-2>div>ul>li{
+    position:relative;
+  }
+  
+  .footer-2>div>ul>li:not(:last-child):after{
+    content:"";
+    position:absolute;
+    width:1px;
+    height:13px;
+    top:50%;
+    transform:translatey(-50%);
+    right:0;
+    background-color:white;
+  }
+  .footer-2>div>ul>li>a{
+    color:white;
+    font-size:14px;
+    padding:0 20px;
+  }
+  .company{
+    font-size:14px;
+    color:#999;
+    margin-top:15px;
+  }
+  .copyright{
+    font-size:14px;
+    color:#666;
+  }

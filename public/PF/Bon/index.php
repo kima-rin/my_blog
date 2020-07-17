@@ -406,30 +406,75 @@
                 <strong>멀리</strong> <br>/</a>
         </div>
     </div>
-    <div class="text-box-4 back-white con-min-width">
+    <div class="text-box-4 con-min-width">
         <div class="block text-center">
             <a href="#" class="prod-text-box-1">Bon News</a>
             <a href="#" class="prod-text-box-2">본아이에프의 새로운 소식</a>
         </div>
         <div class="notice flex con">
-            <div class="flex-1-0-0">
-                <a href="#" class="block">공지사항</a>
+            <div class="flex-1-0-0 back-white">
+                <a href="#" class="block relative">공지사항<span class="dots"><i class="fas fa-ellipsis-h"></i></span></a>
                 <a href="#" class="block">[공지]본도시락 메뉴별 알레르기 유발 <br> 물질 정보 안내 (2020년 7월 1일 기준)</a>
                 <a href="#" class="block">2020.06.29</a>
             </div>
-            <div class="flex-1-0-0">
-                <a href="#" class="block">보도자료</a>
+            <div class="flex-1-0-0 back-white">
+                <a href="#" class="block relative">보도자료<span class="dots"><i class="fas fa-ellipsis-h"></i></span></a>
                 <a href="#" class="block">본도시락, 한식 가치 높인 ‘잘 차린 한 <br>상’으로 전면 리뉴얼</a>
                 <a href="#" class="block">2020.07.06</a>
             </div>
-            <div class="flex-1-0-0">
-                <a href="#" class="block">나눔뉴스</a>
+            <div class="flex-1-0-0 back-white">
+                <a href="#" class="block relative">나눔뉴스<span class="dots"><i class="fas fa-ellipsis-h"></i></span></a>
                 <a href="#" class="block">본아이에프-본사랑, 연세의료원에 10년<br>간 10억원 기부 </a>
                 <a href="#" class="block">2020.05.19</a>
             </div>
         </div>
     </div>
-
+    <div class="footer">
+        <div class="con flex">
+            <div class="flex flex-grow-1">
+                <div class="flex">
+                    <div class="logo"></div>
+                    <span class="text-gray">본오더(온라인주문)전용콜센터</span>
+                    <span class="text-white">1668-3944</span>
+                </div>
+                <div class="flex">
+                    <div class="icon-1"></div>
+                    <span class="text-gray">대표전화</span>
+                    <span class="text-white">1644-6288</span>
+                </div>
+                <div class="flex">
+                    <div class="icon-2"></div>
+                    <span class="text-gray">창업문의</span>
+                    <span class="text-white">1688-3077</span>
+                </div>
+            </div>
+            <div class="family-site flex">
+                <a class="text-gray">FAMILY SITE</a><a class="text-gray">+</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-2">
+        <div class="con">
+            <div class="icon-box flex flex-jc-c">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul class="flex flex-jc-c">
+                <li><a href="#" class="block">이용약관</a></li>
+                <li><a href="#" class="block">개인정보처리방침</a></li>
+                <li><a href="#" class="block">이메일 무산수집거부</a></li>
+                <li><a href="#" class="block">법적고지</a></li>
+                <li><a href="#" class="block">협력업체</a></li>
+                <li><a href="#" class="block">고객센터</a></li>
+            </ul>
+            <div class="company flex-jc-c">본아이에프(주) &nbsp; &nbsp;
+                서울특별시 영등포구 선유로 165 (양평동3가, 와이피센터) 6층 &nbsp; &nbsp; 대표자명:김철호, 이진희 &nbsp; &nbsp; 사업자등록번호 101-86-07256
+                &nbsp; &nbsp;통신판매신고번호:2019-서울영등포-1230호</div>
+            <div class="copyright flex-jc-c">COPYRIGHT 2018 BONIF CO. LTD. ALL RIGHTS RESERVED.</div>
+        </div>
+    </div>
 
 
 </body>
