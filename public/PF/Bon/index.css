@@ -733,10 +733,211 @@ body {
     background: #6e0000;
     margin-top: 45px;
 }
-
-
-
+/*상품박스-1 시작*/
+.prod-box-1 .text-box{
+    opacity:0;
+    transition:opacity .8s 2s; 
+}
+.prod-box-1 .text-box.active{
+    opacity:1;
+}
+.prod-box-1>div{
+    position:relative;
+}
+.prod-box-1>div::before{
+    content:"";
+    position:absolute;
+    right: 0;
+    height: 325px;
+    width: 0;
+    background-color: #E6E6E6;
+    transition: width 1s 1s;    
+}
+.prod-box-1>div.active::before{
+    width:1200px;
+}
+.prod-box-1>div>.photo{
+    position:relative;
+}
+.prod-box-1>div>.photo::after{
+    content:"";
+    position:absolute;
+    top:30px;
+    left:0;
+    width:0;
+    height:375px;
+    background: #6e0000;
+    margin-left:0;
+    opacity:1;
+    transition:width .8s 1s, opacity .5s 2s;  
+}
+.prod-box-1>div>.photo.active::after{
+    width:100%;
+    opacity:0;
+}
+.prod-box-1>div>.photo>img{
+    opacity:0;
+    transition:opacity .8s 2s;
+}
+.prod-box-1>div>.photo>img.active{
+    opacity:1;
+}
 /*상품박스-1 끝*/
+
+/*상품박스-3 시작*/
+.prod-box-3 .text-box{
+    opacity:0;
+    transition:opacity .8s 2s; 
+}
+.prod-box-3 .text-box.active{
+    opacity:1;
+}
+.prod-box-3>div{
+    position:relative;
+}
+.prod-box-3>div::before{
+    content:"";
+    position:absolute;
+    right: 0;
+    height: 325px;
+    width: 0;
+    background-color: #E6E6E6;
+    transition: width 1s 1s;    
+}
+.prod-box-3>div.active::before{
+    width:1200px;
+}
+.prod-box-3>div>.photo{
+    position:relative;
+}
+.prod-box-3>div>.photo::after{
+    content:"";
+    position:absolute;
+    top:30px;
+    left:0;
+    width:0;
+    height:375px;
+    background: #6e0000;
+    margin-left:0;
+    opacity:1;
+    transition:width .8s 1s, opacity .5s 2s;  
+}
+.prod-box-3>div>.photo.active::after{
+    width:100%;
+    opacity:0;
+}
+.prod-box-3>div>.photo>img{
+    opacity:0;
+    transition:opacity .8s 2s;
+}
+.prod-box-3>div>.photo>img.active{
+    opacity:1;
+}
+/*상품박스-3 끝*/
+/*상품박스-2 시작*/
+.prod-box-2 .text-box{
+    opacity:0;
+    transition:opacity .8s 2s; 
+}
+.prod-box-2 .text-box.active{
+    opacity:1;
+}
+.prod-box-2>div{
+    position:relative;
+}
+.prod-box-2>div::before{
+    content:"";
+    position:absolute;
+    left: 0;
+    height: 325px;
+    width: 0;
+    background-color: #E6E6E6;
+    transition: width 1s 1s;    
+}
+.prod-box-2>div.active::before{
+    width:1200px;
+}
+.prod-box-2>div>.photo{
+    position:relative;
+}
+.prod-box-2>div>.photo::after{
+    content:"";
+    position:absolute;
+    top:30px;
+    right:0;
+    width:0;
+    height:375px;
+    background: #6e0000;
+    margin-left:0;
+    opacity:1;
+    transition:width .8s 1s, opacity .5s 2s;  
+}
+.prod-box-2>div>.photo.active::after{
+    width:100%;
+    opacity:0;
+}
+.prod-box-2>div>.photo>img{
+    opacity:0;
+    transition:opacity .8s 2s;
+}
+.prod-box-2>div>.photo>img.active{
+    opacity:1;
+}
+/*상품박스-2 끝*/
+/*상품박스-4 시작*/
+.prod-box-4 .text-box{
+    opacity:0;
+    transition:opacity .8s 2s; 
+}
+.prod-box-4 .text-box.active{
+    opacity:1;
+}
+.prod-box-4>div{
+    position:relative;
+}
+.prod-box-4>div::before{
+    content:"";
+    position:absolute;
+    left: 0;
+    height: 325px;
+    width: 0;
+    background-color: #E6E6E6;
+    transition: width 1s 1s;    
+}
+.prod-box-4>div.active::before{
+    width:1200px;
+}
+.prod-box-4>div>.photo{
+    position:relative;
+}
+.prod-box-4>div>.photo::after{
+    content:"";
+    position:absolute;
+    top:30px;
+    right:0;
+    width:0;
+    height:375px;
+    background: #6e0000;
+    margin-left:0;
+    opacity:1;
+    transition:width .8s 1s, opacity .5s 2s;  
+}
+.prod-box-4>div>.photo.active::after{
+    width:100%;
+    opacity:0;
+}
+.prod-box-4>div>.photo>img{
+    opacity:0;
+    transition:opacity .8s 2s;
+}
+.prod-box-4>div>.photo>img.active{
+    opacity:1;
+}
+
+/*상품박스-4 끝*/
+/*상품박스 끝*/
+
+
 /*인터뷰박스 시작*/
 .interview-box{
     height: 850px;
@@ -762,23 +963,95 @@ body {
     font-size: 48px;
     letter-spacing: -1.2px;
 }
-.interview-box >.video-box > div{
-    height: 393px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-}
-.interview-box >.video-box > div:nth-child(2){
-    margin:0 80px;
-}
+.my-slider-1-2 .item > .img-box {
+    height:393px;
+    width: 500px;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+  
+  
+  .my-slider-1-2 > .owl-carousel.owl-theme > .owl-nav > div[class^="owl-"] {
+    position:absolute;
+    top:calc(50% - 150px);
+    left:50%;
+    transform:translateX(-50%) translateY(-50%);
+    z-index:10;
+    margin-left:-300px;
+  }
+  
+  .my-slider-1-2 > .owl-carousel.owl-theme > .owl-nav > div[class^="owl-"]:last-child {
+    margin-left:300px;
+  }
+  
+  .my-slider-1-2 > .owl-carousel.owl-theme > .owl-dots {
+    margin-top:100px;
+  
+  }
+  
+  .my-slider-1-2 .item > .txt-box {
+  
+    top:100%;
+    visibility:hidden;
+  }
+  
+  .my-slider-1-2 .active .item > .txt-box {
+    visibility:visible;
+    transition:visibility 0s .5s;
+  }
 .size-120{
     display: block;
     width: 120px;
     height: 120px;
 
 }
+/*인터뷰박스 버튼*/
+.my-slider-1-2>div.owl-carousel.owl-theme>div.owl-dots {
+    margin: 0;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.my-slider-1-2>div.owl-carousel.owl-theme>div.owl-dots>div.owl-dot>span {
+    width: 45px;
+    height: 5px;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.my-slider-1-2>div.owl-carousel.owl-theme>div.owl-dots>div.owl-dot.active>span {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/*인터뷰박스 라이브러리*/
+.int_text_1{
+    font-size: 28px;
+    color: white;
+}
+.int_text_2{
+    color: #fff;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 13px;
+}
+.int_text_3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 30px;
+    margin-top: 22px;
+    background: #87af0f;
+}
+
+
 /*인터뷰박스 끝*/
-/*상품박스-2 시작*/
+/*상품리스트박스-2 시작*/
 .back-white{
     background-color: white;
 }
@@ -864,7 +1137,7 @@ body {
     font-style: italic;
     font-family: "Georgia";
     font-weight: 400;
-    padding-top: 70px;
+    padding-top: 40px;
 }
 .text-box-3>div>a:nth-child(2){
     display: block;
@@ -880,7 +1153,7 @@ body {
     letter-spacing: -1.2px;
     padding: 30px;
     background-color: #87af0f;
-    margin-top: 60px;
+    margin-top: 90px;
 }
 
 /*텍스트 박스 3 끝*/

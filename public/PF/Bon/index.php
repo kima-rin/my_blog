@@ -262,12 +262,12 @@
         </div>
     </div>
     <div class="prod-box-1 back-white width-100p relative">
-        <div class="back-gray top-30 absolute-right"></div>
+        <div class="active-on-visible top-30 absolute-right"></div>
         <div class="con flex relative">
-            <div class="photo flex-jc-end flex-6-0-0"><img
+            <div class="photo active-on-visible flex-jc-end flex-6-0-0"><img class="active-on-visible"
                     src="https://kima-rin.github.io/img1/pf/Bon/bnr_20200120131107ir8.jpg" alt=""></div>
             <div class="intro flex-5-0-0">
-                <div class="text-box">
+                <div class="text-box active-on-visible">
                     <div class="nth-child-1">본죽</div>
                     <div class="nth-child-2">죽이 요리가 되는<br>선물같은시간</div>
                     <div class="nth-child-3"></div>
@@ -278,10 +278,10 @@
         </div>
     </div>
     <div class="prod-box-2 back-white width-100p relative">
-        <div class="back-gray top-30 absolute-left"></div>
+        <div class="active-on-visible top-30 absolute-left"></div>
         <div class="con flex relative">
             <div class="intro flex-5-0-0">
-                <div class="text-box">
+                <div class="text-box active-on-visible">
                     <div class="nth-child-1">본죽&비빔밥</div>
                     <div class="nth-child-2">한식으로 함께<br>한 곳에서 함께</div>
                     <div class="nth-child-3"></div>
@@ -289,17 +289,17 @@
                     <div class="nth-child-5">자세히 보기</div>
                 </div>
             </div>
-            <div class="photo flex-6-0-0"><img src="https://kima-rin.github.io/img1/pf/Bon/bnr_20190919163155L7F.jpg"
-                    alt=""></div>
+            <div class="photo active-on-visible flex-6-0-0"><img class="active-on-visible"
+                    src="https://kima-rin.github.io/img1/pf/Bon/bnr_20190919163155L7F.jpg" alt=""></div>
         </div>
     </div>
     <div class="prod-box-3 back-white width-100p relative">
-        <div class="back-gray top-70 absolute-right"></div>
+        <div class="active-on-visible top-70 absolute-right"></div>
         <div class="con flex relative">
-            <div class="photo flex-jc-end flex-6-0-0"><img
+            <div class="photo active-on-visible flex-jc-end flex-6-0-0"><img class="active-on-visible"
                     src="https://kima-rin.github.io/img1/pf/Bon/bnr_202006220929256Xz.jpg" alt=""></div>
             <div class="intro flex-5-0-0">
-                <div class="text-box">
+                <div class="text-box active-on-visible">
                     <div class="nth-child-1">본도시락</div>
                     <div class="nth-child-2">한식의 정성을 담은<br>잘 차린 한 상</div>
                     <div class="nth-child-3"></div>
@@ -310,10 +310,10 @@
         </div>
     </div>
     <div class="prod-box-4 back-white width-100p relative">
-        <div class="back-gray top-41 absolute-left"></div>
+        <div class="active-on-visible top-41 absolute-left"></div>
         <div class="con flex relative">
             <div class="intro flex-5-0-0">
-                <div class="text-box">
+                <div class="text-box active-on-visible">
                     <div class="nth-child-1">본설</div>
                     <div class="nth-child-2">기존에 없던 새로운 경험,<br>설레는 새로움</div>
                     <div class="nth-child-3"></div>
@@ -321,8 +321,8 @@
                     <div class="nth-child-5-2">자세히 보기</div>
                 </div>
             </div>
-            <div class="photo flex-6-0-0"><img src="https://kima-rin.github.io/img1/pf/Bon/bnr_20181017140406.jpg"
-                    alt=""></div>
+            <div class="photo active-on-visible flex-6-0-0"><img class="active-on-visible"
+                    src="https://kima-rin.github.io/img1/pf/Bon/bnr_20181017140406.jpg" alt=""></div>
         </div>
     </div>
 
@@ -332,34 +332,45 @@
             <a href="#" class="block">Bon Start</a>
             <a href="#" class="block">맛있는 도전, 성공 스토리</a>
         </div>
-        <div class="video-box flex">
-            <div class="flex-1-0-0"
-                style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_201811131018068b7.jpg)">
-                <div class="text-box-2">
-                    <div>[본도시락] 신논현점</div>
-                    <div>"고객을 직접 찾아가고 유치할 수 있는 배달서비스의 큰 매력과 <br> 가능성을 보고 본도시락 창업을 결정했어요!" </div>
-                    <div>창업안내바로가기</div>
+        <div class="my-slider-1 my-slider-1-2">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="img-box"
+                        style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_201811131018068b7.jpg);">
+                    </div>
+                    <div class="txt-box">
+                        <div class="int_text_1">[본도시락] 신논현점</div>
+                        <div class="int_text_2">"고객을 직접 찾아가고 유치할 수 있는 배달서비스의 큰 매력과 <br> 가능성을 보고 본도시락 창업을 결정했어요!" </div>
+                        <div class="int_text_3">창업안내바로가기</div>
+                    </div>
                 </div>
-            </div>
-            <div class="flex-1-0-0"
-                style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20181113100726Wwa.jpg)">
-                <div class="text-box-2">
-                    <div>[본죽&비빔밥cafe] 시흥사거리점</div>
-                    <div>"본죽의 메뉴에 비빔밥과 뚝배기 메뉴를 더해 더 다양한 고객층에게 <br> 사랑을 받을 수 있어 본죽&비빔밥cafe 전환을 결정했죠!" </div>
-                    <div>창업안내바로가기</div>
+                <div class="item">
+                    <div class="img-box"
+                        style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20181113100726Wwa.jpg);">
+                    </div>
+                    <div class="txt-box">
+                        <div class="int_text_1">[본죽&비빔밥cafe] 시흥사거리점</div>
+                        <div class="int_text_2">"본죽의 메뉴에 비빔밥과 뚝배기 메뉴를 더해 더 다양한 고객층에게 <br> 사랑을 받을 수 있어 본죽&비빔밥cafe 전환을
+                            결정했죠!" </div>
+                        <div class="int_text_3">창업안내바로가기</div>
+                    </div>
                 </div>
-            </div>
-            <div class="flex-1-0-0"
-                style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20181113101259hdu.jpg)">
-                <div class="text-box-2">
-                    <div>[본죽] 수유점</div>
-                    <div>"체계적인 본사의 교육과 지원시스템으로 외식업에 대한 <br> 두려움을 극복하고 창업에 성공했어요!" </div>
-                    <div>창업안내바로가기</div>
+                <div class="item">
+                    <div class="img-box"
+                        style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20181113101259hdu.jpg);">
+                    </div>
+                    <div class="txt-box">
+                        <div class="int_text_1">[본죽] 수유점</div>
+                        <div class="int_text_2">"체계적인 본사의 교육과 지원시스템으로 외식업에 대한 <br> 두려움을 극복하고 창업에 성공했어요!" </div>
+                        <div class="int_text_3">창업안내바로가기</div>
+                    </div>
                 </div>
             </div>
         </div>
 
     </div>
+
+
     <div class="prod-list-box-2 back-white">
         <div class="back-img"
             style="background-image:url(https://www.bonif.co.kr/resources/web/css/images/v/bg_main_vision.jpg)"></div>
