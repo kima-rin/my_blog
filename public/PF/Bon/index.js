@@ -64,14 +64,14 @@ function TopBox__init() {
 
 
 function slideBox__init() {
-  $('.my-slider-1 > .owl-carousel').owlCarousel({
+  $('#owl-one').owlCarousel({
     items: 1,
     loop: true
   });
   
 }
 function interviewBox__init(){
-  $('.my-slider-1-2 > .owl-carousel').owlCarousel({
+  $('#owl-two').owlCarousel({
     items:1,
     loop:true,
     margin:50,
@@ -133,16 +133,32 @@ function ActiveOnVisible__checkAndActive() {
   });
 }
 
-$(function() {
-  ActiveOnVisible__init();
-})
-/* 발견되면 활성화시키는 라이브러리 끝 */
 
+/* 발견되면 활성화시키는 라이브러리 끝 */
+function noticeSlide__init(){
+  $('.notice>.notice-slides>.notice-btn>div').click(function(){
+  
+    var $this = $(this);
+    var $slider = $this.parent().parent();
+    var $current = $slider.find('>.notice-slide>div.active');
+    var $post = $current.next();
+
+    $current.removeClass('active');
+    $post.addClass('active');
+
+  })
+
+};
 
 $(function () {
   TopBox__init();
   slideBox__init();
+  interviewBox__init();
   interviewSlider1__init();
   ActiveOnVisible__init();
-  interviewBox__init();
+  noticeSlide__init();
 });
+
+$(function() {
+  ActiveOnVisible__init();
+})

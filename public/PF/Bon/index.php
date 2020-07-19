@@ -11,12 +11,13 @@
     <link rel="stylesheet" href="/PF/Bon/index.css">
     <!--제이쿼리 불러오기-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="/PF/Bon/index.js"></script>
+    
     <!-- owl 캐러셀 불러오기 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+    <script src="/PF/Bon/index.js"></script>
 </head>
 
 <body>
@@ -171,7 +172,7 @@
 
 
     <div class="my-slider-1 con-min-width back-white">
-        <div class="owl-carousel owl-theme">
+        <div id="owl-one" class="owl-carousel owl-theme">
             <div class="item"
                 style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20200710102032VEm.jpg)">
                 <div class="text-box">
@@ -332,8 +333,8 @@
             <a href="#" class="block">Bon Start</a>
             <a href="#" class="block">맛있는 도전, 성공 스토리</a>
         </div>
-        <div class="my-slider-1 my-slider-1-2">
-            <div class="owl-carousel owl-theme">
+        <div class="my-slider-1-2 ">
+            <div id="owl-two" class="owl-carousel owl-theme">
                 <div class="item">
                     <div class="img-box"
                         style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_201811131018068b7.jpg);">
@@ -423,23 +424,70 @@
             <a href="#" class="prod-text-box-2">본아이에프의 새로운 소식</a>
         </div>
         <div class="notice flex con">
-            <div class="flex-1-0-0 back-white">
-                <a href="#" class="block relative">공지사항<span class="dots"><i class="fas fa-ellipsis-h"></i></span></a>
-                <a href="#" class="block">[공지]본도시락 메뉴별 알레르기 유발 <br> 물질 정보 안내 (2020년 7월 1일 기준)</a>
-                <a href="#" class="block">2020.06.29</a>
+            <div class="notice-slides flex-1-0-0 back-white relative">
+                <div class="notice-slide">
+                    <div class="notice-1 active">
+                        <a href="#" class="block relative">공지사항<span class="dots"><i
+                                class="fas fa-ellipsis-h"></i></span></a>
+                        <a href="#" class="block">[공지]본도시락 메뉴별 알레르기 유발 <br> 물질 정보 안내 (2020년 7월 1일 기준)</a>
+                        <a href="#" class="block">2020.06.29</a>
+                    </div>
+                    <div class="notice-2">
+                        <a href="#" class="block relative">공지사항<span class="dots"><i
+                                class="fas fa-ellipsis-h"></i></span></a>
+                        <a href="#" class="block">[공지]본도시락 원산지안내(2020년7 <br> 월 1일 기준)</a>
+                        <a href="#" class="block">2020.06.29</a>
+                    </div>
+                </div>
+                <div class="notice-btn flex">
+                    <div><span><i class="fas fa-angle-left"></i></span></div>
+                    <div><span><i class="fas fa-angle-right"></i></span></div>
+                </div>
             </div>
-            <div class="flex-1-0-0 back-white">
-                <a href="#" class="block relative">보도자료<span class="dots"><i class="fas fa-ellipsis-h"></i></span></a>
-                <a href="#" class="block">본도시락, 한식 가치 높인 ‘잘 차린 한 <br>상’으로 전면 리뉴얼</a>
-                <a href="#" class="block">2020.07.06</a>
+            <div class="notice-slides flex-1-0-0 back-white relative">
+                <div class="notice-slide">
+                    <div class="notice-1">
+                        <a href="#" class="block relative">보도자료<span class="dots"><i
+                                class="fas fa-ellipsis-h"></i></span></a>
+                        <a href="#" class="block">본도시락, 한식 가치 높인 ‘잘 차린 한 <br>상’으로 전면 리뉴얼</a>
+                        <a href="#" class="block">2020.07.06</a>
+                    </div>
+                    <div class="notice-2">
+                        <a href="#" class="block relative">보도자료<span class="dots"><i
+                                class="fas fa-ellipsis-h"></i></span></a>
+                        <a href="#" class="block">본푸드서비스, KBS 신・별관 구내식당 <br>운영권수주</a>
+                        <a href="#" class="block">2020.07.06</a>
+                    </div>
+                </div>
+                <div class="notice-btn flex">
+                    <div><span><i class="fas fa-angle-left"></i></span></div>
+                    <div><span><i class="fas fa-angle-right"></i></span></div>
+                </div>
             </div>
-            <div class="flex-1-0-0 back-white">
-                <a href="#" class="block relative">나눔뉴스<span class="dots"><i class="fas fa-ellipsis-h"></i></span></a>
-                <a href="#" class="block">본아이에프-본사랑, 연세의료원에 10년<br>간 10억원 기부 </a>
-                <a href="#" class="block">2020.05.19</a>
+            <div class="notice-slides flex-1-0-0 back-white relative">
+                <div class="notice-slide ">
+                    <div class="notice-1">
+                        <a href="#" class="block relative">나눔뉴스<span class="dots"><i
+                                class="fas fa-ellipsis-h"></i></span></a>
+                        <a href="#" class="block">본아이에프-본사랑, 연세의료원에 10년<br>간 10억원 기부 </a>
+                        <a href="#" class="block">2020.05.19</a>
+                    </div>
+                    <div class="notice-2">
+                        <a href="#" class="block relative">나눔뉴스<span class="dots"><i
+                                class="fas fa-ellipsis-h"></i></span></a>
+                        <a href="#" class="block">본아이에프-영등포구,지역사회공헌 협<br>약 체결 </a>
+                        <a href="#" class="block">2024.04.24</a>
+                    </div>
+                </div>
+                <div class="notice-btn flex">
+                    <div><span><i class="fas fa-angle-left"></i></span></div>
+                    <div><span><i class="fas fa-angle-right"></i></span></div>
+                </div>
             </div>
         </div>
     </div>
+
+    
     <div class="footer">
         <div class="con flex">
             <div class="flex flex-grow-1">

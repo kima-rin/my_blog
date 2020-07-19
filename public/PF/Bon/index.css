@@ -964,14 +964,15 @@ body {
     letter-spacing: -1.2px;
 }
 .my-slider-1-2 .item > .img-box {
+    
     height:393px;
-    width: 500px;
+    width: 652px;
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
   }
   
-  
+ 
   .my-slider-1-2 > .owl-carousel.owl-theme > .owl-nav > div[class^="owl-"] {
     position:absolute;
     top:calc(50% - 150px);
@@ -986,14 +987,15 @@ body {
   }
   
   .my-slider-1-2 > .owl-carousel.owl-theme > .owl-dots {
-    margin-top:100px;
+    margin-top:10px;
   
   }
   
   .my-slider-1-2 .item > .txt-box {
-  
+    text-align:center;
     top:100%;
     visibility:hidden;
+    margin-top:30px;
   }
   
   .my-slider-1-2 .active .item > .txt-box {
@@ -1010,7 +1012,7 @@ body {
 .my-slider-1-2>div.owl-carousel.owl-theme>div.owl-dots {
     margin: 0;
     position: absolute;
-    bottom: 50px;
+    top: 400px;
     left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;
@@ -1099,7 +1101,6 @@ body {
    
 }
 .prod-slide>.prod-slide-middle>div{
-    top:0;
     height: 500px;
     background-repeat: no-repeat;
     background-position: center;
@@ -1170,6 +1171,11 @@ body {
 /*게시판 박스 시작*/
 .notice>div{
     margin-top: 50px;
+    
+}
+.notice>.notice-slides .notice-2.active{
+    display: none;
+    position: absolute;
 }
 .notice>div:nth-child(1){
     margin-right: 10px;
@@ -1182,20 +1188,43 @@ body {
     margin-left: 10px;
     padding: 10px 0;
 }
-.notice>div>a:first-child{
+.notice>.notice-slides>div>div>a:first-child{
     font-size: 26px;
     padding: 10px 20px;
     border-bottom: 1px solid #E6E6E6;
 }
-.notice>div>a:nth-child(2){
+.notice>.notice-slides>div >div>a:nth-child(2){
     font-size: 20px;
     padding:20px;
-
 }
-.notice>div>a:last-child{
+.notice>.notice-slides>div >div>a:last-child{
     color: #999999;
     padding: 5px 20px;
 }
+
+
+/*게시판 슬라이드 버튼*/
+.notice-btn{
+    position: absolute;
+    bottom:0;
+    right: 0;
+    margin-right: 10px;   
+    margin-bottom: 10px;
+}
+.notice-btn>div{
+    padding: 0 10px;
+    margin: 5px;
+    border:1px solid #ddd;
+    font-size: 1.5rem;
+    color: #707070;
+    opacity: .7;
+}
+.notice-btn>div.active{
+    opacity: 1;
+}
+
+
+/*게시판 라이브러리*/
 .dots{
     color: #6e0000;
     position:absolute;
