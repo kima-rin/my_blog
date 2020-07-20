@@ -4,6 +4,7 @@
 html {
     font-family: A1明朝;
     font-family: 游ゴシック体,YuGothic,游ゴシック,Yu Gothic,sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 /* 노말라이즈 */
@@ -236,13 +237,130 @@ body {
     top:40px;
     left:50%;
     transform:translatex(-50%);
+    z-index: 10;
 }
 .first-view>.main-img{
     background-image:url(https://kima-rin.github.io/img1/eig/firstview_picture.jpg);
+    transform: matrix(1, 0, 0, 1, 0, 0);
     height:800px;
     background-size: cover;
     background-position: 50%;
-    background-repeat: no-repeat;
-        
+    background-repeat: no-repeat;      
 }
 /*메인화면 끝*/
+/*텍스트 박스 1 시작*/
+.text-box-1{
+    width: 100%;
+    height: 504.5px;
+}
+.text-box-1>div:first-child{
+    flex:4 0 0;
+}
+.text-box-1>div:first-child>p{
+    writing-mode:vertical-lr;
+    font-size: 37.5px;
+    margin-top:187.5px;
+    margin-left:160px;
+    line-height: 1em;
+    letter-spacing: .08em;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-weight: bold;
+    color: #333537;
+}
+.text-box-1>div:last-child{
+    flex:6 0 0;
+}
+.text-box-1>div:last-child>div:first-child{
+    margin-top:187.5px;
+}
+.text-box-1>div:last-child>div:last-child{
+    margin-top:27.3px;
+}
+/*텍스트 라이브러리*/
+.text-style-1{
+    font-size: 33.6px;
+    line-height: 1.8em;
+    font-family: A1明朝;
+    -webkit-text-stroke: .02em #333537;
+    letter-spacing: .24em;
+}
+.text-style-2{
+    width: 63px;
+    height: 2px;
+    margin-top: 27.3px;
+    background-color: #333537;
+}
+.text-style-3{
+    font-size: 14.7px;   
+    color: #333537;
+    font-family: 游ゴシック体,YuGothic,游ゴシック,Yu Gothic,sans-serif;
+    line-height: 2.3em;
+    letter-spacing: .2em;
+}
+/*텍스트 박스 1 끝*/
+/*2번째 이미지 시작*/
+.second-img-box{
+    position: relative;
+    width: 100%;
+    height: 1055px;
+    padding-right: 160px;
+    padding-left: 160px;
+    margin-top: 150px;
+    box-sizing: border-box;
+}
+.second-img-box>.img-box-1{ 
+    width: 100%;
+    padding-top: 66.7%;
+    background-image: url(https://kima-rin.github.io/img1/eig/about_picture.jpg);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.second-img-box>.img-box-1::after{
+    content: "CONCEPT";
+    position: absolute;
+    writing-mode:vertical-lr;
+    font-size: 37.5px;
+    line-height: 1em;
+    letter-spacing: .08em;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-weight: bold;
+    color: #333537;
+    right: 0;
+    bottom: 0;
+    margin-bottom: -450px;
+}
+
+/*2번째 이미지 끝*/
+
+/*텍스트 박스 2 시작*/
+.third-img-box{
+    position: relative;
+    width: 100%;
+    margin-top: 250px;
+}
+.third-img-box>div{
+    padding-right: 293.333px;
+    padding-left: 293.333px;
+    z-index: 20;
+}
+.third-img-box>.img-box-1{
+    width: 100%;
+    padding-top: 66.7%;
+}
+.third-img-box>.img-box-1>div{
+    position: absolute;
+    background-image: url(https://kima-rin.github.io/img1/eig/concept_picture.jpg);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 230px;
+}
+
+/*텍스트 박스 2 끝*/
