@@ -34,9 +34,12 @@
     </div>
     <div class="main-img"></div>
     <div class="text-box-1">
-        <div>タラソ幹細胞成分で、ぷるん髪。<br>スキンケア発想のヘアケアブランド。</div>
-        <div></div>
-        <div></div>
+        <div>about</div>
+        <div>
+            <div>タラソ幹細胞成分で、ぷるん髪。<br>スキンケア発想のヘアケアブランド。</div>
+            <div></div>
+            <div></div>
+        </div>
     </div>
 
 </section> 
