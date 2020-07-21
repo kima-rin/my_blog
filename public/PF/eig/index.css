@@ -232,7 +232,7 @@ body {
 }
 .first-view>.title-box>img{
     position:absolute;
-    width:941px;
+    width:932px;
     height:148px;
     top:40px;
     left:50%;
@@ -240,13 +240,58 @@ body {
     z-index: 10;
 }
 .first-view>.main-img{
+    position: absolute;
     background-image:url(https://kima-rin.github.io/img1/eig/firstview_picture.jpg);
     transform: matrix(1, 0, 0, 1, 0, 0);
-    height:800px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 120px;
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;      
 }
+.first-view>.top-bar{
+    position: absolute;
+    top: 30px;
+    right: 47.35px;
+    width:50px;
+    height: 50px;
+}
+.first-view>.top-bar >div{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    transition:top .3s .3s,transform .3s, opacity .2s 0s;
+}
+
+.first-view>.top-bar>div:nth-child(2){
+    top:40%;
+}
+.first-view>.top-bar>div:nth-child(3){
+    top:80%;
+}
+.first-view>.top-bar>div:hover{
+    color: #333537;
+}
+.first-view>.top-bar.active>div{
+    top:40%;
+    transition:top .3s,transform .3s .3s, opacity .2s 0s;
+  }
+  .first-view>.top-bar.active>div:nth-child(1){
+      transform: rotate(45deg);
+  }
+  .first-view>.top-bar.active>div:nth-child(3){
+    transform: rotate(-45deg);
+}
+.first-view>.top-bar.active>div:nth-child(2){
+    opacity: 0;
+}
+
 /*메인화면 끝*/
 /*텍스트 박스 1 시작*/
 .text-box-1{
@@ -302,7 +347,7 @@ body {
 .second-img-box{
     position: relative;
     width: 100%;
-    height: 1055px;
+   
     padding-right: 160px;
     padding-left: 160px;
     margin-top: 150px;
@@ -339,6 +384,8 @@ body {
     position: relative;
     width: 100%;
     margin-top: 250px;
+    box-sizing: border-box;
+    white-space: nowrap;
 }
 .third-img-box>div{
     padding-right: 293.333px;
@@ -364,3 +411,52 @@ body {
 }
 
 /*텍스트 박스 2 끝*/
+/*상품리스트박스 시작*/
+.prod-box{
+    width: 100%;
+}
+.prod-list-box-1{
+    padding-right: 215.264px;
+    padding-left: 215.264px;
+}
+.prod-list-box-1>ul{
+    padding-bottom: 54.7333px;
+    margin-top: 267.608px;
+
+}
+.prod-list-box-1>ul>li{
+    width: calc(((100% - 180px) -1px) / 4 );
+    margin-top: 0px;
+    margin-bottom: 54.7333px;
+    margin-right: 41.05px;
+    text-align: center;
+    white-space: nowrap;
+    padding: 0 30px;
+    border: 2px solid red;
+}
+.prod-list-box-1>ul>li>div>img{
+    width: 137.74px;
+    bottom: 19.6771px;
+    padding: 0 30px;
+    
+}
+.prod-list-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: left;
+}
+.prod-list-sud-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    text-align: left;
+}
+.prod-list-intro{
+    text-align: left;
+    font-size: 16px;
+}
+.prod-list-more{
+    border: 1px 
+}
+/*상품리스트박스 끝*/

@@ -20,6 +20,7 @@
             src: url(//wf.typesquare.com/3/tsst/dist/ja/ts?condition=d244f2919b886393d86b418e5a67627f&eid=DYi2pw~QmcU%3D&bw[name]=Chrome&bw[ftf]=0&bw[os]=Windows&location=eightthethalasso.jp%2F&fonts[id]=2146&fonts[str]=MOOAgeOAguOBhOOBjeOBpOOBp%2BOBq%2BOBruOBt%2BOBuOOCiOOCi%2BOCkuOCk%2BOCouOCreOCseOCteOCuOOCueOCveOCv%2BODgOODieODkeODluODmOODoeODqeODs%2BODvOS%2FruWIhuW5ueW6puaDs%2BaIkOaltea1uOa9pOa%2Fg%2BeZuueptue0sOiDnuijnOmAj%2BmrmOmrqg%3D%3D);
         }
     </style>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@700&display=swap" rel="stylesheet">
     <!--제이쿼리 불러오기-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -39,6 +40,11 @@
             <img src="https://kima-rin.github.io/img1/eig/6e7e646.svg" alt="">
         </div>
         <div class="main-img"></div>
+        <div class="top-bar">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
 
     </section>
     <section>
@@ -71,9 +77,47 @@
                 <div></div>
             </div>
         </div>
+    </section>
+    <section>
+        <div class="prod-box">
+            <div class="prod-list-box-1">
+                <ul class="flex">
+                    <li class="flex-1-0-0">
+                        <div><img src="https://kima-rin.github.io/img1/eig/1cf4d39.png" alt=""></div>
+                        <div class="prod-list-title">PRE-SHAMPOO</div>
+                        <div class="prod-list-sud-title">RESET CLEANSING & HEAD <br> SPA</div>
+                        <div class="prod-list-intro">エイトザタラソ <br>リセットクレンジング＆ヘッドスパ<br>美容液プレシャンプー</div>
+                        <div><a href="#" class="block">More</a></div>
+                    </li>
+                    <li class="flex-1-0-0">
+                        <div><img src="https://kima-rin.github.io/img1/eig/73bcbcc.jpg" alt=""></div>
+                        <div class="prod-list-title">SHAMPOO</div>
+                        <div class="prod-list-sud-title">CLEANSING REPAIR & MOIST</div>
+                        <div class="prod-list-intro">CLEANSING REPAIR & MOIST <br> エイトザタラソ <br> クレンジングリペア&モイスト<br>美容液シャンプー</div>
+                        <div><a href="#" class="block">More</a></div>
+                    </li>
+                    <li class="flex-1-0-0">
+                        <div><img src="https://kima-rin.github.io/img1/eig/5015d22.jpg" alt=""></div>
+                        <div class="prod-list-title">TREATMENT</div>
+                        <div class="prod-list-sud-title">DEEP REPAIR & AQUA MOIST</div>
+                        <div class="prod-list-intro">エイトザタラソ <br> ディープリペア＆アクアモイスト<br> 美容液トリートメント</div>
+                        <div><a href="#" class="block">More</a></div>
+                    </li>
+                    <li class="flex-1-0-0">
+                        <div><img src="https://kima-rin.github.io/img1/eig/25ccf90.jpg" alt=""></div>
+                        <div class="prod-list-title">HAIR MASK</div>
+                        <div class="prod-list-sud-title">RICH COAT & HIGH MOIST</div>
+                        <div class="prod-list-intro">エイトザタラソ <br> リッチコート＆ハイモイスト <br> 美容液ヘアマスク</div>
+                        <div><a href="#" class="block">More</a></div>
+                    </li>
+                </ul>
+            </div>
+          
+
+        </div>
+
 
     </section>
-
 </body>
 
 </html>
