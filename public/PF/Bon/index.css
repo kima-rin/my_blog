@@ -946,6 +946,7 @@ body {
     background-position: center;
     background-size: cover;
 }
+
 .interview-box > .text-box{
     text-align: center;
     padding: 50px;
@@ -1173,7 +1174,7 @@ body {
     margin-top: 50px;
     
 }
-.notice>.notice-slides .notice-2.active{
+.notice>.notice-slides .notice-2{
     display: none;
     position: absolute;
 }

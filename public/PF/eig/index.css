@@ -412,51 +412,83 @@ body {
 
 /*텍스트 박스 2 끝*/
 /*상품리스트박스 시작*/
-.prod-box{
-    width: 100%;
+
+/*상품리스트박스 끝*/
+.inBath>p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1em;
+    letter-spacing: .08re;
+    padding-top: 200px;
+    margin-bottom: 100px;
+    color: #333537;
+    position: relative;
 }
-.prod-list-box-1{
-    padding-right: 215.264px;
-    padding-left: 215.264px;
+.inBath>p::after{
+    position: absolute;
+    bottom: -29px;
+    left: 50%;
+    width: 37px;
+    height: 2px;
+    background: #000;
+    transform: translate(-50%);
+    content: "";
 }
-.prod-list-box-1>ul{
-    padding-bottom: 54.7333px;
-    margin-top: 267.608px;
+.container{
+    width:100%;
+    display:grid;
+    grid-template-columns:21% 21% 21% 21%;
+    grid-gap:5rem;
+    grid-auto-rows:minmax(20em,auto);
+    text-align:center;
+    align-items:end;
+    max-width:1310px;
+    margin-left:auto;
+    margin-right:auto;
 
 }
-.prod-list-box-1>ul>li{
-    width: calc(((100% - 180px) -1px) / 4 );
-    margin-top: 0px;
-    margin-bottom: 54.7333px;
-    margin-right: 41.05px;
-    text-align: center;
-    white-space: nowrap;
-    padding: 0 30px;
-    border: 2px solid red;
+.container>.item>img{
+    align-items:center;
+    margin-bottom:1em;
+
 }
-.prod-list-box-1>ul>li>div>img{
-    width: 137.74px;
-    bottom: 19.6771px;
-    padding: 0 30px;
-    
+
+.container>.item>img{
+    width:60%;
 }
 .prod-list-title{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 1.6vw;
     text-align: left;
+    letter-spacing: .08em;
+    color: #333537;
+    white-space: nowrap;
 }
 .prod-list-sud-title{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 11px;
+    font-size: .8vw;
+    padding-top: 7px;
     text-align: left;
+    letter-spacing: .08em;
+    color: #333537;
 }
 .prod-list-intro{
+    font-family: 'Montserrat', sans-serif;
     text-align: left;
-    font-size: 16px;
+    font-size: .8vw;
+    line-height: 1.6em;
+    color: #333537;
+    margin-bottom: 10px;
 }
 .prod-list-more{
-    border: 1px 
+    border: 1px solid #333537;
+    width:100%;
+    margin-top:10px;
 }
-/*상품리스트박스 끝*/
+.block {
+    display: block;
+    padding:10px 0;
+}
