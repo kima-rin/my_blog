@@ -3,7 +3,7 @@
 
 html {
     font-family: A1明朝;
-    font-family: 游ゴシック体,YuGothic,游ゴシック,Yu Gothic,sans-serif;
+    font-family: 游ゴシック体, YuGothic, 游ゴシック, Yu Gothic, sans-serif;
     font-family: 'Noto Sans KR', sans-serif;
 }
 
@@ -45,7 +45,7 @@ label[for] {
 
 .absolute-right {
     position: absolute;
-    top:0;
+    top: 0;
     right: 0;
 }
 
@@ -136,12 +136,15 @@ label[for] {
 .line-height-0>* {
     line-height: normal;
 }
+
 .height-100p {
     height: 100%;
 }
+
 .border-red {
     border: 3px solid red;
 }
+
 /* 라이브러리 - flex */
 *>.flex {
     display: flex;
@@ -215,33 +218,37 @@ body {
 }
 
 .con {
-    width: 1130px;
+    width: 1312px;
 }
+
 /*메인화면 시작*/
-.first-view{
-    position:relative;
+.first-view {
+    position: relative;
     min-height: 100vh;
-    width:100%;
+    width: 100%;
     padding: 1px 0;
 }
-.first-view>.title-box{
+
+.first-view>.title-box {
     width: 100%;
     height: 120px;
-    top:0;
+    top: 0;
     left: 0;
 }
-.first-view>.title-box>img{
-    position:absolute;
-    width:932px;
-    height:148px;
-    top:40px;
-    left:50%;
-    transform:translatex(-50%);
+
+.first-view>.title-box>img {
+    position: absolute;
+    width: 932px;
+    height: 148px;
+    top: 40px;
+    left: 50%;
+    transform: translatex(-50%);
     z-index: 10;
 }
-.first-view>.main-img{
+
+.first-view>.main-img {
     position: absolute;
-    background-image:url(https://kima-rin.github.io/img1/eig/firstview_picture.jpg);
+    background-image: url(https://kima-rin.github.io/img1/eig/firstview_picture.jpg);
     transform: matrix(1, 0, 0, 1, 0, 0);
     top: 0;
     right: 0;
@@ -250,110 +257,162 @@ body {
     margin-top: 120px;
     background-size: cover;
     background-position: 50%;
-    background-repeat: no-repeat;      
-}
-.first-view>.top-bar{
-    position: absolute;
-    top: 30px;
-    right: 47.35px;
-    width:50px;
-    height: 50px;
-}
-.first-view>.top-bar >div{
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 5px;
-    background-color: black;
-    transition:top .3s .3s,transform .3s, opacity .2s 0s;
+    background-repeat: no-repeat;
 }
 
-.first-view>.top-bar>div:nth-child(2){
-    top:40%;
+.first-view>.top-bar {  
+    position: fixed;
+    top: 60px;
+    right: 80px;
+    width: 40px;
+    height: 35px;
 }
-.first-view>.top-bar>div:nth-child(3){
-    top:80%;
+
+.first-view>.top-bar>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transition: top .3s .3s, transform .3s, opacity .2s 0s;
 }
-.first-view>.top-bar>div:hover{
+
+.first-view>.top-bar>div:nth-child(2) {
+    top: 40%;
+}
+
+.first-view>.top-bar>div:nth-child(3) {
+    top: 80%;
+}
+
+.first-view>.top-bar>div:hover {
     color: #333537;
 }
-.first-view>.top-bar.active>div{
-    top:40%;
-    transition:top .3s,transform .3s .3s, opacity .2s 0s;
-  }
-  .first-view>.top-bar.active>div:nth-child(1){
-      transform: rotate(45deg);
-  }
-  .first-view>.top-bar.active>div:nth-child(3){
+
+.first-view>.top-bar.active>div {
+    top: 40%;
+    transition: top .3s, transform .3s .3s, opacity .2s 0s;
+}
+
+.first-view>.top-bar.active>div:nth-child(1) {
+    transform: rotate(45deg);
+}
+
+.first-view>.top-bar.active>div:nth-child(3) {
     transform: rotate(-45deg);
 }
-.first-view>.top-bar.active>div:nth-child(2){
+
+.first-view>.top-bar.active>div:nth-child(2) {
     opacity: 0;
 }
 
 /*메인화면 끝*/
+.news-2{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);  
+    grid-gap: 3rem;
+    margin-bottom: 10%;
+}
+.news-2>div>div{
+    height:15em;
+    margin-top: 5%;
+}
+.news-2>div>div{
+    width:100%;
+    height:100%;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.margin-top-5p{
+    margin-top:5%;
+}
+.news-title{
+    font-size: 1.2vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333537;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+.news-2>div:nth-child(2)>div{
+    margin:0 20px;
+}
+.text-deco-underline{
+    text-decoration:underline;
+}
 /*텍스트 박스 1 시작*/
-.text-box-1{
+.text-box-1 {
     width: 100%;
     height: 504.5px;
 }
-.text-box-1>div:first-child{
-    flex:4 0 0;
+
+.text-box-1>div:first-child {
+    flex: 4 0 0;
 }
-.text-box-1>div:first-child>p{
-    writing-mode:vertical-lr;
-    font-size: 37.5px;
-    margin-top:187.5px;
-    margin-left:160px;
+
+.text-box-1>.about>p {
+    writing-mode: vertical-lr;
+    font-size: 2.2vw;
+    margin-top: 187.5px;
+    margin-left: 160px;
     line-height: 1em;
     letter-spacing: .08em;
-    font-family: 'Quattrocento Sans', sans-serif;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     color: #333537;
 }
-.text-box-1>div:last-child{
-    flex:6 0 0;
+
+.text-box-1>div:last-child {
+    flex: 6 0 0;
 }
-.text-box-1>div:last-child>div:first-child{
-    margin-top:187.5px;
+
+.text-box-1>div:last-child>div:first-child {
+    margin-top: 187.5px;
 }
-.text-box-1>div:last-child>div:last-child{
-    margin-top:27.3px;
+
+.text-box-1>div:last-child>div:last-child {
+    margin-top: 27.3px;
 }
+
 /*텍스트 라이브러리*/
-.text-style-1{
-    font-size: 33.6px;
+.text-style-1 {
+    font-size: 2vw;
     line-height: 1.8em;
     font-family: A1明朝;
     -webkit-text-stroke: .02em #333537;
-    letter-spacing: .24em;
+    letter-spacing: .15em;
 }
-.text-style-2{
+
+.text-style-2 {
     width: 63px;
     height: 2px;
     margin-top: 27.3px;
     background-color: #333537;
 }
-.text-style-3{
-    font-size: 14.7px;   
+
+.text-style-3 {
+    font-size: .8vw;
     color: #333537;
-    font-family: 游ゴシック体,YuGothic,游ゴシック,Yu Gothic,sans-serif;
+    font-family: 游ゴシック体, YuGothic, 游ゴシック, Yu Gothic, sans-serif;
     line-height: 2.3em;
     letter-spacing: .2em;
 }
+
 /*텍스트 박스 1 끝*/
 /*2번째 이미지 시작*/
-.second-img-box{
+.second-img-box {
     position: relative;
     width: 100%;
-   
+
     padding-right: 160px;
     padding-left: 160px;
     margin-top: 150px;
     box-sizing: border-box;
 }
-.second-img-box>.img-box-1{ 
+
+.second-img-box>.img-box-1 {
     width: 100%;
     padding-top: 66.7%;
     background-image: url(https://kima-rin.github.io/img1/eig/about_picture.jpg);
@@ -362,14 +421,15 @@ body {
     background-position: 50%;
     background-repeat: no-repeat;
 }
-.second-img-box>.img-box-1::after{
+
+.second-img-box>.img-box-1::after {
     content: "CONCEPT";
     position: absolute;
-    writing-mode:vertical-lr;
-    font-size: 37.5px;
+    writing-mode: vertical-lr;
+    font-size: 2.2vw;
     line-height: 1em;
     letter-spacing: .08em;
-    font-family: 'Quattrocento Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #333537;
     right: 0;
@@ -380,23 +440,26 @@ body {
 /*2번째 이미지 끝*/
 
 /*텍스트 박스 2 시작*/
-.third-img-box{
+.third-img-box {
     position: relative;
     width: 100%;
     margin-top: 250px;
     box-sizing: border-box;
     white-space: nowrap;
 }
-.third-img-box>div{
+
+.third-img-box>div {
     padding-right: 293.333px;
     padding-left: 293.333px;
     z-index: 20;
 }
-.third-img-box>.img-box-1{
+
+.third-img-box>.img-box-1 {
     width: 100%;
     padding-top: 66.7%;
 }
-.third-img-box>.img-box-1>div{
+
+.third-img-box>.img-box-1>div {
     position: absolute;
     background-image: url(https://kima-rin.github.io/img1/eig/concept_picture.jpg);
     transform: matrix(1, 0, 0, 1, 0, 0);
@@ -414,7 +477,7 @@ body {
 /*상품리스트박스 시작*/
 
 /*상품리스트박스 끝*/
-.inBath>p{
+.inBath>p {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 1.2em;
@@ -425,7 +488,8 @@ body {
     color: #333537;
     position: relative;
 }
-.inBath>p::after{
+
+.inBath>p::after {
     position: absolute;
     bottom: -29px;
     left: 50%;
@@ -435,38 +499,140 @@ body {
     transform: translate(-50%);
     content: "";
 }
-.container{
-    width:100%;
-    display:grid;
-    grid-template-columns:21% 21% 21% 21%;
-    grid-gap:5rem;
-    grid-auto-rows:minmax(20em,auto);
-    text-align:center;
-    align-items:end;
-    max-width:1310px;
-    margin-left:auto;
-    margin-right:auto;
 
-}
-.container>.item>img{
-    align-items:center;
-    margin-bottom:1em;
-
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 21% 21% 21% 21%;
+    grid-gap: 5rem;
+    grid-auto-rows: minmax(20em, auto);
+    text-align: center;
+    align-items: end;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 }
 
-.container>.item>img{
-    width:60%;
+.container>.item>img {
+    align-items: center;
+    margin-bottom: 5em;
+    width: 60%;
+    z-index: 99;
+
 }
-.prod-list-title{
+
+.container>.item {
+    position: relative;
+
+}
+
+.container>.item:nth-child(1):after {
+    content: "NEW";
+    position: absolute;
+    display: inline-block;
+    top: -50px;
+    left: -10px;
+    padding: 17% 12%;
+    border: 1px solid black;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 1.6vw;
+    font-size: 1.1rem;
+    border-radius: 50%;
+}
+
+.container>.item:nth-child(4):after {
+    content: "高濃度";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding: 5px 20px;
+    background-color: #333537;
+    border-radius: 50px;
+    font-family: A1明朝;
+    font-size: 1.1rem;
+    color: white;
+
+}
+
+.container>.item:nth-child(5):after {
+    content: "NEW";
+    position: absolute;
+    display: inline-block;
+    top: -50px;
+    left: -10px;
+    padding: 17% 12%;
+    border: 1px solid black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-radius: 50%;
+}
+
+.container>.item:nth-child(6):after {
+    content: "NEW";
+    position: absolute;
+    display: inline-block;
+    top: -50px;
+    left: -10px;
+    padding: 17% 12%;
+    border: 1px solid black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-radius: 50%;
+}
+
+.container>.item:nth-child(7):after {
+    content: "NEW";
+    position: absolute;
+    display: inline-block;
+    top: -62px;
+    left: -10px;
+    padding: 17% 12%;
+    border: 1px solid black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-radius: 50%;
+}
+
+.container>.item:nth-child(7)::before {
+    content: "高濃度";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding: 5px 20px;
+    background-color: #333537;
+    border-radius: 50px;
+    font-family: A1明朝;
+    font-size: 1.1rem;
+    color: white;
+
+}
+
+.container>.line-up {
+    font-family: 'Montserrat', sans-serif;
+    writing-mode: vertical-lr;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #333537;
+    position: absolute;
+    top: -150px;
+    left: -150px;
+}
+
+.prod-list-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5vw;
     text-align: left;
-    letter-spacing: .08em;
+    letter-spacing: .1em;
     color: #333537;
     white-space: nowrap;
 }
-.prod-list-sud-title{
+
+.prod-list-sud-title {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: .8vw;
@@ -475,20 +641,139 @@ body {
     letter-spacing: .08em;
     color: #333537;
 }
-.prod-list-intro{
+
+.prod-list-intro {
     font-family: 'Montserrat', sans-serif;
     text-align: left;
     font-size: .8vw;
     line-height: 1.6em;
     color: #333537;
     margin-bottom: 10px;
+    letter-spacing: .08em;
+    white-space: nowrap;
 }
-.prod-list-more{
+
+.prod-list-more {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     border: 1px solid #333537;
-    width:100%;
-    margin-top:10px;
+    width: 100%;
+    margin-top: 10px;
+    letter-spacing: .2em;
 }
+
 .block {
     display: block;
-    padding:10px 0;
+    padding: 10px 0;
 }
+.container-2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 21% 21% 21% 21%;
+    grid-gap: 5rem;
+    grid-auto-rows: minmax(20em, auto);
+    text-align: center;
+    align-items: end;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.container-2>.item>img {
+    align-items: center;
+    margin-bottom: 5em;
+    width: 60%;
+    z-index: 99;
+
+}
+.outBath>p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1em;
+    letter-spacing: .08re;
+    padding-top: 200px;
+    margin-bottom: 100px;
+    color: #333537;
+    position: relative;
+}
+
+.outBath>p::after {
+    position: absolute;
+    bottom: -29px;
+    left: 50%;
+    width: 37px;
+    height: 2px;
+    background: #000;
+    transform: translate(-50%);
+    content: "";
+}
+.container-3 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 1rem;
+    grid-auto-rows: minmax(20em, auto);
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+    position: relative;
+}
+.container-3>.item>img {
+    width: 100%;
+    
+
+}
+.container-3 >.instagram>p{
+    font-family: 'Montserrat', sans-serif;
+    writing-mode: vertical-lr;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #333537;
+    position: absolute;
+    top: -100px;
+    right: -200px;
+}
+.pre>p{
+    font-size: .5em;
+    color:#333537;
+    margin-bottom: 20%;
+}
+/*푸터시작*/
+.footer{
+    background-color: #a1a6ac;
+    color: white;
+    text-align: center;
+}
+.footer>img{
+    width: 17%;
+    padding-top: 7%;
+    padding-bottom: 2%;
+}
+.footer>div>span>i{
+    font-size: 3rem;
+    margin: 2% 1.5%;
+}
+.footer>div>a{
+    padding: 1% 1%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+.footer>div:nth-child(3){
+    padding: 2% 0;
+}
+.footer>div:nth-child(4){
+    font-size:1.2em;
+    letter-spacing: .1em;
+}
+.footer>div:nth-child(5){
+    font-size: .7em;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .1em;
+}
+/*푸터끝*/
