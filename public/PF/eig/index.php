@@ -39,7 +39,14 @@
         <div class="title-box">
             <img src="https://kima-rin.github.io/img1/eig/6e7e646.svg" alt="">
         </div>
-        <div class="main-img"></div>
+        <div class="img-box">
+            <div class="active" style="background-image:url(https://kima-rin.github.io/img1/eig/firstview_picture.jpg)"></div>
+            <div class="active" style="background-image:url(http://eightthethalasso.jp/images/index/firstview_picture_2.jpg)"></div>
+        </div>
+        <div class="img-box-btn">
+            <div><i class="fas fa-angle-left"></i></div>
+            <div><i class="fas fa-angle-right"></i></div>
+        </div>
         <div class="top-bar">
             <div></div>
             <div></div>
@@ -47,28 +54,28 @@
         </div>
 
     </section>
-    <div class="news-1 flex con">
+    <div class="news-1 flex flex active-on-visible">
         <div class="flex-1-0-0 news-title">NEWS</div>
         <div class="text-deco-underline flex flex-jc-end flex-ai-c">ALL NEWS</div>
 
     </div>
-    <div class="news-2 con">
+    <div class="news-2 flex">
         <div>
-            <div
+            <div class="active-on-visible"
                 style="background-image:url(http://images.ctfassets.net/cvw67xv1x77g/1Q4137g7gK1EcMMPaoM4Nf/6e3cd1e81dd86b12166f89a314220acb/KV.jpg)">
             </div>
             <p>
-                髪のダメージによる空洞化をケアしながら、毛先までさらさらの指通り“するん髪”が叶う！スムースリペアシリーズが新登場
-                </p>
+            髪のダメージによる空洞化をケアしながら、毛先までさらさらの指通り”するん髪”が叶う！スムースリペアシリーズが新登場
+            </p>
         </div>
         <div>
             <div
                 style="background-image:url(http://images.ctfassets.net/cvw67xv1x77g/6skuLnFrvZBNjajfpejsWG/02205a8ef276b5e0b802e87058631fb2/firstview_picture.jpg)">
             </div>
             <p>
-            新発売の美容液プレシャンプーのミニサイズ付き!【夏季限定】爽快感のある仕上がりのスパ限定キット登場
-                  
+            髪のダメージによる空洞化をケアしながら、毛先までさらさらの指通り”するん髪”が叶う！スムースリペアシリーズが新登場
             </p>
+            
         </div>
 
         <div>
@@ -77,7 +84,7 @@
 
     </div>
     <section>
-        <div class="text-box-1 flex">
+        <div class="text-box-1 flex active-on-visible">
             <div class="about">
                 <p>ABOUT</p>
             </div>
@@ -173,7 +180,7 @@
             <img src="http://eightthethalasso.jp/_nuxt/img/891b7ed.jpg" alt="">
             <div class="prod-list-title">HAIR OIL</div>
             <div class="prod-list-sud-title">REPAIR SHOT & EX MOIST </div>
-            <div class="prod-list-intro"><br>エイトザタラソ <br>リペアショット&EXモイスト<br>美容液オイル<br>100mL/¥1400(税抜)</div>
+            <div class="prod-list-intro"><br><br>エイトザタラソ <br>リペアショット&EXモイスト<br>美容液オイル<br>100mL/¥1400(税抜)</div>
             <div><a href="#" class="prod-list-more block">More</a></div>
         </div>
         <div class="item">
