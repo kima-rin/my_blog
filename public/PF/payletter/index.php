@@ -103,38 +103,68 @@
                     src="https://www.payletter.com/assets/images/main/main.mp4"></video>
             </div>
         </div>
-        <div class="con height-100p flex flex-ai-e">
-            <ul class="flex flex-grow-1">
-                <li data-active-on-visible-delay="5000" class="flex-1-0-0 ratio-1-1 relative active-on-visible"
-                    style="background-color:#12ccc1;">
-                    <div class="abs-full">
-                        <span>빌링솔루션</span>
-                        <div>디지털 콘텐츠에 맞는 과금방식, <br>어떻게 설계할 수 있을까?</div>
-                        <a href="#">+</a>
-                    </div>
-                </li>
-                <li data-active-on-visible-delay="5500" class="flex-1-0-0 ratio-1-1 relative active-on-visible"
-                    style="background-color:#5817bb;">
-                    <div class="abs-full">
-                        <span>전자결제서비스</span>
-                        <div>글로벌 쇼핑몰을 위한 PG서비스 <br>어디서부터 시작해야하나요?</div>
-                        <a href="#">+</a>
-                    </div>
-                </li>
-                <li data-active-on-visible-delay="6000" class="flex-1-0-0 ratio-1-1 relative active-on-visible"
-                    style="background-color:#1e2233;">
-                    <div class="abs-full">
-                        <span>빌링솔루션,전자결제서비스</span>
-                        <div>빌링과 정산,꼭 따로 봐야 하나요? <br>정산에서 빌링까지 한눈에 흐름을 <br>확인하고 싶어요.</div>
-                        <a href="#">+</a>
-                    </div>
-                </li>
-            </ul>
+        <div class="top-bar"></div>
+        <div class="main-banner-box con-min-width relative">
+            <div class="abs-full">
+                <div class="video-box">
+                    <video autoplay="" muted="" playsinline="" class="main-video__video" src=""></video>
+                </div>
+            </div>
+            <div class="con height-100p flex flex-ai-e">
+                <ul class="flex flex-grow-1">
+                    <li data-active-on-visible-delay="5000" class="flex-1-0-0 ratio-1-1 relative active-on-visible"
+                        style="background-color:#12ccc1;">
+                        <div class="abs-full">
+                            <div>
+                                <div class="line"></div>
+                                <span class="small-text">빌링솔루션</span>
+                                <span class="bill-img"></span>
+                            </div>
+                            <div class="medium-text">디지털 콘텐츠에 맞는 과금방식, <br>어떻게 설계할 수 있을까?</div>
+                            <a href="#" class="icon-box-1"><span class="plus" style="color:#12ccc1;">+</span></a>
+                        </div>
+                    </li>
+                    <li data-active-on-visible-delay="5500" class="flex-1-0-0 ratio-1-1 relative active-on-visible"
+                        style="background-color:#5817bb;">
+                        <div class="abs-full">
+                            <div>
+                                <div class="line"></div>
+                                <span class="small-text small-text::before">전자결제서비스</span>
+                                <span class="digital-img"></span>
+                            </div>
+                            <div class="medium-text">글로벌 쇼핑몰을 위한 PG서비스 <br>어디서부터 시작해야하나요?</div>
+                            <a href="#" class="icon-box-1" style="background: rgba(255, 255, 255, 0.1);"><span
+                                    class="plus">+</span></a>
+                        </div>
+                    </li>
+                    <li data-active-on-visible-delay="6000" class="flex-1-0-0 ratio-1-1 relative active-on-visible"
+                        style="background-color:#1e2233;">
+                        <div class="abs-full">
+                            <div class="">
+                                <div class="line"></div>
+                                <span class="small-text">빌링솔루션,전자결제서비스</span>
+                                <span class="bill-digi-img"></span>
+                            </div>
+                            <div class="medium-text">빌링과 정산,꼭 따로 봐야 하나요? <br>정산에서 빌링까지 한눈에 흐름을 <br>확인하고 싶어요.</div>
+                            <a href="#" class="icon-box-1" style="background: rgba(255, 255, 255, 0.1);"> <span
+                                    class="plus">+</span> </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
-    <div class="main-solution flex">
-        <div></div>
-        <div></div>
+    <div class="main-solution flex relative">
+        <div class="flex-1-0-0">
+            <img src="https://www.payletter.com/assets/images/main/bg_main_billoneq.jpg" alt="">
+            <div class="con">
+                <span>온라인 콘텐츠 빌링솔루션</span>
+                <h3>BillOneQ</h3>
+            </div>
+        </div>
+        <div class="flex-1-0-0">
+            <img src="https://www.payletter.com/assets/images/main/bg_main_payoneq.jpg" alt="">
+        </div>
     </div>
 
 </body>

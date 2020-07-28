@@ -2,7 +2,7 @@ console.clear();
 
 function TopBar__init(){
     var $topBar = $('.top-menu-box')
-    $topBar.find('.top-menu-bar').mouseenter(function () {
+    $topBar.find('.top-menu-bar>.menu-box-1>ul>li').mouseenter(function () {
     $topBar.addClass('background-actived');
   });
 
