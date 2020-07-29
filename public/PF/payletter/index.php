@@ -21,25 +21,14 @@
 
     <!-- 제이쿼리 불러오기 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- 스와이퍼 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css"> 
     <script src="/PF/payletter/index.js"></script>
     <link rel="stylesheet" href="/PF/payletter/index.css">
 </head>
 
 <body>
-    <!-- 구글 폰트 불러오기 -->
-    <!-- rotobo(400/700/900), notosanskr(400/600/900) -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&family=Roboto:wght@400;700;900&display=swap"
-        rel="stylesheet">
-
-    <!-- 폰트어썸 불러오기 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-
-    <!-- 제이쿼리 불러오기 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="/PF/payletter/index.js"></script>
-    <link rel="stylesheet" href="/PF/payletter/index.css">
-
     <div class="top-menu-box">
         <div class="background"></div>
         <div class="top-menu-bar flex">
@@ -154,18 +143,53 @@
             </div>
         </div>
     </div>
-    <div class="main-solution flex relative">
-        <div class="flex-1-0-0">
-            <img src="https://www.payletter.com/assets/images/main/bg_main_billoneq.jpg" alt="">
-            <div class="con">
-                <span>온라인 콘텐츠 빌링솔루션</span>
-                <h3>BillOneQ</h3>
+    <div class="page con-min-width">
+        <div class="con flex flex-jc-sb">
+            <div>
+                <div class="head">
+                    <h2 class="online">온라인 콘텐츠 빌링솔루션</h2>
+                    <h1 class="BillOneQ">BillOneQ</h1>
+                </div>
+                <div class="slider-1 slider-1-1">
+                    <div class="count">1</div>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img
+                                    src="https://www.payletter.com/UploadFile/Product/billoneq_ko_1.png" alt=""></div>
+                            <div class="swiper-slide"><img
+                                    src="https://www.payletter.com/UploadFile/Product/billoneq_ko_2.png" alt=""></div>
+                            <div class="swiper-slide"><img
+                                    src="https://www.payletter.com/UploadFile/Product/billoneq_ko_3.png" alt=""></div>
+                            <div class="swiper-slide"><img
+                                    src="https://www.payletter.com/UploadFile/Product/billoneq_ko_4.png" alt=""></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="head">
+                    <h2 class="">전자결제서비스</h2>
+                    <h1 class="PayOneQ">PayOneQ</h1>
+                </div>
+                <div class="slider-1 slider-1-2">
+                    <div class="count">1</div>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img
+                                    src="https://www.payletter.com/UploadFile/Product/pay_ko_3.png" alt=""></div>
+                            <div class="swiper-slide"><img
+                                    src="https://www.payletter.com/UploadFile/Product/pay_ko_1.png" alt=""></div>
+                            <div class="swiper-slide"><img
+                                    src="https://www.payletter.com/UploadFile/Product/pay_ko_2.png" alt=""></div>                         
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="flex-1-0-0">
-            <img src="https://www.payletter.com/assets/images/main/bg_main_payoneq.jpg" alt="">
-        </div>
     </div>
+
 
 </body>
 

@@ -72,9 +72,43 @@ $(function() {
 /* 발견되면 활성화시키는 라이브러리 끝 */
 }
 
-
+function Slider1_1__init() {
+    var swiper = new Swiper('.slider-1-1 > .swiper-container', {
+      loop: true,
+      pagination: {
+        el: '.slider-1-1 .swiper-pagination',
+        type: 'fraction',
+      },
+    });
+  
+    var $count = $('.slider-1-1 .count');
+    swiper.on('slideChange', function () {
+      $count.text(swiper.realIndex + 1);
+    });
+  }
+  
+  
+  
+  function Slider1_2__init() {
+    var swiper = new Swiper('.slider-1-2 > .swiper-container', {
+      loop: true,
+      pagination: {
+        el: '.slider-1-2 .swiper-pagination',
+        type: 'fraction',
+      },
+    });
+  
+    var $count = $('.slider-1-2 .count');
+    swiper.on('slideChange', function () {
+      $count.text(swiper.realIndex + 1);
+    });
+  }
+ 
+  
 
 $(function(){
     TopBar__init();
     MainBannerBox__init();
+    Slider1_1__init();
+    Slider1_2__init();
 });
