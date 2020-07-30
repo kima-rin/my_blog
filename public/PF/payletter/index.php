@@ -15,6 +15,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&family=Roboto:wght@400;700;900&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- 폰트어썸 불러오기 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
@@ -23,7 +24,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- 스와이퍼 불러오기 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
     <script src="/PF/payletter/index.js"></script>
     <link rel="stylesheet" href="/PF/payletter/index.css">
 </head>
@@ -181,7 +182,7 @@
                             <div class="swiper-slide"><img
                                     src="https://www.payletter.com/UploadFile/Product/pay_ko_1.png" alt=""></div>
                             <div class="swiper-slide"><img
-                                    src="https://www.payletter.com/UploadFile/Product/pay_ko_2.png" alt=""></div>                         
+                                    src="https://www.payletter.com/UploadFile/Product/pay_ko_2.png" alt=""></div>
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
@@ -189,7 +190,34 @@
             </div>
         </div>
     </div>
-
+    <div class="aboutUs con-min-width">
+        <div class="flex con">
+            <div class="aboutText-box flex-1-0-0">
+                <div>ABOUT US</div>
+                <div>페이레터 주식회사는 2001년도에 설립되어 인터넷 비즈니스의 완결을 지원하는 <br>빌링과 페이트 기술을 핵심 역량으로 성장하여 왔습니다.</div>
+            </div>
+            <div class="main-count flex flex-1-0-0 flex-ai-e flex-jc-end">
+                <div class="main-status text-aling-center">
+                    <div class="category">Since</div>
+                    <div class="data-count-1">2001</div>
+                </div>
+                <div class="main-status text-aling-center">
+                    <div class="category">Payment (kor)</div>
+                    <div class="data-count">20</div>
+                </div>
+                <div class="main-status text-aling-center">
+                    <div class="category">Clients (kor)</div>
+                    <div class="data-count">6,655</div>
+                </div>
+            </div>
+        </div>
+        <div class="aboutUs-contents">
+            <div class="con">
+                <div>스타트업, 페이레터와 <br>함께 시작해보세요.</div>
+                <div>이제 백오피스 인프라는 페이레터에게 맡기고,<br>여러분들은 혁신과 본 서비스에 집중하세요!</div>
+            </div>
+        </div>
+    </div>
 
 </body>
 

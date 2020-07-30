@@ -539,3 +539,87 @@ body {
 
 
 /* 메인 솔루션 박스 끝 */
+/* 어바웃어스 박스 시작 */
+.aboutUs {
+  width: 100%;
+  height: 1209px;
+  background-image: url(https://www.payletter.com/assets/images/main/bg_main_aboutus.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+.aboutUs > div {
+  padding-top: 100px;
+}
+.aboutUs > div > .aboutText-box > div:first-child {
+  padding-bottom: 10px;
+  color: #000;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.aboutUs > div > .aboutText-box > div:last-child {
+  color: #000;
+  font-size: 16px;
+  line-height: 30px;
+}
+.category {
+  display: block;
+  padding-bottom: 30px;
+  opacity: 0.5;
+  color: #666;
+  font-size: 16px;
+  letter-spacing: -0.03em;
+  font-family: "lato";
+}
+.data-count-1 {
+  color: #000;
+  font-weight: 700;
+  font-family: "lato";
+  font-size: 50px;
+  letter-spacing: 0;
+}
+.data-count {
+  color: #000;
+  font-weight: 700;
+  font-family: "lato";
+  font-size: 50px;
+  letter-spacing: 0;
+}
+.data-count::after {
+  content: "ea";
+  font-size: 14px;
+}
+.text-aling-center {
+  text-align: center;
+}
+.main-count > div:not(:last-child) {
+  padding: 0 30px;
+}
+.main-count > div:last-child {
+  padding-left: 15px;
+}
+.aboutUs > .aboutUs-contents {
+  margin-top: 160px;
+  padding-top: 100px;
+  min-height: 800px;
+  background: url(https://www.payletter.com/assets/images/main/img_main_aboutus_map.jpg)
+    no-repeat right top;
+  box-sizing: border-box;
+}
+.aboutUs > .aboutUs-contents > div > div:first-child {
+  font-size: 66px;
+  color: white;
+  font-weight: bold;
+  text-align: right;
+  line-height: 86px;
+}
+.aboutUs > .aboutUs-contents > div > div:last-child {
+  padding-top: 90px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: -0.03em;
+  text-align: right;
+}
+/* 어바웃어스 박스 끝 */
