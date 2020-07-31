@@ -218,6 +218,107 @@
             </div>
         </div>
     </div>
+    
+<div class="news-box con">
+  <div class="slider-btn">
+    <div>NEWS</div>
+    <span><i class="fas fa-angle-left"></i></span>
+    <span><i class="fas fa-angle-right"></i></i></span>
+  </div>
+  <div class="news-slider flex">
+    <div>
+      <img src="https://www.payletter.com/UploadFile/News/%EC%8D%B8%EB%84%A4%EC%9D%BC2_%ED%81%AC%EA%B8%B0%EC%A1%B0%EC%A0%95.png" alt="">
+      <div>통신과금서비스 이용약관 변경 고지</div>
+      <p>2020.7.14</p>
+    </div>
+    <div>
+      <img src="https://www.payletter.com/UploadFile/News/news.jpg" alt="">
+      <div>[공고]기준일 및 주주명부 폐쇄기간 공고</div>
+      <p>2020.02.11</p>
+    </div>
+    <div>
+      <img src="https://www.payletter.com/UploadFile/News/news.jpg" alt="">
+      <div>[공고]기준일 및 주주명부 폐쇄기간 공고</div>
+      <p>2019.12.24</p>
+    </div>
+    <div>
+      <img src="https://www.payletter.com/UploadFile/News/news.jpg" alt="">
+      <div>[공고]기준일 및 주주명부 폐쇄기간 공고</div>
+      <p>2019.11.11</p>
+    </div>
+    <div>
+      <img src="https://www.payletter.com/UploadFile/News/news.jpg" alt="">
+      <div>[공고]기준일 및 주주명부 폐쇄기간 공고</div>
+      <p>2019.07.25</p>
+    </div>
+  </div>
+</div>
+
+<div class="hosting-box con">
+  <p>Hosting Partnership</p>
+  <div class="box-1 flex flex-jc-sb">
+    <div class="block">
+      국내 호스팅 <span class="block" style="font-size:14px;">휴대폰결제 이용가능</span>
+    </div>
+    <div><img src="https://www.payletter.com/assets/images/main/img_main_partnership_brand_1.png" alt=""></div>
+    <div><img src="https://www.payletter.com/assets/images/main/img_main_partnership_brand_2.png" alt=""></div>
+    <div><img src="https://www.payletter.com/assets/images/main/img_main_partnership_brand_3.png" alt=""></div>
+  </div>
+  <div class="box-2 flex flex-jc-sb">
+    <div class="block">
+      해외 호스팅
+    </div>
+    <div><img src="https://www.payletter.com/assets/images/main/img_main_partnership_brand_4.png" alt=""></div>
+    <div><img src="https://www.payletter.com/assets/images/main/img_main_partnership_brand_5.png" alt=""></div>
+    <div><img src="" alt=""></div>
+  </div>
+
+</div>
+
+<div class="banner-box-1 flex">
+  <div class="flex-grow-1">개발자센터</div>
+  <div class="flex-grow-1">가맹점관리</div>
+</div>
+<div class="banner-box-2">
+  <div class="con">
+
+  </div>
+</div>
+<div class="footer">
+  <div class="footer-etc flex con">
+    <div class="footer-left flex-grow-1">
+      <div><a href="#">페이레터주식회사</a></div>
+      <div>06224 서울시 강남구 역삼로 223 (역삼동 733-23, 대사빌딩) 페이레터(주) <br>
+        대표이사 : 이성우 | 사업자등록번호 : 114-86-05588 <br>전자금융업등록번호 : 02-004-00051 Fax : 02-6191-3710 <br>
+        결제내역문의(고객센터) : 1599-7591 E-mail : help@payletter.com
+      </div>
+    </div>
+    <div class="footer-menu-list flex-grow-1 flex-jc-end">
+      <ul class="cell">
+        <li><a href="#" class="block"><span>빌링서비스</span></a></li>
+        <li><a href="#" class="block"><span>전자결제서비스</span></a></li>
+        <li><a href="#" class="block"><span>제휴문의</span></a></li>
+        <li><a href="#" class="block"><span>결제내역문의</span></a></li>
+        <li><a href="#" class="block"><span>PCHDSS인증</span></a></li>
+        <li><a href="#" class="block"><span>외국환업무등록증</span></a></li>
+        <li><a href="#" class="block"><span>통신과금서비스제공등록증</span></a></li>
+      </ul>
+      <ul class="cell">
+        <li><a href="#" class="block"><span>개인정보처리방침</span></a></li>
+        <li><a href="#" class="block"><span>영상정보처리기기운영관리방침</span></a></li>
+        <li><a href="#" class="block"><span>전자금융거래 이용약관</span></a></li>
+        <li><a href="#" class="block"><span>통신과금서비스 이용약관</span></a></li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+<div class="Copyright">
+  <div class="con">
+    <div class="cell">Copyrightⓒ Payletter Inc. All rights reserved.</div>
+    <div class="cell-right"><img src="https://www.payletter.com/assets/images/common/icon_footer_copyright.png" alt=""></div>
+  </div>
+</div>
 
 </body>
 

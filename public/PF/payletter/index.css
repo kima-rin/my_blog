@@ -223,7 +223,7 @@ min-width:1100px;
 max-width:1920px;
 }
 .con {
-width: 1258px;
+width: 1100px;
 }
 
 /* 탑바 메뉴박스 시작 */
@@ -400,9 +400,6 @@ font-size:14px;
   opacity:1;
   visibility:visible;
   transform:translateY(0);
-}
-body {
-  min-height:10000px;
 }
 .line{
   opacity:.4;
@@ -623,3 +620,213 @@ body {
   text-align: right;
 }
 /* 어바웃어스 박스 끝 */
+/* 뉴스 박스 시작 */
+.news-box > .slider-btn > div {
+  padding-top: 10px;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-align: left;
+  padding-top: 100px;
+}
+.news-box > .slider-btn {
+  text-align: right;
+  font-size: 2rem;
+  line-height: 16px;
+}
+.news-box > .news-slider {
+  padding-top: 30px;
+}
+.news-box > .news-slider > div {
+  padding: 0 10px;
+}
+
+.news-box > .news-slider > div > div {
+  font-weight: bold;
+}
+.news-box > .news-slider > div > div::before {
+  content: "News";
+  display: block;
+  padding: 20px 0 5px;
+  color: #12ccc1;
+  font-size: 12px;
+}
+.news-box > .news-slider > div > p {
+  display: block;
+  padding-top: 20px;
+  color: #888;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+/* 뉴스 박스 끝 */
+
+/*호스팅 박스 시작*/
+.hosting-box {
+  margin: 70px auto;
+  border-top: 1px solid black;
+}
+.hosting-box > p {
+  font-weight: 700;
+  font-size: 18px;
+  padding: 10px 0;
+}
+.hosting-box > .box-1 {
+  padding-top: 10px;
+}
+.hosting-box > .box-1 > div:first-child {
+  font-size: 26px;
+  font-weight: 300;
+  width: 200px;
+  height: 100px;
+  background: url(https://www.payletter.com/assets/images/main/img_main_partnership_1.png)
+    no-repeat right 50px;
+}
+.hosting-box > div > div:not(:first-child) {
+  position: relative;
+  width: 270px;
+  height: 100px;
+  background-color: #f4f5f9;
+}
+.hosting-box > div > div:not(:first-child) > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translatex(-50%) translatey(-50%);
+}
+.hosting-box > .box-2 {
+  padding-top: 25px;
+}
+.hosting-box > .box-2 > div:first-child {
+  font-size: 26px;
+  font-weight: 300;
+  width: 200px;
+  height: 100px;
+  background: url(https://www.payletter.com/assets/images/main/img_main_partnership_2.png)
+    no-repeat right 50px;
+}
+/*호스팅 박스 끝*/
+/*배너박스 1 시작*/
+.banner-box-1 > div:first-child {
+  display: block;
+  height: 200px;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  line-height: 200px;
+  background: url(https://www.payletter.com/assets/images/main/bg_main_banner_1.png)
+    no-repeat center center;
+  background-size: cover;
+}
+.banner-box-1 > div:first-child:hover {
+  color: #12ccc1;
+}
+.banner-box-1 > div:last-child {
+  display: block;
+  height: 200px;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  line-height: 200px;
+  background: url(https://www.payletter.com/assets/images/main/bg_main_banner_2.png)
+    no-repeat center center;
+  background-size: cover;
+}
+.banner-box-1 > div:last-child:hover {
+  color: #12ccc1;
+}
+/*배너박스 1 끝*/
+/*배너박스 2 시작*/
+.banner-box-2 {
+  width: 100%;
+  height: 100px;
+  background-color: #12ccc1;
+}
+.banner-box-2:hover {
+  background-color: #232323;
+}
+
+/*배너박스 2 끝*/
+/*푸터 시작*/
+.footer {
+  background-color: #232323;
+}
+.footer > .footer-etc {
+  padding: 60px 0;
+}
+.footer > .footer-etc > .footer-left {
+  width: 50%;
+  white-space: nowrap;
+}
+.footer > .footer-etc > .footer-left > div:first-child {
+  background: url(https://www.payletter.com/assets/images/common/site_logo_v2.png)
+    no-repeat left bottom;
+}
+.footer > .footer-etc > .footer-left > div:first-child > a {
+  padding: 15px 0 2px 180px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.footer > .footer-etc > .footer-left > div:last-child {
+  padding-top: 50px;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: -0.035em;
+  line-height: 26px;
+  color: #666;
+  width: 50%;
+}
+.footer > .footer-etc > .footer-menu-list {
+  width: 50%;
+  border-left: 1px solid #393939;
+}
+
+.footer > .footer-etc > .footer-menu-list > ul {
+  width: 50%;
+  
+}
+.footer > .footer-etc > .footer-menu-list > ul:first-child{
+  padding-left: 70px;
+}
+.footer > .footer-etc > .footer-menu-list > ul > li > a {
+  padding-bottom: 5px;
+  color: #999;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 10px 4px;
+  
+}
+.footer > .footer-etc > .footer-menu-list > ul > li > a > span{
+  position: relative;
+}
+.footer > .footer-etc > .footer-menu-list > ul > li > a > span:hover{
+  color: #12ccc1;
+}
+.footer > .footer-etc > .footer-menu-list > ul > li > a>span:hover::after{
+  content: "";
+  position: absolute;
+  top:100%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #12ccc1;
+}
+.Copyright {
+  width: 100%;
+  height: 100px;
+  background-color: #1e1e1e;
+}
+.Copyright > div > div:first-child {
+  width: 50%;
+  color: rgba(255, 255, 255, 0.15);
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 100px;
+}
+.Copyright > div > div:last-child{
+  padding-top:25px;
+}
+/*푸터 끝*/
