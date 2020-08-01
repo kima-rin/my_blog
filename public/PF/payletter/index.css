@@ -269,7 +269,6 @@ border-right:1px solid #e5e5e5;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-
   width: 80%;
   background-color: #12ccc1;
 }
@@ -336,27 +335,145 @@ text-align: center;
   color:#12ccc1;
 }
 /* 아이콘박스 */
-.top-menu-box>.top-menu-bar>.top-etc-box>a{
-  margin:0 5px;
+
+.top-menu-box>.top-menu-bar>.top-etc-box{
+  margin-right: 20px;
 }
-.top-menu-box>.top-menu-bar>.top-etc-box>a:first-child{
-padding: 10px 15px;
-color: white;
-background: #12ccc1 url(https://www.payletter.com/assets/images/common/icon_gnb_email.png) no-repeat 12px center;
-border-radius: 25px;
-padding-left:40px;
+.top-menu-box>.top-menu-bar>.top-etc-box>.contact-us{
+  display:flex;
+  top:0;
+  right:100px;
+  height:46px;
+  background-color:#12ccc1;
+  margin:15px;
+  border-radius:50px;
+  transition:width .4s;
+  white-space:nowrap;
+  position:absolute; 
+}
+.top-menu-box>.top-menu-bar>.top-etc-box>.contact-us>img{
+  padding:15px 12px;
+  height:15px;
 }
 
+.top-menu-box>.top-menu-bar>.top-etc-box>.contact-us>a{
+  color:white;
+  display:block;
+  width:0px;
+  margin-top:15px;
+  font-size: 14px;
+  overflow-x:hidden;
+  transition:width .3s;
+}
+.top-menu-box>.top-menu-bar>.top-etc-box>.contact-us:hover>a{
+  width: 110px;
+}
 .top-menu-box>.top-menu-bar>.top-etc-box>a:last-child{
-padding: 10px 20px;
-background: #e5e5e5 url(https://www.payletter.com/assets/images/common/icon_gnb_language.png) no-repeat 16px center;
-border-radius: 25px;
-padding-left:45px;
-font-size:14px;
+  height:30px;
+  padding: 10px 20px;
+  margin-left: 20px;
+  background: #e5e5e5 url(https://www.payletter.com/assets/images/common/icon_gnb_language.png) no-repeat 16px center;
+  border-radius: 25px;
+  padding-left:45px;
+  margin-top: 15px;
+  font-size:14px;
   color:#666;
 }
 
 /* 탑바 메뉴박스 끝 */
+
+/* 사이드 아이콘 박스 시작 */
+.side-bar-icon{
+  display:block;
+  position:fixed;
+  top:150px;
+  right:50px;
+  z-index: 99;
+}
+ 
+.side-bar-icon>div{
+  position: relative;
+  width: 70px;
+  height: 70px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  background-color: #292e42;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  box-sizing:border-box;
+}
+.side-bar-icon>div>a>span{
+  display:none;
+  position: absolute;
+  top: 50%;
+  right: 80px;
+  margin-top: -16px;
+  padding: 6px 8px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  word-break: keep-all;
+  line-height:1.5;
+}
+.side-bar-icon>div>a>span::after{
+  content:"";
+  width:5px;
+  height:5px;
+  border-width: 2px 2px 0 0;
+  background-color:white;
+  border-style:solid;
+  border-color:white;
+  position:absolute;
+  transform: rotate(45deg) translatex(-60%);
+  right:-6px;
+  top:50%;
+}
+.side-bar-icon>div:hover>a>span{
+  display:block;
+}
+.side-bar-icon>div>.icon-1{
+  background: url(https://www.payletter.com/assets/images/common/img_quickmenu_1.png) no-repeat center center;
+  height:100%;
+  }
+.side-bar-icon>div>.icon-2{
+  background: url(https://www.payletter.com/assets/images/common/img_quickmenu_3.png) no-repeat center center;
+  height:100%;
+  }
+.side-bar-icon>div>.icon-3{
+  background: url(https://www.payletter.com/assets/images/common/img_quickmenu_2.png) no-repeat center center;
+  height:100%;
+  }
+.side-bar-icon>div>.icon-4{
+  background: url(https://www.payletter.com/assets/images/common/img_quickmenu_4.png) no-repeat center center;
+  height:100%;
+  }
+.side-bar-icon>div:last-child{
+  background-color:white;
+  border:4px solid #292e42;
+}
+.side-bar-icon>div>.icon-5{
+ font-size:14px;
+ padding-top:50%;
+ padding-left:30%;
+  position:relative;
+}
+.side-bar-icon>div>.icon-5::before{
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  margin-left: -4px;
+  border-width: 2px 2px 0 0;
+  border-color: #292e42;
+  border-style: solid;
+  transform: rotate(-45deg);
+  content: '';
+}
+/* 사이드 아이콘 박스 끝*/
 
 /* 메인 베너 박스 시작 */
 /* 비디오 박스 시작 */
@@ -366,7 +483,6 @@ font-size:14px;
   margin-left:auto;
   margin-right:auto;
   z-index:0;
-  
 }
 
 .main-banner-box > .abs-full {
@@ -488,6 +604,7 @@ font-size:14px;
   top:50%;
   left:50%;
   transform:translatex(-50%) translatey(-50%);
+  transition: transform 1s;
 }
 .icon-box-1:hover > .plus {
   transform: translatex(-50%) translatey(-50%) rotate(360deg);
@@ -512,6 +629,8 @@ font-size:14px;
   font-size: 78px;
   font-weight: 700;
   line-height: 78px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 .PayOneQ{
   top:0;
@@ -520,6 +639,8 @@ font-size:14px;
   font-size: 78px;
   font-weight: 700;
   line-height: 78px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .page {
   background:
@@ -533,8 +654,62 @@ font-size:14px;
 .page > .con > div {
   width:472px;
 }
+.page > .con > div>.slider-1-1{
+  margin-top: 60px;
+}
+.page > .con > div>.slider-1-1>div:first-child{
+  width: 50px;
+  height: 50px;
+  color:#fff;
+  font-size: 24px;
+  font-family:'loto';
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #fd6763;
+}
+.page > .con > div>.slider-1-2{
+  margin-top: 60px;
+}
+.page > .con > div>.slider-1-2>div:first-child{
+  width: 50px;
+  height: 50px;
+  color:#f8605c;
+  font-size: 24px;
+  font-family:'loto';
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.slider-1-1>.swiper-container{
+  position: relative;
+}
+.slider-1-1>.swiper-container::after{
+  content: "";
+  position: absolute;
+  top:10px;
+  left: 23px;
+  width: 1px;
+  height: 320px;
+  background-color: white;
+}
+.swiper-pagination{
+  display: block;
+  color: white;
+  text-align: left;
 
-
+}
+.swiper-pagination>span:first-child::before{
+  content: "<";
+  font-size: 20px;
+  padding: 0 10px;
+}
+.swiper-pagination>span:last-child::after{
+  content: ">";
+  font-size: 20px;
+  padding: 0 10px;
+}
 /* 메인 솔루션 박스 끝 */
 /* 어바웃어스 박스 시작 */
 .aboutUs {
