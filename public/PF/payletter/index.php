@@ -160,10 +160,10 @@
         <div class="con flex flex-jc-sb">
             <div>
                 <div class="head">
-                    <h2 data-active-on-visible-delay="6500" class="online active-on-visible">온라인 콘텐츠 빌링솔루션</h2>
-                    <h1 class="BillOneQ active-on-visible">BillOneQ</h1>
+                    <h2 data-active-on-visible-delay="500" class="online active-on-visible">온라인 콘텐츠 빌링솔루션</h2>
+                    <h1 data-active-on-visible-delay="1000" class="BillOneQ active-on-visible">BillOneQ</h1>
                 </div>
-                <div class="slider-1 slider-1-1 active-on-visible">
+                <div data-active-on-visible-delay="1500" class="slider-1 slider-1-1 active-on-visible">
                     <div class="count">1</div>
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
@@ -182,10 +182,10 @@
             </div>
             <div>
                 <div class="head">
-                    <h2 class="">전자결제서비스</h2>
-                    <h1 class="PayOneQ">PayOneQ</h1>
+                    <h2 data-active-on-visible-delay="500" class="e-payment active-on-visible">전자결제서비스</h2>
+                    <h1 data-active-on-visible-delay="1000" class="PayOneQ active-on-visible">PayOneQ</h1>
                 </div>
-                <div class="slider-1 slider-1-2">
+                <div data-active-on-visible-delay="1500" class="slider-1 slider-1-2 active-on-visible">
                     <div class="count">1</div>
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
@@ -205,10 +205,10 @@
     <div class="aboutUs con-min-width">
         <div class="flex con">
             <div class="aboutText-box flex-1-0-0">
-                <div>ABOUT US</div>
-                <div>페이레터 주식회사는 2001년도에 설립되어 인터넷 비즈니스의 완결을 지원하는 <br>빌링과 페이트 기술을 핵심 역량으로 성장하여 왔습니다.</div>
+                <div data-active-on-visible-delay="500" class="active-on-visible">ABOUT US</div>
+                <div data-active-on-visible-delay="1000" class="active-on-visible">페이레터 주식회사는 2001년도에 설립되어 인터넷 비즈니스의 완결을 지원하는 <br>빌링과 페이트 기술을 핵심 역량으로 성장하여 왔습니다.</div>
             </div>
-            <div class="main-count flex flex-1-0-0 flex-ai-e flex-jc-end">
+            <div data-active-on-visible-delay="1500" class="main-count flex flex-1-0-0 flex-ai-e flex-jc-end active-on-visible">
                 <div class="main-status text-aling-center">
                     <div class="category">Since</div>
                     <div class="data-count-1">2001</div>
@@ -225,8 +225,8 @@
         </div>
         <div class="aboutUs-contents">
             <div class="con">
-                <div>스타트업, 페이레터와 <br>함께 시작해보세요.</div>
-                <div>이제 백오피스 인프라는 페이레터에게 맡기고,<br>여러분들은 혁신과 본 서비스에 집중하세요!</div>
+                <div data-active-on-visible-delay="500" class="active-on-visible">스타트업, 페이레터와 <br>함께 시작해보세요.</div>
+                <div data-active-on-visible-delay="1000" class="active-on-visible">이제 백오피스 인프라는 페이레터에게 맡기고,<br>여러분들은 혁신과 본 서비스에 집중하세요!</div>
             </div>
         </div>
     </div>
@@ -237,8 +237,8 @@
             <span><i class="fas fa-angle-left"></i></span>
             <span><i class="fas fa-angle-right"></i></i></span>
         </div>
-        <div class="news-slider flex">
-            <div>
+        <div class="news-slider flex ">
+            <div class="active">
                 <img src="https://www.payletter.com/UploadFile/News/%EC%8D%B8%EB%84%A4%EC%9D%BC2_%ED%81%AC%EA%B8%B0%EC%A1%B0%EC%A0%95.png"
                     alt="">
                 <div>통신과금서비스 이용약관 변경 고지</div>

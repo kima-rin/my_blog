@@ -338,6 +338,8 @@ text-align: center;
 
 .top-menu-box>.top-menu-bar>.top-etc-box{
   margin-right: 20px;
+
+  
 }
 .top-menu-box>.top-menu-bar>.top-etc-box>.contact-us{
   display:flex;
@@ -480,20 +482,23 @@ text-align: center;
 .main-banner-box {
   max-width:1915px;
   height:834px;
-  margin-top:81px;
+  margin-top: 120px;
   margin-left:auto;
   margin-right:auto;
   z-index:0;
   position: relative;
 }
-
+.main-banner-box > .main-banner-box>.con{
+  width: 1242px;
+}
 .main-banner-box > .abs-full {
   overflow:hidden;
+  padding-top: 120px;
 } 
 
 .main-banner-box > .abs-full > .video-box {
   position:absolute;
-  top:80px;
+  top:10px;
   left:50%;
   transform:translateX(-50%);
   width:1915px;
@@ -503,7 +508,7 @@ text-align: center;
 }
 
 .main-banner-box > .con > ul {
-  margin-bottom:-200px;
+  margin-bottom:-120px;
 }
 
 .main-banner-box > .con > ul > li {
@@ -625,12 +630,9 @@ text-align: center;
 .online.active{
   opacity: 1;
 }
-.digi-pay{
-  font-size:24px;
-  color: #1e2233;
-}
 .BillOneQ{
-  top:0;
+  opacity: 0;
+  margin-top: 50px;
   left: 0;
   color: #fd6763;
   font-size: 78px;
@@ -638,9 +640,24 @@ text-align: center;
   line-height: 78px;
   padding-bottom: 20px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: margin-top 1s, opacity 1s;
+}
+.BillOneQ.active{
+  margin-top:0;
+  opacity: 1;
+}
+.e-payment{
+  opacity: 0;
+  color: #1e2233;
+  font-size: 24px;
+  transition: opacity 1s;
+}
+.e-payment.active{
+  opacity: 1;
 }
 .PayOneQ{
-  top:0;
+  opacity: 0;
+  margin-top:50px;
   left: 0;
   color: #1e2233;
   font-size: 78px;
@@ -648,6 +665,12 @@ text-align: center;
   line-height: 78px;
   padding-bottom: 20px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  transition: margin-top 1s, opacity 1s;
+}
+
+.PayOneQ.active{
+  margin-top:0;
+  opacity: 1;
 }
 .page {
   background:
@@ -662,7 +685,13 @@ text-align: center;
   width:472px;
 }
 .page > .con > div>.slider-1-1{
+  margin-top: 100px;
+  opacity: 0;
+  transition: all 1s;
+}
+.page > .con > div>.slider-1-1.active{
   margin-top: 60px;
+  opacity: 1;
 }
 .page > .con > div>.slider-1-1>div:first-child{
   width: 50px;
@@ -676,7 +705,13 @@ text-align: center;
   background-color: #fd6763;
 }
 .page > .con > div>.slider-1-2{
+  margin-top: 100px;
+  opacity: 0;
+  transition: all 1s;
+}
+.page > .con > div>.slider-1-2.active{
   margin-top: 60px;
+  opacity: 1;
 }
 .page > .con > div>.slider-1-2>div:first-child{
   width: 50px;
@@ -731,16 +766,39 @@ text-align: center;
   padding-top: 100px;
 }
 .aboutUs > div > .aboutText-box > div:first-child {
-  padding-bottom: 10px;
+  padding-bottom: 0;
   color: #000;
   font-size: 40px;
   font-weight: 700;
   letter-spacing: -0.01em;
+  opacity: 0;
+  transition:all 1s;
+}
+.aboutUs > div > .aboutText-box > div:first-child.active{
+  opacity: 1;
+  padding-bottom: 10px;
 }
 .aboutUs > div > .aboutText-box > div:last-child {
   color: #000;
   font-size: 16px;
   line-height: 30px;
+  margin-top: 30px;
+  opacity: 0;
+  transition: all 1s;
+}
+.aboutUs > div > .aboutText-box > div:last-child.active{
+ margin-top: 0;
+ opacity: 1;
+}
+.aboutUs > div >.main-count{
+  opacity: 0;
+  margin-top: 40px;
+  transition: all 1s;
+}
+.aboutUs > div >.main-count.active{
+  opacity: 1;
+  margin-top: 0px;
+
 }
 .category {
   display: block;
@@ -792,24 +850,38 @@ text-align: center;
   font-weight: bold;
   text-align: right;
   line-height: 86px;
+  padding-top: 40px;
+  opacity: 0;
+  transition: all 1s;
+}
+.aboutUs > .aboutUs-contents > div > div:first-child.active{
+  padding-top: 0;
+  opacity: 1;
+
 }
 .aboutUs > .aboutUs-contents > div > div:last-child {
-  padding-top: 90px;
+  padding-top: 130px;
   color: #fff;
   font-size: 20px;
   font-weight: 300;
   letter-spacing: -0.03em;
   text-align: right;
+  opacity: 0;
+  transition: all 1s;
+}
+.aboutUs > .aboutUs-contents > div > div:last-child.active{
+  padding-top: 90px;
+  opacity: 1;
+
 }
 /* 어바웃어스 박스 끝 */
 /* 뉴스 박스 시작 */
 .news-box > .slider-btn > div {
-  padding-top: 10px;
   font-size: 40px;
   font-weight: 700;
   letter-spacing: -0.01em;
   text-align: left;
-  padding-top: 100px;
+  padding-top: 110px;
 }
 .news-box > .slider-btn {
   text-align: right;

@@ -104,6 +104,21 @@ function Slider1_2__init() {
   });
 }
 
+function newsBoxSlider__init() {
+  $('.news-box > .slider-btn >span').click(function(){
+    var $this = $(this);
+    var $slider = $this.parent().parent();
+    var $current = $slider.find ('.news-slider > div.active');
+    var $post = $current.next();
+
+    $current.removeClass('active');
+    $post.addClass('active');
+
+  });
+
+}
+
+
 function MySlider1__init() {
   var swiper = new Swiper('.my-slider-1 > .swiper-container', {
     direction: 'vertical',
@@ -128,5 +143,6 @@ $(function () {
   MainBannerBox__init();
   Slider1_1__init();
   Slider1_2__init();
+  newsBoxSlider__init();
   MySlider1__init();
 });
