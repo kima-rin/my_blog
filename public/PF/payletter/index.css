@@ -386,7 +386,7 @@ text-align: center;
 .side-bar-icon{
   display:block;
   position:fixed;
-  top:150px;
+  top:250px;
   right:50px;
   z-index: 99;
 }
@@ -480,9 +480,11 @@ text-align: center;
 .main-banner-box {
   max-width:1915px;
   height:834px;
+  margin-top:81px;
   margin-left:auto;
   margin-right:auto;
   z-index:0;
+  position: relative;
 }
 
 .main-banner-box > .abs-full {
@@ -615,8 +617,13 @@ text-align: center;
 
 /* 메인 솔루션 박스 시작 */
 .online{
+  opacity: 0;
   font-size:24px;
   color: #fd6763;
+  transition: opacity 1s;
+}
+.online.active{
+  opacity: 1;
 }
 .digi-pay{
   font-size:24px;
@@ -912,13 +919,82 @@ text-align: center;
 }
 /*배너박스 1 끝*/
 /*배너박스 2 시작*/
-.banner-box-2 {
+.bottom-box {
   width: 100%;
   height: 100px;
   background-color: #12ccc1;
 }
-.banner-box-2:hover {
+.bottom-box:hover {
   background-color: #232323;
+}
+
+.bottom-box > div >div:first-child{
+  width: 180px;
+  padding-left: 50px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 40px;
+  background: url(https://www.payletter.com/assets/images/common/icon_notice.png) no-repeat left center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.bottom-box, .bottom-box .my-slider-1 .swiper-slide {
+  height:100px;
+}
+
+.my-slider-1 .swiper-slide > a {
+  height:100%;
+}
+
+.my-slider-1 .nav > * {
+  position:static;
+  margin:0;
+  padding:0;
+  padding-right:30px;
+  width:auto;
+  height:50%;
+  color:white;
+  outline:0;
+}
+.my-slider-1 .nav >div{
+  position:relative;
+  right:0;
+  left:0;
+  
+}
+.my-slider-1 .nav >div:first-child>i{
+  position:absolute;
+  bottom:0;
+}
+
+.my-slider-1 .nav >div:last-child>i{
+  position: absolute;
+  top:0;
+}
+
+.my-slider-1 .nav > *::after {
+  display:none;
+}
+.my-slider-1 .notice-text{
+  color:white;
+  font-size:14px;
+  line-height:40px;
+}
+.my-slider-1 .notice-date{
+  color: rgba(255, 255, 255, 0.5);
+  font-size:12px;
+  font-weight:300;
+  line-height:40px;
+  padding-right: 50px;
+}
+.notice-plus{
+  font-size:40px;
+  color:white;
+}
+.notice-plus:hover{
+  transform: rotate(360deg);
 }
 
 /*배너박스 2 끝*/

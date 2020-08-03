@@ -160,10 +160,10 @@
         <div class="con flex flex-jc-sb">
             <div>
                 <div class="head">
-                    <h2 class="online">온라인 콘텐츠 빌링솔루션</h2>
-                    <h1 class="BillOneQ">BillOneQ</h1>
+                    <h2 data-active-on-visible-delay="6500" class="online active-on-visible">온라인 콘텐츠 빌링솔루션</h2>
+                    <h1 class="BillOneQ active-on-visible">BillOneQ</h1>
                 </div>
-                <div class="slider-1 slider-1-1">
+                <div class="slider-1 slider-1-1 active-on-visible">
                     <div class="count">1</div>
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
@@ -292,10 +292,51 @@
         <div class="flex-grow-1">개발자센터</div>
         <div class="flex-grow-1">가맹점관리</div>
     </div>
-    <div class="banner-box-2">
-        <div class="con">
-
+    <div class="bottom-box">
+        <div class="con flex height-100p">
+            <div class="notice flex flex-ai-c">공지사항</div>
+            <div class="my-slider-1 flex flex-grow-1">
+                <div class="nav height-100p">
+                    <div class="swiper-button-next"><i class="fas fa-angle-up"></i></div>
+                    <div class="swiper-button-prev"><i class="fas fa-angle-down"></i></div>
+                </div>
+                <div class="swiper-container flex-grow-1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#" class="flex flex-ai-c flex-jc-sb">
+                                <span class="notice-text">[페이레터] 본인확인서비스 작업 안내</span>
+                                <span class="notice-date">2020-25-12</span>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="flex flex-ai-c flex-jc-sb">
+                                <span class="notice-text">[페이레터] 결제 서비스 장애 안내</span>
+                                <span class="notice-date">2020-25-12</span>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="flex flex-ai-c flex-jc-sb">
+                                <span class="notice-text">[페이레터] 2020년 8월 신용카드 무이자 행사</span>
+                                <span class="notice-date">2020-25-12</span>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="flex flex-ai-c flex-jc-sb">
+                                <span class="notice-text">[페이레터] LGU+ 휴대폰 결제 서비스 장애 복구 안내</span>
+                                <span class="notice-date">2020-25-12</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="notice-plus flex flex-ai-c">+</div>
         </div>
+    </div>
+
+
+
+
     </div>
     <div class="footer">
         <div class="footer-etc flex con">
