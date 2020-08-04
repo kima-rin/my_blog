@@ -402,6 +402,10 @@ text-align: center;
   background-color: #292e42;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   box-sizing:border-box;
+
+}
+.side-bar-icon>div:hover>a{
+  opacity: 1;
 }
 .side-bar-icon>div>a>span{
   display:none;
@@ -435,6 +439,12 @@ text-align: center;
 }
 .side-bar-icon>div:hover>a>span{
   display:block;
+}
+.side-bar-icon>div>a{
+  opacity: 0.5;
+}
+.side-bar-icon>div:last-child>a{
+  opacity: 1;
 }
 .side-bar-icon>div>.icon-1{
   background: url(https://www.payletter.com/assets/images/common/img_quickmenu_1.png) no-repeat center center;
@@ -524,6 +534,15 @@ text-align: center;
   visibility:visible;
   transform:translateY(0);
 }
+
+.main-banner-box > .con > ul > li>.abs-full:hover> div >.line{
+  opacity: 1;
+  width: 50px;
+
+}
+.main-banner-box > .con > ul > li>.abs-full:hover> div >span{
+  opacity: 1;
+}
 .line{
   opacity:.4;
   position:absolute;
@@ -532,8 +551,9 @@ text-align: center;
   width: 30px;
   height: 1px;
   background: #fff;
-  
+  transition: all 0.5s;
 }
+
 .small-text{
   display:block;
   position:relative;
@@ -545,6 +565,7 @@ text-align: center;
   text-align:left;
   margin-top:40px;
   margin-left:20px;
+  transition: all 0.5s;
 }
 
 .bill-img{
@@ -558,6 +579,7 @@ text-align: center;
   background-repeat:no-repeat;
   background-position:center;
   background-size:contain;
+  transition: all 0.5s;
 }
 .digital-img{
   opacity:.3;
@@ -570,6 +592,7 @@ text-align: center;
   background-repeat:no-repeat;
   background-position:center;
   background-size:contain;
+  transition: all 0.5s;
 }
 .bill-digi-img{
   opacity:.3;
@@ -582,6 +605,7 @@ text-align: center;
   background-repeat:no-repeat;
   background-position:center;
   background-size:contain;
+  transition: all 0.5s;
 }
 .medium-text{
   overflow:hidden;
@@ -876,41 +900,74 @@ text-align: center;
 }
 /* 어바웃어스 박스 끝 */
 /* 뉴스 박스 시작 */
-.news-box > .slider-btn > div {
-  font-size: 40px;
-  font-weight: 700;
-  letter-spacing: -0.01em;
-  text-align: left;
-  padding-top: 110px;
+
+.news-box{
+  margin-top:100px;
 }
-.news-box > .slider-btn {
-  text-align: right;
-  font-size: 2rem;
-  line-height: 16px;
-}
-.news-box > .news-slider {
-  padding-top: 30px;
-}
-.news-box > .news-slider > div {
-  padding: 0 10px;
+.news-box>div>div>a{
+padding-top: 10px;
+font-size: 40px;
+font-weight: 700;
+letter-spacing: -0.01em;
+text-align: left;
+padding-top: 100px;
+color:black;
 }
 
-.news-box > .news-slider > div > div {
+.my-slider-2 {
+  position: relative;
+}
+
+.my-slider-2::after {
+  content:"";
+  position: absolute;
+  top:0;
+  left:100%;
+  width:33.3333%;
+  height: 100%;
+  background-color:rgba(255,255,255,0.5);
+  z-index: 20;
+}
+
+.my-slider-2 > .swiper-container {
+  margin-right:-33.3333%;
+}
+
+.my-slider-2>.nav>*{
+  position:static;
+  margin:0;
+  padding:10px;
+  height:10px;
+  width:auto;
+  transform:scale(0.5);
+  color:black;
+}
+.news-box-text{
   font-weight: bold;
+  color: #333;
+  font-size: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
-.news-box > .news-slider > div > div::before {
-  content: "News";
-  display: block;
-  padding: 20px 0 5px;
-  color: #12ccc1;
-  font-size: 12px;
+.news-box-text::before {
+content: "News";
+display: block;
+padding: 20px 0 5px;
+color: #12ccc1;
+font-size: 12px;
 }
-.news-box > .news-slider > div > p {
+.news-box-text-p {
+display: block;
+padding-top: 20px;
+color: #888;
+font-size: 12px;
+font-weight: 300;
+}
+
+.news-box .swiper-slide > img {
+  width:100%;
   display: block;
-  padding-top: 20px;
-  color: #888;
-  font-size: 12px;
-  font-weight: 300;
 }
 
 /* 뉴스 박스 끝 */

@@ -105,15 +105,17 @@ function Slider1_2__init() {
 }
 
 function newsBoxSlider__init() {
-  $('.news-box > .slider-btn >span').click(function(){
-    var $this = $(this);
-    var $slider = $this.parent().parent();
-    var $current = $slider.find ('.news-slider > div.active');
-    var $post = $current.next();
-
-    $current.removeClass('active');
-    $post.addClass('active');
-
+  var swiper = new Swiper('.my-slider-2 > .swiper-container', {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+   navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
   });
 
 }

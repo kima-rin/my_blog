@@ -206,9 +206,11 @@
         <div class="flex con">
             <div class="aboutText-box flex-1-0-0">
                 <div data-active-on-visible-delay="500" class="active-on-visible">ABOUT US</div>
-                <div data-active-on-visible-delay="1000" class="active-on-visible">페이레터 주식회사는 2001년도에 설립되어 인터넷 비즈니스의 완결을 지원하는 <br>빌링과 페이트 기술을 핵심 역량으로 성장하여 왔습니다.</div>
+                <div data-active-on-visible-delay="1000" class="active-on-visible">페이레터 주식회사는 2001년도에 설립되어 인터넷 비즈니스의 완결을
+                    지원하는 <br>빌링과 페이트 기술을 핵심 역량으로 성장하여 왔습니다.</div>
             </div>
-            <div data-active-on-visible-delay="1500" class="main-count flex flex-1-0-0 flex-ai-e flex-jc-end active-on-visible">
+            <div data-active-on-visible-delay="1500"
+                class="main-count flex flex-1-0-0 flex-ai-e flex-jc-end active-on-visible">
                 <div class="main-status text-aling-center">
                     <div class="category">Since</div>
                     <div class="data-count-1">2001</div>
@@ -226,43 +228,60 @@
         <div class="aboutUs-contents">
             <div class="con">
                 <div data-active-on-visible-delay="500" class="active-on-visible">스타트업, 페이레터와 <br>함께 시작해보세요.</div>
-                <div data-active-on-visible-delay="1000" class="active-on-visible">이제 백오피스 인프라는 페이레터에게 맡기고,<br>여러분들은 혁신과 본 서비스에 집중하세요!</div>
+                <div data-active-on-visible-delay="1000" class="active-on-visible">이제 백오피스 인프라는 페이레터에게 맡기고,<br>여러분들은 혁신과
+                    본 서비스에 집중하세요!</div>
             </div>
         </div>
     </div>
 
-    <div class="news-box con">
-        <div class="slider-btn">
-            <div>NEWS</div>
-            <span><i class="fas fa-angle-left"></i></span>
-            <span><i class="fas fa-angle-right"></i></i></span>
-        </div>
-        <div class="news-slider flex ">
-            <div class="active">
-                <img src="https://www.payletter.com/UploadFile/News/%EC%8D%B8%EB%84%A4%EC%9D%BC2_%ED%81%AC%EA%B8%B0%EC%A1%B0%EC%A0%95.png"
-                    alt="">
-                <div>통신과금서비스 이용약관 변경 고지</div>
-                <p>2020.7.14</p>
-            </div>
-            <div>
-                <img src="https://www.payletter.com/UploadFile/News/news.jpg" alt="">
-                <div>[공고]기준일 및 주주명부 폐쇄기간 공고</div>
-                <p>2020.02.11</p>
-            </div>
-            <div>
-                <img src="https://www.payletter.com/UploadFile/News/news.jpg" alt="">
-                <div>[공고]기준일 및 주주명부 폐쇄기간 공고</div>
-                <p>2019.12.24</p>
-            </div>
-            <div>
-                <img src="https://www.payletter.com/UploadFile/News/news.jpg" alt="">
-                <div>[공고]기준일 및 주주명부 폐쇄기간 공고</div>
-                <p>2019.11.11</p>
-            </div>
-            <div>
-                <img src="https://www.payletter.com/UploadFile/News/news.jpg" alt="">
-                <div>[공고]기준일 및 주주명부 폐쇄기간 공고</div>
-                <p>2019.07.25</p>
+    <div class="news-box">
+        <div class="con height-100p">
+            <div> <a href="#">NEWS</a></div>
+            <div class="my-slider-2">
+                <div class="nav height-100p flex flex-jc-end">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="https://www.payletter.com/UploadFile/News/%EC%8D%B8%EB%84%A4%EC%9D%BC2_%ED%81%AC%EA%B8%B0%EC%A1%B0%EC%A0%95.png"
+                                alt="">
+                            <div class="news-box-text">통신과금서비스 이용약관 변경 고지</div>
+                            <p class="news-box-text-p">2020.7.14</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://www.payletter.com/UploadFile/News/news.jpg" alt="">
+                            <div class="news-box-text">[공고]기준일 및 주주명부 폐쇄기간 공고 </div>
+                            <p class="news-box-text-p">2020.02.11</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://www.payletter.com/UploadFile/News/news.jpg" alt="">
+                            <div class="news-box-text">[공고]기준일 및 주주명부 폐쇄기간 공고</div>
+                            <p class="news-box-text-p">2019.12.24</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://www.payletter.com/UploadFile/News/news.jpg" alt="">
+                            <div class="news-box-text">[공고]기준일 및 주주명부 폐쇄기간 공고</div>
+                            <p class="news-box-text-p">2019.11.11</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://www.payletter.com/UploadFile/News/news.jpg" alt="">
+                            <div class="news-box-text">[공고]기준일 및 주주명부 폐쇄기간 공고</div>
+                            <p class="news-box-text-p">2019.07.25</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://www.payletter.com/UploadFile/News/news.jpg" alt="">
+                            <div class="news-box-text">[공고]기준일 및 주주명부 폐쇄기간 공고</div>
+                            <p class="news-box-text-p">2019.07.25</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="https://www.payletter.com/UploadFile/News/news.jpg" alt="">
+                            <div class="news-box-text">[공고]기준일 및 주주명부 폐쇄기간 공고</div>
+                            <p class="news-box-text-p">2019.07.25</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
