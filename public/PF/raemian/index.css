@@ -219,10 +219,124 @@ html {
   min-height: 100vh;
   }
   .con-min-width {
-  min-width:1100px;
-  max-width:1920px;
+  min-width:1440px;
+  max-width:2560px;
   }
   .con {
-  width: 1100px;
+  width: 1440px;
   }
-  
+  /*탑 바 시작*/
+  .top-bar{
+    height:90px;
+    width:100%;
+    position:relative;
+    border:2px solid red;
+}
+/*탑 메뉴 백그라운드*/
+.top-bar>.background{
+    width:100%;
+    height:0;
+    position:absolute;
+    top:100%;
+    background-color:#1AA5A7;
+    background-image:url(https://raemian.co.kr/assets/front/inc/images/layout/bg_h_pe.png);
+    background-repeat:no-repeat;  
+    background-position:center;
+    background-position-y:20px;
+    transition:height .5s;
+}
+.top-bar.background-actived >.background{
+    height:350px;
+}
+/*모바일 토글 버튼 */
+.btn-toggle-mobile-side-bar{
+  width:30px;
+  height:30px;
+  position:relative;
+  margin-right:30px;
+}
+.btn-toggle-mobile-side-bar>div{
+    position:absolute;
+    top:0;
+    height:10%;
+    width:100%;
+    background-color:black;
+    transition:top .3s .3s,transform .3s, opacity .2s 0s;
+}
+.btn-toggle-mobile-side-bar>div:nth-child(2){
+    top:33.3333%;
+}
+.btn-toggle-mobile-side-bar>div:nth-child(3){
+    top:66.6666%;
+}
+.btn-toggle-mobile-side-bar.active>div{
+    top:40%;
+    transition:top .3s ,transform .3s .3s, opacity .2s 0s;
+}
+.btn-toggle-mobile-side-bar.active>div:nth-child(1){
+    transform:rotate(45deg);
+}
+.btn-toggle-mobile-side-bar.active>div:nth-child(3){
+    transform:rotate(-45deg);
+}
+.btn-toggle-mobile-side-bar.active>div:nth-child(2){
+    opacity:0;
+}
+/*로고*/
+.top-bar>.con>.logo{
+    padding-left:80px;
+    padding-right:67px;   
+}
+/*메뉴바*/
+.top-bar>.con>ul>li>a{
+    white-space:nowrap;
+    padding:30px;
+    font-size:18px;
+    line-height:27px;
+    font-weight:bold;
+    letter-spacing:-0.025em;
+    color:#444444;
+}
+.top-bar>.con>ul>li ul{
+   display:none;
+}
+.top-bar>.con>ul>li{
+    position:relative;
+}
+.top-bar>.con>ul>li> ul{
+   display:block;
+   position:absolute;
+   top:100%;
+   left:0;
+   text-align:center;
+    width:100%;
+    margin-top:20px;
+}
+.top-bar>.con>ul>li> ul>li>a{
+    font-size:15px;
+    line-height:35px;
+    color:white;
+    position:relative;
+}
+.top-bar>.con>ul>li> ul>li>a::after{
+    position:absolute;
+    content:"";
+    height:2px;
+    width:0;
+    top:110%;
+    left:0;   
+    background-color:white;
+    opacity:0;
+    transition:width .5s;
+}
+.top-bar>.con>ul>li> ul>li:hover>a::after{
+    width:100%;
+    opacity:.6;
+}
+/*아이콘*/
+.top-bar>.con>.icon-box-1>a{
+    padding:0 20px;
+}
+
+
+  /*탑 바 끝*/
