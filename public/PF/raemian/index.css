@@ -218,6 +218,9 @@ html {
   overflow-x: hidden;
   min-height: 100vh;
   }
+  body{
+    background-color: red;
+  }
   .con-min-width {
   min-width:1440px;
   max-width:2560px;

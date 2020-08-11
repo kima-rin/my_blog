@@ -4,7 +4,14 @@
       url("font/lushHandwritten_wlat_bd-webfont.woff") format("woff"),
       url("font/lushHandwritten_wlat_bd-webfont.ttf") format("truetype");
   }
-  
+@font-face {
+    font-family: "gyeonggi-t"; /* 폰트이름 지정, 작업자 마음대로 */
+    src: url("font/경기천년제목_Light.ttf") format("truetype"),
+      url("font/경기천년제목_Regular.ttf") format("truetype"),
+      url("font/경기천년제목_Blod.ttf") format("truetype"),
+      url("font/경기천년제목V_Blid.ttf") format("truetype");
+      
+  }
 .font-lushHw {
     font-family: "lushHw";
   }
