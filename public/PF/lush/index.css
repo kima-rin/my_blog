@@ -236,13 +236,24 @@ html {
       transform: translateX(-50%);
       border:3px solid black;
   }
-  .top-menu-box-1>.logo{
-    background: #000 url(https://uk.lush.com/sites/all/themes/lush/assets/lush/images/web-kit/logo.svg) no-repeat center center;
-    height: 80px;
-    width: 233px;
-    background-size: 237px;
-    fill:black;
-  }
+
+  .img-box > img,
+  .img-box > svg {
+  width:100%;
+  display:block;
+}
+
+.logo {
+  display:inline-block;
+  width:200px;
+  top:50%;
+ 
+}
+
+.logo > a > svg path {
+  fill:black;
+  top:50%;
+}
 
 
   /*탑 메뉴박스 끝*/

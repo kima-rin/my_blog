@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "lushHw"; /* 폰트이름 지정, 작업자 마음대로 */
+    src: url("font/lushHandwritten_wlat_bd-webfont.woff2") format("woff2"),
+      url("font/lushHandwritten_wlat_bd-webfont.woff") format("woff"),
+      url("font/lushHandwritten_wlat_bd-webfont.ttf") format("truetype");
+  }
+  
+.font-lushHw {
+    font-family: "lushHw";
+  }
