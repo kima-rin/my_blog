@@ -555,6 +555,7 @@ body {
 }
 .lush-life>.black-back>div>.life-text-box>p{
   font-size: 12px;
+  line-height: 18px;
 }
 .lush-life>.black-back>div>.life-text-box>.sticker{
   position: absolute;
@@ -562,7 +563,7 @@ body {
   right: 0;
 }
 .lush-life>.black-back>div>.life-text-box>.icon-box{
-  margin-top: 30px;
+  margin-top: 50px;
 }
 .lush-life>.black-back>div>.life-text-box>.icon-box>img{
   width: 850px;
@@ -583,12 +584,14 @@ body {
 }
 .charity-pot>.text-box>div>p{
   margin-top: 20px;
-  font-size: 12px;
+  font-size: 14px;
+  line-height: 20px;
 }
 /*첼리티 팟 끝*/
 /*상품박스 1 시작*/
 .prod-box-1{
   width: 100%;
+    margin-top:30px;
   margin-bottom: 100px;
 }
 .prod-box-1>.prod-img-box{
@@ -599,14 +602,78 @@ body {
   width: 600px;
   height: 100%;
   color: white;
-  border: 2px solid red;
+}
+.prod-box-1>.prod-img-box>.img-text-box>div>h1{
+  padding-top: 150px;
+  font-size: 70px;
+  line-height:100px;
+}
+.prod-box-1>.prod-img-box>.img-text-box>div>h3{
+  font-size: 40px;
+  line-height: 60px;
+}
+.prod-box-1>.prod-img-box>.img-text-box>div>div{
+  padding-top: 50px;
+}
+.prod-box-1>.prod-img-box>.img-text-box>div>div>a{
+  padding: 10px 20px;
+  border:2px solid white;
 }
 .prod-box-1>.prod-img-list{
   flex:5 0 0;
 }
 .prod-box-1>.prod-img-list>.prod-box{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap:1rem;
+  grid-auto-rows:minmax(200px,auto);
   width: 600px;
   height: 100%;
-  border: 2px solid red;
 }
+.prod-box-1>.prod-img-list>.prod-box>.prod-item{
+    margin-left:30px;
+    position:relative;
+}
+.prod-box-1>.prod-img-list>.prod-box>.prod-item::after{
+    content:"best seller";
+    position:absolute;
+    top:-10px;
+    right:0;
+    padding:27px 5px;
+    text-align:center;
+    font-size:12px;
+    border-radius:50%;
+    font-family: "lushHw";
+    border:1px solid black;
+}
+.prod-box-1>.prod-img-list>.prod-box>.prod-item>img{
+  width: 110px;
+  display: block;
+  margin-left:50%;
+   transform:translatex(-50%);
+  justify-self: center;
+}
+
+.prod-item>.prod-title{
+    margin-top:20px;
+    font-size:18px;
+    line-height:24px;
+}
+.prod-item>.under-line{
+  display: block;
+  border-bottom: 1px solid black;
+  font-size:12px;
+  line-height:22px;
+}
+.prod-item>.price{
+   font-size:14px;
+   line-height:24px;
+   position:relative;
+}
+.prod-item>.price>img{
+    width:25px;
+    position:absolute;
+    right:0;
+}
+
 /*상품박스 1 끝*/

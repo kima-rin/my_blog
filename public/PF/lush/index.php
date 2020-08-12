@@ -183,7 +183,7 @@
             </div>
         </div>
     </div>
-    <div class="main-slider con-min-width">
+    <section class="main-slider con-min-width">
         <div class="sliders flex">
             <div class="slider-img-1 img-background-cover"
                 style="background-image:url(https://kima-rin.github.io/img1/pf/lush/Lush_main_01.jpg)"></div>
@@ -203,8 +203,8 @@
                         alt=""></a>
             </div>
         </div>
-    </div>
-    <div class="lush-life relative">
+    </section>
+    <section class="lush-life relative">
         <div class="black-back">
             <div class="con flex flex-1-0-0">
                 <div class="img-background-cover"
@@ -227,8 +227,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="charity-pot">
+    </section>
+    <section class="charity-pot">
         <div class="text-box flex flex-ai-c flex-jc-c height-100p">
             <div class="text-align-center">
                 <h3 class="font-lushHw">we believe a lush life</h3>
@@ -237,21 +237,98 @@
                     후원 되었습니다. 부가세를 제외한 판매금 100%는 <br>인권,동물보호,환경보전에 지속해서 공헌하는 소규모 ,비영리 시민 단체에 후원하고 있습니다.</p>
             </div>
         </div>
-    </div>
-    <div class="prod-box-1 flex">
+    </section>
+    <section class="prod-box-1 flex">
         <div class="prod-img-box img-background-cover " style="background-image:url(https://kima-rin.github.io/img1/pf/lush/product_img_02.jpg.jpg)">
             <div class="img-text-box flex flex-jc-end flex-ai-c height-100p">
                 <div>                              
                     <h1 class="font-lushHw">bestsellers</h1>
                     <h3 class="font-lushHw">from heroes to must-haves-all <br> hail lush best-selling <br> products</h3>
-                    <div>REAS MORE</div>
+                    <div>  <a href="#"> REAS MORE</a></div>
                     </div>   
                 </div>
         </div>
         <div class="prod-img-list">
-            <div class="prod-box"></div>
+            <div class="prod-box">
+                <div class="prod-item">
+                    <img src="https://kima-rin.github.io/img1/pf/lush/best_01.jpg" alt="">
+                    <div class="prod-title font-lushHw">ocean salt</div>
+                    <div class="under-line">Face And Body Scrub</div>
+                    <div class="under-line">Exfoliating and refreshing</div>
+                    <div class="price"><strong>€11.00/ Original / </strong><small>120g</small>
+                        <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                    </div>
+                    
+                    
+                    
+                </div>
+                <div class="prod-item">
+                    <img src="https://kima-rin.github.io/img1/pf/lush/best_02.jpg" alt="">
+                    <div class="prod-title font-lushHw">ultrabland</div>
+                    <div class="under-line">Facial Cleanser</div>
+                    <div class="under-line">Ultra simple oil cleansing</div>
+                    <div class="price"><strong>€9.00/ </strong><small>45g</small>
+                        <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                    </div>
+                    
+                </div>
+                <div class="prod-item">
+                    <img src="https://kima-rin.github.io/img1/pf/lush/best_03.jpg" alt="">
+                    <div class="prod-title font-lushHw">mask of maganminty</div>
+                    <div class="under-line">Face And Body Mask</div>
+                    <div class="under-line">Deep cleansing exfoliation</div>
+                    <div class="price"><strong>€9.00/ </strong><small>125g</small>
+                        <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                    </div>
+                    
+                </div>
+                <div class="prod-item">
+                    <img src="https://kima-rin.github.io/img1/pf/lush/best_04.jpg" alt="">
+                    <div class="prod-title font-lushHw">SEANIK</div>
+                    <div class="under-line">Shampoo Bar</div>
+                    <div class="under-line">Buoyant and beautiful hair</div>
+                   <div class="price"><strong>€9.00/ </strong><small>125g</small>
+                       <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                   </div>
+                    
+                </div>
+                <div class="prod-item">
+                    <img src="https://kima-rin.github.io/img1/pf/lush/best_05.jpg" alt="">
+                    <div class="prod-title font-lushHw">Big</div>
+                    <div class="under-line">Shampoo</div>
+                    <div class="under-line">To make you feel like a mermaid</div>
+                    <div class="price"><strong>€15.00/ </strong><small>330g</small>
+                        <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                    </div>
+                    
+                </div>
+                <div class="prod-item">
+                    <img src="https://kima-rin.github.io/img1/pf/lush/best_06.jpg" alt="">
+                    <div class="prod-title font-lushHw">Sleepy</div>
+                    <div class="under-line">Body Lotion</div>
+                    <div class="under-line">Soothing, comforting, relaxing</div>
+                    <div class="price"><strong>€16.00/ </strong><small>215g</small>
+                        <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                    </div>
+                  
+                </div>    
+                </div>
+          </div>
+        </section>
+    </section>
+    <section class="prod-box-2">
+        <div class="prod-soap-1">
+            <div class="new-soap"></div>
+            <div></div>
         </div>
-    </div>
+        <div class="prod-soap-2">
+            <div class="grop-1">
+                <div><a href="#">black lives matter</a> </div>
+                <div> <a href="#">deliveryinformation</a></div>
+            </div>
+
+        </div>
+    </section>
 
 </body>
 
