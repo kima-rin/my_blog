@@ -41,50 +41,50 @@
                                 fill="#FFF" /></svg></a>
                 </div>
                 <div class="etc-box flex">
-            <div><a href="#"><svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 47.62 47.62"
-                        style="enable-background:new 0 0 47.62 47.62;" xml:space="preserve">
-                        <style type="text/css">
-                            .st0 {
-                                fill: #1D1D1B;
-                            }
-                        </style>
-                        <g>
-                            <path class="st0" d="M17.84,19.93c0.55-11,17.25-12,18.15-0.67c1,12.49-17.69,13.33-18.34,0.86c-0.08-1.54-2.48-1.55-2.4,0
+                    <div><a href="#"><svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 47.62 47.62"
+                                style="enable-background:new 0 0 47.62 47.62;" xml:space="preserve">
+                                <style type="text/css">
+                                    .st0 {
+                                        fill: #1D1D1B;
+                                    }
+                                </style>
+                                <g>
+                                    <path class="st0" d="M17.84,19.93c0.55-11,17.25-12,18.15-0.67c1,12.49-17.69,13.33-18.34,0.86c-0.08-1.54-2.48-1.55-2.4,0
 		C15.59,26.54,20,31.39,26.5,31.75c6.85,0.39,11.3-5.09,11.89-11.4c1.4-15-22.21-15.15-22.94-0.42c-0.08,1.55,2.32,1.54,2.4,0
 		L17.84,19.93z" />
-                            <path class="st0" d="M14.05,38.23c2.23-2.68,4.27-5.53,6.66-8.08c1.06-1.13-0.64-2.83-1.7-1.7c-2.39,2.56-4.42,5.4-6.66,8.08
+                                    <path class="st0" d="M14.05,38.23c2.23-2.68,4.27-5.53,6.66-8.08c1.06-1.13-0.64-2.83-1.7-1.7c-2.39,2.56-4.42,5.4-6.66,8.08
 		C11.35,37.71,13.06,39.42,14.05,38.23z" />
-                        </g>
-                    </svg>
-            </div> 
-            <div><a href="#"><svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 47.62 47.62"
-                        style="enable-background:new 0 0 47.62 47.62;" xml:space="preserve">
-                        <path d="M18.9,21.85c0,0-0.3-2.6-0.3-4.8c0-0.6-0.1-1.7-0.1-2.3c0.2-2.6,3-4.1,5.7-4c2.2,0.1,3.9,0.8,4.7,3c0.3,0.8,0.4,2.3,0.4,3.1
+                                </g>
+                            </svg>
+                    </div>
+                    <div><a href="#"><svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 47.62 47.62"
+                                style="enable-background:new 0 0 47.62 47.62;" xml:space="preserve">
+                                <path d="M18.9,21.85c0,0-0.3-2.6-0.3-4.8c0-0.6-0.1-1.7-0.1-2.3c0.2-2.6,3-4.1,5.7-4c2.2,0.1,3.9,0.8,4.7,3c0.3,0.8,0.4,2.3,0.4,3.1
 	c0,1.9,0.1,5.5,0.1,6.4c0,1.6,2.4,2,2.4,1.1c0-1.9-0.2-5.8-0.2-9.2c0-4-3-6-6.5-6.5c-4.4-0.6-8.6,1.8-8.9,6
 	c-0.2,2.4,0.1,5.9,0.3,8.7c0.1,1.6,2.6,1.7,2.6,0.7C19.1,24.15,18.9,22.95,18.9,21.85z" />
-                        <path d="M41,20.45c0.1-2.1-1.3-3.5-3.6-3.5c-3.6,0-10.5,0.2-14.1,0.2H10.1c-5,0-3.2,6.8-3.2,10.2c0.1,12.4,12.9,11.2,21.6,11.2
+                                <path d="M41,20.45c0.1-2.1-1.3-3.5-3.6-3.5c-3.6,0-10.5,0.2-14.1,0.2H10.1c-5,0-3.2,6.8-3.2,10.2c0.1,12.4,12.9,11.2,21.6,11.2
 	c4.6,0,8.6-1.3,11.2-5.4C41.7,29.75,41,24.35,41,20.45c0-1.4-2.3-1.4-2.3,0c0.1,2.5-0.1,5,0,7.5c0.1,6.5-5.6,8.1-10.9,8.1h-9.6
 	c-6.8,0-9.1-5.2-9.2-11.1c0-0.8-0.6-5.7,0.6-5.7h13.8c2.3,0,14.9-1,15.2,1.1c0.2,1.4,2.3,1.4,2,0L41,20.45L41,20.45z" />
-                    </svg></a></div>
-            <div><a href="#"><svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 47.62 47.62"
-                        style="enable-background:new 0 0 47.62 47.62;" xml:space="preserve">
-                        <path d="M18.02,14.99c1.2-3.3,4.3-4.9,7.7-4s4.5,4.8,3.9,7.9c-1.5,8-13.9,3.8-11.8-3.9c0.4-1.5-1.9-2.1-2.3-0.6
+                            </svg></a></div>
+                    <div><a href="#"><svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 47.62 47.62"
+                                style="enable-background:new 0 0 47.62 47.62;" xml:space="preserve">
+                                <path d="M18.02,14.99c1.2-3.3,4.3-4.9,7.7-4s4.5,4.8,3.9,7.9c-1.5,8-13.9,3.8-11.8-3.9c0.4-1.5-1.9-2.1-2.3-0.6
 	c-2.7,10.2,12.1,16,16.3,5.9c1.7-4.1-0.6-9.7-4.7-11.2c-4.9-1.9-9.5,0.7-11.3,5.4C15.12,15.89,17.52,16.49,18.02,14.99L18.02,14.99z
 	" />
-                        <path d="M37.72,37.99c0,0-5.2,0-6.8,0.2c-4.4,0.3-21.3-0.5-21.3-0.5c-0.7,0-1.2-0.6-1.2-1.2c0-3.2-0.6-7.1,4-9.2
+                                <path d="M37.72,37.99c0,0-5.2,0-6.8,0.2c-4.4,0.3-21.3-0.5-21.3-0.5c-0.7,0-1.2-0.6-1.2-1.2c0-3.2-0.6-7.1,4-9.2
 	c1.2-0.6,2.8-1.5,4.3-1.9c0.4-0.1,0.9,0,1.2,0.3c1.6,1.6,3.5,3,5.7,3c2.1,0,4.3-1.3,5.8-2.8c0.3-0.3,0.8-0.4,1.2-0.3
 	c1.6,0.4,2.9,1,4.1,1.8c3.8,2.6,4.1,5.8,4.1,9.4C38.92,37.39,38.42,37.99,37.72,37.99z M10.52,35.49c0,0,3.8,0.2,8.7,0.4
 	s17.2,0.1,17.2,0.1c-0.1-2.9-0.7-5-3-6.6c-0.8-0.5-1.7-1-2.7-1.3c-1.9,1.5-4.3,2.4-6.8,2.4c-2.7,0-5.2-0.9-7.1-2.7
 	c-1.1,0.3-2.2,0.7-3.1,1.1C11.12,30.09,10.62,32.49,10.52,35.49z" />
-                    </svg></a></div>
-            <span class="flex flex-ai-c">
-            <a class="frist" href="#">LOGIN</a>
-            <a href="#">JOIN</a>
-            </span>
-        </div>
+                            </svg></a></div>
+                    <span class="flex flex-ai-c">
+                        <a class="frist" href="#">LOGIN</a>
+                        <a href="#">JOIN</a>
+                    </span>
+                </div>
                 <div class="top-menu-bar">
                     <nav class="con">
                         <ul class="flex">
@@ -185,21 +185,72 @@
     </div>
     <div class="main-slider con-min-width">
         <div class="sliders flex">
-            <div class="img-background-cover"
+            <div class="slider-img-1 img-background-cover"
                 style="background-image:url(https://kima-rin.github.io/img1/pf/lush/Lush_main_01.jpg)"></div>
-            <div class="img-background-cover"
-                style="background-image:url(https://kima-rin.github.io/img1/pf/lush/Lush_main_02.jpg)"></div>
+            <div class="slider-img-2 img-background-cover"
+                style="background-image:url(https://kima-rin.github.io/img1/pf/lush/Lush_main_02.jpg)">
+                <div class="text-box-1 text-align-center">
+                    <div class="title font-lushHw">lush</div>
+                    <div class="fresh-hand">Fresh Handmade <br> cosmetic</div>
+                    <div class="have-look">Have a good look</div>
+                </div>
+            </div>
         </div>
         <div class="slider-btn">
             <div>
                 <a href="#"> <img src="https://kima-rin.github.io/img1/pf/lush/circlesvg_1.svg" alt=""> </a>
-                <a class="arrow" href="#"><img src="https://kima-rin.github.io/img1/pf/lush/circle_arrow_1.svg" alt=""></a>
+                <a class="arrow" href="#"><img src="https://kima-rin.github.io/img1/pf/lush/circle_arrow_1.svg"
+                        alt=""></a>
             </div>
         </div>
     </div>
-    <div class="lush-life">
-        <div class="con"><img src="https://kima-rin.github.io/img1/pf/lush/ace-mask-day.jpg" alt=""></div>
-        <div></div>
+    <div class="lush-life relative">
+        <div class="black-back">
+            <div class="con flex flex-1-0-0">
+                <div class="img-background-cover"
+                    style="background-image:url(https://kima-rin.github.io/img1/pf/lush/ace-mask-day.jpg)">
+                    <img src="https://kima-rin.github.io/img1/pf/lush/people_03.png" alt="">
+                </div>
+                <div class="life-text-box flex-1-0-0">
+                    <div class="font-lushHw">we believe</div>
+                    <h1 class="font-lushHw">a lush life....</h1>
+                    <p class="font-gyeonggi-t">신선한 과일과 채소, 최상의 에센셜 오일, 그리고 안전한 원료를 사용하여 효과적인 제품을 만들 수 있다는 것을 믿습니다. <br>
+                        우리는 동물 실험을 하지 않는 회사와 거래하고,인체에 직접 테스트함으로써 안전한 제품을 만들 수 있다고 믿습니다. <br>
+                        최소한의 포장과 보존제를 사용하여 직접 손으로 제품을 만들고, 베지테리언 원료만을 사용하며, 제품이 만들어진 시기를 표시하여 고객에게 알리는 것이 옳다고 믿습니다. <br>
+                        행복한 사람이 행복한 제품을 만들 수 있다고 믿으며, 제조자의 얼굴 스티커를 제품라벨에 붙임으로써 자부심을 가질 수 있다고 믿습니다.</p>
+                    <div class="sticker flex">
+                        <span><img src="https://kima-rin.github.io/img1/pf/lush/people_01.svg" width="80" alt=""></span>
+                        <span><img src="https://kima-rin.github.io/img1/pf/lush/people_02.svg" width="80" alt=""></span>
+                    </div>    
+                    <div class="icon-box"><img src="https://kima-rin.github.io/img1/pf/lush/footer-icon-sprite.svg"
+                            alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="charity-pot">
+        <div class="text-box flex flex-ai-c flex-jc-c height-100p">
+            <div class="text-align-center">
+                <h3 class="font-lushHw">we believe a lush life</h3>
+                <h1 class="font-lushHw">charity pot</h1>
+                <p>우리는 환경,동물,그리고 도움이 필요한 사람들을 옹호하고 지역 및 전 세계의 단체에 후원하는 것이 우리의 책임이라고 생각합니다. <br> 총 934,976,756원이 64개의 단체에
+                    후원 되었습니다. 부가세를 제외한 판매금 100%는 <br>인권,동물보호,환경보전에 지속해서 공헌하는 소규모 ,비영리 시민 단체에 후원하고 있습니다.</p>
+            </div>
+        </div>
+    </div>
+    <div class="prod-box-1 flex">
+        <div class="prod-img-box img-background-cover " style="background-image:url(https://kima-rin.github.io/img1/pf/lush/product_img_02.jpg.jpg)">
+            <div class="img-text-box flex flex-jc-end flex-ai-c height-100p">
+                <div>                              
+                    <h1 class="font-lushHw">bestsellers</h1>
+                    <h3 class="font-lushHw">from heroes to must-haves-all <br> hail lush best-selling <br> products</h3>
+                    <div>REAS MORE</div>
+                    </div>   
+                </div>
+        </div>
+        <div class="prod-img-list">
+            <div class="prod-box"></div>
+        </div>
     </div>
 
 </body>

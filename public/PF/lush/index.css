@@ -7,7 +7,7 @@ html {
 body,
 ul,
 li,
-h1 {
+h1,h2,h3 {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -280,10 +280,13 @@ body {
   right: 0;
 }
 /*탑 메뉴박스 시작*/
+.wrapper {
+  z-index: 100;
+}
 .top-menu-box {
   position: relative;
   width: 90%;
-  height: 300px;
+  height: 350px;
   top: 20px;
   left: 50%;
   transform: translateX(-50%);
@@ -351,17 +354,18 @@ body {
   white-space: nowrap;
 }
 .top-menu-box>.menu-box-base>.top-menu-bar>nav>ul>li ul {
-  display: none;
+  opacity: 0;
   position: absolute;
   top: 100%;
   left: 0;
   text-align: center;
   width: 100%;
   padding-top: 20px;
+  transition: opacity .5s;
   z-index: 10;
 }
 .top-menu-box>.menu-box-base>.top-menu-bar>nav>ul:hover>li ul{
-  display: block;
+  opacity: 1;
   
 } 
 
@@ -456,18 +460,47 @@ body {
 .main-slider{
   margin-top: 50px;
   position: relative;
-  z-index: -1;
+  z-index: 0;
 }
 .main-slider>.sliders>div{
   width: 100%;
   height: 500px;
 
 }
-.main-slider>.sliders>div:nth-child(1){
+.main-slider>.sliders>.slider-img-1{
   flex:3 0 0;
 }
-.main-slider>.sliders>div:nth-child(2){
+.main-slider>.sliders>.slider-img-2{
   flex:5 0 0;
+  position: relative;
+}
+.main-slider>.sliders>.slider-img-2>.text-box-1{
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  border:3px solid white;
+  top:50%;
+  left: 50px;
+  transform: translateY(-50%);
+  color: #fff;
+}
+.main-slider>.sliders>.slider-img-2>.text-box-1>.title{
+  font-size: 80px;
+  margin-top: 40px;
+}
+.main-slider>.sliders>.slider-img-2>.text-box-1>.fresh-hand{
+  margin-top: 10px;
+  font-size: 30px;
+  line-height: 30px;
+}
+.main-slider>.sliders>.slider-img-2>.text-box-1>.have-look{
+  display: inline-block;
+  margin-top: 40px;
+  padding: 7px 20px;
+  font-size: 10px;
+  font-weight: bold;
+  background-color: #fff;
+  color: black;
 }
 /*메인 슬라이드 버튼*/
 .main-slider>.slider-btn{
@@ -494,14 +527,86 @@ body {
 
 /*메인 슬라이드 끝*/
 /*러쉬라이프 시작*/
+
 .lush-life{
+  width: 100%;
+  height: 450px;
+}
+.lush-life>.black-back{
   width: 100%;
   height: 250px;
   background-color: black;
 }
-.lush-life>div>img{
+.lush-life>.black-back>div>div{
+  position: relative;
   width: 300px;
-  margin-top: 50px;
+  height: 300px;
+  margin-top: 60px;
 }
-
+.lush-life>.black-back>div>div>img{
+  position: absolute;
+  left: -45%;
+  top:25%;
+  width: 270px;
+}
+.lush-life>.black-back>div>.life-text-box{
+  color: #fff;
+  margin-left: 50px;
+}
+.lush-life>.black-back>div>.life-text-box>p{
+  font-size: 12px;
+}
+.lush-life>.black-back>div>.life-text-box>.sticker{
+  position: absolute;
+  top:0;
+  right: 0;
+}
+.lush-life>.black-back>div>.life-text-box>.icon-box{
+  margin-top: 30px;
+}
+.lush-life>.black-back>div>.life-text-box>.icon-box>img{
+  width: 850px;
+}
 /*러쉬라이프 끝*/
+/*첼리티 팟 시작*/
+
+.charity-pot{
+  width: 100%;
+  height: 400px;
+}
+.charity-pot>.text-box>div>h3{
+  font-size: 16px;
+}
+.charity-pot>.text-box>div>h1{
+  font-size: 40px;
+  line-height: 40px;
+}
+.charity-pot>.text-box>div>p{
+  margin-top: 20px;
+  font-size: 12px;
+}
+/*첼리티 팟 끝*/
+/*상품박스 1 시작*/
+.prod-box-1{
+  width: 100%;
+  margin-bottom: 100px;
+}
+.prod-box-1>.prod-img-box{
+  flex:5 0 0;
+  height: 760px;
+}
+.prod-box-1>.prod-img-box>.img-text-box>div{
+  width: 600px;
+  height: 100%;
+  color: white;
+  border: 2px solid red;
+}
+.prod-box-1>.prod-img-list{
+  flex:5 0 0;
+}
+.prod-box-1>.prod-img-list>.prod-box{
+  width: 600px;
+  height: 100%;
+  border: 2px solid red;
+}
+/*상품박스 1 끝*/

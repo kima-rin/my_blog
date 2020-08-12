@@ -6,7 +6,7 @@ function topBackground__init(){
     $topBar.addClass('background-actived');
   });
 
-  $topBar.mouseleave(function () {
+  $topBar.find('.top-menu-box>.menu-box-base>.top-menu-bar>nav>ul>li').mouseleave(function () {
     $topBar.removeClass('background-actived');
   });
 }
