@@ -677,3 +677,405 @@ body {
 }
 
 /*상품박스 1 끝*/
+
+/*상품박스 2 시작*/
+.prod-box-2>div>.prod-soap-1{
+  flex:5 0 0;
+}
+.prod-box-2>div>.prod-soap-1>.new-soap>.cc{
+  position:absolute;
+  top:0;
+  left:0;
+  width:70px;
+  height:70px;
+  text-align:center;
+  font-size:12px;
+  border-radius:50%;
+  font-family: "lushHw";
+  background-color:black;
+  color:#fff;
+  text-align:center;
+}
+.prod-box-2>div>.prod-soap-1>.new-soap>.cc>a{
+  position:relative;
+  top:35%;    
+}
+.prod-box-2>div>.prod-soap-1>.new-soap{
+  text-align:center;
+}
+.prod-box-2>div>.prod-soap-1>.new-soap>img{
+  width:270px;
+}
+.prod-box-2>div>.prod-soap-1>.comment{
+  width:100%;
+  margin-top:20px;
+  padding:20px 0;
+  font-size:10px;
+  background-color:#f2f2f2;
+}
+.prod-box-2>div>.prod-soap-1>.sopa-img-1{
+  height:260px;
+  margin-top:20px;
+}
+.prod-box-2>div>.prod-soap-1>.soap-title{
+  margin-top:30px;
+}
+.prod-box-2>div>.prod-soap-1>.soap-under-line{
+display: block;
+border-bottom: 1px solid black;
+font-size:14px;
+line-height:24px;
+}
+.prod-box-2>div>.prod-soap-1>.price{
+ font-size:14px;
+ line-height:24px;
+ position:relative;
+}
+.prod-box-2>div>.prod-soap-1>.price>img{
+  width:25px;
+  margin-top:3px;
+  position:absolute;
+  right:0;
+}
+.prod-box-2>div>.prod-soap-1>.comment>div>.icon-back{
+  display:inline-block;
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  background-color:white;
+  margin-left:20px;
+  position:relative;
+}
+.prod-box-2>div>.prod-soap-1>.comment>div>.name{
+  margin-left:5px;
+  font-size:13px;
+  position:relative;
+  padding-right:50px;
+}
+.prod-box-2>div>.prod-soap-1>.comment>div>.name::after{
+  content:"About 2 months ago";
+  position:absolute;
+  bottom:3px;
+  left:0;
+  font-size:7px;
+  color:#adadad;
+}
+.prod-box-2>div>.prod-soap-1>.comment>p{
+  font-size:12px;
+  line-height:18px;
+  margin-left:57px;
+}
+.prod-box-2>div>.prod-soap-1>.comment>div>.icon-back>img{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translatex(-50%) translatey(-50%);  
+}
+.prod-box-2>div>.prod-soap-1>.sopa-img-1>.cc-2{
+  width:200px;
+  height:200px;
+  top:0;
+  left:0;
+  border-radius:50%;
+  border:2px solid white;
+  position:relative;
+  margin-top:15px;
+}
+.prod-box-2>div>.prod-soap-1>.sopa-img-1>.cc-2>a{
+  position:absolute;
+  color:white;
+  font-size:40px;
+  line-height: 42px;
+  text-align:center;
+  top:50%;
+  left:50%;
+  transform:translatex(-50%) translatey(-50%);
+  white-space:nowrap;
+  
+}
+.prod-box-2>div>.prod-soap-1>.sopa-img-1>.View-c{
+  position:absolute;
+  bottom:0;
+  color:white;
+  text-decoration:underline;
+  margin-bottom:15px;
+}
+.prod-box-2>div>.prod-soap-2{
+  flex:5 0 0;
+}
+.prod-box-2>div>.prod-soap-2>.grop-1>div{
+  width:280px;
+  height:280px;
+  background-color:black;
+  margin-left:20px;
+}
+.prod-box-2>div>.prod-soap-2>.grop-1>.black-lives{
+  position:relative;
+}
+.prod-box-2>div>.prod-soap-2>.grop-1>.black-lives::before{
+  content:"FEATURES";
+  position:absolute;
+  top:20px;
+  left:20px;
+  color:#fff;
+  font-size:12px;
+}
+.prod-box-2>div>.prod-soap-2>.grop-1>.black-lives::after{
+  content:"Find out more";
+  position:absolute;
+  bottom:20px;
+  left:20px;
+  color:#fff;
+  text-decoration:underline;
+  font-size:14px;
+}
+.prod-box-2>div>.prod-soap-2>.grop-1>.black-lives>a{
+  font-size:38px;
+  color:#fff;
+  margin-left:20px;
+  margin-top:60px;
+  display:block;
+}
+.prod-box-2>div>.prod-soap-2>.grop-1>.delivery{
+  position:relative;
+}
+.prod-box-2>div>.prod-soap-2>.grop-1>.delivery::before{
+  content:"FEATURES";
+  position:absolute;
+  top:20px;
+  left:20px;
+  color:#fff;
+  font-size:12px;
+}
+.prod-box-2>div>.prod-soap-2>.grop-1>.delivery::after{
+  content:"Find out more";
+  position:absolute;
+  bottom:20px;
+  left:20px;
+  color:#fff;
+  text-decoration:underline;
+  font-size:14px;
+}
+.prod-box-2>div>.prod-soap-2>.grop-1>.delivery>a{
+  font-size:38px;
+  color:#fff;
+  margin-left:20px;
+  margin-top:60px;
+  display:block;
+}
+.prod-box-2>div>.prod-soap-2>.grop-2>div{
+  width:280px;
+  height:280px;
+  margin-left:20px;
+  margin-top:20px;
+ 
+}
+.prod-box-2>div>.prod-soap-2>.grop-2>.shop-open{
+  position:relative;
+}
+.prod-box-2>div>.prod-soap-2>.grop-2>.shop-open::before{
+  content:"FEATURES";
+  position:absolute;
+  top:20px;
+  left:20px;
+  color:#fff;
+  font-size:12px;
+}
+.prod-box-2>div>.prod-soap-2>.grop-2>.shop-open::after{
+  content:"Find out more";
+  position:absolute;
+  bottom:20px;
+  left:20px;
+  color:#fff;
+  text-decoration:underline;
+  font-size:14px;
+}
+.prod-box-2>div>.prod-soap-2>.grop-2>.shop-open>a{
+  font-size:35px;
+  color:#fff;
+  margin-left:20px;
+  margin-top:60px;
+  display:block;
+}
+
+.prod-box-2>div>.prod-soap-2>.grop-2>.prod-seanik>.ocean-img>img{
+  width:130px;
+  margin-top:30px;
+}
+.prod-seanik>.prod-title{
+  margin-top:10px;
+font-size:18px;
+  line-height:24px;
+}
+.prod-seanik>.under-line{
+display: block;
+border-bottom: 1px solid black;
+font-size:12px;
+line-height:22px;
+}
+.prod-seanik>.price{
+ font-size:14px;
+ line-height:24px;
+ position:relative;
+}
+.prod-seanik>.price>img{
+  width:25px;
+  position:absolute;
+  right:0;
+}
+/*상품박스 2 슬랑이스 */
+.grop-3>div{
+  width:170px;
+  margin-left:20px;
+}
+.grop-3 .prod-img>img{
+  width:110px;
+  margin-top:30px;
+}
+.grop-3 .prod-title{
+  margin-top:10px;
+font-size:18px;
+  line-height:24px;
+}
+.grop-3 .under-line{
+display: block;
+border-bottom: 1px solid black;
+font-size:12px;
+line-height:22px;
+}
+.grop-3 .price{
+ font-size:14px;
+ line-height:24px;
+ position:relative;
+}
+.grop-3 .price>img{
+  width:25px;
+  position:absolute;
+  right:0;
+}
+/*상품박스 2 끝*/
+
+/*배너박스 시작*/
+
+.banner-box>.new-style-banner{
+  width: 100%;
+  height: 300px;
+  margin-top: 50px;
+}
+.banner-box>.spa-box{
+  width: 100%;
+  height: 500px;
+  background-color: black;
+}
+.banner-box>.spa-box>.spa-banner{
+    height:100%;
+}
+.banner-box>.spa-box>.spa-banner>.spa-slide{
+  flex:2 0 0;
+}
+.banner-box>.spa-box>.spa-banner>.spa-slide>.spa-slide-box-1{
+    position:relative;
+}
+.banner-box>.spa-box>.spa-banner>.spa-slide>.spa-slide-box-1>div{
+    background-color:#FFEDE3;
+    position:absolute;
+    top:50%;
+    right:0;
+    transform:translatey(-50%);
+    width:100%;
+    height:80%;
+}
+.banner-box>.spa-box>.spa-banner>.spa-slide>.spa-slide-box-1>div::before{
+    content:"the sound bath";
+    position:absolute;
+    left:50%;
+    transform:translatex(-50%);
+    top:10%;
+    font-size:30px;
+    font-family: "lushHw";
+}
+.banner-box>.spa-box>.spa-banner>.spa-slide>.spa-slide-box-1>div>span{
+    position:absolute;
+    left:50%;
+    transform:translatex(-50%);
+    bottom:30px;
+    font-size:12px;
+    text-align:center;
+    white-space:nowrap;
+}
+
+.banner-box>.spa-box>.spa-banner>.spa-slide>.spa-slide-box-1>div>div{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translatex(-50%) translatey(-50%);
+    width:50%;
+    height:50%;
+    border:10px solid white;
+}
+.banner-box>.spa-box>.spa-banner>.spa-slide>.spa-slide-box-2>div{
+    background-color:#FFEDE3;
+    position:relative;
+    top:50%;
+    right:0;
+    transform:translatey(-50%);
+    width:100%;
+    height:80%;
+}
+.banner-box>.spa-box>.spa-banner>.spa-slide>.spa-slide-box-2>div>div{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translatex(-50%) translatey(-50%);
+    width:70%;
+    height:70%;
+    background-color:black;
+}
+.banner-box>.spa-box>.spa-banner>.spa-slide>.spa-slide-box-2>div>div>a:first-child{
+    color:white;
+    font-size:14px;
+    display:block;
+    margin:40px 30px;
+    padding-top:10px;
+}
+.banner-box>.spa-box>.spa-banner>.spa-slide>.spa-slide-box-2>div>div>a:last-child{
+    color:white;
+    font-size:12px;
+    display:block;
+    margin:30px;
+}
+.banner-box>.spa-box>.spa-banner>.spa-text-box{
+  flex:1 0 0;
+    position:relative
+}
+.banner-box>.spa-box>.spa-banner>.spa-text-box>div{
+    border:1px solid white;
+    position:absolute;
+    top:50%;
+    right:0;
+    transform:translatey(-50%);
+    width:90%;
+    height:80%;
+}
+
+.banner-box>.spa-box>.spa-banner>.spa-text-box>div>.spa-title{
+  font-size: 40px;
+  color: #fff;
+  margin-left: 30px;
+}
+.banner-box>.spa-box>.spa-banner>.spa-text-box>div>.spa-text{
+  font-size: 14px;
+  color: #fff;
+  margin-left: 20px;
+}
+.banner-box>.spa-box>.spa-banner>.spa-text-box>div>.spa-shop{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  font-size: 20px;
+  color: #fff;
+  margin-left: 20px;
+}
+  
+/*배너박스 끝*/

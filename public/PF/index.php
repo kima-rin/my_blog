@@ -17,6 +17,9 @@
     <ul>
         <li><a href="https://kima-rin.github.io/img1/aa/3_out_line.png">디자인1</a></li>
         <li><a href="https://kima-rin.github.io/img1/aa/design.pdf">디자인2</a></li>
+        <li><a href="https://kima-rin.github.io/img1/pf/lush/lushDesign.jpg">러쉬디자인시안</a></li>
     </ul>
+    
+
 </body>
 </html>
