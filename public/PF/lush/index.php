@@ -437,16 +437,149 @@
                 <div class="spa-text-box">
                     <div>
                         <a class="spa-title font-lushHw block" href="#">lush spa</a>
-                        <a class="spa-text block"  href="#">편안함으로 가득한 상상의 세계에 초대 합니다 <br>
-                            달콤쌉쌀한 코코아의 입맞춤이 다정한 사랑을 속삭이고, 기분좋은 보살핌을 온전히 느끼게 해 줄 거예요<br>
-                            핫 초콜릿 보디 스크럽&따뜻하게 녹인 영양 가득한 장미 보디 세럼 오묘하고도 멋진 선율에 모을 맡긴<br>
-                            채 초콜릿 과 공상, 그리고 음악에 흠뻑 취해 보세요 </a>
+                        <a class="spa-text block" href="#">편안함으로 가득한 상상의 세계에 초대 합니다 <br>
+                            달콤쌉쌀한 코코아의 입맞춤이 다정한 사랑을 속삭이고, <br> 기분좋은 보살핌을 온전히 느끼게 해 줄 거예요<br>
+                            핫 초콜릿 보디 스크럽&따뜻하게 녹인 영양 가득한 장미 <br> 보디 세럼 오묘하고도 멋진 선율에 모을 맡긴
+                            채 초콜릿 <br> 과 공상, 그리고 음악에 흠뻑 취해 보세요 </a>
                         <a class="spa-shop block" href="#">SHOP SOAPS</a>
 
                     </div>
                 </div>
             </div>
         </div>
+        </div>
+    </section>
+    <section class="prod-box-3 con-min-width">
+        <div class="con font-lushHw">RELATED PRODUCT</div>
+        <div class="prod-list-box con flex">
+            <div class="prod-etc-box-1">
+                <div class="prod-rap flex">
+                    <div class="prod-dirty flex-grow-1 relative">
+                        <div class="prod-img text-align-center">
+                            <img src="https://kima-rin.github.io/img1/pf/lush/spray_01.jpg" alt="">
+                            <div class="cc"><a href="#">new style</a></div>
+                        </div>
+                        <div class="prod-title font-lushHw">dirty</div>
+                        <div class="under-line">Body spray</div>
+                        <div class="under-line">#보디 스프레이 #상큼한 라임</div>
+                        <div class="price"><strong>€8.00/ </strong><small>55g</small>
+                            <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="prod-dads flex-grow-1 relative">
+                        <div class="prod-img text-align-center">
+                            <img src="https://kima-rin.github.io/img1/pf/lush/spray_02.jpg" alt="">
+                            <div class="cc"><a href="#">new style</a></div>
+                        </div>
+                        <div class="prod-title font-lushHw">dads garden lemon </div>
+                        <div class="under-line">Body spray</div>
+                        <div class="under-line">#보디 스프레이 #레몬라임상큼짜릿</div>
+                        <div class="price"><strong>€8.00/ </strong><small>55g</small>
+                            <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="prod-etc-box-2">
+                <div class="prod-rap-2 flex">
+                    <div class="prod-white flex-grow-1">
+                        <div class="prod-img text-align-center relative">
+                            <img src="https://kima-rin.github.io/img1/pf/lush/spray_01.jpg" alt="">
+                            <div class="cc"><a href="#">new style</a></div>
+                        </div>
+                        <div class="prod-title font-lushHw">so white</div>
+                        <div class="under-line">Body spray</div>
+                        <div class="under-line">#보디 스프레이 #풋사과를 한입</div>
+                        <div class="price"><strong>€8.00/ </strong><small>55g</small>
+                            <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="prod-qna">
+                        <ul>
+                            <li>Q.스프레이 분사가 되질 않아요, 불량 인가요?</li>
+                            <li class="block"
+                                style="background-image:url(https://kima-rin.github.io/img1/pf/lush/c_lush_t.svg)"><a
+                                    href="#">안전을 위하여 캡이 장착되어 있습니다. <br> 하늘색의 안전캡을 아래로 당겨 제거하고 스프 <br> 레이를두 세 번 분사한 후 사용해
+                                    주세요!</a> </li>
+                            <li>Q. 제품을 가방에 넣어서 다니다가 새버렸어요!</li>
+                            <li class="block"
+                                style="background-image:url(https://kima-rin.github.io/img1/pf/lush/c_lush_t.svg)"><a
+                                    href="#">보디 스프레이는 이동에 적합한 용기가 아닙니다. <br> 사용 후 반드시 세워서 보관해 주세요! 또한 몸이 <br> 아닌 신발,의류
+                                    가구 등 사용 용도 이외에 사용하실 <br> 경우 이염 및 오염의 위험이 있을 수 있으니<br> 주의하세요 !</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="prod-box-4 flex con-min-width">
+        <div class="prod-soap-list">
+            <div class="prod-soap-bar row">
+                <div class="cell-right">
+                    <div class="prod-img text-align-center"><img
+                            src="https://kima-rin.github.io/img1/pf/lush/Shampoo_bar_01.jpg" width="110" alt=""></div>
+                    <div class="prod-title font-lushHw">soak and float</div>
+                    <div class="under-line">Shampoo Bar</div>
+                    <div class="under-line">Keep a clear, calm head</div>
+                    <div class="price"><strong>€8.00/ </strong><small>55g</small>
+                        <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                    </div>
+                </div>
+                <div class="cell-right">
+                    <div class="prod-img text-align-center"><img
+                            src="https://kima-rin.github.io/img1/pf/lush/Shampoo_bar_02.jpg" width="110" alt=""></div>
+                    <div class="prod-title font-lushHw">seanik</div>
+                    <div class="under-line">Shampoo Bar</div>
+                    <div class="under-line">Buoyant and beautiful hair</div>
+                    <div class="price"><strong>€8.00/ </strong><small>55g</small>
+                        <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                    </div>
+                </div>
+                <div class="cell-right">
+                    <div class="prod-img text-align-center"><img
+                            src="https://kima-rin.github.io/img1/pf/lush/Shampoo_bar_03.jpg" width="110" alt=""></div>
+                    <div class="prod-title font-lushHw">montalbano</div>
+                    <div class="under-line">Shampoo Bar</div>
+                    <div class="under-line">When life gives you lemons...</div>
+                    <div class="price"><strong>€8.00/ </strong><small>55g</small>
+                        <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                    </div>
+                </div>
+                <div class="cell-right">
+                    <div class="prod-img text-align-center"><img
+                            src="https://kima-rin.github.io/img1/pf/lush/Shampoo_bar_04.jpg" width="120" alt=""></div>
+                    <div class="prod-title font-lushHw">new</div>
+                    <div class="under-line">Shampoo Bar</div>
+                    <div class="under-line">Boost, shine and stimulate</div>
+                    <div class="price"><strong>€8.00/ </strong><small>55g</small>
+                        <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                    </div>
+                </div>
+                <div class="cell-right">
+                    <div class="prod-img text-align-center"><img
+                            src="https://kima-rin.github.io/img1/pf/lush/Shampoo_bar_05.jpg" width="110" alt=""></div>
+                    <div class="prod-title font-lushHw">jumping juniper</div>
+                    <div class="under-line">Shampoo Bar</div>
+                    <div class="under-line">Rise and shine!</div>
+                    <div class="price"><strong>€8.00/ </strong><small>55g</small>
+                        <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="prod-soap-img">
+            <div class="grop-1 flex">
+                <div class="Pac-img img-background-cover"
+                    style="background-image:url(https://kima-rin.github.io/img1/pf/lush/Hair_Lab_2.jpg)"><a
+                        href="#">Packaging free <br> july</a></div>
+                <div class="howTo-img img-background-cover"
+                    style="background-image:url(https://kima-rin.github.io/img1/pf/lush/Hair_Lab_1.jpg)"><a href="#">how
+                        to have a <br> perfect hair <br> day </a></div>
+            </div>
         </div>
     </section>
 
