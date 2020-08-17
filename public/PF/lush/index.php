@@ -204,7 +204,7 @@
             </div>
         </div>
     </section>
-    <section class="lush-life relative">
+    <section class="lush-life relative con-min-width">
         <div class="black-back">
             <div class="con flex flex-1-0-0">
                 <div class="img-background-cover"
@@ -214,7 +214,7 @@
                 <div class="life-text-box flex-1-0-0">
                     <div class="font-lushHw">we believe</div>
                     <h1 class="font-lushHw">a lush life....</h1>
-                    <p class="font-gyeonggi-t">신선한 과일과 채소, 최상의 에센셜 오일, 그리고 안전한 원료를 사용하여 효과적인 제품을 만들 수 있다는 것을 믿습니다. <br>
+                    <p class="font-gyeonggi-t" style="font-weight:200">신선한 과일과 채소, 최상의 에센셜 오일, 그리고 안전한 원료를 사용하여 효과적인 제품을 만들 수 있다는 것을 믿습니다. <br>
                         우리는 동물 실험을 하지 않는 회사와 거래하고,인체에 직접 테스트함으로써 안전한 제품을 만들 수 있다고 믿습니다. <br>
                         최소한의 포장과 보존제를 사용하여 직접 손으로 제품을 만들고, 베지테리언 원료만을 사용하며, 제품이 만들어진 시기를 표시하여 고객에게 알리는 것이 옳다고 믿습니다. <br>
                         행복한 사람이 행복한 제품을 만들 수 있다고 믿으며, 제조자의 얼굴 스티커를 제품라벨에 붙임으로써 자부심을 가질 수 있다고 믿습니다.</p>
@@ -228,7 +228,7 @@
             </div>
         </div>
     </section>
-    <section class="charity-pot">
+    <section class="charity-pot con-min-width">
         <div class="text-box flex flex-ai-c flex-jc-c height-100p">
             <div class="text-align-center">
                 <h3 class="font-lushHw">we believe a lush life</h3>
@@ -238,7 +238,7 @@
             </div>
         </div>
     </section>
-    <section class="prod-box-1 flex">
+    <section class="prod-box-1 flex con-min-width">
         <div class="prod-img-box img-background-cover "
             style="background-image:url(https://kima-rin.github.io/img1/pf/lush/product_img_02.jpg.jpg)">
             <div class="img-text-box flex flex-jc-end flex-ai-c height-100p">
@@ -249,7 +249,7 @@
                 </div>
             </div>
         </div>
-        <div class="prod-img-list">
+        <div class="prod-img-list ">
             <div class="prod-box">
                 <div class="prod-item">
                     <img src="https://kima-rin.github.io/img1/pf/lush/best_01.jpg" alt="">
@@ -316,9 +316,8 @@
             </div>
         </div>
     </section>
-    </section>
 
-    <section class="prod-box-2 ">
+    <section class="prod-box-2 con-min-width">
         <div class="flex con">
             <div class="prod-soap-1 relative">
                 <div class="new-soap">
@@ -408,7 +407,7 @@
             </div>
         </div>
     </section>
-    <section class="banner-box">
+    <section class="banner-box con-min-width">
         <div class="new-style-banner img-background-cover"
             style="background-image:url(https://kima-rin.github.io/img1/pf/lush/soap_banner_2020_01.jpg)">
         </div>
@@ -500,14 +499,20 @@
                         <ul>
                             <li>Q.스프레이 분사가 되질 않아요, 불량 인가요?</li>
                             <li class="block"
-                                style="background-image:url(https://kima-rin.github.io/img1/pf/lush/c_lush_t.svg)"><a
-                                    href="#">안전을 위하여 캡이 장착되어 있습니다. <br> 하늘색의 안전캡을 아래로 당겨 제거하고 스프 <br> 레이를두 세 번 분사한 후 사용해
-                                    주세요!</a> </li>
+                                style="background-image:url(https://kima-rin.github.io/img1/pf/lush/c_lush_t.svg)">
+                                <a href="#">안전을 위하여 캡이 장착되어 있습니다. <br> 하늘색의 안전캡을 아래로 당겨 제거하고 스프 <br> 레이를두 세 번 분사한 후 사용해
+                                    주세요!</a>
+                                <div class="lush-cc"><img src="https://kima-rin.github.io/img1/pf/lush/c_lush.svg"
+                                        alt=""></div>
+                            </li>
                             <li>Q. 제품을 가방에 넣어서 다니다가 새버렸어요!</li>
                             <li class="block"
-                                style="background-image:url(https://kima-rin.github.io/img1/pf/lush/c_lush_t.svg)"><a
-                                    href="#">보디 스프레이는 이동에 적합한 용기가 아닙니다. <br> 사용 후 반드시 세워서 보관해 주세요! 또한 몸이 <br> 아닌 신발,의류
-                                    가구 등 사용 용도 이외에 사용하실 <br> 경우 이염 및 오염의 위험이 있을 수 있으니<br> 주의하세요 !</a></li>
+                                style="background-image:url(https://kima-rin.github.io/img1/pf/lush/c_lush_t.svg)">
+                                <a href="#">보디 스프레이는 이동에 적합한 용기가 아닙니다. <br> 사용 후 반드시 세워서 보관해 주세요! 또한 몸이 <br> 아닌 신발,의류
+                                    가구 등 사용 용도 이외에 사용하실 <br> 경우 이염 및 오염의 위험이 있을 수 있으니<br> 주의하세요 !</a>
+                                <div class="lush-cc"><img src="https://kima-rin.github.io/img1/pf/lush/c_lush.svg"
+                                        alt=""></div>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -558,16 +563,7 @@
                         <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
                     </div>
                 </div>
-                <div class="cell-right">
-                    <div class="prod-img text-align-center"><img
-                            src="https://kima-rin.github.io/img1/pf/lush/Shampoo_bar_05.jpg" width="110" alt=""></div>
-                    <div class="prod-title font-lushHw">jumping juniper</div>
-                    <div class="under-line">Shampoo Bar</div>
-                    <div class="under-line">Rise and shine!</div>
-                    <div class="price"><strong>€8.00/ </strong><small>55g</small>
-                        <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
-                    </div>
-                </div>
+
 
             </div>
         </div>
@@ -575,13 +571,74 @@
             <div class="grop-1 flex">
                 <div class="Pac-img img-background-cover"
                     style="background-image:url(https://kima-rin.github.io/img1/pf/lush/Hair_Lab_2.jpg)"><a
-                        href="#">Packaging free <br> july</a></div>
+                        class="font-lushHw" href="#">Packaging free <br> july</a></div>
                 <div class="howTo-img img-background-cover"
-                    style="background-image:url(https://kima-rin.github.io/img1/pf/lush/Hair_Lab_1.jpg)"><a href="#">how
+                    style="background-image:url(https://kima-rin.github.io/img1/pf/lush/Hair_Lab_1.jpg)"><a
+                        class="font-lushHw" href="#">how
                         to have a <br> perfect hair <br> day </a></div>
             </div>
         </div>
     </section>
+    <section class="ourPolicies-box con-min-width">
+    <div class="ourPolicies-bg img-background-cover" style="background-image:url(https://kima-rin.github.io/img1/pf/lush/our_policies_00.jpg)">
+        <div class="con">
+            <div class="lush-ceo"><img src="https://kima-rin.github.io/img1/pf/lush/people_04.svg" alt=""></div>
+            <div class="title-box">
+                <p>“러쉬는 좋은 느낌을 주는 단어입니다. <br> 자연이 생각나기도 하고 ,비가오는 숲 또는 시의 한 구절을 떠올리게 하죠.”</p>
+                <span class="title font-lushHw">our policies</span>
+                <span class="subtitle">_This is what we stand for.</span>
+            </div>
+        </div>
+    </div>
+    <div class="Policies-list-box">
+        <div class="flex con">
+            <div class="relative"><img src="https://kima-rin.github.io/img1/pf/lush/lush_times_25_years.png" width="250" alt="">
+                <img class="text-25th" src="https://kima-rin.github.io/img1/pf/lush/lush_25.png" alt="">
+            </div>
+            <div class="policies-slide">
+                <div class="flex">
+                    <div class="Policies-img-1 img-background-cover" style="background-image:url(https://kima-rin.github.io/img1/pf/lush/our_policies_01.jpg)">
+                        <a class="block" href="#">Cimpany Tax <br> policies</a></div>
+                    <div class="Policies-img-2 img-background-cover" style="background-image:url(https://kima-rin.github.io/img1/pf/lush/our_policies_02.png)">
+                        <a class="block" href="#">Fighting Animal <br> Testing</a></div>
+                    <div class="Policies-img-3 img-background-cover" style="background-image:url(https://kima-rin.github.io/img1/pf/lush/our_policies_03.jpg)">
+                        <a class="block" href="#">Charity Suupport</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="footer con-min-width">
+    <div class="con flex">
+        <div class="border-red">
+            <img src="https://kima-rin.github.io/img1/pf/lush/lush_logo_2.png" alt="">
+            <h3>고객센터</h3>
+            <p class="tell-box">1644-1234 <br> wedmaster@lush.com <br> 상담전화 13:00~16:00(평일) <br>상담톡 10:00~16:00(평일)</p>
+        </div>
+        <div class="border-red">
+            <h1 class="font-lushHw">25 years of lush</h1>
+            <ul class="flex">
+                <li>스카우트</li>
+                <li>회사소개</li>
+                <li>개인정보처리</li>
+                <li>영상정보 관리 지침</li>
+                <li>이용약관</li>
+                <li>고객센터</li>
+            </ul>
+            <p class="news">가장 빠르게 LUSH 소식을 만나는 법! <br> 지금 뉴스레터를 구독하세요. <br> 언제든지 구독 해지할 수 있습니다.</p>
+            <div class="flex">
+                <div class="email-box"><p>이메일 주소를 입력해 주세요.</p></div>
+                <div class="channel"> <p>구독</p> </div>
+            </div>
+            <p class="add">서울특별시 서초구 서운로 123(서운로 서초타워)10층  사이트 운영자:주식회사 러쉬코리아  대표이사 :홍길동</p>
+            <p class="etc">사업자 등록번호 :123-45-67890 사업자정보확인  통신판매업 신고번호 : 1231-서울서초-5678  개인정보보호책임자:홍길순</p>
+            <p class="copyright">CopyrightⓒLUSHKOREA co.,ltd.All rights reserved.</p>
+        </div>
+
+    </div>
+
+</section>
 
 
 
