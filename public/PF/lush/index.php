@@ -183,6 +183,105 @@
             </div>
         </div>
     </div>
+    <section class="top-menu-box-2">
+        <div class="top-menu-bar">
+            <div class="background"></div>
+            <nav class="con flex height-100p">
+                <div class="flex flex-jc-s flex-ai-c"><img src="https://kima-rin.github.io/img1/pf/lush/lush_logo-wh.svg" width="180" alt=""></div>                    
+                <ul class="flex flex flex-jc-c flex-ai-c">
+                    <li><a href="#" class="block">New & Discover</a>
+                        <ul>
+                            <li><a href="#">보디스프레이</a></li>
+                            <li><a href="#">버블 바 큐레이션</a></li>
+                            <li><a href="#">별 다섯개 후기</a></li>
+                            <li><a href="#">스프링 컬렉션</a></li>
+                            <li><a href="#">마더스&파더스</a></li>
+                            <li><a href="#">주간베스트</a></li>
+                            <li><a href="#">별 다섯개 후기</a></li>
+                            <li><a href="#">온라인 전용</a></li>
+                            <li><a href="#">국내제조</a></li>
+                            <li><a href="#">네이키드</a></li>
+                            <li><a href="#">우리의 장미가 특별한 이유</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="block">Bath & Shower</a>
+                        <ul>
+                            <li><a href="#">솜</a></li>
+                            <li><a href="#">샤워젤&</a></li>
+                            <li><a href="#">보디컨디셔너</a></li>
+                            <li><a href="#">샤워오일</a></li>
+                            <li><a href="#">샤워밤</a></li>
+                            <li><a href="#">주간베스트</a></li>
+                            <li><a href="#">스크럽&버터</a></li>
+                            <li><a href="#">펀</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="block">body</a>
+                        <ul>
+                            <li><a href="#">클렌져</a></li>
+                            <li><a href="#">로션</a></li>
+                            <li><a href="#">핸드 앤 풋</a></li>
+                            <li><a href="#">마사지바</a></li>
+                            <li><a href="#">더스팅파우더</a></li>
+                            <li><a href="#">쉐이빙크림</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="block">face</a>
+                        <ul>
+                            <li><a href="#">클렌져</a></li>
+                            <li><a href="#">페이스마스크</a></li>
+                            <li><a href="#">토너</a></li>
+                            <li><a href="#">모이스춰라이저</a></li>
+                            <li><a href="#">프라이머</a></li>
+                            <li><a href="#">립</a></li>
+                            <li><a href="#">쉐이빙크림</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="block">hair</a>
+                        <ul>
+                            <li><a href="#">샴푸 바</a></li>
+                            <li><a href="#">샴푸</a></li>
+                            <li><a href="#">드라이 샴푸</a></li>
+                            <li><a href="#">컨디셔너</a></li>
+                            <li><a href="#">트리트먼트</a></li>
+                            <li><a href="#">스타일링</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="block">gifts</a>
+                        <ul>
+                            <li><a href="#">기프트 베스트</a></li>
+                            <li><a href="#">1-3만원대</a></li>
+                            <li><a href="#">4-5만원대</a></li>
+                            <li><a href="#">7만원이상</a></li>
+                            <li><a href="#">낫랩</a></li>
+                            <li><a href="#">스웨그</a></li>
+                            <li><a href="#">악세사리</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="block">makeup</a>
+                        <ul>
+                            <li><a href="#">페이스파우더</a></li>
+                            <li><a href="#">아이메이크업</a></li>
+                            <li><a href="#">파운데이션</a></li>
+                            <li><a href="#">스킨틴트</a></li>
+                            <li><a href="#">비건브러쉬</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="block">fragrances</a>
+                        <ul>
+                            <li><a href="#">보디스프레이</a></li>
+                            <li><a href="#">퍼퓸라이브러리</a></li>
+                            <li><a href="#">코어레인지</a></li>
+                            <li><a href="#">7만원이상</a></li>
+                            <li><a href="#">솔리드 퍼퓸</a></li>
+                            <li><a href="#">워시카드</a></li>
+                            <li><a href="#">퍼퓸낫랩</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
     <section class="main-slider con-min-width">
         <div class="sliders flex">
             <div class="slider-img-1 img-background-cover"
@@ -198,7 +297,7 @@
         </div>
         <div class="slider-btn">
             <div>
-                <a href="#"> <img src="https://kima-rin.github.io/img1/pf/lush/circlesvg_1.svg" alt=""> </a>
+                <a class="circle" href="#"> <img src="https://kima-rin.github.io/img1/pf/lush/circlesvg_33.svg" alt=""> </a>
                 <a class="arrow" href="#"><img src="https://kima-rin.github.io/img1/pf/lush/circle_arrow_1.svg"
                         alt=""></a>
             </div>
@@ -214,7 +313,8 @@
                 <div class="life-text-box flex-1-0-0">
                     <div class="font-lushHw">we believe</div>
                     <h1 class="font-lushHw">a lush life....</h1>
-                    <p class="font-gyeonggi-t" style="font-weight:200">신선한 과일과 채소, 최상의 에센셜 오일, 그리고 안전한 원료를 사용하여 효과적인 제품을 만들 수 있다는 것을 믿습니다. <br>
+                    <p class="font-gyeonggi-t" style="font-weight:200">신선한 과일과 채소, 최상의 에센셜 오일, 그리고 안전한 원료를 사용하여 효과적인 제품을
+                        만들 수 있다는 것을 믿습니다. <br>
                         우리는 동물 실험을 하지 않는 회사와 거래하고,인체에 직접 테스트함으로써 안전한 제품을 만들 수 있다고 믿습니다. <br>
                         최소한의 포장과 보존제를 사용하여 직접 손으로 제품을 만들고, 베지테리언 원료만을 사용하며, 제품이 만들어진 시기를 표시하여 고객에게 알리는 것이 옳다고 믿습니다. <br>
                         행복한 사람이 행복한 제품을 만들 수 있다고 믿으며, 제조자의 얼굴 스티커를 제품라벨에 붙임으로써 자부심을 가질 수 있다고 믿습니다.</p>
@@ -507,7 +607,7 @@
                             </li>
                             <li>Q. 제품을 가방에 넣어서 다니다가 새버렸어요!</li>
                             <li class="block"
-                                style="background-image:url(https://kima-rin.github.io/img1/pf/lush/c_lush_t.svg)">
+                                style="background-image:url(https://kima-rin.github.io/img1/pf/lush/c_lush_t_2.svg)">
                                 <a href="#">보디 스프레이는 이동에 적합한 용기가 아닙니다. <br> 사용 후 반드시 세워서 보관해 주세요! 또한 몸이 <br> 아닌 신발,의류
                                     가구 등 사용 용도 이외에 사용하실 <br> 경우 이염 및 오염의 위험이 있을 수 있으니<br> 주의하세요 !</a>
                                 <div class="lush-cc"><img src="https://kima-rin.github.io/img1/pf/lush/c_lush.svg"
@@ -580,65 +680,75 @@
         </div>
     </section>
     <section class="ourPolicies-box con-min-width">
-    <div class="ourPolicies-bg img-background-cover" style="background-image:url(https://kima-rin.github.io/img1/pf/lush/our_policies_00.jpg)">
-        <div class="con">
-            <div class="lush-ceo"><img src="https://kima-rin.github.io/img1/pf/lush/people_04.svg" alt=""></div>
-            <div class="title-box">
-                <p>“러쉬는 좋은 느낌을 주는 단어입니다. <br> 자연이 생각나기도 하고 ,비가오는 숲 또는 시의 한 구절을 떠올리게 하죠.”</p>
-                <span class="title font-lushHw">our policies</span>
-                <span class="subtitle">_This is what we stand for.</span>
-            </div>
-        </div>
-    </div>
-    <div class="Policies-list-box">
-        <div class="flex con">
-            <div class="relative"><img src="https://kima-rin.github.io/img1/pf/lush/lush_times_25_years.png" width="250" alt="">
-                <img class="text-25th" src="https://kima-rin.github.io/img1/pf/lush/lush_25.png" alt="">
-            </div>
-            <div class="policies-slide">
-                <div class="flex">
-                    <div class="Policies-img-1 img-background-cover" style="background-image:url(https://kima-rin.github.io/img1/pf/lush/our_policies_01.jpg)">
-                        <a class="block" href="#">Cimpany Tax <br> policies</a></div>
-                    <div class="Policies-img-2 img-background-cover" style="background-image:url(https://kima-rin.github.io/img1/pf/lush/our_policies_02.png)">
-                        <a class="block" href="#">Fighting Animal <br> Testing</a></div>
-                    <div class="Policies-img-3 img-background-cover" style="background-image:url(https://kima-rin.github.io/img1/pf/lush/our_policies_03.jpg)">
-                        <a class="block" href="#">Charity Suupport</a></div>
+        <div class="ourPolicies-bg img-background-cover"
+            style="background-image:url(https://kima-rin.github.io/img1/pf/lush/our_policies_00.jpg)">
+            <div class="con">
+                <div class="lush-ceo"><img src="https://kima-rin.github.io/img1/pf/lush/people_04.png" width="470" alt=""></div>
+                <div class="title-box">
+                    <p>“러쉬는 좋은 느낌을 주는 단어입니다. <br> 자연이 생각나기도 하고 ,비가오는 숲 또는 시의 한 구절을 떠올리게 하죠.”</p>
+                    <span class="title font-lushHw">our policies</span>
+                    <span class="subtitle">_This is what we stand for.</span>
                 </div>
             </div>
         </div>
-    </div>
-
-</section>
-<section class="footer con-min-width">
-    <div class="con flex">
-        <div class="border-red">
-            <img src="https://kima-rin.github.io/img1/pf/lush/lush_logo_2.png" alt="">
-            <h3>고객센터</h3>
-            <p class="tell-box">1644-1234 <br> wedmaster@lush.com <br> 상담전화 13:00~16:00(평일) <br>상담톡 10:00~16:00(평일)</p>
-        </div>
-        <div class="border-red">
-            <h1 class="font-lushHw">25 years of lush</h1>
-            <ul class="flex">
-                <li>스카우트</li>
-                <li>회사소개</li>
-                <li>개인정보처리</li>
-                <li>영상정보 관리 지침</li>
-                <li>이용약관</li>
-                <li>고객센터</li>
-            </ul>
-            <p class="news">가장 빠르게 LUSH 소식을 만나는 법! <br> 지금 뉴스레터를 구독하세요. <br> 언제든지 구독 해지할 수 있습니다.</p>
-            <div class="flex">
-                <div class="email-box"><p>이메일 주소를 입력해 주세요.</p></div>
-                <div class="channel"> <p>구독</p> </div>
+        <div class="Policies-list-box">
+            <div class="flex con">
+                <div class="relative"><img src="https://kima-rin.github.io/img1/pf/lush/lush_times_25_years.png"
+                        width="250" alt="">
+                    <img class="text-25th" src="https://kima-rin.github.io/img1/pf/lush/lush_25.png" alt="">
+                </div>
+                <div class="policies-slide">
+                    <div class="flex">
+                        <div class="Policies-img-1 img-background-cover"
+                            style="background-image:url(https://kima-rin.github.io/img1/pf/lush/our_policies_01.jpg)">
+                            <a class="block" href="#">Cimpany Tax <br> policies</a></div>
+                        <div class="Policies-img-2 img-background-cover"
+                            style="background-image:url(https://kima-rin.github.io/img1/pf/lush/our_policies_02.png)">
+                            <a class="block" href="#">Fighting Animal <br> Testing</a></div>
+                        <div class="Policies-img-3 img-background-cover"
+                            style="background-image:url(https://kima-rin.github.io/img1/pf/lush/our_policies_03.jpg)">
+                            <a class="block" href="#">Charity Suupport</a></div>
+                    </div>
+                </div>
             </div>
-            <p class="add">서울특별시 서초구 서운로 123(서운로 서초타워)10층  사이트 운영자:주식회사 러쉬코리아  대표이사 :홍길동</p>
-            <p class="etc">사업자 등록번호 :123-45-67890 사업자정보확인  통신판매업 신고번호 : 1231-서울서초-5678  개인정보보호책임자:홍길순</p>
-            <p class="copyright">CopyrightⓒLUSHKOREA co.,ltd.All rights reserved.</p>
         </div>
 
-    </div>
+    </section>
+    <section class="footer con-min-width">
+        <div class="con flex">
+            <div>
+                <img src="https://kima-rin.github.io/img1/pf/lush/lush_logo_2.png" alt="">
+                <h3>고객센터</h3>
+                <p class="tell-box">1644-1234 <br> wedmaster@lush.com <br> 상담전화 13:00~16:00(평일) <br>상담톡 10:00~16:00(평일)
+                </p>
+            </div>
+            <div>
+                <h1 class="font-lushHw">25 years of lush</h1>
+                <ul class="flex">
+                    <li>스카우트</li>
+                    <li>회사소개</li>
+                    <li>개인정보처리</li>
+                    <li>영상정보 관리 지침</li>
+                    <li>이용약관</li>
+                    <li>고객센터</li>
+                </ul>
+                <p class="news">가장 빠르게 LUSH 소식을 만나는 법! <br> 지금 뉴스레터를 구독하세요. <br> 언제든지 구독 해지할 수 있습니다.</p>
+                <div class="flex">
+                    <div class="email-box">
+                        <p>이메일 주소를 입력해 주세요.</p>
+                    </div>
+                    <div class="channel">
+                        <p>구독</p>
+                    </div>
+                </div>
+                <p class="add">서울특별시 서초구 서운로 123(서운로 서초타워)10층 사이트 운영자:주식회사 러쉬코리아 대표이사 :홍길동</p>
+                <p class="etc">사업자 등록번호 :123-45-67890 사업자정보확인 통신판매업 신고번호 : 1231-서울서초-5678 개인정보보호책임자:홍길순</p>
+                <p class="copyright">CopyrightⓒLUSHKOREA co.,ltd.All rights reserved.</p>
+            </div>
 
-</section>
+        </div>
+
+    </section>
 
 
 

@@ -11,6 +11,23 @@ function topBackground__init(){
   });
 }
 
+var $window = $(window);
+
+function miniTopBar_init(){
+  var $miniTopBar = $('.top-menu-box-2');
+  $(window).scroll(function(){
+    var scrollTop = $window.scrollTop();
+    if( scrollTop >= 300){
+      $miniTopBar.addClass('active');
+    }
+    else{
+      $miniTopBar.removeClass('active');
+    }
+  });
+}
+
+
 $(function(){
     topBackground__init();
+    miniTopBar_init();
 });
