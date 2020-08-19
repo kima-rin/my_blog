@@ -345,7 +345,20 @@ body {
   position: relative;
   z-index: 20;
 }
+.top-menu-box>.menu-box-base>.top-menu-bar>nav>ul>li::before{
+  content: "";
+  position: absolute;
+  bottom:-15px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all .5s;
+  background-color: black;
+}
 
+.top-menu-box>.menu-box-base>.top-menu-bar>nav>ul>li:hover::before{
+  width: 100%;
+}
 .top-menu-box>.menu-box-base>.top-menu-bar>nav>ul>li:nth-child(8) {
   border: none;
 }
@@ -356,7 +369,9 @@ body {
   padding-bottom: 20px;
   font-size: 20px;
   white-space: nowrap;
+  
 }
+
 .top-menu-box>.menu-box-base>.top-menu-bar>nav>ul>li ul {
   opacity: 0;
   position: absolute;
@@ -378,7 +393,9 @@ body {
   line-height: 30px;
   font-weight: 200;
 }
-
+.top-menu-box>.menu-box-base>.top-menu-bar>nav>ul>li ul>li>a:hover{
+  text-decoration: underline;
+}
 /*메뉴바 밑 한글*/
 .top-menu-box>.menu-box-base>.top-menu-bar>nav>ul>li:nth-child(1)>a::after {
   content: "베스트&신제품";
@@ -468,7 +485,7 @@ body {
   font-weight: 200;
 }
 
-/*탑 메뉴박스 끝*/
+/*탑 메뉴박스 2 끝*/
 .top-menu-box-2{
   display: none;
 }
@@ -490,10 +507,13 @@ body {
   left: 0;
   width: 100%;
   height: 295px;
-  background-color:#fff;
+  background-color:rgba(255,255,255,0.9);
 }
 .top-menu-box-2>.top-menu-bar>nav>div{
   flex:2 0 0;
+}
+.top-menu-box-2>.top-menu-bar>nav>div>img{
+  padding: 0 20px;
 }
 .top-menu-box-2>.top-menu-bar>nav>ul{
   flex:8 0 0;
@@ -1091,6 +1111,20 @@ line-height:22px;
   width: 100%;
   height: 300px;
   margin-top: 50px;
+  text-align: center;
+}
+.banner-box>.new-style-banner>.banner-title{
+  color:white;
+  padding-top: 70px;
+  padding-bottom:50px;
+  font-size: 60px;
+  display: block;
+}
+.banner-box>.new-style-banner>.banner-btn{
+  color:white;
+  padding: 20px 60px;
+  font-size: 16px;
+  border:2px solid white;
 }
 .banner-box>.spa-box{
   width: 100%;

@@ -88,7 +88,7 @@
                 <div class="top-menu-bar">
                     <nav class="con">
                         <ul class="flex">
-                            <li class="flex-1-0-0"><a href="#" class="block">New & Discover</a>
+                            <li class="flex-1-0-0 flex-jc-c"><a href="#" class="block">New & Discover</a>
                                 <ul>
                                     <li><a href="#">보디스프레이</a></li>
                                     <li><a href="#">버블 바 큐레이션</a></li>
@@ -103,7 +103,7 @@
                                     <li><a href="#">우리의 장미가 특별한 이유</a></li>
                                 </ul>
                             </li>
-                            <li class="flex-1-0-0"><a href="#" class="block">Bath & Shower</a>
+                            <li class="flex-1-0-0 flex-jc-c"><a href="#" class="block">Bath & Shower</a>
                                 <ul>
                                     <li><a href="#">솜</a></li>
                                     <li><a href="#">샤워젤&</a></li>
@@ -115,7 +115,7 @@
                                     <li><a href="#">펀</a></li>
                                 </ul>
                             </li>
-                            <li class="flex-1-0-0"><a href="#" class="block">body</a>
+                            <li class="flex-1-0-0 flex-jc-c"><a href="#" class="block">body</a>
                                 <ul>
                                     <li><a href="#">클렌져</a></li>
                                     <li><a href="#">로션</a></li>
@@ -125,7 +125,7 @@
                                     <li><a href="#">쉐이빙크림</a></li>
                                 </ul>
                             </li>
-                            <li class="flex-1-0-0"><a href="#" class="block">face</a>
+                            <li class="flex-1-0-0 flex-jc-c"><a href="#" class="block">face</a>
                                 <ul>
                                     <li><a href="#">클렌져</a></li>
                                     <li><a href="#">페이스마스크</a></li>
@@ -136,7 +136,7 @@
                                     <li><a href="#">쉐이빙크림</a></li>
                                 </ul>
                             </li>
-                            <li class="flex-1-0-0"><a href="#" class="block">hair</a>
+                            <li class="flex-1-0-0 flex-jc-c"><a href="#" class="block">hair</a>
                                 <ul>
                                     <li><a href="#">샴푸 바</a></li>
                                     <li><a href="#">샴푸</a></li>
@@ -157,7 +157,7 @@
                                     <li><a href="#">악세사리</a></li>
                                 </ul>
                             </li>
-                            <li class="flex-1-0-0"><a href="#" class="block">makeup</a>
+                            <li class="flex-1-0-0 flex-jc-c"><a href="#" class="block">makeup</a>
                                 <ul>
                                     <li><a href="#">페이스파우더</a></li>
                                     <li><a href="#">아이메이크업</a></li>
@@ -166,7 +166,7 @@
                                     <li><a href="#">비건브러쉬</a></li>
                                 </ul>
                             </li>
-                            <li class="flex-1-0-0"><a href="#" class="block">fragrances</a>
+                            <li class="flex-1-0-0 flex-jc-c"><a href="#" class="block">fragrances</a>
                                 <ul>
                                     <li><a href="#">보디스프레이</a></li>
                                     <li><a href="#">퍼퓸라이브러리</a></li>
@@ -510,6 +510,8 @@
     <section class="banner-box con-min-width">
         <div class="new-style-banner img-background-cover"
             style="background-image:url(https://kima-rin.github.io/img1/pf/lush/soap_banner_2020_01.jpg)">
+            <a class="banner-title font-lushHw" href="#">new style and a thorough clean</a>
+            <a class="banner-btn" href="#">SHOP SOAPS</a>
         </div>
         <div class="spa-box">
             <div class="spa-banner flex con">

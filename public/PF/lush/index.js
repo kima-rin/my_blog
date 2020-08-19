@@ -27,6 +27,7 @@ function miniTopBar_init(){
 }
 
 
+
 $(function(){
     topBackground__init();
     miniTopBar_init();
