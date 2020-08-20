@@ -330,11 +330,16 @@
     </section>
     <section class="charity-pot con-min-width">
         <div class="text-box flex flex-ai-c flex-jc-c height-100p">
-            <div class="text-align-center">
+            <div class="text-align-center con relative">
                 <h3 class="font-lushHw">we believe a lush life</h3>
                 <h1 class="font-lushHw">charity pot</h1>
                 <p>우리는 환경,동물,그리고 도움이 필요한 사람들을 옹호하고 지역 및 전 세계의 단체에 후원하는 것이 우리의 책임이라고 생각합니다. <br> 총 934,976,756원이 64개의 단체에
                     후원 되었습니다. 부가세를 제외한 판매금 100%는 <br>인권,동물보호,환경보전에 지속해서 공헌하는 소규모 ,비영리 시민 단체에 후원하고 있습니다.</p>
+                <ul class="login-etc">
+                    <li><a href="#"><img src="https://kima-rin.github.io/img1/pf/lush/account_01.svg" width="50" alt=""></a></li>
+                    <li><a href="#"><img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" width="40" alt=""></a></li>
+                    <li><a href="#"><img src="https://kima-rin.github.io/img1/pf/lush/kakao.svg" width="40" alt=""> <br> 상담톡</a></li>                                   
+                </ul>
             </div>
         </div>
     </section>
@@ -359,8 +364,6 @@
                     <div class="price"><strong>€11.00/ Original / </strong><small>120g</small>
                         <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
                     </div>
-
-
 
                 </div>
                 <div class="prod-item">

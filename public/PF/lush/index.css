@@ -737,6 +737,34 @@ body {
   line-height: 20px;
   font-weight: 200;
 }
+.charity-pot>.text-box>div>ul{
+  position: absolute;
+  top:0;
+  right: -80px;
+}
+.charity-pot>.text-box>div>ul>li:not(:last-child){
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #F9DB09;
+  margin: 10px 0;
+}
+.charity-pot>.text-box>div>ul>li:nth-child(1)>a>img{
+  margin-top:5px;
+  
+}
+.charity-pot>.text-box>div>ul>li:nth-child(2)>a>img{
+  margin-top:8px;
+}
+.charity-pot>.text-box>div>ul>li:nth-child(3){
+  width: 60px;
+  height: 80px;
+  border-radius: 30px;
+  background-color: #F9DB09;
+}
+.charity-pot>.text-box>div>ul>li:nth-child(3)>a>img{
+  margin-top:8px;
+}
 /*첼리티 팟 끝*/
 /*상품박스 1 시작*/
 .prod-box-1{
