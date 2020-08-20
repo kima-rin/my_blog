@@ -561,7 +561,7 @@ body {
   display: none;
 
 }
-.top-menu-box-2>.top-menu-bar>nav>ul>li:hover>ul{
+.top-menu-box-2>.top-menu-bar>nav>ul>li:hover ul{
   display: block;
 }
 .top-menu-box-2>.top-menu-bar>nav>ul>li{
@@ -588,24 +588,30 @@ body {
 /*탑 메뉴박스 2 시작*/
 
 /*메인 슬라이드 시작*/
-.main-slider{
-  margin-top: 50px;
-  position: relative;
-  z-index: 0;
-}
-.main-slider>.sliders>div{
+.main-slider-1 .swiper-container {
+  margin-top:70px;
   width: 100%;
   height: 500px;
+}
 
+.main-slider-1 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition:width 1s !important;
 }
-.main-slider>.sliders>.slider-img-1{
-  flex:3 0 0;
+
+.main-slider-1 .swiper-slide.swiper-slide-active {
+  width:40% !important;
 }
-.main-slider>.sliders>.slider-img-2{
-  flex:5 0 0;
-  position: relative;
+
+.main-slider-1 .swiper-slide.swiper-slide-active + * {
+  width:60% !important;
 }
-.main-slider>.sliders>.slider-img-2>.text-box-1{
+.main-slider-1>.sliders>.slider-img-2>.text-box-1{
   position: absolute;
   width: 350px;
   height: 350px;
@@ -615,16 +621,16 @@ body {
   transform: translateY(-50%);
   color: #fff;
 }
-.main-slider>.sliders>.slider-img-2>.text-box-1>.title{
+.main-slider-1>.sliders>.slider-img-2>.text-box-1>.title{
   font-size: 80px;
   margin-top: 40px;
 }
-.main-slider>.sliders>.slider-img-2>.text-box-1>.fresh-hand{
+.main-slider-1>.sliders>.slider-img-2>.text-box-1>.fresh-hand{
   margin-top: 10px;
   font-size: 30px;
   line-height: 30px;
 }
-.main-slider>.sliders>.slider-img-2>.text-box-1>.have-look{
+.main-slider-1>.sliders>.slider-img-2>.text-box-1>.have-look{
   display: inline-block;
   margin-top: 40px;
   padding: 7px 20px;
@@ -634,21 +640,16 @@ body {
   color: black;
 }
 /*메인 슬라이드 버튼*/
-.main-slider>.slider-btn{
+.main-slider-1 .swiper-button-next{
   width: 73px;
   height: 73px;
   border-radius: 50%;
   position: absolute;
   top:50%;
-  left: 37.5%;
+  left: 40%;
   transform: translateX(-50%);
 }
-.main-slider>.slider-btn>div{
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-.main-slider>.slider-btn>div>.circle{
+.main-slider-1 .swiper-button-next>.circle{
   position: absolute;
   top:50%;
   left: 50%;
@@ -656,7 +657,7 @@ body {
   width: 100%;
   height: 100%;
 }
-.main-slider>.slider-btn>div>.circle>img{
+.main-slider-1 .swiper-button-next>.circle>img{
   animation: rotate_image 10s linear infinite;
 }
 @keyframes rotate_image {
@@ -664,7 +665,7 @@ body {
     transform: rotate(360deg);
   }
 }
-.main-slider>.slider-btn>div>.arrow{
+.main-slider-1 .swiper-button-next>.arrow{
   position: absolute;
   width: 100%;
   height: 100%;
@@ -738,9 +739,14 @@ body {
   font-weight: 200;
 }
 .charity-pot>.text-box>div>ul{
-  position: absolute;
-  top:0;
-  right: -80px;
+  display: none;
+  position: fixed;
+  top:50%;
+  right:10%;
+  z-index: 100;
+}
+.charity-pot>.text-box>div>ul.active{
+  display: block;
 }
 .charity-pot>.text-box>div>ul>li:not(:last-child){
   width: 60px;
@@ -858,8 +864,9 @@ body {
 
 /*상품박스 2 시작*/
 .prod-box-2>div>.prod-soap-1{
-  flex:5 0 0;
+  width:50%;
 }
+
 .prod-box-2>div>.prod-soap-1>.new-soap>.cc{
   position:absolute;
   top:0;
@@ -962,8 +969,7 @@ line-height:24px;
 .prod-box-2>div>.prod-soap-1>.sopa-img-1>.cc-2>a{
   position:absolute;
   color:white;
-  font-size:40px;
-  line-height: 42px;
+  font-size:35px;
   text-align:center;
   top:50%;
   left:50%;
@@ -979,7 +985,7 @@ line-height:24px;
   margin-bottom:15px;
 }
 .prod-box-2>div>.prod-soap-2{
-  flex:5 0 0;
+  width:50%;
 }
 .prod-box-2>div>.prod-soap-2>.grop-1>div{
   width:280px;
@@ -1102,9 +1108,47 @@ line-height:22px;
   right:0;
 }
 /*상품박스 2 슬랑이스 */
+.my-slider-2 {
+position: relative;
+
+}
+
+.my-slider-2::after {
+content:"";
+position: absolute;
+top:0;
+left:100%;
+width:100%;
+height: 100%;
+background-color:rgba(255,255,255,0.5);
+z-index: 20;
+}
+
+.my-slider-2 > .swiper-container {
+  box-sizing:border-box;
+  padding: 0 20px;
+  margin-right:-100%;
+}
+.my-slider-2 > .swiper-container>.swiper-wrapper {
+  
+}
+
+.my-slider-2 > .swiper-container>.swiper-wrapper >.swiper-slide{
+  white-space:nowrap;
+}
+
+.my-slider-2>.nav>*{
+position:static;
+margin:0;
+padding:10px;
+height:10px;
+width:auto;
+transform:scale(0.5);
+color:black;
+}
 .grop-3>div{
   width:170px;
-  margin-left:20px;
+  /*margin-left:20px;*/
 }
 .grop-3 .prod-img>img{
   width:110px;
@@ -1132,6 +1176,8 @@ line-height:22px;
   right:0;
 }
 /*상품박스 2 끝*/
+
+
 
 /*배너박스 시작*/
 

@@ -35,9 +35,9 @@
         <div class="top-menu-bar">
             <div class="background"></div>
             <nav class="con flex height-100p">
-                <div class="flex flex-jc-s flex-ai-c"><img
+                <div class="flex flex-jc-s flex-ai-c"><a href="https://site2.blog.oa.gg/PF/lush"><img
                         src="https://kima-rin.github.io/img1/pf/lush/lush_logo-wh.svg" width="180" alt=""></div>
-                <ul class="flex flex flex-jc-c flex-ai-c">
+                <ul class="flex flex flex-jc-c flex-ai-c"></a>
                     <li><a href="#" class="block">New & Discover</a>
                         <ul>
                             <li><a href="#">보디스프레이</a></li>
