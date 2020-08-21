@@ -74,10 +74,11 @@ function interviewBox__init(){
   $('#owl-two').owlCarousel({
     items:1,
     loop:true,
-    margin:50,
-    stagePadding:450,
+    margin:80,
+    center: true,
+    autoWidth:true,
     nav:true,
-    navText: ['좌', '우']
+    navText: ['이전', '다음']
   });
 }
 

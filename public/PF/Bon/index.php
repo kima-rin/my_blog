@@ -336,8 +336,8 @@
         <div class="my-slider-1-2 ">
             <div id="owl-two" class="owl-carousel owl-theme">
                 <div class="item">
-                    <div class="img-box"
-                        style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_201811131018068b7.jpg);">
+                    <div class="img-wrap">
+                        <div class="img-box" style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_201811131018068b7.jpg);"></div>
                     </div>
                     <div class="txt-box">
                         <div class="int_text_1">[본도시락] 신논현점</div>
@@ -346,8 +346,8 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="img-box"
-                        style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20181113100726Wwa.jpg);">
+                    <div class="img-wrap">
+                        <div class="img-box" style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20181113100726Wwa.jpg);"></div>
                     </div>
                     <div class="txt-box">
                         <div class="int_text_1">[본죽&비빔밥cafe] 시흥사거리점</div>
@@ -357,8 +357,8 @@
                     </div>
                 </div>
                 <div class="item">
-                    <div class="img-box"
-                        style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20181113101259hdu.jpg);">
+                    <div class="img-wrap">
+                        <div class="img-box" style="background-image:url(https://kima-rin.github.io/img1/pf/Bon/bnr_20181113101259hdu.jpg);"></div>
                     </div>
                     <div class="txt-box">
                         <div class="int_text_1">[본죽] 수유점</div>

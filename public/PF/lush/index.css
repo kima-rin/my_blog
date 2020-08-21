@@ -561,7 +561,7 @@ body {
   display: none;
 
 }
-.top-menu-box-2>.top-menu-bar>nav>ul>li:hover ul{
+.top-menu-box-2>.top-menu-bar>nav>ul:hover>li ul{
   display: block;
 }
 .top-menu-box-2>.top-menu-bar>nav>ul>li{
