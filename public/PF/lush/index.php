@@ -88,7 +88,8 @@
                 <div class="top-menu-bar">
                     <nav class="con">
                         <ul class="flex">
-                            <li class="flex-1-0-0 flex-jc-c"><a href="https://site2.blog.oa.gg/PF/lush/product.php" class="block">New & Discover</a>
+                            <li class="flex-1-0-0 flex-jc-c"><a href="https://site2.blog.oa.gg/PF/lush/product.php"
+                                    class="block">New & Discover</a>
                                 <ul>
                                     <li><a href="#">보디스프레이</a></li>
                                     <li><a href="#">버블 바 큐레이션</a></li>
@@ -302,7 +303,7 @@
             </div>
             <!-- Add Pagination -->
             <div class="swiper-button-next">
-            <a class="circle" href="#"> <img src="https://kima-rin.github.io/img1/pf/lush/circlesvg_33.svg" alt="">
+                <a class="circle" href="#"> <img src="https://kima-rin.github.io/img1/pf/lush/circlesvg_33.svg" alt="">
                 </a>
                 <a class="arrow" href="#"><img src="https://kima-rin.github.io/img1/pf/lush/circle_arrow_1.svg"
                         alt=""></a>
@@ -431,118 +432,132 @@
     </section>
 
     <section class="prod-box-2 ">
-     <div class="flex con">
-         <div class="prod-soap-1 relative">
-             <div class="new-soap">
-                 <img src="https://kima-rin.github.io/img1/pf/lush/soap_b_01.jpg" alt="">
-                 <div class="cc"><a href="#">new style</a></div>
-             </div>
-             <div class="soap-title font-lushHw">Honey i washed the kids</div>
-             <div class="soap-under-line">soap</div>
-             <div class="soap-under-line">Gentle, sweet and moisturising</div>
-             <div class="price"><strong>€11.00/ Original / </strong><small>120g</small>
-                 <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
-             </div>
-             <div class="comment">
-                 <div class="flex">
-                     <div class="icon-back">
-                         <img src="https://kima-rin.github.io/img1/pf/lush/account_01.svg" width="20" alt="">
-                     </div>
-                     <div class="name">boydelyn</div>
-                 </div>
-                 <p>I have very sensitive skin and this soap works wonders, without drying my skin out <br> or irritating it. The lather it creates is very velvety and the honey smell is subtle and <br> not too sweet.</p>
-             </div>
-             <div class="sopa-img-1 img-background-cover flex flex-jc-c" style="background-image:url(https://kima-rin.github.io/img1/pf/lush/new_pic_1.jpg)">
-                 <div class="cc-2">
-                     <a href="#">your hero <br> products</a>
-                 </div>
-                 <div class="View-c">View collection</div>
-             </div>
-         </div>
-         <div class="prod-soap-2">
-             <div class="grop-1 flex">
-                 <div class="black-lives"><a href="#">black lives <br> matter</a></div>
-                 <div class="delivery img-background-cover" style="background-image:url(https://kima-rin.github.io/img1/pf/lush/new_pic_2.jpg)"><a href="#">delivery <br> information</a></div>
-             </div>
-             <div class="grop-2 flex">
-                 <div class="shop-open img-background-cover" style="background-image:url(https://kima-rin.github.io/img1/pf/lush/new_pic_3.jpg)"><a href="#">shop openings - key information</a></div>
-                 <div class="prod-seanik">
-                     <div class="ocean-img text-align-center"><img src="https://kima-rin.github.io/img1/pf/lush/soap_b_02.jpg" alt=""></div>
-                     <div class="prod-title font-lushHw">Seanik</div>
-                     <div class="under-line">Shampoo Bar</div>
-                     <div class="under-line">Buoyant and beautiful hair</div>
-                     <div class="price"><strong>€8.00/ </strong><small>55g</small>
-                         <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
-                     </div>
-                 </div>
-             </div>
-             <div class="my-slider-2">
-                 <div class="nav height-100p flex flex-jc-end">
-                     <div class="swiper-button-prev"></div>
-                     <div class="swiper-button-next"></div>
-                 </div>
-                 <div class="swiper-container">
-                     <div class="swiper-wrapper grop-3">
-                         <div class="swiper-slide">
-                             <div class="prod-img text-align-center"><img src="https://kima-rin.github.io/img1/pf/lush/soap_01.jpg" alt=""></div>
-                             <div class="prod-title font-lushHw">outback mate</div>
-                             <div class="under-line">Soap</div>
-                             <div class="under-line">Tingly mint and eucalyptus</div>
-                             <div class="price"><strong>€8.00/ </strong><small>100g</small>
-                                 <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
-                             </div>
-                         </div>
-                         <div class="swiper-slide">
-                             <div class="prod-img text-align-center"><img src="https://kima-rin.github.io/img1/pf/lush/soap_02.jpg" alt=""></div>
-                             <div class="prod-title font-lushHw">louts flower</div>
-                             <div class="under-line">Soap</div>
-                             <div class="under-line">A rich and exfoliating wash</div>
-                             <div class="price"><strong>€6.00/ </strong><small>100g</small>
-                                 <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
-                             </div>
-                         </div>
-                         <div class="swiper-slide">
-                             <div class="prod-img text-align-center"><img src="https://kima-rin.github.io/img1/pf/lush/soap_03.jpg" alt=""></div>
-                             <div class="prod-title font-lushHw">lemon zest</div>
-                             <div class="under-line">Soap</div>
-                             <div class="under-line">Bright, refreshing lemon</div>
-                             <div class="price"><strong>€6.00/ </strong><small>100g</small>
-                                 <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
-                             </div>
-                         </div>
-                         <div class="swiper-slide">
-                             <div class="prod-img text-align-center"><img src="https://kima-rin.github.io/img1/pf/lush/soap_04.jpg" alt=""></div>
-                             <div class="prod-title font-lushHw">lemon zest</div>
-                             <div class="under-line">Soap</div>
-                             <div class="under-line">Bright, refreshing lemon</div>
-                             <div class="price"><strong>€6.00/ </strong><small>100g</small>
-                                 <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
-                             </div>
-                         </div>
-                         <div class="swiper-slide">
-                             <div class="prod-img text-align-center"><img src="https://kima-rin.github.io/img1/pf/lush/soap_05.jpg" alt=""></div>
-                             <div class="prod-title font-lushHw">lemon zest</div>
-                             <div class="under-line">Soap</div>
-                             <div class="under-line">Bright, refreshing lemon</div>
-                             <div class="price"><strong>€6.00/ </strong><small>100g</small>
-                                 <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
-                             </div>
-                         </div>
-                         <div class="swiper-slide">
-                             <div class="prod-img text-align-center"><img src="https://kima-rin.github.io/img1/pf/lush/soap_06.jpg" alt=""></div>
-                             <div class="prod-title font-lushHw">lemon zest</div>
-                             <div class="under-line">Soap</div>
-                             <div class="under-line">Bright, refreshing lemon</div>
-                             <div class="price"><strong>€6.00/ </strong><small>100g</small>
-                                 <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-         </div>
-     </div>
- </section>
+        <div class="flex con">
+            <div class="prod-soap-1 relative">
+                <div class="new-soap">
+                    <img src="https://kima-rin.github.io/img1/pf/lush/soap_b_01.jpg" alt="">
+                    <div class="cc"><a href="#">new style</a></div>
+                </div>
+                <div class="soap-title font-lushHw">Honey i washed the kids</div>
+                <div class="soap-under-line">soap</div>
+                <div class="soap-under-line">Gentle, sweet and moisturising</div>
+                <div class="price"><strong>€11.00/ Original / </strong><small>120g</small>
+                    <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                </div>
+                <div class="comment">
+                    <div class="flex">
+                        <div class="icon-back">
+                            <img src="https://kima-rin.github.io/img1/pf/lush/account_01.svg" width="20" alt="">
+                        </div>
+                        <div class="name">boydelyn</div>
+                    </div>
+                    <p>I have very sensitive skin and this soap works wonders, without drying my skin out <br> or
+                        irritating it. The lather it creates is very velvety and the honey smell is subtle and <br> not
+                        too sweet.</p>
+                </div>
+                <div class="sopa-img-1 img-background-cover flex flex-jc-c"
+                    style="background-image:url(https://kima-rin.github.io/img1/pf/lush/new_pic_1.jpg)">
+                    <div class="cc-2">
+                        <a href="#">your hero <br> products</a>
+                    </div>
+                    <div class="View-c">View collection</div>
+                </div>
+            </div>
+            <div class="prod-soap-2">
+                <div class="grop-1 flex">
+                    <div class="black-lives"><a href="#">black lives <br> matter</a></div>
+                    <div class="delivery img-background-cover"
+                        style="background-image:url(https://kima-rin.github.io/img1/pf/lush/new_pic_2.jpg)"><a
+                            href="#">delivery <br> information</a></div>
+                </div>
+                <div class="grop-2 flex">
+                    <div class="shop-open img-background-cover"
+                        style="background-image:url(https://kima-rin.github.io/img1/pf/lush/new_pic_3.jpg)"><a
+                            href="#">shop openings - key information</a></div>
+                    <div class="prod-seanik">
+                        <div class="ocean-img text-align-center"><img
+                                src="https://kima-rin.github.io/img1/pf/lush/soap_b_02.jpg" alt=""></div>
+                        <div class="prod-title font-lushHw">Seanik</div>
+                        <div class="under-line">Shampoo Bar</div>
+                        <div class="under-line">Buoyant and beautiful hair</div>
+                        <div class="price"><strong>€8.00/ </strong><small>55g</small>
+                            <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="my-slider-2">
+                    <div class="nav height-100p flex flex-jc-end">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper grop-3">
+                            <div class="swiper-slide">
+                                <div class="prod-img text-align-center"><img
+                                        src="https://kima-rin.github.io/img1/pf/lush/soap_01.jpg" alt=""></div>
+                                <div class="prod-title font-lushHw">outback mate</div>
+                                <div class="under-line">Soap</div>
+                                <div class="under-line">Tingly mint and eucalyptus</div>
+                                <div class="price"><strong>€8.00/ </strong><small>100g</small>
+                                    <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="prod-img text-align-center"><img
+                                        src="https://kima-rin.github.io/img1/pf/lush/soap_02.jpg" alt=""></div>
+                                <div class="prod-title font-lushHw">louts flower</div>
+                                <div class="under-line">Soap</div>
+                                <div class="under-line">A rich and exfoliating wash</div>
+                                <div class="price"><strong>€6.00/ </strong><small>100g</small>
+                                    <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="prod-img text-align-center"><img
+                                        src="https://kima-rin.github.io/img1/pf/lush/soap_03.jpg" alt=""></div>
+                                <div class="prod-title font-lushHw">lemon zest</div>
+                                <div class="under-line">Soap</div>
+                                <div class="under-line">Bright, refreshing lemon</div>
+                                <div class="price"><strong>€6.00/ </strong><small>100g</small>
+                                    <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="prod-img text-align-center"><img
+                                        src="https://kima-rin.github.io/img1/pf/lush/soap_04.jpg" alt=""></div>
+                                <div class="prod-title font-lushHw">lemon zest</div>
+                                <div class="under-line">Soap</div>
+                                <div class="under-line">Bright, refreshing lemon</div>
+                                <div class="price"><strong>€6.00/ </strong><small>100g</small>
+                                    <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="prod-img text-align-center"><img
+                                        src="https://kima-rin.github.io/img1/pf/lush/soap_05.jpg" alt=""></div>
+                                <div class="prod-title font-lushHw">lemon zest</div>
+                                <div class="under-line">Soap</div>
+                                <div class="under-line">Bright, refreshing lemon</div>
+                                <div class="price"><strong>€6.00/ </strong><small>100g</small>
+                                    <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="prod-img text-align-center"><img
+                                        src="https://kima-rin.github.io/img1/pf/lush/soap_06.jpg" alt=""></div>
+                                <div class="prod-title font-lushHw">lemon zest</div>
+                                <div class="under-line">Soap</div>
+                                <div class="under-line">Bright, refreshing lemon</div>
+                                <div class="price"><strong>€6.00/ </strong><small>100g</small>
+                                    <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="banner-box con-min-width">
         <div class="new-style-banner img-background-cover"
             style="background-image:url(https://kima-rin.github.io/img1/pf/lush/soap_banner_2020_01.jpg)">
@@ -658,51 +673,104 @@
         </div>
     </section>
 
-    <section class="prod-box-4 flex con-min-width">
-        <div class="prod-soap-list">
-            <div class="prod-soap-bar row">
-                <div class="cell-right">
-                    <div class="prod-img text-align-center"><img
-                            src="https://kima-rin.github.io/img1/pf/lush/Shampoo_bar_01.jpg" width="110" alt=""></div>
-                    <div class="prod-title font-lushHw">soak and float</div>
-                    <div class="under-line">Shampoo Bar</div>
-                    <div class="under-line">Keep a clear, calm head</div>
-                    <div class="price"><strong>€8.00/ </strong><small>55g</small>
-                        <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+    <section class="prod-box-4 con flex con-min-width">
+        <div class="my-slider-3">
+            <div class="nav flex flex-jc-end">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="swiper-container prod-soap-list">
+                <div class="swiper-wrapper prod-soap-bar row">
+                    <div class="swiper-slide cell-right">
+                        <div class="prod-img text-align-center"><img
+                                src="https://kima-rin.github.io/img1/pf/lush/Shampoo_bar_01.jpg" width="110" alt="">
+                        </div>
+                        <div class="prod-title font-lushHw">soak and float</div>
+                        <div class="under-line">Shampoo Bar</div>
+                        <div class="under-line">Keep a clear, calm head</div>
+                        <div class="price"><strong>€8.00/ </strong><small>55g</small>
+                            <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="cell-right">
-                    <div class="prod-img text-align-center"><img
-                            src="https://kima-rin.github.io/img1/pf/lush/Shampoo_bar_02.jpg" width="110" alt=""></div>
-                    <div class="prod-title font-lushHw">seanik</div>
-                    <div class="under-line">Shampoo Bar</div>
-                    <div class="under-line">Buoyant and beautiful hair</div>
-                    <div class="price"><strong>€8.00/ </strong><small>55g</small>
-                        <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                    <div class="swiper-slide cell-right">
+                        <div class="prod-img text-align-center"><img
+                                src="https://kima-rin.github.io/img1/pf/lush/Shampoo_bar_02.jpg" width="110" alt="">
+                        </div>
+                        <div class="prod-title font-lushHw">seanik</div>
+                        <div class="under-line">Shampoo Bar</div>
+                        <div class="under-line">Buoyant and beautiful hair</div>
+                        <div class="price"><strong>€8.00/ </strong><small>55g</small>
+                            <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="cell-right">
-                    <div class="prod-img text-align-center"><img
-                            src="https://kima-rin.github.io/img1/pf/lush/Shampoo_bar_03.jpg" width="110" alt=""></div>
-                    <div class="prod-title font-lushHw">montalbano</div>
-                    <div class="under-line">Shampoo Bar</div>
-                    <div class="under-line">When life gives you lemons...</div>
-                    <div class="price"><strong>€8.00/ </strong><small>55g</small>
-                        <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                    <div class="swiper-slide cell-right">
+                        <div class="prod-img text-align-center"><img
+                                src="https://kima-rin.github.io/img1/pf/lush/Shampoo_bar_03.jpg" width="110" alt="">
+                        </div>
+                        <div class="prod-title font-lushHw">montalbano</div>
+                        <div class="under-line">Shampoo Bar</div>
+                        <div class="under-line">When life gives you lemons...</div>
+                        <div class="price"><strong>€8.00/ </strong><small>55g</small>
+                            <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="cell-right">
-                    <div class="prod-img text-align-center"><img
-                            src="https://kima-rin.github.io/img1/pf/lush/Shampoo_bar_04.jpg" width="120" alt=""></div>
-                    <div class="prod-title font-lushHw">new</div>
-                    <div class="under-line">Shampoo Bar</div>
-                    <div class="under-line">Boost, shine and stimulate</div>
-                    <div class="price"><strong>€8.00/ </strong><small>55g</small>
-                        <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                    <div class="swiper-slide cell-right">
+                        <div class="prod-img text-align-center"><img
+                                src="https://kima-rin.github.io/img1/pf/lush/Shampoo_bar_04.jpg" width="130" alt="">
+                        </div>
+                        <div class="prod-title font-lushHw">new</div>
+                        <div class="under-line">Shampoo Bar</div>
+                        <div class="under-line">Boost, shine and stimulate</div>
+                        <div class="price"><strong>€8.00/ </strong><small>55g</small>
+                            <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                        </div>
                     </div>
-                </div>
+                    <div class="swiper-slide cell-right">
+                        <div class="prod-img text-align-center"><img
+                                src="https://kima-rin.github.io/img1/pf/lush/Shampoo_bar_05.jpg" width="110" alt="">
+                        </div>
+                        <div class="prod-title font-lushHw">new</div>
+                        <div class="under-line">Shampoo Bar</div>
+                        <div class="under-line">Boost, shine and stimulate</div>
+                        <div class="price"><strong>€8.00/ </strong><small>55g</small>
+                            <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide cell-right">
+                        <div class="prod-img text-align-center"><img
+                                src="https://kima-rin.github.io/img1/pf/lush/Shampoo_bar_06.jpg" width="110" alt="">
+                        </div>
+                        <div class="prod-title font-lushHw">new</div>
+                        <div class="under-line">Shampoo Bar</div>
+                        <div class="under-line">Boost, shine and stimulate</div>
+                        <div class="price"><strong>€8.00/ </strong><small>55g</small>
+                            <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide cell-right">
+                        <div class="prod-img text-align-center"><img
+                                src="https://kima-rin.github.io/img1/pf/lush/Shampoo_bar_07.jpg" width="110" alt="">
+                        </div>
+                        <div class="prod-title font-lushHw">new</div>
+                        <div class="under-line">Shampoo Bar</div>
+                        <div class="under-line">Boost, shine and stimulate</div>
+                        <div class="price"><strong>€8.00/ </strong><small>55g</small>
+                            <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide cell-right">
+                        <div class="prod-img text-align-center"><img
+                                src="https://kima-rin.github.io/img1/pf/lush/Shampoo_bar_08.jpg" width="110" alt="">
+                        </div>
+                        <div class="prod-title font-lushHw">new</div>
+                        <div class="under-line">Shampoo Bar</div>
+                        <div class="under-line">Boost, shine and stimulate</div>
+                        <div class="price"><strong>€8.00/ </strong><small>55g</small>
+                            <img src="https://kima-rin.github.io/img1/pf/lush/add-to-basket.svg" alt="">
+                        </div>
+                    </div>
 
-
+                </div>
             </div>
         </div>
         <div class="prod-soap-img">
@@ -717,6 +785,8 @@
             </div>
         </div>
     </section>
+
+
     <section class="ourPolicies-box con-min-width">
         <div class="ourPolicies-bg img-background-cover"
             style="background-image:url(https://kima-rin.github.io/img1/pf/lush/our_policies_00.jpg)">

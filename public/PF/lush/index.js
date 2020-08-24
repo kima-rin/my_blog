@@ -68,6 +68,22 @@ function prodBox2__init() {
   });
 
 }
+function ProdBox_4__init() {
+  var swiper = new Swiper('.my-slider-3 > .swiper-container', {
+    slidesPerView: 6,
+    spaceBetween: 30,
+      loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+   navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+
+}
 
 
 
@@ -77,4 +93,5 @@ $(function(){
     loginEtc_init();
     MainSlider__init();
     prodBox2__init();
+    ProdBox_4__init();
 });
