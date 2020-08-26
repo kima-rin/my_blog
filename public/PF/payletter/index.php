@@ -107,11 +107,6 @@
         </div>
         <div class="top-bar"></div>
         <div class="main-banner-box con-min-width relative">
-            <div class="abs-full">
-                <div class="video-box">
-                    <video autoplay="" muted="" playsinline="" class="main-video__video" src=""></video>
-                </div>
-            </div>
             <div class="con height-100p flex flex-ai-e">
                 <ul class="flex flex-grow-1">
                     <li data-active-on-visible-delay="5000" class="flex-1-0-0 ratio-1-1 relative active-on-visible"

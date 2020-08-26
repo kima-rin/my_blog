@@ -1,23 +1,24 @@
 console.clear();
 
-function topBackground__init(){
-    var $topBar = $('.top-bar')
-  $topBar.find('.con > ul > li').mouseenter(function () {
-    $topBar.addClass('background-actived');
+function TopBar__init() {
+  var $itemBottomLine = $('.top-bar .menu-box-1 > ul > .item-bottom-line');
+  
+  $('.top-bar .menu-box-1 > ul > li:not(.li-logo)').mouseenter(function() {
+      var $li = $(this);
+      
+      var left = $li.position().left;
+      var width = $li.width();
+      
+      $itemBottomLine.css({
+          left:left,
+          width:width
+      })
   });
+}
 
-  $topBar.mouseleave(function () {
-    $topBar.removeClass('background-actived');
-  });
-}
-function btnToggle__init(){
-    $('.btn-toggle-mobile-side-bar').click(function(){
-        $(this).toggleClass('active');
-    })
-}
+
 
 $(function(){
-    topBackground__init();
-    btnToggle__init();
+  TopBar__init();
 
 });
