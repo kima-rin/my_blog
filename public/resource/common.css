@@ -1,6 +1,6 @@
 /* 폰트적용 */
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
-
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 html {
     font-family: "Noto Sans KR", sans-serif;
 }
@@ -287,7 +287,12 @@ label[for] {
 .flex-ch-basis-0>* {
     flex-basis: 0;
 }
-
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-direction{
+    flex-direction: column
+}
 *>.flex-1-0-0 {
     flex: 1 0 0;
 }

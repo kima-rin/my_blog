@@ -4,10 +4,11 @@ include "../part/head_head.php";
 <?php
 include "../part/head.php";
 ?>
-<div class="wrapper">
+<div class="wrapper min-con-width">
     <div class="flex flex-ai-c flex-jc-c">
-        <div class="img-box flex flex-ai-c flex-jc-c">
+        <div class="img-box flex flex-direction flex-ai-c flex-jc-c">
             <img src="https://kima-rin.github.io/img1/me/aboutMe.svg" alt="">
+            <a href="#">arin.kim</a>
         </div>
         <div class="spec-box">
             <div class="education">
@@ -45,7 +46,7 @@ include "../part/head.php";
                 <div class="flex">
                     <span class="deco"><i class="fas fa-caret-right"></i></span>
                     <span class="date">2003.03-2004.02</span>
-                    <span class="content">make design drawing S-1 Corporation</span>
+                    <span class="content">Make design drawing S-1 Corporation</span>
                 </div>
                 <div class="flex">
                     <span class="deco"><i class="fas fa-caret-right"></i></span>

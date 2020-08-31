@@ -11,7 +11,7 @@
                     <li class="flex"><a href="#" class="block">/</a></li>
                     <li class="flex"><a href="/aboutMe.php" class="block">About Me</a></li>
                     <li class="flex"><a href="#" class="block">/</a></li>
-                    <li class="flex"><a href="#" class="block">Portfolio</a></li>
+                    <li class="flex"><a href="/portfolio.php" class="block">Portfolio</a></li>
                     <li class="flex"><a href="#" class="block">/</a></li>
                     <li class="flex"><a href="#" class="block">Sns</a></li>
                 </ul>
