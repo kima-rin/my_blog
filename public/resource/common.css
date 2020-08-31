@@ -1,8 +1,10 @@
 /* 폰트적용 */
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
 html {
     font-family: "Noto Sans KR", sans-serif;
+    /*font-family: 'Charm', cursive;*/
 }
 
 /* 노말라이즈 */

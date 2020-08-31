@@ -64,11 +64,11 @@ include "../part/head.php";
         </div>
         <div class="skill-box">
             <div class="softWare">
-                <div class="title-box-2"><a class="title" href="#">SOFT WARE</a></div>
+                <div class="title-box"><a class="title" href="#">SOFT WARE</a></div>
                 <div><img src="https://kima-rin.github.io/img1/me/softwere.svg" width="250" alt=""></div>
             </div>
             <div class="skill">
-                <div class="title-box-2"><a class="title" href="#">skill</a></div>
+                <div class="title-box"><a class="title" href="#">skill</a></div>
                 <div><img src="https://kima-rin.github.io/img1/me/skill.svg" width="250" alt=""></div>
             </div>
             <div class="contect-box">

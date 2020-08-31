@@ -57,11 +57,44 @@ function MobileSideBar__init() {
     }
   });
 }
+/*portfolio_blur_init*/
+function BlurIn__init() {
+  $('.blur-in').each(function(index, el) {
+    var $el = $(el);
+    var duration = $el.attr('data-blur-in-duration');
+    var $blurItem = $el.find(' > .blur-item');
+    var $blurItemClone = $blurItem.clone();
+    $blurItem.addClass('origin');
+    $blurItemClone.addClass('clone');
+    $el.append($blurItemClone);
+    var htmlCover = '<div class="blur-item-cover-box"><div class="blur-item-cover first"></div><div class="blur-item-cover second"></div></div>';
+    $el.append(htmlCover);
+    $el.find('.blur-item-cover').css('transition-duration', duration + 's');
+  });
+  
+  $('.btn-active-all-blur-in').click(function() {
+    $('.blur-in').addClass('active');
+  });
+  
+  $('.btn-inactive-all-blur-in').click(function() {
+    $('.blur-in').removeClass('active');
+  });
+  
+  $('.blur-in[data-trigger-active-delay]').each(function(index, el) {
+    var $el = $(el);
+    var delay = parseInt($el.attr('data-trigger-active-delay'));
+    setTimeout(function() {
+      $el.addClass('active');
+    }, delay);
+  });
+}
+
 
 $(function () {
   slide();
   gridSlide();
   MobileSideBar__init();
+  BlurIn__init();
 });
 
 function a(){
