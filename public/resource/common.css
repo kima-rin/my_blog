@@ -6,7 +6,9 @@ html {
     font-family: "Noto Sans KR", sans-serif;
     /*font-family: 'Charm', cursive;*/
 }
-
+.charm{
+    font-family:'Charm', cursive;
+}
 /* 노말라이즈 */
 body,
 ul,

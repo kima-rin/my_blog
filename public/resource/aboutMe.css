@@ -73,7 +73,7 @@
     border:1px dotted black;
     text-align: center;
 }
-.title{
+.title-box>.title{
     
     font-size: 14px;
     padding:3px 30px;   

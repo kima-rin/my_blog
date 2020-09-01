@@ -1,0 +1,18 @@
+.btn-next {
+    position: relative;
+}
+
+.btn-next > div {
+    position: absolute;
+    bottom:0;
+    left:0;
+    width:0;
+    height: 1px;
+    background-color:red;
+    width:0;
+    transition-property: width;
+}
+
+.btn-next.start-count > div {
+    width:100%;
+}
