@@ -1,18 +1,141 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+
+html {
+  font-family: "Noto Sans KR", sans-serif;
+  /*font-family: 'Charm', cursive;*/
+}
+
+.charm {
+  font-family: 'Charm', cursive;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* .blur-in */
+.blur-in {
+  position: relative;
+  overflow: hidden;
+}
+
+.blur-in .blur-item.origin {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.blur-in .blur-item.clone {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.blur-in.blur-in-type-1 .blur-item-cover-box {
+  position: absolute;
+  top: -70px;
+  left: -70px;
+  right: -70px;
+  bottom: -70px;
+  pointer-events: none;
+}
+
+.blur-in.blur-in-type-1 .blur-item-cover {
+  position: absolute;
+  filter: blur(5px);
+  pointer-events: none;
+}
+
+.blur-in.blur-in-type-1 .blur-item-cover.first,
+.blur-in.blur-in-type-1 .blur-item-cover.second {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #F5F3F1;
+  transition-property: top, left, right, bottom, opacity;
+}
+
+.blur-in.blur-in-type-1 .blur-item-cover.second {
+  visibility: hidden;
+}
+
+.blur-in.blur-in-type-1-down.active .blur-item-cover.first {
+  top: 100%;
+}
+
+.blur-in.blur-in-type-1-up.active .blur-item-cover.first {
+  bottom: 100%;
+}
+
+.blur-in.blur-in-type-1-right.active .blur-item-cover.first {
+  left: 100%;
+}
+
+.blur-in.blur-in-type-1-left.active .blur-item-cover.first {
+  right: 100%;
+}
+
+.blur-in.blur-in-type-1-normal {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.blur-in.blur-in-type-1-normal.active {
+  opacity: 1;
+}
+
+.blur-in.blur-in-type-1-normal .blur-item-cover {
+  display: none;
+}
+
+.blur-in.blur-in-type-1-left-and-right .blur-item-cover.first {
+  right: 20%;
+}
+
+.blur-in.blur-in-type-1-left-and-right .blur-item-cover.second {
+  visibility: visible;
+  left: 20%;
+}
+
+.blur-in.blur-in-type-1-left-and-right.active .blur-item-cover.first {
+  right: 100%;
+}
+
+.blur-in.blur-in-type-1-left-and-right.active .blur-item-cover.second {
+  left: 100%;
+}
+
+
+
 .btn-next {
-    position: relative;
+  position: relative;
+  top: 20px;
+  left: 75%;
+  padding: 5px 50px;
+  color: #fff;
+  background-color: #4d4d4d;
+  z-index: 20;
 }
 
-.btn-next > div {
-    position: absolute;
-    bottom:0;
-    left:0;
-    width:0;
-    height: 1px;
-    background-color:red;
-    width:0;
-    transition-property: width;
+.btn-next>div {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: white;
+  width: 0;
+  transition-property: width;
 }
 
-.btn-next.start-count > div {
-    width:100%;
+.btn-next.start-count>div {
+  width: 100%;
+}
+
+.blur-in-before-hidden {
+  visibility: hidden;
+  opacity:0;
 }
