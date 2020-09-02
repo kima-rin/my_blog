@@ -8,10 +8,9 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    border:2px solid red;
 }
-.pf-c-wrapper>div>div{
-    width:100%;
+.pf-c-wrapper>div>div:first-child{
+    width: 100%;
     height: 100%;
 }
 .pf-c-wrapper>div>div>p{
@@ -22,38 +21,157 @@
     margin-left: 100px;
 }
 /*콘텐츠 리스트 박스 시작*/
+
 .pf-c-wrapper>div>.content-list-box>div{
     position: absolute;
-    width: 50%;
+    width: 100%;
     height: 100%;
     top:0;
     left: 50%;
+    margin-right: -100%;
 }
 /*콘텐츠-normal*/
 .cont-number{
-    font-size: 120px;
+    font-size: 110px;
+    line-height: 100px;
     color: #dfdfdf;
-    padding: 60px 0;
+    padding-top: 50%;
+    padding-bottom:10%;
+    padding-left:5px;
 }
-.cont-title{
-    font-size:5
+.cont-date{
+    font-size: 14px;
+    padding-top: 30%;
+    padding-bottom:5%;
+    padding-left:5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
 }
-
+.cont-title-box{
+    padding: 5% 0;
+    padding-left:5px;
+}
+.cont-url{
+    font-size: 12px;
+    margin-top:-5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.3px;
+}
+.project{
+    font-size: 8px;  
+    padding-left:5px;
+}
 /*콘텐츠-1*/
-.pf-c-wrapper>div>.content-list-box>div>.con-1{
+.pf-c-wrapper>div>.content-list-box>div>.cont-1{
+    position: relative;
     width: 300px;
     height: 100%;
     border-left:1px solid #4d4d4d;
     border-right: 1px solid #4d4d4d;
 }
-.pf-c-wrapper>div>.content-list-box>div>.con-1>.img-box>img{
+.pf-c-wrapper>div>.content-list-box>div>.cont-1>.img-box{
+    position: absolute;
+    top:550px;
+}
+.pf-c-wrapper>div>.content-list-box>div>.cont-1>.img-box>img{
     width: 96%;
     margin-left: auto;
     margin-right: auto;
 }
 /*콘텐츠-2*/
-.pf-c-wrapper>div>.content-list-box>div>.con-2{
+.pf-c-wrapper>div>.content-list-box>div>.cont-2{
+    position: relative;
     width: 300px;
     height: 100%;
     border-right: 1px solid #4d4d4d;
+}
+.pf-c-wrapper>div>.content-list-box>div>.cont-2>.img-box{
+    position: absolute;
+    top:550px;
+}
+.pf-c-wrapper>div>.content-list-box>div>.cont-2>.img-box>img{
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*콘텐츠-3*/
+.pf-c-wrapper>div>.content-list-box>div>.cont-3{
+    position: relative;
+    width: 300px;
+    height: 100%;
+    border-right: 1px solid #4d4d4d;
+}
+.pf-c-wrapper>div>.content-list-box>div>.cont-3>.img-box{
+    position: absolute;
+    top:550px;
+}
+.pf-c-wrapper>div>.content-list-box>div>.cont-3>.img-box>img{
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*콘텐츠-4*/
+.pf-c-wrapper>div>.content-list-box>div>.cont-4{
+    position: relative;
+    width: 300px;
+    height: 100%;
+    border-right: 1px solid #4d4d4d;
+}
+.pf-c-wrapper>div>.content-list-box>div>.cont-4>.img-box{
+    position: absolute;
+    top:550px;
+}
+.pf-c-wrapper>div>.content-list-box>div>.cont-4>.img-box>img{
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*콘텐츠-5*/
+.pf-c-wrapper>div>.content-list-box>div>.cont-5{
+    position: relative;
+    width: 300px;
+    height: 100%;
+    border-right: 1px solid #4d4d4d;
+}
+.pf-c-wrapper>div>.content-list-box>div>.cont-5>.img-box{
+    position: absolute;
+    top:550px;
+}
+.pf-c-wrapper>div>.content-list-box>div>.cont-5>.img-box>img{
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*콘텐츠-6*/
+.pf-c-wrapper>div>.content-list-box>div>.cont-6{
+    position: relative;
+    width: 300px;
+    height: 100%;
+    border-right: 1px solid #4d4d4d;
+}
+.pf-c-wrapper>div>.content-list-box>div>.cont-6>.img-box{
+    position: absolute;
+    top:550px;
+}
+.pf-c-wrapper>div>.content-list-box>div>.cont-6>.img-box>img{
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*콘텐츠-7*/
+.pf-c-wrapper>div>.content-list-box>div>.cont-7{
+    position: relative;
+    width: 300px;
+    height: 100%;
+    border-right: 1px solid #4d4d4d;
+}
+.pf-c-wrapper>div>.content-list-box>div>.cont-7>.img-box{
+    position: absolute;
+    top:550px;
+}
+.pf-c-wrapper>div>.content-list-box>div>.cont-7>.img-box>img{
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
 }
