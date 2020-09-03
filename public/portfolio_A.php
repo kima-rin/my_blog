@@ -2,9 +2,6 @@
 include "../part/head_head.php";
 ?>
 <?php
-include "../part/head.php";
-?>
-<?php
 include "../part/portfolio_head.php";
 ?>
 &nbsp;&nbsp;&nbsp;&nbsp;<a href="portfolio_B.php" onclick="movePage(this); return false;" class="btn-next">Next<div></div></a>

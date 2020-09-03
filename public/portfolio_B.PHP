@@ -2,15 +2,12 @@
 include "../part/head_head.php";
 ?>
 <?php
-include "../part/head.php";
-?>
-<?php
 include "../part/portfolio_head.php";
 ?>
 &nbsp;&nbsp;&nbsp;&nbsp;<a href="portfolio_C.php" onclick="movePage(this); return false;" class="btn-next">List View<div></div></a>
 <div>
     <div class="content-box flex blur-in-before-hidden">
-        <div class="box-1-1 flex flex-direction flex-1-0-0 flex-jc-c">
+        <div class="box-1-1 flex flex-direction flex-1-0-0 flex-jc-c border-red">
             <div data-blur-in-duration="1.5" class="blur-in blur-in-type-1 blur-in-type-1-normal" data-trigger-inactive-delay="0" data-trigger-active-delay="2000">
                 <div class="blur-item img-box">
                     <img src="https://kima-rin.github.io/img1/me/cp_content.svg" alt="">
@@ -36,8 +33,8 @@ include "../part/portfolio_head.php";
             </div>
         </div>
 
-        <div class="box-2-2 flex-1-0-0">
-            <div class="list-1 flex-direction flex-jc-c flex-ai-c active" data-tab-name="box-1" data-tab-body-item-name="1">
+        <div class="box-2-2 flex-1-0-0 border-red">
+            <div class="list-1 height-100p flex-direction flex-jc-c flex-ai-c active" data-tab-name="box-1" data-tab-body-item-name="1">
                 <div class="list-wrapper-1 flex">
                     <div class="list-box-1">
                         <div data-blur-in-duration="1.0" class="blur-in blur-in-type-1 blur-in-type-1-right number" data-trigger-inactive-delay="0" data-trigger-active-delay="4000">

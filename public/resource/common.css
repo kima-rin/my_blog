@@ -390,7 +390,6 @@ body{
     width: 350px;
     bottom: 0;
     transition: right .5s; 
-
 }
 .right-side-bar>.side-dc{
     position: absolute;

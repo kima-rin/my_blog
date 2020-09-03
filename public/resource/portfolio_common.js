@@ -148,6 +148,21 @@ function TabBox__init() {
     });
   }
   
+  function leftSideBar__init() {
+    $('left-side-bar>.rs-logo-box>.btn-toggle-mobile-side-bar').click(function () {
+      var $this = $(this);
+  
+      if ($this.hasClass('active')) {
+        $this.removeClass('active');
+        $('.left-side-bar').removeClass('active');
+      } else {
+        $this.addClass('active')
+        $('.left-side-bar').addClass('active');
+      }
+    });
+  }
+
   $(function () {
     TabBox__init();
+    leftSideBar__init();
   });
