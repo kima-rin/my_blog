@@ -108,11 +108,9 @@ html {
   left: 100%;
 }
 
-
-
 .btn-next {
-  position: relative;
-  top: 20px;
+  position: absolute;
+  top: 0;
   left: 75%;
   padding: 5px 50px;
   color: #fff;
@@ -164,8 +162,9 @@ html {
 }
 .left-side-bar>img{
   position:absolute;
-   top:0;
-   right:-10px;
+  top:50%;
+  right:-10px;
+  transform: translateY(-50%);
 }
 /* 모바일 사이드 메뉴 바 로고 */
 

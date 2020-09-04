@@ -11,9 +11,9 @@ include "../part/portfolio_head.php";
             <P class="momt-text">Forming design <br> languages <br> for the <br> digital era</P>
             <img src="https://kima-rin.github.io/img1/me/chapter_arrow.svg" width="50" alt="">
         </div>
-        <div class="content-list-box">
-            <div class="flex">
-                <div class="cont-1">
+        <div class="content-list-box swiper-containe">
+            <div class="flex swiper-wrapper">
+                <div class="cont-1 swiper-slide">
                     <h1 class="cont-number Poppins">01</h1>
                     <p class="cont-date">AUG8 ---- 2020</p>
                     <div class="cont-title-box">
@@ -25,7 +25,7 @@ include "../part/portfolio_head.php";
                         <img src="https://kima-rin.github.io/img1/me/port_01.png" alt="">
                     </div>
                 </div>
-                <div class="cont-2">
+                <div class="cont-2 swiper-slide">
                     <h1 class="cont-number Poppins">02</h1>
                     <p class="cont-date">AUG8 ---- 2020</p>
                     <div class="cont-title-box">
@@ -37,7 +37,7 @@ include "../part/portfolio_head.php";
                         <img src="https://kima-rin.github.io/img1/me/port_02.png" alt="">
                     </div>
                 </div>
-                <div class="cont-3">
+                <div class="cont-3 swiper-slide">
                     <h1 class="cont-number Poppins">03</h1>
                     <p class="cont-date">JUL7 ---- 2020</p>
                     <div class="cont-title-box">
@@ -49,7 +49,7 @@ include "../part/portfolio_head.php";
                         <img src="https://kima-rin.github.io/img1/me/port_03.png" alt="">
                     </div>
                 </div>
-                <div class="cont-4">
+                <div class="cont-4 swiper-slide">
                     <h1 class="cont-number Poppins">04</h1>
                     <p class="cont-date">JUL7 ---- 2020</p>
                     <div class="cont-title-box">
@@ -61,7 +61,7 @@ include "../part/portfolio_head.php";
                         <img src="https://kima-rin.github.io/img1/me/port_04.png" alt="">
                     </div>
                 </div>
-                <div class="cont-5">
+                <div class="cont-5 swiper-slide">
                     <h1 class="cont-number Poppins">05</h1>
                     <p class="cont-date">JUN6 ---- 2020</p>
                     <div class="cont-title-box">
@@ -73,7 +73,7 @@ include "../part/portfolio_head.php";
                         <img src="https://kima-rin.github.io/img1/me/port_05.png" alt="">
                     </div>
                 </div>
-                <div class="cont-6">
+                <div class="cont-6 swiper-slide">
                     <h1 class="cont-number Poppins">06</h1>
                     <p class="cont-date">JUN6 ---- 2020</p>
                     <div class="cont-title-box">
@@ -85,7 +85,7 @@ include "../part/portfolio_head.php";
                         <img src="https://kima-rin.github.io/img1/me/port_06.png" alt="">
                     </div>
                 </div>
-                <div class="cont-7">
+                <div class="cont-7 swiper-slide">
                     <h1 class="cont-number Poppins">07</h1>
                     <p class="cont-date">JUN6 ---- 2020</p>
                     <div class="cont-title-box">

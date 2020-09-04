@@ -162,7 +162,20 @@ function TabBox__init() {
     });
   }
 
+  function listviewSlide__init(){
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        centeredSlides: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
+  }
+
   $(function () {
     TabBox__init();
     leftSideBar__init();
+    listviewSlide__init();
   });
