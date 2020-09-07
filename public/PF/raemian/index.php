@@ -130,14 +130,36 @@
             </a>
         </div>
     </div>
-
-
-
     <div class="main-banner-box con-min-width relative">
-            <div class="video-box">
-                <video autoplay="" muted="" playsinline="" class="main-video__video" src="https://play.raemian.co.kr/Raemian_brand2020A.mp4"></video>   
-            </div>
+        <div class="video-box">
+            <video autoplay="" muted="" playsinline="" class="main-video__video"
+                src="https://play.raemian.co.kr/Raemian_brand2020A.mp4"></video>
+        </div>
 
+    </div>
+    <div class="sns-box flex con">
+        <div class="flex flex-ai-c">
+            <p>래미안의 SNS를 <br> 만나보세요</p>
+            <span></span>
+        </div>
+        <div>
+            <div class="sns-bar flex flex-jc-c flex-ai-c">
+                <div class="img-box"><img src="https://kima-rin.github.io/img1/pf/raemian/ico_ms_instagram.png" alt="">
+                </div>
+                <div class="img-box"><img src="https://kima-rin.github.io/img1/pf/raemian/ico_ms_youtube.png" alt="">
+                </div>
+                <div class="img-box"><img src="https://kima-rin.github.io/img1/pf/raemian/ico_ms_line.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">Slide 4</div>
+            <div class="swiper-slide">Slide 5</div>
+        </div>
     </div>
 
 </body>
