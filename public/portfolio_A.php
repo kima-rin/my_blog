@@ -6,7 +6,9 @@ include "../part/portfolio_head.php";
 ?>
 
 <div class="relative">
+    <div class="pf-a relative con">
     <a href="portfolio_B.php" onclick="movePage(this); return false;" class="btn-next">Next<div></div></a>
+    </div>
     <div class="contect-box flex">
         <div class="box-1 flex flex-1-0-0 flex-jc-c flex-ai-c">
             <div data-blur-in-duration="1.5" class="blur-in blur-in-type-1 blur-in-type-1-normal"

@@ -174,8 +174,35 @@ function TabBox__init() {
       });
   }
 
+/*portfolio-c 슬라이드*/
+
+var Box1__$slider1;
+var Box1__detailBoxWidth = 300;
+
+function Box1__init() {
+    Box1__$slider1 = $('.box-1 .slider-1');
+    var Box1__slider1Width = Box1__$slider1.width();
+    
+    Box1__$slider1.css('margin-left', -Box1__slider1Width);
+    
+    Box1__$slider1.animate({'margin-left': Box1__detailBoxWidth}, 2000, "easeOutCirc");
+    
+    $('.box-outer').mousemove(function(e) {
+        var outerWidth = $(this).width() - Box1__detailBoxWidth;
+        var x = e.offsetX - Box1__detailBoxWidth;
+        var xPercent = 0;
+        
+        if ( x > 0 ) {
+            console.log(xPercent);
+            xPercent = x / outerWidth * 100;
+        }
+    });
+}
+
+
   $(function () {
     TabBox__init();
     leftSideBar__init();
     listviewSlide__init();
+    Box1__init();
   });

@@ -5,15 +5,30 @@ include "../part/head_head.php";
 include "../part/portfolio_head.php";
 ?>
 
-<section class="pf-c-wrapper">
-    <div>
-        <div class="flex flex-ai-c">
-            <P class="momt-text">Forming design <br> languages <br> for the <br> digital era</P>
-            <img src="https://kima-rin.github.io/img1/me/chapter_arrow.svg" width="50" alt="">
+
+<div class="box-outer">
+    <div class="box-1">
+        <div data-blur-in-duration="2.5" class="blur-in blur-in-type-1 blur-in-type-1-right"
+            data-trigger-inactive-delay="0" data-trigger-active-delay="1000">
+            <div class="flex flex-direction flex-jc-c blur-item img-box" data-tab-name="box-1"
+                data-tab-head-item-name="4">
+                <div class="flex">
+                    <P class="mont-text">Forming design <br> languages <br> for the <br> digital era</P>
+                    <img src="https://kima-rin.github.io/img1/me/chapter_arrow.svg" width="50" alt="">
+                </div>
+                <div class="pf-b relative">
+                    <a href="portfolio_B.php" onclick="movePage(this); return false;" class="btn-next">list View<div>
+                        </div>
+                    </a>
+                    <a href="portfolio_C.php" onclick="movePage(this); return false;" class="btn-next btn-clone">&nbsp; All
+                        view &nbsp;
+                        <div></div></a>
+                </div>
+            </div>
         </div>
-        <div class="content-list-box swiper-containe">
-            <div class="flex swiper-wrapper">
-                <div class="cont-1 swiper-slide">
+        <div class="slider-1 relative">
+            <div class="slides">
+                <div class="cont-1 slide">
                     <h1 class="cont-number Poppins">01</h1>
                     <p class="cont-date">AUG8 ---- 2020</p>
                     <div class="cont-title-box">
@@ -25,7 +40,7 @@ include "../part/portfolio_head.php";
                         <img src="https://kima-rin.github.io/img1/me/port_01.png" alt="">
                     </div>
                 </div>
-                <div class="cont-2 swiper-slide">
+                <div class="cont-2 slide">
                     <h1 class="cont-number Poppins">02</h1>
                     <p class="cont-date">AUG8 ---- 2020</p>
                     <div class="cont-title-box">
@@ -37,7 +52,7 @@ include "../part/portfolio_head.php";
                         <img src="https://kima-rin.github.io/img1/me/port_02.png" alt="">
                     </div>
                 </div>
-                <div class="cont-3 swiper-slide">
+                <div class="cont-3 slide">
                     <h1 class="cont-number Poppins">03</h1>
                     <p class="cont-date">JUL7 ---- 2020</p>
                     <div class="cont-title-box">
@@ -49,7 +64,7 @@ include "../part/portfolio_head.php";
                         <img src="https://kima-rin.github.io/img1/me/port_03.png" alt="">
                     </div>
                 </div>
-                <div class="cont-4 swiper-slide">
+                <div class="cont-4 slide">
                     <h1 class="cont-number Poppins">04</h1>
                     <p class="cont-date">JUL7 ---- 2020</p>
                     <div class="cont-title-box">
@@ -61,7 +76,7 @@ include "../part/portfolio_head.php";
                         <img src="https://kima-rin.github.io/img1/me/port_04.png" alt="">
                     </div>
                 </div>
-                <div class="cont-5 swiper-slide">
+                <div class="cont-5 slide">
                     <h1 class="cont-number Poppins">05</h1>
                     <p class="cont-date">JUN6 ---- 2020</p>
                     <div class="cont-title-box">
@@ -73,7 +88,7 @@ include "../part/portfolio_head.php";
                         <img src="https://kima-rin.github.io/img1/me/port_05.png" alt="">
                     </div>
                 </div>
-                <div class="cont-6 swiper-slide">
+                <div class="cont-6 slide">
                     <h1 class="cont-number Poppins">06</h1>
                     <p class="cont-date">JUN6 ---- 2020</p>
                     <div class="cont-title-box">
@@ -85,7 +100,7 @@ include "../part/portfolio_head.php";
                         <img src="https://kima-rin.github.io/img1/me/port_06.png" alt="">
                     </div>
                 </div>
-                <div class="cont-7 swiper-slide">
+                <div class="cont-7 slide">
                     <h1 class="cont-number Poppins">07</h1>
                     <p class="cont-date">JUN6 ---- 2020</p>
                     <div class="cont-title-box">
@@ -97,10 +112,18 @@ include "../part/portfolio_head.php";
                         <img src="https://kima-rin.github.io/img1/me/port_07.png" alt="">
                     </div>
                 </div>
+                <div class="cont-8 slide">내용8</div>
+                <div class="cont-9 slide">내용9</div>
+                <div class="cont-10 slide">내용10</div>
+                <div class="cont-11 slide">내용11</div>
+                <div class="cont-12 slide">내용12</div>
+                <div class="cont-13 slide">내용13</div>
+                <div class="cont-14 slide">내용14</div>
+                <div class="cont-15 slide">내용15</div>
             </div>
         </div>
     </div>
-</section>
+</div>
 
 <?php
 include "../part/foot.php";

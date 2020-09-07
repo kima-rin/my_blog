@@ -6,7 +6,7 @@ include "../part/portfolio_head.php";
 ?>
 
 <div class="relative">
-    <a href="portfolio_C.php" onclick="movePage(this); return false;" class="btn-next">List View<div></div></a>
+
     <div class="content-box flex blur-in-before-hidden">
         <div class="box-1-1 flex flex-direction flex-1-0-0 flex-jc-c">
             <div data-blur-in-duration="1.5" class="blur-in blur-in-type-1 blur-in-type-1-normal"
@@ -34,6 +34,17 @@ include "../part/portfolio_head.php";
                 <div class="blur-item img-box flex" data-tab-name="box-1" data-tab-head-item-name="3">
                     <img src="https://kima-rin.github.io/img1/me/cp_03.svg" alt="">
                     <div><img src="https://kima-rin.github.io/img1/me/chapter_arrow.svg" width="50" alt=""></div>
+                </div>
+            </div>
+            <div data-blur-in-duration="2.5" class="blur-in blur-in-type-1 blur-in-type-1-right"
+                data-trigger-inactive-delay="0" data-trigger-active-delay="1000">
+                <div class="pf-b relative  blur-item img-box" data-tab-name="box-1" data-tab-head-item-name="4">
+                    <a href="portfolio_B.php" onclick="movePage(this); return false;" class="btn-next">list View<div>
+                        </div>
+                    </a>
+                    <a href="portfolio_C.php" onclick="movePage(this); return false;" class="btn-next btn-clone"> &nbsp; All
+                        view &nbsp;
+                        <div></div></a>
                 </div>
             </div>
         </div>
@@ -362,7 +373,7 @@ include "../part/portfolio_head.php";
                             <div data-blur-in-duration="1.0" class="blur-in blur-in-type-1 blur-in-type-1-down"
                                 data-trigger-active-delay="4000">
                                 <div class="blur-item img-box">
-                                    <a href="#"><img src="https://kima-rin.github.io/img1/me/gra_01.svg" alt=""></a>
+                                    <a href="#"><img src="https://kima-rin.github.io/img1/me/cra_s_01.svg" alt=""></a>
                                 </div>
                             </div>
                         </div>
@@ -370,7 +381,7 @@ include "../part/portfolio_head.php";
                             <div data-blur-in-duration="1.0" class="blur-in blur-in-type-1 blur-in-type-1-normal"
                                 data-trigger-active-delay="4000">
                                 <div class="blur-item img-box">
-                                    <a href="#"><img src="https://kima-rin.github.io/img1/me/gra_02.svg" alt=""></a>
+                                    <a href="#"><img src="https://kima-rin.github.io/img1/me/cra_s_02.svg" alt=""></a>
                                 </div>
                             </div>
                         </div>
@@ -378,7 +389,7 @@ include "../part/portfolio_head.php";
                             <div data-blur-in-duration="1.0" class="blur-in blur-in-type-1 blur-in-type-1-down"
                                 data-trigger-active-delay="4000">
                                 <div class="blur-item img-box">
-                                    <a href="#"><img src="https://kima-rin.github.io/img1/me/gra_03.svg" alt=""></a>
+                                    <a href="#"><img src="https://kima-rin.github.io/img1/me/cra_s_03.svg" alt=""></a>
                                 </div>
                             </div>
                         </div>
@@ -386,7 +397,7 @@ include "../part/portfolio_head.php";
                             <div data-blur-in-duration="1.0" class="blur-in blur-in-type-1 blur-in-type-1-normal"
                                 data-trigger-active-delay="4000">
                                 <div class="blur-item img-box">
-                                    <a href="#"><img src="https://kima-rin.github.io/img1/me/gra_04.svg" alt=""></a>
+                                    <a href="#"><img src="https://kima-rin.github.io/img1/me/cra_s_04.svg" alt=""></a>
                                 </div>
                             </div>
                         </div>

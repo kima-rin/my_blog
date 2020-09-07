@@ -107,36 +107,12 @@ html {
 .blur-in.blur-in-type-1-left-and-right.active .blur-item-cover.second {
   left: 100%;
 }
-
-.btn-next {
-  position: absolute;
-  top: 0;
-  left: 75%;
-  padding: 5px 50px;
-  color: #fff;
-  background-color: #4d4d4d;
-  z-index: 20;
-}
-
-.btn-next>div {
-  position: absolute;
-  bottom: 5px;
-  left: 0;
-  width: 0;
-  height: 1px;
-  background-color: white;
-  width: 0;
-  transition-property: width;
-}
-
-.btn-next.start-count>div {
-  width: 100%;
-}
-
 .blur-in-before-hidden {
   visibility: hidden;
   opacity:0;
 }
+
+
 
 /* 모바일 사이드 바 데코박스 */
 .left-side-bar{
