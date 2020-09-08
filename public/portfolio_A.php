@@ -35,7 +35,7 @@ include "../part/portfolio_head.php";
             <div data-blur-in-duration="1.5" class="blur-in blur-in-type-1 blur-in-type-1-normal absolute"
                 data-trigger-active-delay="4000">
                 <div class="blur-item img-box">
-                    <img src="https://kima-rin.github.io/img1/me/rule.svg" alt="">
+                    <img src="https://kima-rin.github.io/img1/me/design_rule_02.svg" alt="">
                 </div>
             </div>
         </div>

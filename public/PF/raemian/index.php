@@ -152,13 +152,44 @@
             </div>
         </div>
     </div>
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">Slide 1</div>
-            <div class="swiper-slide">Slide 2</div>
-            <div class="swiper-slide">Slide 3</div>
-            <div class="swiper-slide">Slide 4</div>
-            <div class="swiper-slide">Slide 5</div>
+    <div class="my-slider-1 banner-box con">
+        <div class="swiper-container">
+            <div class="swiper-wrapper flex">
+                <div class="swiper-slide relative">
+                    <div class="img-box relative">
+                        <img src="https://kima-rin.github.io/img1/pf/raemian/estate_23304055.jpg" alt="">
+                        <div class="text-box-small">분양 <br> 예정</div>                       
+                    </div>
+                    <div class="text-box-big"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img-box">
+                        <img src="https://kima-rin.github.io/img1/pf/raemian/estate_36106849.jpg" alt="">
+                        <div class="text-box-small">분양 <br> 예정</div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img-box">
+                    <img src="https://kima-rin.github.io/img1/pf/raemian/estate_26900952.jpg"
+                            alt="">
+                            <div class="text-box-small">입주 <br> (준비)중</div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img-box">
+                    <img src="https://kima-rin.github.io/img1/pf/raemian/estate_47903195.jpg"
+                            alt="">
+                            <div class="text-box-small">분양 <br> 예정</div>
+                            </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img-box">
+                        <img src="https://kima-rin.github.io/img1/pf/raemian/estate_05527071.jpg"
+                            alt="">
+                            <div class="text-box-small-2">공사중</div>
+                            </div>
+                </div>
+            </div>
         </div>
     </div>
 

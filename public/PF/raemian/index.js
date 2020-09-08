@@ -16,9 +16,19 @@ function TopBar__init() {
   });
 }
 
+function bannerSlider__init(){
+  var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
+}
 
 
 $(function(){
   TopBar__init();
-
+  bannerSlider__init();
 });
