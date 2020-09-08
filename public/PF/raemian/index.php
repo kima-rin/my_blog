@@ -158,36 +158,71 @@
                 <div class="swiper-slide relative">
                     <div class="img-box relative">
                         <img src="https://kima-rin.github.io/img1/pf/raemian/estate_23304055.jpg" alt="">
-                        <div class="text-box-small">분양 <br> 예정</div>                       
+                        <div class="text-box-small">분양 <br> 예정</div>
                     </div>
-                    <div class="text-box-big"></div>
+                    <div class="text-box-big">
+                        <div class="cover-1">
+                            <span class="date rubic-font">2020.09</span><span class="condition">분양예정</span>
+                            <p class="name">레이카운티</p>
+                            <p class="address">부산광역시 연제구 거제동 802번지 일원</p>
+                            <p class="guide-1"> <strong>세대</strong> &nbsp;&nbsp; 총 4,470 세대 (일반분양 2,759 세대)</p>
+                            <p class="guide-2"> <strong>문의</strong> &nbsp;&nbsp; 051-557-4470</p>
+                            <div class="detail">
+                                <p>상세보기</p>
+                            </div>                            
+                        </div>
+                        <div class="cover-2"></div>
+                    </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="img-box">
                         <img src="https://kima-rin.github.io/img1/pf/raemian/estate_36106849.jpg" alt="">
                         <div class="text-box-small">분양 <br> 예정</div>
                     </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="img-box">
-                    <img src="https://kima-rin.github.io/img1/pf/raemian/estate_26900952.jpg"
-                            alt="">
-                            <div class="text-box-small">입주 <br> (준비)중</div>
+                    <div class="text-box-big">
+                        <div class="cover-1">
+                            <span class="date rubic-font">2020.10</span><span class="condition">분양예정</span>
+                            <p class="name">레미안원베일리</p>
+                            <p class="address">서울특별시 서초구 반포2동 신반포로19길 10</p>
+                            <p class="guide-1"> <strong>세대</strong> &nbsp;&nbsp; 총 2,990 세대 (일반분양 224 세대)</p>
+                            <p class="guide-2"> <strong>문의</strong> &nbsp;&nbsp; 1588-3588</p>
+                            <div class="detail">
+                                <p>상세보기</p>
+                            </div>                            
+                        </div>
+                        <div class="cover-2"></div>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="img-box">
-                    <img src="https://kima-rin.github.io/img1/pf/raemian/estate_47903195.jpg"
-                            alt="">
-                            <div class="text-box-small">분양 <br> 예정</div>
-                            </div>
+                        <img src="https://kima-rin.github.io/img1/pf/raemian/estate_26900952.jpg" alt="">
+                        <div class="text-box-small">입주 <br> (준비)중</div>
+                    </div>
+                    <div class="text-box-big">
+                        <div class="cover-1">
+                            <span class="date rubic-font">2020.09</span><span class="condition">입주예정</span>
+                            <p class="name">래미안 리더스원</p>
+                            <p class="address">서울특별시 서초구 서운로 62</p>
+                            <p class="guide-1"> <strong>세대</strong> &nbsp;&nbsp; 	총 1,317 세대 (일반분양 232 세대)</p>
+                            <p class="guide-2"> <strong>문의</strong> &nbsp;&nbsp; 1588-3588</p>
+                            <div class="detail">
+                                <p>상세보기</p>
+                            </div>                            
+                        </div>
+                        <div class="cover-2"></div>
+                    </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="img-box">
-                        <img src="https://kima-rin.github.io/img1/pf/raemian/estate_05527071.jpg"
-                            alt="">
-                            <div class="text-box-small-2">공사중</div>
-                            </div>
+                        <img src="https://kima-rin.github.io/img1/pf/raemian/estate_47903195.jpg" alt="">
+                        <div class="text-box-small">분양 <br> 예정</div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img-box">
+                        <img src="https://kima-rin.github.io/img1/pf/raemian/estate_05527071.jpg" alt="">
+                        <div class="text-box-small-2">공사중</div>
+                    </div>
                 </div>
             </div>
         </div>

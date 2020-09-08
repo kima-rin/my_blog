@@ -95,7 +95,7 @@ function movePageLink(url) {
         delay = 2000;
         onLeavePageA();
     } else if (location.href.indexOf('/portfolio_B.php') !== -1) {
-        delay = 4000;
+        delay = 2000;
         onLeavePageB();
     }
 
