@@ -264,7 +264,7 @@ label[for] {
 }
 
 .border-red {
-    border: 10px solid red;
+    border: 2px solid red;
 }
 
 .border-green {
@@ -334,6 +334,9 @@ label[for] {
 
 *>.flex-as-e {
     align-self: flex-end;
+}
+*>.flex-jc-sa {
+    justify-content: space-around;
 }
 
 *>.flex-column-nowrap {
@@ -674,3 +677,86 @@ body {
 .my-slider-1 {
     visibility: hidden;
 }
+
+/* 배너박스 시작 */
+.banner-bar-1{
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+/* 배너박스 1 */
+.banner-bar-1>.banner-box-1{
+    flex:5 0 0;
+}
+
+.banner-bar-1>.banner-box-1>a>p{
+    display: inline-block;
+    font-size: 16px;
+    border-bottom: 2px solid #1B9C9E;
+    padding:30px 0 10px 50px; 
+    color: #1B9C9E;
+    font-weight: 500;
+}
+.banner-bar-1>.banner-box-1>a>h1{
+    font-weight: 400;
+    font-size: 30px;
+    padding-top:10px;
+    padding-left: 50px;
+}
+/* 배너박스 2 */
+.banner-bar-1>.banner-box-2{
+    flex:5 0 0;
+}
+.banner-bar-1>.banner-box-2{
+    flex-shrink: 0;
+    margin-top: 46px;
+    margin-left: -48px;
+}
+.banner-bar-1>.banner-box-2>a>p{
+    display: inline-block;
+    font-size: 16px;
+    border-bottom: 2px solid #907E72;
+    padding:30px 0 10px 50px; 
+    color: #907E72;
+    font-weight: 500;
+}
+.banner-bar-1>.banner-box-2>a>h1{
+    font-weight: 400;
+    font-size: 30px;
+    padding-top:10px;
+    padding-left: 50px;
+}
+/* 배너박스 끝*/
+
+
+/* 아이콘 박스 시작*/
+.icon-box{
+    border: 5px solid #dfdfdf;
+}
+.icon-box>ul{
+    padding: 50px;
+    
+}
+.icon-box>ul>li{
+    padding:0 50px;   
+}
+.icon-box>ul>li:not(:last-child){
+    border-right:1px solid #dfdfdf;
+}
+.icon-box>ul>li>a>div{
+    padding: 0 10px;
+    white-space: nowrap;
+}
+/* 아이콘 박스 끝*/
+
+/*배너 바 2 시작*/
+.banner-bar-2{
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+}
+
+
+/*배너 바 2 끝*/

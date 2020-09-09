@@ -169,7 +169,7 @@
                             <p class="guide-2"> <strong>문의</strong> &nbsp;&nbsp; 051-557-4470</p>
                             <div class="detail">
                                 <p>상세보기</p>
-                            </div>                            
+                            </div>
                         </div>
                         <div class="cover-2"></div>
                     </div>
@@ -188,7 +188,7 @@
                             <p class="guide-2"> <strong>문의</strong> &nbsp;&nbsp; 1588-3588</p>
                             <div class="detail">
                                 <p>상세보기</p>
-                            </div>                            
+                            </div>
                         </div>
                         <div class="cover-2"></div>
                     </div>
@@ -203,11 +203,11 @@
                             <span class="date rubic-font">2020.09</span><span class="condition">입주예정</span>
                             <p class="name">래미안 리더스원</p>
                             <p class="address">서울특별시 서초구 서운로 62</p>
-                            <p class="guide-1"> <strong>세대</strong> &nbsp;&nbsp; 	총 1,317 세대 (일반분양 232 세대)</p>
+                            <p class="guide-1"> <strong>세대</strong> &nbsp;&nbsp; 총 1,317 세대 (일반분양 232 세대)</p>
                             <p class="guide-2"> <strong>문의</strong> &nbsp;&nbsp; 1588-3588</p>
                             <div class="detail">
                                 <p>상세보기</p>
-                            </div>                            
+                            </div>
                         </div>
                         <div class="cover-2"></div>
                     </div>
@@ -227,6 +227,62 @@
             </div>
         </div>
     </div>
+    <div class="img-box con">
+        <img src="https://kima-rin.github.io/img1/pf/raemian/mainEvent_05432744.png" alt="">
+    </div>
+
+    <div class="banner-bar-1 flex con">
+        <div class="banner-box-1">
+            <div class="img-box">
+                <img src="https://kima-rin.github.io/img1/pf/raemian/photo_mgl_gallery.png" alt="">
+            </div>
+            <a href="#">
+                <p>래미안 갤러리</p>
+                <h1>래미안이 꿈꾸는 주거문화를 <br> 만나는 곳</h1>
+            </a>
+        </div>
+        <div class="banner-box-2 img-box">
+            <div>
+                <img src="https://kima-rin.github.io/img1/pf/raemian/photo_mgl_academy.png" alt="">
+            </div>
+            <a href="#">
+                <p>래미안 아카데미</p>
+                <h1>래미안 고객만을 위한 특권</h1>
+            </a>
+        </div>
+    </div>
+
+    <nav class="icon-box con">
+        <ul class="flex flex-jc-c">
+            <li><a href="#" class="flex flex-jc-c"><img
+                        src="https://kima-rin.github.io/img1/pf/raemian/ico_mum_payment.png" alt="">
+                    <div class="flex flex-ai-c">분양대금조회</div>
+                </a></li>
+            <li><a href="#" class="flex flex-jc-c"><img
+                        src="https://kima-rin.github.io/img1/pf/raemian/ico_mum_contact.png" alt="">
+                    <div class="flex flex-ai-c">1:1 문의</div>
+                </a></li>
+            <li><a href="#" class="flex flex-jc-c"><img
+                        src="https://raemian.co.kr/assets/front/inc/images/main/ico_mum_as.png" alt="">
+                    <div class="flex flex-ai-c">A/S 신청</div>
+                </a></li>
+            <li><a href="#" class="flex flex-jc-c"><img
+                        src="https://kima-rin.github.io/img1/pf/raemian/ico_mum_counsel.png" alt="">
+                    <div class="flex flex-ai-c">전화상담예약</div>
+                </a></li>
+            <li><a href="#" class="flex flex-jc-c"><img
+                        src="https://kima-rin.github.io/img1/pf/raemian/ico_mum_market.png" alt="">
+                    <div class="flex flex-ai-c">래미안 웰스토리몰</div>
+                </a></li>
+        </ul>
+    </nav>
+    <div class="banner-bar-2 border-red" style="background-image:url(https://kima-rin.github.io/img1/pf/raemian/bg_times.jpg)">
+        <div>
+
+        </div>
+
+    </div>
+
 
 </body>
 
