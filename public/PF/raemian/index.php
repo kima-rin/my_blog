@@ -276,9 +276,59 @@
                 </a></li>
         </ul>
     </nav>
-    <div class="banner-bar-2 border-red" style="background-image:url(https://kima-rin.github.io/img1/pf/raemian/bg_times.jpg)">
-        <div>
-
+    <div class="banner-bar-2"
+        style="background-image:url(https://kima-rin.github.io/img1/pf/raemian/bg_times.jpg)">
+        <ul class="flex con">
+            <li class="flex flex-1-0-0" style="background-color:#fff;">
+                <a>
+                    <p class="title-1">래미안 홈스타일링</p>
+                    <h1>래미안 엘리니티 인테 <br>리어 엿보기 </h1>
+                    <img src="https://kima-rin.github.io/img1/pf/raemian/raemianStyle_34884347.jpg" width="300" alt="">
+                    <p class="banner-date">2020.06.15</p>
+                </a>
+            </li>
+            <li class="flex flex-1-0-0" style="background-color:#1B9C9E;">
+                <a>
+                    <p class="title-1">부동산 꿀팀</p>
+                    <h1>조경,아파트의 얼굴이 <br>되다 </h1>
+                    <img src="https://kima-rin.github.io/img1/pf/raemian/realty_93860889.png" width="300" alt="">
+                    <p class="banner-date">2020.09.02</p>
+                </a>
+            </li>
+            <li class="flex flex-1-0-0" style="background-color:#fff;">
+                <a>
+                <a>
+                    <p class="title-1">래미안 라이프</p>
+                    <h1>조경,국가고객만족 <br>도23년 연속1위 수상 </h1>
+                    <img src="https://kima-rin.github.io/img1/pf/raemian/raemianTown_62636045.png" width="300" alt="">
+                    <p class="banner-date">2020.09.07</p>
+                </a>
+                </a>
+            </li>
+            <li class="flex flex-1-0-0" style="background-color:#907E72;">
+                <a>
+                    <p class="title-1">부동산 꿀팀</p>
+                    <h1>2020년 래미안 미술작 <br> 품 설치 용역 협력회 </h1>
+                    <p class="text-1">
+                    삼성물산 래미안 미술작품 설치용역 협력 <br> 회사를 다음과 같이 추가 모집합니다.
+지 <br> 원을 희망하는 회사는 아래 내용을 참고하 <br> 셔서 안내에 따라 지원하여 주시기 바랍니 <br> 다.
+                    </p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="banner-bar-3">
+        <div class="flex con">
+            <a href="#" class="banner-box-left"><div class="img-box"><img src="https://kima-rin.github.io/img1/pf/raemian/mainEvent_63606056.jpg" alt=""></div></a>
+            <a href="#" class="banner-box-right"><div class="img-box"><img src="https://kima-rin.github.io/img1/pf/raemian/mainEvent_95018313.jpg" alt=""></div></a>
+        </div>
+    </div>
+    <div class="footer-wrap">
+        <div class="footer con">
+            <img src="https://kima-rin.github.io/img1/pf/raemian/logo_foot_samsungcnt.png" width="174" alt="">
+            <p class="company_info">삼성물산 건설부문 대표이사 이영호 서울특별시 강동구 상일로 6길 26 사업자등록번호 468-85-00111</p>
+            <p class="warning">※ 본 컨텐츠의 저작권은 삼성물산㈜에 있으며, 이를 무단 이용하는 경우 저작권법 등에 따라 법적책임을 질 수 있습니다.</p>
+            <p class="copyright">ⓒ SAMSUNG C&T Corp. All Rights Reserved.</p>
         </div>
 
     </div>
