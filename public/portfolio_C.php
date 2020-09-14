@@ -61,7 +61,7 @@ include "../part/portfolio_head.php";
                         <p class="project">project</p>
                         <div style="background-image:url(https://kima-rin.github.io/img1/me/raemian_img.jpg)"></div>
                     </div>
-                    <div><a href="#">more</a></div>
+                    <div><a href="https://site2.blog.oa.gg/PF/raemian/" target="_blank">more</a></div>
                 </div>
                 <div class="slide">
                     <div class="title Poppins">03</div>
@@ -79,7 +79,7 @@ include "../part/portfolio_head.php";
                         <p class="project">project</p>
                         <div style="background-image:url(https://kima-rin.github.io/img1/me/lush_img.jpg)"></div>
                     </div>
-                    <div><a href="#">more</a></div>
+                    <div><a href="https://site2.blog.oa.gg/PF/lush/" target="_blank">more</a></div>
                 </div>
                 <div class="slide">
                     <div class="title Poppins">04</div>

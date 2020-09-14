@@ -18,11 +18,11 @@ function TopBar__init() {
 
 function BannerSlider__init() {
   setTimeout(function () {
-    var swiper = new Swiper('.my-slider-1 .swiper-container', {
+    var swiper = new Swiper('.my-slider-1 > .swiper-container', {
       slidesPerView: 3,
       spaceBetween: 30,
       pagination: {
-        el: '.my-slider-1 .swiper-pagination',
+        el: '.my-slider-1>.swiper-pagination',
         clickable: true,
       },
     });
@@ -31,7 +31,26 @@ function BannerSlider__init() {
   }, 500);
 }
 
+function BannerSlider2__init() {
+  setTimeout(function () {
+    var swiper = new Swiper('.my-slider-2 > .swiper-container', {
+      direction: 'vertical',
+      loop: true,
+      
+      // autoplay: {
+      //     delay: 2500,
+      //     disableOnInteraction: false,
+      // },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  })
+}
+
 $(function () {
   TopBar__init();
   BannerSlider__init();
+  BannerSlider2__init();
 });

@@ -235,6 +235,10 @@
         <div class="banner-box-1">
             <div class="img-box">
                 <img src="https://kima-rin.github.io/img1/pf/raemian/photo_mgl_gallery.png" alt="">
+                <div class="plus-text">
+                    <img src="https://kima-rin.github.io/img1/pf/raemian/btn_mg_ask.png" alt="">
+                    <p>래미안 홈랩 예약방문</p>
+                </div>
             </div>
             <a href="#">
                 <p>래미안 갤러리</p>
@@ -244,6 +248,10 @@
         <div class="banner-box-2 img-box">
             <div>
                 <img src="https://kima-rin.github.io/img1/pf/raemian/photo_mgl_academy.png" alt="">
+                <div class="plus-text">
+                    <img src="https://kima-rin.github.io/img1/pf/raemian/btn_mg_ask.png" alt="">
+                    <p>아카데미 방문하기</p>
+                </div>
             </div>
             <a href="#">
                 <p>래미안 아카데미</p>
@@ -276,8 +284,7 @@
                 </a></li>
         </ul>
     </nav>
-    <div class="banner-bar-2"
-        style="background-image:url(https://kima-rin.github.io/img1/pf/raemian/bg_times.jpg)">
+    <div class="banner-bar-2" style="background-image:url(https://kima-rin.github.io/img1/pf/raemian/bg_times.jpg)">
         <ul class="flex con">
             <li class="flex flex-1-0-0" style="background-color:#fff;">
                 <a>
@@ -297,12 +304,13 @@
             </li>
             <li class="flex flex-1-0-0" style="background-color:#fff;">
                 <a>
-                <a>
-                    <p class="title-1">래미안 라이프</p>
-                    <h1>조경,국가고객만족 <br>도23년 연속1위 수상 </h1>
-                    <img src="https://kima-rin.github.io/img1/pf/raemian/raemianTown_62636045.png" width="300" alt="">
-                    <p class="banner-date">2020.09.07</p>
-                </a>
+                    <a>
+                        <p class="title-1">래미안 라이프</p>
+                        <h1>조경,국가고객만족 <br>도23년 연속1위 수상 </h1>
+                        <img src="https://kima-rin.github.io/img1/pf/raemian/raemianTown_62636045.png" width="300"
+                            alt="">
+                        <p class="banner-date">2020.09.07</p>
+                    </a>
                 </a>
             </li>
             <li class="flex flex-1-0-0" style="background-color:#907E72;">
@@ -310,17 +318,81 @@
                     <p class="title-1">부동산 꿀팀</p>
                     <h1>2020년 래미안 미술작 <br> 품 설치 용역 협력회 </h1>
                     <p class="text-1">
-                    삼성물산 래미안 미술작품 설치용역 협력 <br> 회사를 다음과 같이 추가 모집합니다.
-지 <br> 원을 희망하는 회사는 아래 내용을 참고하 <br> 셔서 안내에 따라 지원하여 주시기 바랍니 <br> 다.
+                        삼성물산 래미안 미술작품 설치용역 협력 <br> 회사를 다음과 같이 추가 모집합니다.
+                        지 <br> 원을 희망하는 회사는 아래 내용을 참고하 <br> 셔서 안내에 따라 지원하여 주시기 바랍니 <br> 다.
                     </p>
                 </a>
             </li>
         </ul>
+
+        <div class="con flex flex-jc-c border-red">
+            <div class="flex flex-ai-c">래미안 뉴스</div>
+            <div class="my-slider-2 slider-2-1 flex flex-ai-c flex-1-0-0">               
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide flex flex-ai-c">
+                            <a href="#" class="block">
+                                <strong>소식</strong>
+                                <span>부산 레이카운티, 올해 부산 청약시장 최대어…`多세권` 갖춘 4470가구 대단지</span>
+                                <span>2020-07-24</span>  
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="block">
+                                <strong>소식</strong>
+                                <span>[입주타임] 강남 생활권+숲세권 누리는 럭셔리 아파트 `개포래미안포레스트`①입지편</span>
+                                <span>2020-07-24</span> 
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="block"> 
+                                <strong>소식</strong>
+                                <span>새 아파트 귀하신 몸”… 강남 입주권 웃돈만 '10억'</span>
+                                <span>2020-07-24</span> 
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" class="block">
+                                <strong>소식</strong>
+                                <span>래미안 헤스티아’로 차별화된 서비스 제공 - [NCSI] 아파트 부문 1위 삼성물산</span>
+                                <span>2020-07-24</span>                           
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a herf="#" class="block">
+                                <strong>소식</strong>
+                                <span>[코로나가 바꾼 분양시장] 유튜브 활용한 '랜선 집들이' 인기</span>
+                                <span>2020-07-24</span>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a herf="#" class="block">
+                                <strong>소식</strong>
+                                <span>부산 레이카운티, 올해 부산 청약시장 최대어…`多세권` 갖춘 4470가구 대단지</span>
+                                <span>2020-07-24</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="block">
+                    <span class="block"><i class="fas fa-angle-up"></i></span>
+                    <span class="block"><i class="fas fa-angle-down"></i></span>
+                </div>
+            </div>
+        </div>
+
     </div>
     <div class="banner-bar-3">
         <div class="flex con">
-            <a href="#" class="banner-box-left"><div class="img-box"><img src="https://kima-rin.github.io/img1/pf/raemian/mainEvent_63606056.jpg" alt=""></div></a>
-            <a href="#" class="banner-box-right"><div class="img-box"><img src="https://kima-rin.github.io/img1/pf/raemian/mainEvent_95018313.jpg" alt=""></div></a>
+            <a href="#" class="banner-box-left">
+                <div class="img-box"><img src="https://kima-rin.github.io/img1/pf/raemian/mainEvent_63606056.jpg"
+                        alt=""></div>
+            </a>
+            <a href="#" class="banner-box-right">
+                <div class="img-box"><img src="https://kima-rin.github.io/img1/pf/raemian/mainEvent_95018313.jpg"
+                        alt=""></div>
+            </a>
         </div>
     </div>
     <div class="footer-wrap">
