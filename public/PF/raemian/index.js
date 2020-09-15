@@ -36,11 +36,11 @@ function BannerSlider2__init() {
     var swiper = new Swiper('.my-slider-2 > .swiper-container', {
       direction: 'vertical',
       loop: true,
-      
-      // autoplay: {
-      //     delay: 2500,
-      //     disableOnInteraction: false,
-      // },
+      slidesPerView: 1,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+        },
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',

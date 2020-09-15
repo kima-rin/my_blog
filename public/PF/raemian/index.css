@@ -942,8 +942,7 @@ body {
 }
 .banner-bar-2>div>.my-slider-2>.swiper-container{
     width: 100%;
-    /* height: 50px; */
-    border:2px solid red;
+    height: 32px; 
 }
 
 .banner-bar-2>div>.my-slider-2>.swiper-container>.swiper-wrapper>.swiper-slide{
@@ -959,7 +958,6 @@ body {
     font-size: 14px;
     line-height: 20px;
 }
-
 
 /*배너 바 2 끝*/
 
@@ -981,25 +979,57 @@ body {
 
 .footer-wrap{
     background-color: #333333;
+    border-bottom:1px solid #888888;
 }
 .footer-wrap>.footer{
     padding: 35px 0px 30px;
 }
-.footer-wrap>.footer>.company_info{
-    margin-right: 13px;
-    margin-top:4px;
+.footer-wrap>.footer>div:first-child>div{
+    flex:5 0 0;
+    margin-bottom: 5px;
 }
-.footer-wrap>.footer>.company_info, .footer-wrap>.footer>.warning
+.footer-wrap>.footer>div:first-child>p{
+    flex:5 0 0;
+    color: #fff;
+}
+.footer-wrap>.footer>.com-box>div>.company_info{
+    margin:4px 13px 5px 0px;
+}
+.footer-wrap>.footer>.com-box>div:first-child{
+    flex:5 0 0;
+}
+.footer-wrap>.footer >.com-box>div>.company_info, .footer-wrap>.footer >.com-box>div>.warning
 {
     font-size:14px;
     color:#888888;
     letter-spacing: 0px;
 }
 
-.footer-wrap>.footer>.copyright{
+.footer-wrap>.footer>.com-box>div>.copyright{
     margin-top:9px;
     font-size:13px;
     line-height: 16px;
     color:#888888;
     letter-spacing: 0px;
 }
+.footer-wrap>.footer>.com-box>div:last-child{
+    flex:5 0 0;
+}
+.footer-wrap>.footer>.com-box>div:last-child>img{
+    padding:10px;
+}
+
+/*어워드 박스 시작*/
+.award-box{
+    background-color: #333333;
+}
+.award-box>ul>li{
+    padding: 10px 0;
+}
+.award-box>ul>li>span{
+    color: #A8A8A8;
+    font-size: 12px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+/*어워드 박스 끝*/

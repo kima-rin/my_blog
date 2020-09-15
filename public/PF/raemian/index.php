@@ -327,35 +327,35 @@
 
         <div class="con flex flex-jc-c border-red">
             <div class="flex flex-ai-c">래미안 뉴스</div>
-            <div class="my-slider-2 slider-2-1 flex flex-ai-c flex-1-0-0">               
+            <div class="my-slider-2 slider-2-1 flex flex-ai-c flex-1-0-0">
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide flex flex-ai-c">
                             <a href="#" class="block">
                                 <strong>소식</strong>
                                 <span>부산 레이카운티, 올해 부산 청약시장 최대어…`多세권` 갖춘 4470가구 대단지</span>
-                                <span>2020-07-24</span>  
+                                <span>2020-07-24</span>
                             </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="#" class="block">
                                 <strong>소식</strong>
                                 <span>[입주타임] 강남 생활권+숲세권 누리는 럭셔리 아파트 `개포래미안포레스트`①입지편</span>
-                                <span>2020-07-24</span> 
+                                <span>2020-07-24</span>
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="#" class="block"> 
+                            <a href="#" class="block">
                                 <strong>소식</strong>
                                 <span>새 아파트 귀하신 몸”… 강남 입주권 웃돈만 '10억'</span>
-                                <span>2020-07-24</span> 
+                                <span>2020-07-24</span>
                             </a>
                         </div>
                         <div class="swiper-slide">
                             <a href="#" class="block">
                                 <strong>소식</strong>
                                 <span>래미안 헤스티아’로 차별화된 서비스 제공 - [NCSI] 아파트 부문 1위 삼성물산</span>
-                                <span>2020-07-24</span>                           
+                                <span>2020-07-24</span>
                             </a>
                         </div>
                         <div class="swiper-slide">
@@ -375,9 +375,9 @@
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
-                <div class="block">
-                    <span class="block"><i class="fas fa-angle-up"></i></span>
-                    <span class="block"><i class="fas fa-angle-down"></i></span>
+                <div class="nav block">
+                    <span class="swiper-button-prev block"><i class="fas fa-angle-up"></i></span>
+                    <span class="swiper-button-next block"><i class="fas fa-angle-down"></i></span>
                 </div>
             </div>
         </div>
@@ -397,14 +397,57 @@
     </div>
     <div class="footer-wrap">
         <div class="footer con">
-            <img src="https://kima-rin.github.io/img1/pf/raemian/logo_foot_samsungcnt.png" width="174" alt="">
-            <p class="company_info">삼성물산 건설부문 대표이사 이영호 서울특별시 강동구 상일로 6길 26 사업자등록번호 468-85-00111</p>
-            <p class="warning">※ 본 컨텐츠의 저작권은 삼성물산㈜에 있으며, 이를 무단 이용하는 경우 저작권법 등에 따라 법적책임을 질 수 있습니다.</p>
-            <p class="copyright">ⓒ SAMSUNG C&T Corp. All Rights Reserved.</p>
+            <div class="flex">
+                <div><img src="https://kima-rin.github.io/img1/pf/raemian/logo_foot_samsungcnt.png" width="174" alt="">
+                </div>
+
+                <p class="flex flex-1-0-0 flex-jc-e flex-ai-c">이용약관 ㆍ <strong>개인정보처리방침</strong> ㆍ 이메일주소무단수집거부 ㆍ 저작권안내 ㆍ
+                    고객센터 <strong>&nbsp; 1588-3588</strong> </p>
+            </div>
+            <div class="com-box flex">
+                <div>
+                    <p class="company_info">삼성물산 건설부문 대표이사 이영호 서울특별시 강동구 상일로 6길 26 사업자등록번호 468-85-00111</p>
+                    <p class="warning">※ 본 컨텐츠의 저작권은 삼성물산㈜에 있으며, 이를 무단 이용하는 경우 저작권법 등에 따라 법적책임을 질 수 있습니다.</p>
+                    <p class="copyright">ⓒ SAMSUNG C&T Corp. All Rights Reserved.</p>
+                </div>
+                <div class="flex flex-jc-e">
+                    <img src="https://kima-rin.github.io/img1/pf/raemian/btn_foot_instagram.png" alt="">
+                    <img src="https://kima-rin.github.io/img1/pf/raemian/btn_foot_youtube.png" alt="">
+                    <img src="https://kima-rin.github.io/img1/pf/raemian/btn_foot_kakao.png" alt="">
+                </div>
+            </div>
+
         </div>
 
     </div>
-
+    <nav class="award-box">
+        <ul class="flex con">
+            <li class="flex flex-1-0-0 flex-ai-c">
+                <div><img src="https://kima-rin.github.io/img1/pf/raemian/award_f_ncsi.png"" alt=""></div>
+                <span class="block">국가고객만족도 (NCSI) <br> 23년 연속 1위 </span>
+            </li>
+            <li class="flex flex-1-0-0">
+                <div><img src=" https://kima-rin.github.io/img1/pf/raemian/award_f_nbci.png"" alt=""></div>
+                <span class="block">국가브랜드경쟁력지수(NBCI) <br> 17년 연속 1위 </span>
+            </li>
+            <li class="flex flex-1-0-0">
+                <div><img src="https://kima-rin.github.io/img1/pf/raemian/award_f_kbpi.png"" alt=""></div>
+                <span class="block">한국 산업의 브랜드 파워 (K-BPI)) <br> 19년 연속 1위 </span>
+            </li>
+            <li class="flex flex-1-0-0">
+                <div><img src=" https://kima-rin.github.io/img1/pf/raemian/award_f_hf.png"" alt=""></div>
+                <span class="block">고객감동경영대상<br> '명예의 전당 최초 헌정기업' </span>
+            </li>
+            <li class="flex flex-1-0-0">
+                <div><img src="https://kima-rin.github.io/img1/pf/raemian/award_f_ks0sql.png"" alt=""></div>
+                <span class="block">한국 서비스 풀질지수(KS-SQI) <br> 5년 연속 1위 </span>
+            </li>
+            <li class="flex flex-1-0-0">
+                <div><img src="https://kima-rin.github.io/img1/pf/raemian/award_f_pims.png" alt="" class="ico"></div>
+                <span class="block">개인정보보호 관리체계 (PIMS)<br>인증 취득</span>
+            </li>
+        </ul>
+    </nav>
 
 </body>
 
