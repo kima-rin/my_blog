@@ -20,10 +20,15 @@ function BannerSlider__init() {
   setTimeout(function () {
     var swiper = new Swiper('.my-slider-1 > .swiper-container', {
       slidesPerView: 3,
+      slidesPerGroup:3,
       spaceBetween: 30,
       pagination: {
-        el: '.my-slider-1>.swiper-pagination',
+        el: '.my-slider-1 .swiper-pagination',
         clickable: true,
+      },
+      navigation: {
+        nextEl: '.my-slider-1 .swiper-button-next',
+        prevEl: '.my-slider-1 .swiper-button-prev',
       },
     });
 
@@ -42,8 +47,8 @@ function BannerSlider2__init() {
         disableOnInteraction: false,
         },
       navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.my-slider-2 .swiper-button-next',
+        prevEl: '.my-slider-2 .swiper-button-prev',
       },
     });
   })

@@ -486,7 +486,25 @@ body {
     display: block;
     font-weight: 500;
 }
-
+.top-bar .menu-box-1 ul ul>li>a{
+    position: relative;
+}
+.top-bar .menu-box-1 ul ul>li>a::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background-color: #68C8C6;
+    opacity: 0;
+    transition: all .5s;
+    z-index: 99;
+}
+.top-bar .menu-box-1 ul ul>li:hover>a::after{
+    opacity: 1;
+    width: 100%;
+}
 /* 탑바 끝 */
 /* 메인 배너 박스 */
 .main-banner-box {
@@ -586,6 +604,33 @@ body {
 .text-box-big>div>span{
     font-size: 16px;
     line-height: 20px;
+}
+.my-slider-1>.swiper-pagination-clickable{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 180px;
+    text-align: center;
+}
+.my-slider-1>.swiper-pagination-clickable .swiper-pagination-bullet{  
+    padding: 2px;
+    margin:10px;
+}
+:root {
+    --swiper-theme-color: #1B9C9E;
+}
+
+.my-slider-1 .swiper-button-next, .my-slider-1 .swiper-button-prev {
+    top:30%;
+    margin-left: -100px;
+    margin-right: -100px;
+    border:1px solid #333333;
+    padding: 5px 15px;
+}
+
+.my-slider-1 .swiper-button-next::after, .my-slider-1 .swiper-button-prev::after {
+    font-size: 1rem;
+    color:black;
 }
 
 .text-box-small{
@@ -936,10 +981,52 @@ body {
     transform: translateX(-50%);
     bottom: 0;
 }
+.banner-bar-2>div>.news{
+    font-weight: bold;
+}
 .banner-bar-2>div>div:first-child{
     margin:30px 20px 30px 50px;
     white-space: nowrap;
 }
+
+.banner-bar-2>div>.my-slider-2 .swiper-button-next, .banner-bar-2>div>.my-slider-2 .swiper-button-prev {
+    outline: 0;
+    position:absolute;
+}
+
+.banner-bar-2>div>.my-slider-2 .swiper-button-prev {
+    left:auto;
+    top:calc(50% + 10px);
+    right: 60px;
+}
+
+.banner-bar-2>div>.my-slider-2 .swiper-button-next {
+    left:auto;
+    top:calc(50% - 10px);
+    right: 50px;
+}
+
+.banner-bar-2>div>.my-slider-2 .swiper-button-prev::after {
+    transform: rotate(-90deg);
+    display: inline-block;
+}
+
+.banner-bar-2>div>.my-slider-2 .swiper-button-next::after {
+    transform: rotate(-90deg);
+    display: inline-block;
+}
+
+.banner-bar-2>div>.my-slider-2 .swiper-button-next::after, .banner-bar-2>div>.my-slider-2 .swiper-button-prev::after {
+    font-size: 1rem;
+    color:black;
+    position: relative;
+    top:10px;
+}
+
+.banner-bar-2>div>.my-slider-2 .swiper-button-prev::after {
+    left:10px;
+}
+
 .banner-bar-2>div>.my-slider-2>.swiper-container{
     width: 100%;
     height: 32px; 
@@ -958,7 +1045,9 @@ body {
     font-size: 14px;
     line-height: 20px;
 }
-
+.banner-bar-2>div>.my-slider-2>.swiper-container>.swiper-wrapper>.swiper-slide>a>span{
+    margin-right: 120px;
+}
 /*배너 바 2 끝*/
 
 

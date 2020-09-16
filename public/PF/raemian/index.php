@@ -152,7 +152,7 @@
             </div>
         </div>
     </div>
-    <div class="my-slider-1 banner-box con">
+    <div class="my-slider-1 banner-box con relative con-min-width">
         <div class="swiper-container">
             <div class="swiper-wrapper flex">
                 <div class="swiper-slide relative">
@@ -217,14 +217,46 @@
                         <img src="https://kima-rin.github.io/img1/pf/raemian/estate_47903195.jpg" alt="">
                         <div class="text-box-small">분양 <br> 예정</div>
                     </div>
+                    <div class="text-box-big">
+                        <div class="cover-1">
+                            <span class="date rubic-font">2020.09</span><span class="condition">입주예정</span>
+                            <p class="name">래미안 포레스트</p>
+                            <p class="address">서울특별시 강남구 개포동 656번지 62</p>
+                            <p class="guide-1"> <strong>세대</strong> &nbsp;&nbsp; 	총 2,296 세대 (일반분양 208 세대)</p>
+                            <p class="guide-2"> <strong>문의</strong> &nbsp;&nbsp; 1588-3588</p>
+                            <div class="detail">
+                                <p>상세보기</p>
+                            </div>
+                        </div>
+                        <div class="cover-2"></div>
+                    </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="img-box">
                         <img src="https://kima-rin.github.io/img1/pf/raemian/estate_05527071.jpg" alt="">
                         <div class="text-box-small-2">공사중</div>
                     </div>
+                    <div class="text-box-big">
+                        <div class="cover-1">
+                            <span class="date rubic-font">2020.09</span><span class="condition">입주예정</span>
+                            <p class="name">래미안 엘리니티</p>
+                            <p class="address">서울특별시 동대문구 용두동 753-9번지 일대</p>
+                            <p class="guide-1"> <strong>세대</strong> &nbsp;&nbsp; 총 1,048 세대 (일반분양 475 세대)</p>
+                            <p class="guide-2"> <strong>문의</strong> &nbsp;&nbsp; 02-959-0477</p>
+                            <div class="detail">
+                                <p>상세보기</p>
+                            </div>
+                        </div>
+                        <div class="cover-2"></div>
+                    </div>
                 </div>
+                
             </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="nav height-100p flex flex-jc-end">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </div>
     </div>
     <div class="img-box con">
@@ -260,7 +292,7 @@
         </div>
     </div>
 
-    <nav class="icon-box con">
+    <nav class="icon-box con con-min-width">
         <ul class="flex flex-jc-c">
             <li><a href="#" class="flex flex-jc-c"><img
                         src="https://kima-rin.github.io/img1/pf/raemian/ico_mum_payment.png" alt="">
@@ -284,7 +316,7 @@
                 </a></li>
         </ul>
     </nav>
-    <div class="banner-bar-2" style="background-image:url(https://kima-rin.github.io/img1/pf/raemian/bg_times.jpg)">
+    <div class="banner-bar-2 con-min-width" style="background-image:url(https://kima-rin.github.io/img1/pf/raemian/bg_times.jpg)">
         <ul class="flex con">
             <li class="flex flex-1-0-0" style="background-color:#fff;">
                 <a>
@@ -325,59 +357,59 @@
             </li>
         </ul>
 
-        <div class="con flex flex-jc-c border-red">
-            <div class="flex flex-ai-c">래미안 뉴스</div>
+        <div class="con flex flex-jc-c">
+            <div class="news flex flex-ai-c">래미안 뉴스</div>
             <div class="my-slider-2 slider-2-1 flex flex-ai-c flex-1-0-0">
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide flex flex-ai-c">
-                            <a href="#" class="block">
+                        <div class="swiper-slide">
+                            <a href="#" class="row block">
                                 <strong>소식</strong>
                                 <span>부산 레이카운티, 올해 부산 청약시장 최대어…`多세권` 갖춘 4470가구 대단지</span>
-                                <span>2020-07-24</span>
+                                <span class="cell-right">2020-07-24</span>
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="#" class="block">
+                            <a href="#" class="row block">
                                 <strong>소식</strong>
                                 <span>[입주타임] 강남 생활권+숲세권 누리는 럭셔리 아파트 `개포래미안포레스트`①입지편</span>
-                                <span>2020-07-24</span>
+                                <span class="cell-right">2020-07-24</span>
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="#" class="block">
+                            <a href="#" class="row block">
                                 <strong>소식</strong>
                                 <span>새 아파트 귀하신 몸”… 강남 입주권 웃돈만 '10억'</span>
-                                <span>2020-07-24</span>
+                                <span class="cell-right">2020-07-24</span>
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="#" class="block">
+                            <a href="#" class="row block">
                                 <strong>소식</strong>
                                 <span>래미안 헤스티아’로 차별화된 서비스 제공 - [NCSI] 아파트 부문 1위 삼성물산</span>
-                                <span>2020-07-24</span>
+                                <span class="cell-right">2020-07-24</span>
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a herf="#" class="block">
+                            <a herf="#" class="row block">
                                 <strong>소식</strong>
                                 <span>[코로나가 바꾼 분양시장] 유튜브 활용한 '랜선 집들이' 인기</span>
-                                <span>2020-07-24</span>
+                                <span class="cell-right">2020-07-24</span>
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a herf="#" class="block">
+                            <a herf="#" class="row block">
                                 <strong>소식</strong>
                                 <span>부산 레이카운티, 올해 부산 청약시장 최대어…`多세권` 갖춘 4470가구 대단지</span>
-                                <span>2020-07-24</span>
+                                <span class="cell-right">2020-07-24</span>
                             </a>
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
                 <div class="nav block">
-                    <span class="swiper-button-prev block"><i class="fas fa-angle-up"></i></span>
-                    <span class="swiper-button-next block"><i class="fas fa-angle-down"></i></span>
+                    <span class="swiper-button-prev block"></span>
+                    <span class="swiper-button-next block"></span>
                 </div>
             </div>
         </div>
