@@ -26,13 +26,32 @@
 </head>
 
 <body>
-<div id="fullpage">
-    <div class="section"></div>
-    <div class="section"></div>
-    <div class="section"></div>
-    <div class="section"></div>
-    <div class="section"></div>
-</div>
+    <div id="fullpage">
+        <div class="section page1">
+            <div class="slider slider-1 relative">
+                <div class="slides">
+                    <div class="active item" style="background-image:url(https://kima-rin.github.io/img1/pf/sagewood/brand_main_visual01.jpg)"></div>
+                    <div class="item" style="background-image:url(https://kima-rin.github.io/img1/pf/sagewood/brand_main_visual02.jpg)"></div>
+                    <div class="item" style="background-image:url(https://kima-rin.github.io/img1/pf/sagewood/brand_main_visual03.jpg)"></div>
+                </div>
+                <div class="side-bars">
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="logo-bar flex">
+                <div class="logo"><img src="https://kima-rin.github.io/img1/pf/sagewood/logo_global_wt.png" width="108" alt=""></div>
+                <div class="login">
+                    <a class="block" href="#">예약조회</a>
+                    <a class="block" href="#">로그인</a>
+                </div>
+            </div>
+        </div>
+        <div class="section page2"></div>
+        <div class="section page3"></div>
+        <div class="section page4"></div>
+        <div class="section page5"></div>
+    </div>
 </body>
 
 </html>

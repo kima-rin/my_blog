@@ -2,7 +2,11 @@ html {
     /* 영문이면 roboto가 적용되고, 한글이면 Noto Sans KR가 적용되도록 아래와 같은 순서로 배치 */
     font-family: "Roboto", "Noto Sans KR", sans-serif;
 }
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
 
+.nanum{
+    font-family: 'Nanum Myeongjo', serif;
+}
 /* 노말라이즈 */
 body,
 ul,
@@ -332,7 +336,9 @@ label[for] {
 *>.flex-1-0-0 {
     flex: 1 0 0;
 }
-
+.flex-direction{
+    flex-direction: column
+}
 /* 커스텀 */
 
 /* 고정형 .con 시작 */
@@ -340,3 +346,69 @@ label[for] {
     max-width: 1370px;
 }
 
+.bg{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+.slider, .slider > .slides, .slider > .slides > .item {
+    height: 100%;
+}
+.slider > .slides {
+    position: relative;
+    background: rgba(0, 0, 0, 0.2) url(https://kima-rin.github.io/img1/pf/sagewood/bg_main_gradient.png) left top no-repeat;
+    z-index: 1;
+}
+.slider > .slides > .item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: scale(1);
+    transition: opacity 1.5s, transform 2s;
+}
+.slider > .slides > .item.active {
+    opacity: 1;
+    z-index: 20;
+    transform: scale(1.025);
+    transition: opacity 1s;
+    animation: zoom 4s;
+}
+@keyframes zoom {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.025);
+    }
+}
+/* .slider > .slides > .item.bg-item {
+    z-index: 10;
+} */
+
+.logo-bar{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+.logo-bar>.logo{
+    flex:5 0 0;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.logo-bar>.login{
+    flex:5 0 0;
+    color: #fff;
+    text-align: end;
+    margin-top:50px;
+    padding: 10px 30px;
+}
+.logo-bar>.login>a{
+    font-family: 'nanum';
+    font-size:14px;
+    line-height: 2.71;
+}
