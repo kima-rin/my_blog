@@ -3,10 +3,12 @@ html {
     font-family: "Roboto", "Noto Sans KR", sans-serif;
 }
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
 
-.nanum{
-    font-family: 'Nanum Myeongjo', serif;
+.nanummyeongjo * {
+ font-family: 'Nanum Myeongjo', serif;
 }
+
 /* 노말라이즈 */
 body,
 ul,
@@ -408,7 +410,8 @@ label[for] {
     padding: 10px 30px;
 }
 .logo-bar>.login>a{
-    font-family: 'nanum';
+    font-family: 'Nanum Myeongjo', serif;
     font-size:14px;
     line-height: 2.71;
+    font-weight: 600;
 }

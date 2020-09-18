@@ -42,8 +42,8 @@
             <div class="logo-bar flex">
                 <div class="logo"><img src="https://kima-rin.github.io/img1/pf/sagewood/logo_global_wt.png" width="108" alt=""></div>
                 <div class="login">
-                    <a class="block" href="#">예약조회</a>
-                    <a class="block" href="#">로그인</a>
+                    <a class="block nanummyeongjo" href="#">예약조회</a>
+                    <a class="block nanummyeongjo" href="#">로그인</a>
                 </div>
             </div>
         </div>
