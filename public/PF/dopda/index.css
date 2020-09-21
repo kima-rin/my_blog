@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,400;1,300&display=swap');
+
 html {
     /* 영문이면 roboto가 적용되고, 한글이면 Noto Sans KR가 적용되도록 아래와 같은 순서로 배치 */
     font-family: "Roboto", "Noto Sans KR", sans-serif;
   }
   
+  
   /* 노말라이즈 */
-  body, ul, li, h1 {
+  body, ul, li, h1,p {
     margin:0;
     padding:0;
     list-style:none;
@@ -364,9 +367,151 @@ html {
   /* 반응형 타입 2(넓을때만 반응형) .con 끝 */
 
   /* 탑 바 시작*/
-
+  .top-menu-box>div{
+    padding-top: 10px;
+  }
+  .top-menu-box>div>.logo-box>img{
+    padding: 35px 10px;
+    margin-left: 40px;
+  }
   .top-menu-box>div>ul>li>a{
       font-size: 17px;
       font-weight: 500;
       padding:45px 27px 30px;
   }
+  .top-menu-box>div>ul>li:last-child{
+    padding-right: 20px;
+  }
+  .top-menu-box>div>.find-box{
+    padding-right: 30px;
+  }
+  .top-menu-box>div>.find-box>span{
+    padding: 10px;
+  }
+    /* 탑 바 끝*/
+    /* 메인 슬라이드 시작*/
+  section{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .slider-1-1{
+    width:1760px;
+    position: relative;
+    left: 0;
+  }
+  .slider-1-1>.swiper-container>.swiper-wrapper{
+    width:100%;
+    height: 860px;
+
+  }
+  .slider-1-1>.swiper-container>.swiper-wrapper>.swiper-slide>img{
+    width: 100%;
+    height: 100%;
+    transform: scale(1.1);
+    transition: transform 2s;
+  }
+  .slider-1-1>.swiper-container>.swiper-wrapper>.swiper-slide.swiper-slide-active>img{
+    transform: scale(1);
+  
+  }
+  /* 블라인드 시작*/
+  .slider-1-1>.swiper-container>.swiper-wrapper>.swiper-slide{
+    position: relative;
+    width:1760px;
+    height: 860px;
+  }
+  .slider-1-1>.swiper-container>.swiper-wrapper>.swiper-slide>.box-1{
+    position: absolute;
+    width:1760px;
+    height: 100%;
+    top:0;
+    left: 0;
+    z-index: 10;
+  }   
+
+  .slider-1-1>.swiper-container>.swiper-wrapper>.swiper-slide>.box-1>ul {
+    height: 100%;
+    width: 100%;
+  }
+  .slider-1-1>.swiper-container>.swiper-wrapper>.swiper-slide>.box-1>ul>li{
+    height: 100%;
+    width: 100%;
+  }
+  .slider-1-1>.swiper-container>.swiper-wrapper>.swiper-slide>.box-1>ul>li>span{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 1);
+    position: relative;
+    transition: width 0.2s, background-color .3s;
+  }
+  .slider-1-1>.swiper-container>.swiper-wrapper>.swiper-slide.swiper-slide-active>.box-1>ul>li>span{
+    width: 0;
+    background-color:rgba(0, 0, 0, 0);
+  }
+  .slider-1-1>.swiper-container>.swiper-wrapper>.swiper-slide.swiper-slide-active>.box-1>ul>li:nth-child(2)>span{
+    transition-delay: .3s;
+  }
+  .slider-1-1>.swiper-container>.swiper-wrapper>.swiper-slide.swiper-slide-active>.box-1>ul>li:nth-child(3)>span{
+    transition-delay: .6s;
+  }
+  .slider-1-1>.swiper-container>.swiper-wrapper>.swiper-slide.swiper-slide-active>.box-1>ul>li:nth-child(4)>span{
+    transition-delay: .9s;
+  }
+  .slider-1-1>.swiper-container>.swiper-wrapper>.swiper-slide>.box-1>ul>li>span::after{
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .1);
+  }
+  .slider-1-1>.swiper-container>.swiper-wrapper>.swiper-slide>.slide-text{
+    position: absolute;
+    top:350px;
+    left: 100px;
+    font-family: 'Chivo', sans-serif;
+    z-index: 20;
+  }
+  .slider-1-1>.swiper-container>.swiper-wrapper>.swiper-slide>.slide-text>h1{
+    color: #fff;
+    font-size: 50px;
+    line-height: 62px;
+    font-weight: 400;
+    text-align: left;
+    padding-bottom: 10px;
+    opacity: 0;
+    transform: translateY(30%);
+    transition: opacity 1s 1s, transform 1s 1s;
+  }
+  .slider-1-1>.swiper-container>.swiper-wrapper>.swiper-slide.swiper-slide-active>.slide-text>h1{
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  .slider-1-1>.swiper-container>.swiper-wrapper>.swiper-slide>.slide-text>p{
+    font-size: 20px;
+    line-height: 33px;
+    display: block;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: -0.55px;
+    word-break: keep-all;
+    opacity: 0;
+    transform: translateY(30%);
+    transition: opacity 1s 1.5s, transform 1s;
+  }
+  .slider-1-1>.swiper-container>.swiper-wrapper>.swiper-slide.swiper-slide-active>.slide-text>p{
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  section>.slider-1-1>.bottom-text-box{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    border:2px solid red;
+  }
+    /* 메인 슬라이드 끝*/
