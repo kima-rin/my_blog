@@ -10,7 +10,7 @@ $dbId = "site2";
 $dbPw = "sbs123414";
 $dbName = 'site2';
 
-$dbConn = mysqli_connect($dbHost,$dbId,$dbPw,$dbName,$dbPort) or die ("DB CONNECTION ERROR");
+$dbConn = mysqli_connect("blog.arinzzang.com", "sbsst", "sbs123414", "blog", 3306) or die("DB CONNECTION ERROR");
 
 if ( isset($_GET['cateItemId'])== false){
      $_GET['cateItemId'] = 2;

@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,400;1,300&display=swap');
+@@font-face { font-family: 'NanumBarunGothic'; font-style: normal; font-weight: 400; src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot'); src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype'); } @font-face { font-family: 'NanumBarunGothic'; font-style: normal; font-weight: 700; src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot'); src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype') } @font-face { font-family: 'NanumBarunGothic'; font-style: normal; font-weight: 300; src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot'); src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype'); } 
 
+.nanumbarungothic * { font-family: 'NanumBarunGothic', sans-serif; }
 html {
     /* 영문이면 roboto가 적용되고, 한글이면 Noto Sans KR가 적용되도록 아래와 같은 순서로 배치 */
     font-family: "Roboto", "Noto Sans KR", sans-serif;
@@ -332,7 +334,9 @@ html {
   * > .flex-1-0-0 {
     flex:1 0 0;
   }
-  
+  .flex-direction{
+    flex-direction:column;
+  }
   /* 커스텀 */
   
   /* 고정형 .con 시작 */
@@ -341,7 +345,7 @@ html {
   }
   
   .con {
-    width:1370px;
+    width:1760px;
   }
   /* 고정형 .con 끝 */
   
@@ -628,15 +632,132 @@ html {
   width: 100%;
   height:100%;
 }
+/*서비스 텍스트 박스 시작*/
 .services-box>div>.img-box>.services-text-box{
-  width: 100%;
-  height: 100%;
-}
-.services-box>div>.img-box>.services-text-box>h1{
   position: absolute;
   top:50%;
   left: 50%; 
   transform: translateX(-50%) translateY(-50%);
+}
+.services-box>div>.img-box>.services-text-box>p{
+  font-family: 'NanumBarunGothic', sans-serif;
   color: #fff;
+  text-align: center;
+  font-size:28px;
+  font-weight: 400;
+  transform: translateY(80%);
+  opacity: 0;
+  transition: transform .5s, opacity 2s;
+}
+.services-box>div>.img-box>.services-text-box>p::before{
+  content: "";
+  display: block;
+  width: 209px;
+  height: 127px;
+  background: url(https://kima-rin.github.io/img1/pf/dopda/dop_da.png);
+  position: absolute;
+  left: -150px;
+  top:-104px;
+}
+.services-box>div>.img-box>.services-text-box>p.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+.services-box>div>.img-box>.services-text-box>p::before.active{
+  opacity: 1;
+  left: -120px;
+}
+.services-box>div>.img-box>.services-text-box>.line{
+  display: block;
+  position: relative;
+  width:680px;
+  margin:0 auto;
+  margin-top:100px;
+  margin-bottom: 30px;
+}
+.services-box>div>.img-box>.services-text-box>.line>span{
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: rgba(255,255,255,0.1);
+}
+.services-box>div>.img-box>.services-text-box>.txt-ul>li{
+  text-align: center;
+  color: #fff;
+  white-space: nowrap;
+  padding: 30px;
+  font-family: 'NanumBarunGothic', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 300;
+
+}
+.services-box>div>.img-box>.services-text-box>.txt-ul>li>strong{
+  font-size: 20px;
+}
+.services-box>div>.img-box>.services-text-box>.txt-ul>li>p{
+  margin-top:20px;
 }
 /*서비스 박스 끝*/
+
+/*프리미엄 박스 시작*/
+.premium-box>.pre-bg{
+  width: 100%;
+  height: 1029px;
+  font-family: 'NanumBarunGothic', sans-serif;
+}
+.premium-box>.pre-bg>img{
+  padding-top: 300px;
+  width: 1345px;
+  height: 130px;
+}
+.premium-box>.pre-bg>h1{
+  padding-left: 80px;
+  font-size: 27px;
+  color: #403734;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  display: block;
+  margin-bottom: 20px;
+}
+.premium-box>.pre-bg>.txt-pre{
+  padding-left: 80px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #727272;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+}
+.premium-box>.pre-bg>.more{
+  position: relative;
+  display: inline-block;
+  padding-left: 80px;
+  font-size: 24px;
+  line-height: 30px;
+  color: #454545;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+  margin-top: 45px;
+}
+.premium-box>.pre-bg>.more::before{
+  content: "";
+  position: absolute;
+  right: -23px;
+  bottom: 0;
+  width:80px;
+  height: 12px;
+  background-color: #dedddc;
+  z-index: -1;
+}
+.premium-box>.pre-bg>.more::after{
+  content: '';
+  display: block;
+  width: 23px;
+  height: 13px;
+  background: url(https://kima-rin.github.io/img1/pf/dopda/main2_bul.png);
+  position: absolute;
+  right: -40px;
+  top: 17px;
+  z-index: 1;
+}
+/*프리미엄 박스 끝*/

@@ -9,7 +9,7 @@ include "../part/head.php";
 
 
 <?php
-$conn = mysqli_connect("site2.blog.oa.gg", "site2", "sbs123414", "site2", 3306);
+$conn = mysqli_connect("blog.arinzzang.com", "sbsst", "sbs123414", "blog", 3306);
 $id = $_GET['id'];
 $sql = "
 SELECT *

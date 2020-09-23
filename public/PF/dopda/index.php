@@ -103,19 +103,19 @@
             </div>
             <!-- Add Pagination -->
             <div class="swiper-pagination flex flex-column-nowrap"></div>
-            
+
             <ul class="bottom-text-box flex">
                 <li class="flex flex-ai-c flex-1-0-0"><a href="#" class="flex flex-ai-c"><span>VIP Membership</span><img
-                        src="https://kima-rin.github.io/img1/pf/dopda/arrow_btn.png" alt=""></a>
+                            src="https://kima-rin.github.io/img1/pf/dopda/arrow_btn.png" alt=""></a>
                 </li>
                 <li class="flex flex-ai-c flex-1-0-0"><a href="#" class="flex flex-ai-c"><span>오피스 컨시어지 서비스</span><img
-                        src="https://kima-rin.github.io/img1/pf/dopda/arrow_btn.png" alt=""></a></li>
+                            src="https://kima-rin.github.io/img1/pf/dopda/arrow_btn.png" alt=""></a></li>
                 <li class="flex flex-ai-c flex-1-0-0"><a href="#" class="flex flex-ai-c"><span>라이프 컨시어지 서비스</span><img
-                        src="https://kima-rin.github.io/img1/pf/dopda/arrow_btn.png" alt=""></a></li>
+                            src="https://kima-rin.github.io/img1/pf/dopda/arrow_btn.png" alt=""></a></li>
                 <li class="flex flex-ai-c flex-1-0-0"><a href="#" class="flex flex-ai-c"><span>정주지원 서비스</span><img
-                        src="https://kima-rin.github.io/img1/pf/dopda/arrow_btn.png" alt=""></a></li>
+                            src="https://kima-rin.github.io/img1/pf/dopda/arrow_btn.png" alt=""></a></li>
                 <li class="flex flex-ai-c flex-1-0-0"><a href="#" class="flex flex-ai-c"><span>비즈니스 투어</span><img
-                        src="https://kima-rin.github.io/img1/pf/dopda/arrow_btn.png" alt=""></a></li>
+                            src="https://kima-rin.github.io/img1/pf/dopda/arrow_btn.png" alt=""></a></li>
             </ul>
         </div>
     </section>
@@ -124,10 +124,43 @@
             <div class="img-box relative">
                 <img src="https://kima-rin.github.io/img1/pf/dopda/main2_bg.jpg" alt="">
                 <div class="services-text-box">
-                    <h1>글로벌 컨시어지 서비스, 돕다(DOPDA)와 함께 하세요.</h1>
-
+                    <p class="active-on-visible">글로벌 컨시어지 서비스, 돕다(DOPDA)와 함께 하세요.</p>
+                    <div class="line">
+                        <span></span>
+                    </div>
+                    <ul class="txt-ul flex">
+                        <li>
+                            <strong>Our Solutions</strong>
+                            <p>국내 최고의 비즈니스 의전 교육기관 <br>한국팔로워십센터에서 론칭한 컨시어지 서비스로<br>최상의 서비스를 제공합니다.</p>
+                        </li>
+                        <li>
+                            <strong>Our Strengths</strong>
+                            <p>국가 및 기업들의 다양한 비즈니스 행사와 <br>주요 VIP들을 대상으로 한 의전 경험으로<br>체계적인 서비스를 제공합니다.</p>
+                        </li>
+                        </li>
+                        <li>
+                            <strong>Our Visions</strong>
+                            <p>글로벌 컨시어지 서비스, 돕다(DOPDA)는 <br>국내를 넘어 범아시아권에서 기준이<br>될 수 있는 컨시어지 서비스를 제공합니다.</p>
+                        </li>
+                        </li>
+                    </ul>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="premium-box con">
+        <div class="pre-bg">
+            <img src="https://kima-rin.github.io/img1/pf/dopda/pre_img.png" alt="">
+            <h1>프리미엄 멤버십</h1>
+            <p class="txt-pre">프리미엄 멤버십은 귀하만을 위한 컨시어지 서비스를 제공합니다. <br>귀하에게 최고의 삶을 선물하세요.</p>
+            <p class="more">more</p>
+        </div>
+        <div class="img-wrap">
+            <div><img src="https://kima-rin.github.io/img1/pf/dopda/pre_img.png" alt=""></div>
+            <div><img src="" alt=""></div>
+            <div><img src="" alt=""></div>
+            <div><img src="" alt=""></div>
+
         </div>
     </section>
 </body>
