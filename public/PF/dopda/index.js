@@ -78,5 +78,5 @@ $(function () {
     Slider1_1__init();
     ActiveOnVisible__init();
   }, 500);
-  
+
 })
