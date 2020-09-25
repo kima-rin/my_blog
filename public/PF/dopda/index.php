@@ -31,11 +31,11 @@
                 <img src="https://kima-rin.github.io/img1/pf/dopda/logo.png" height="46" alt="">
             </div>
             <ul class="flex flex-jc-e flex-ai-c flex-grow-1">
-                <li><a href="#">About DOPDA</a></li>
-                <li><a href="#">SERVICES</a></li>
-                <li><a href="#">VIP MEMBERSHIP</a></li>
-                <li><a href="#">CONSULTING</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="#"><span>About DOPDA</span></a></li>
+                <li><a href="#"><span>SERVICES</span></a></li>
+                <li><a href="#"><span>VIP MEMBERSHIP</span></a></li>
+                <li><a href="#"><span>CONSULTING</span></a></li>
+                <li><a href="#"><span>CONTACT</span></a></li>
             </ul>
             <div class="find-box flex flex-ai-c">
                 <span><img src="https://kima-rin.github.io/img1/pf/dopda/search.png" alt=""></span>
@@ -124,7 +124,7 @@
             <div class="img-box relative">
                 <img src="https://kima-rin.github.io/img1/pf/dopda/main2_bg.jpg" alt="">
                 <div class="services-text-box">
-                    <p class="active-on-visible">글로벌 컨시어지 서비스, 돕다(DOPDA)와 함께 하세요.</p>
+                    <section class="active-on-visible">글로벌 컨시어지 서비스, 돕다(DOPDA)와 함께 하세요.</section>
                     <img class="active-on-visible" src="https://kima-rin.github.io/img1/pf/dopda/dop_da.png" alt="">
                     <div class="line active-on-visible">
                         <span class="dot dot1"></span>
@@ -178,7 +178,21 @@
                     <a href="#">
                         <div class="img">
                             <img src="https://kima-rin.github.io/img1/pf/dopda/con3_bg1.jpg" alt="">
-                            <div class="hover"></div>
+                            <div class="hover">
+                                <div class="in_ho">
+                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100"
+                                        style="enable-background:new 0 0 100 100;" xml:space="preserve">
+                                        <path id="st0" class="st0"
+                                            d="M28,38.9c1.8-6.1,7.4-10.5,14.1-10.5c8.1,0,14.7,6.6,14.7,14.7s-6.6,14.7-14.7,14.7c-6.5,0-12.1-4.3-14-10.2">
+                                        </path>
+                                        <path id="st1" class="st0" d="M51.2,61.5c-2.8,1.5-6,2.3-9.4,2.3c-11.3,0-20.4-9.1-20.4-20.4s9.1-20.4,20.4-20.4S62.3,32,62.3,43.3
+										c0,5.6-2.3,10.7-6,14.4L77,78.5"></path>
+
+                                    </svg>
+                                    <span>MORE VIEW</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="text">
                             <strong>비서 서비스</strong>
@@ -192,7 +206,21 @@
                     <a href="#">
                         <div class="img">
                             <img src="https://kima-rin.github.io/img1/pf/dopda/con3_bg2.jpg" alt="">
-                            <div class="hover"></div>
+                            <div class="hover">
+                                <div class="in_ho">
+                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100"
+                                        style="enable-background:new 0 0 100 100;" xml:space="preserve">
+                                        <path id="st0" class="st0"
+                                            d="M28,38.9c1.8-6.1,7.4-10.5,14.1-10.5c8.1,0,14.7,6.6,14.7,14.7s-6.6,14.7-14.7,14.7c-6.5,0-12.1-4.3-14-10.2">
+                                        </path>
+                                        <path id="st1" class="st0" d="M51.2,61.5c-2.8,1.5-6,2.3-9.4,2.3c-11.3,0-20.4-9.1-20.4-20.4s9.1-20.4,20.4-20.4S62.3,32,62.3,43.3
+										c0,5.6-2.3,10.7-6,14.4L77,78.5"></path>
+
+                                    </svg>
+                                    <span>MORE VIEW</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="text">
                             <strong>수행기사 서비스</strong>
@@ -205,7 +233,21 @@
                     <a href="#">
                         <div class="img">
                             <img src="https://kima-rin.github.io/img1/pf/dopda/con3_bg3.jpg" alt="">
-                            <div class="hover"></div>
+                            <div class="hover">
+                                <div class="in_ho">
+                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100"
+                                        style="enable-background:new 0 0 100 100;" xml:space="preserve">
+                                        <path id="st0" class="st0"
+                                            d="M28,38.9c1.8-6.1,7.4-10.5,14.1-10.5c8.1,0,14.7,6.6,14.7,14.7s-6.6,14.7-14.7,14.7c-6.5,0-12.1-4.3-14-10.2">
+                                        </path>
+                                        <path id="st1" class="st0" d="M51.2,61.5c-2.8,1.5-6,2.3-9.4,2.3c-11.3,0-20.4-9.1-20.4-20.4s9.1-20.4,20.4-20.4S62.3,32,62.3,43.3
+										c0,5.6-2.3,10.7-6,14.4L77,78.5"></path>
+
+                                    </svg>
+                                    <span>MORE VIEW</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="text">
                             <strong>의전 및 통역 서비스</strong>
@@ -218,7 +260,21 @@
                     <a href="#">
                         <div class="img">
                             <img src="https://kima-rin.github.io/img1/pf/dopda/con3_bg4.jpg" alt="">
-                            <div class="hover"></div>
+                            <div class="hover">
+                                <div class="in_ho">
+                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100"
+                                        style="enable-background:new 0 0 100 100;" xml:space="preserve">
+                                        <path id="st0" class="st0"
+                                            d="M28,38.9c1.8-6.1,7.4-10.5,14.1-10.5c8.1,0,14.7,6.6,14.7,14.7s-6.6,14.7-14.7,14.7c-6.5,0-12.1-4.3-14-10.2">
+                                        </path>
+                                        <path id="st1" class="st0" d="M51.2,61.5c-2.8,1.5-6,2.3-9.4,2.3c-11.3,0-20.4-9.1-20.4-20.4s9.1-20.4,20.4-20.4S62.3,32,62.3,43.3
+										c0,5.6-2.3,10.7-6,14.4L77,78.5"></path>
+
+                                    </svg>
+                                    <span>MORE VIEW</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="text">
                             <strong>라이프 컨시어지</strong>
@@ -257,7 +313,12 @@
         </div>
     </section>
     <section class="ft-banner-box">
-        <div class="ft-banner"></div>
+        <div class="ft-banner">
+            <strong>전세계 어디든 나만의 컨시어지가 있다. </strong>
+            <span>For Your Business & Life</span>
+            <a href="#"><span>Service application</span></a>
+        </div>
+
     </section>
 </body>
 

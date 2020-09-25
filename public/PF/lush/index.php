@@ -716,7 +716,7 @@
                     </div>
                     <div class="swiper-slide cell-right">
                         <div class="prod-img text-align-center"><img
-                                src="https://kima-rin.github.io/img1/pf/lush/Shampoo_bar_04.jpg" width="130" alt="">
+                                src="https://kima-rin.github.io/img1/pf/lush/Shampoo_bar_04.png" width="110" alt="">
                         </div>
                         <div class="prod-title font-lushHw">new</div>
                         <div class="under-line">Shampoo Bar</div>

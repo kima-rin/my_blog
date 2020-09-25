@@ -1248,7 +1248,6 @@ body {
   margin-right: -100%;
 }
 
-.my-slider-2>.swiper-container>.swiper-wrapper {}
 
 .my-slider-2>.swiper-container>.swiper-wrapper>.swiper-slide {
   white-space: nowrap;
@@ -1797,7 +1796,6 @@ body {
 
 .prod-box-4 .prod-img>img {
   margin-top: 30px;
-  border: 2px solid red;
 }
 
 .prod-box-4 .prod-title {
