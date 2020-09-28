@@ -460,6 +460,138 @@ label[for] {
   padding: 10px;
 }
 
+/*사이드 메뉴 박스*/
+.top-menu-box>div>.side-menu-box{
+  position: absolute;
+  top:0;
+  right: -420px;
+  width: 420px;
+  height: 100vh;
+  background: #fff url(https://kima-rin.github.io/img1/pf/dopda/menu_bg.jpg) no-repeat 100% 90%;
+  background-size: 250px auto;
+  z-index: 999;
+  min-width: 300px;
+  overflow: scroll;
+}
+.top-menu-box>div>.side-menu-box.active{
+  right: 0;
+}
+.top-menu-box>div>.side-menu-box>.close-btn{
+  position: absolute;
+  top:55px;
+  right: 30px;
+}
+.side-menu-bg{
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:rgba(0, 0, 0, 0.5);
+  display: none;
+  z-index: 10;
+}
+.side-menu-bg.active{
+  display: block;
+}
+.top-menu-box>div>.side-menu-box>ul{
+  margin: 20px 0;
+  padding-top: 260px;
+}
+.top-menu-box>div>.side-menu-box>ul>li{
+  position: relative;
+  padding-bottom: 30px;
+}
+.top-menu-box>div>.side-menu-box>ul>li::before{
+  content: '';
+  opacity: 1;
+  display: none;
+  width: 28px;
+  height: 9px;
+  background: url(https://kima-rin.github.io/img1/pf/dopda/menu_bul.jpg) no-repeat;
+  position: absolute;
+  left: 0;
+  top: 20px;
+  transition: 0.5s;
+}
+.top-menu-box>div>.side-menu-box>ul>li:hover::before{
+  display: block;
+}
+.top-menu-box>div>.side-menu-box>ul>li>a>img{
+  margin-right: 30px;
+  vertical-align: top;
+  margin-top: 13px;
+  opacity: .5;
+}
+.top-menu-box>div>.side-menu-box>ul>li>a:hover>img{
+  opacity: 1;
+}
+.top-menu-box>div>.side-menu-box>ul>li>a{
+  display: block;
+  color: #919191;
+  font-size: 19px;
+  line-height: 50px;
+  text-align: left;
+  margin-left: 40px;
+}
+.top-menu-box>div>.side-menu-box>ul>li>a:hover>span{
+  color: #000;
+}
+
+.top-menu-box>div>.side-menu-box>ul>li ul>li{
+  display: none;
+}
+.top-menu-box>div>.side-menu-box>ul>li.active ul>li{
+  display: block;
+  color: #a8a6b0;
+  padding-left: 95px;
+  font-weight: normal;
+  white-space: nowrap;
+  line-height: 33px;
+  font-size: 16px;
+  letter-spacing: -0.5px;
+  transition: 0.3s;
+}
+.top-menu-box>div>.side-menu-box>ul>li ul>li:hover{
+  color: #000;
+}
+.top-menu-box>div>.side-menu-box>.social-box{
+  padding-left: 44px;
+  padding-top: 60px;
+}
+.top-menu-box>div>.side-menu-box>.social-box>span{
+  margin: 0 5px;
+}
+.top-menu-box>div>.side-menu-box>.social-box>span>.facebook{
+  display:inline-block;
+  width: 42px;
+  height: 42px;
+  background-image: url(https://kima-rin.github.io/img1/pf/dopda/fb.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.top-menu-box>div>.side-menu-box>.social-box>span:hover>.facebook{
+  background-image: url(https://kima-rin.github.io/img1/pf/dopda/fb_hover.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.top-menu-box>div>.side-menu-box>.social-box>span>.instagram{
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  background-image: url(https://kima-rin.github.io/img1/pf/dopda/in.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.top-menu-box>div>.side-menu-box>.social-box>span:hover>.instagram{
+  background-image: url(https://kima-rin.github.io/img1/pf/dopda/in_hover.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 /* 탑 바 끝*/
 /* 메인 슬라이드 시작*/
 section {
@@ -628,7 +760,7 @@ section {
   font-size: 20px;
   line-height: 20px;
   font-weight: 300;
-  z-index: 30;
+  z-index: 1;
 }
 
 .slider-box>.slider-1-1 .bottom-text-box>li {
@@ -709,9 +841,11 @@ section {
   position: absolute;
   bottom: 5%;
   right: 10px;
+  z-index: 0;
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
+  position: relative;
   width: 13px;
   height: 13px;
   border-radius: 0;

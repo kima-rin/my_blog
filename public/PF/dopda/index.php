@@ -25,6 +25,7 @@
 </head>
 
 <body>
+    <div class="side-menu-bg"></div>
     <section class="top-menu-box">
         <div class="flex">
             <div class="logo-box flex">
@@ -41,6 +42,56 @@
                 <span><img src="https://kima-rin.github.io/img1/pf/dopda/search.png" alt=""></span>
                 <span><img src="https://kima-rin.github.io/img1/pf/dopda/mobile.png" alt=""></span>
             </div>
+            <div class="side-menu-box">
+                <div class="close-btn"><img src="https://kima-rin.github.io/img1/pf/dopda/close.png" alt=""></div>
+                <ul>
+                    <li>
+                        <a href="#"><img src="https://kima-rin.github.io/img1/pf/dopda/menu1_on.jpg" alt=""><span>About DOPDA</span></a>
+                        <ul>
+                            <li><a href="#">회사소개</a></li>
+                            <li><a href="#">돕다서비스</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><img src="https://kima-rin.github.io/img1/pf/dopda/menu2_on.jpg" alt=""><span>SERVICES</span></a>
+                        <ul>
+                            <li><a href="#">오피스</a></li>
+                            <li><a href="#">컨시어지라이프</a></li>
+                            <li><a href="#">컨시어지정주지원</a></li>
+                            <li><a href="#">서비스비즈니스 투어</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"> <img src="https://kima-rin.github.io/img1/pf/dopda/menu3_on.jpg" alt=""> <span>VIP MEMBERSHIP</span> </a>
+                        <ul>
+                            <li><a href="#">VIP MEMBERSHIP소개</a></li>
+                            <li><a href="#">VIP 플랫폼</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><img src="https://kima-rin.github.io/img1/pf/dopda/menu4_on.png" alt=""><span>CONSULTING</span> </a>
+                        <ul>
+                            <li><a href="#">인증소개</a></li>
+                            <li><a href="#">인증절차</a></li>
+                            <li><a href="#">인증혜택</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><img src="https://kima-rin.github.io/img1/pf/dopda/menu1_on.jpg" alt=""><span>CONTACT</span> </a>
+                        <ul>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">서비스FAQ</a></li>
+                            <li><a href="#">컨시어지</a></li>
+                            <li><a href="#">지원1:1 문의</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="social-box">
+                    <span><a class="facebook" href="#"></a></span>
+                    <span><a class="instagram" href="#"></a></span>
+                </div>
+            </div>
+            
         </div>
     </section>
     <section class="slider-box relative">
