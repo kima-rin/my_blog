@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,400;1,300&display=swap');
 
-@@font-face {
+@font-face {
   font-family: 'NanumBarunGothic';
   font-style: normal;
   font-weight: 400;
@@ -404,8 +404,20 @@ label[for] {
 /* 반응형 타입 2(넓을때만 반응형) .con 끝 */
 
 /* 탑 바 시작*/
+.top-menu-box{
+  width:100%;
+  height: 117px;
+}
 .top-menu-box>div {
+  position: fixed;
+  top:0;
+  left: 0;
+  width:100%;
   padding-top: 10px;
+  z-index: 10;
+}
+.top-menu-box>div.active{
+  background-color: #fff;
 }
 .top-menu-box>div>.logo-box>img {
   padding: 35px 10px;

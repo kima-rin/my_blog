@@ -1,5 +1,20 @@
 console.clear();
 
+var $window = $(window);
+
+function TopBar_init(){
+  var $TopBar = $('.top-menu-box > div');
+  $(window).scroll(function(){
+    var scrollTop = $window.scrollTop();
+    if( scrollTop >= 300){
+      $TopBar.addClass('active');
+    }
+    else{
+      $TopBar.removeClass('active');
+    }
+  });
+}
+
 function Slider1_1__init() {
   var swiper = new Swiper('.slider-1-1 > .swiper-container', {
     effect: 'fade',
@@ -75,6 +90,7 @@ function ActiveOnVisible__checkAndActive() {
 
 $(function () {
   setTimeout(function() {
+    TopBar_init();
     Slider1_1__init();
     ActiveOnVisible__init();
   }, 500);
