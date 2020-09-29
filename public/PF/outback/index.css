@@ -10,7 +10,7 @@ html {
   }
   
   /* 노말라이즈 */
-  body, ul, li, h1 {
+  body, ul, li, h1, h2, h3 {
     margin:0;
     padding:0;
     list-style:none;
@@ -434,7 +434,7 @@ html {
 
 
   /*메인슬라이더 끝*/
-  /*메인cm 시작 */
+  /*메인cf 시작 */
  .main-cf{
     padding-top: 140px;
     min-height: 379px;
@@ -450,6 +450,139 @@ html {
     top: 0;
     left: 0;
     width: 676px;
-    border:2px solid red
 }
-  /*메인cd 끝*/
+.main-cf>.inner-date>.text-box>h1{
+  font-family: 'Barlow Condensed', sans-serif;
+  padding-top: 52px;
+  color: #222;
+  font-size: 54px;
+  line-height: 52px;
+  letter-spacing: 2.16px;
+  white-space: nowrap;
+}
+.main-cf>.inner-date>.text-box>h3{
+  padding-top: 18px;
+  color: #222;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+}
+.main-cf>.inner-date>.text-box>p{
+  padding-top: 30px;
+  color: #666;
+  font-size: 15px;
+  line-height: 25px;
+}
+.main-cf>.inner-date>.bg-img-box{
+  position: absolute;
+  top: 0;
+  right: 50%;
+  width: 320px;
+  height: 381px;
+  margin: 298px -890px 0 0;
+  background: url(https://kima-rin.github.io/img1/pf/outback/main_cf_obj_02.jpg) left top no-repeat;
+  z-index: -1;
+}
+
+.main-cf>a>.banner-box{
+  margin-top:200px;
+}
+  /*메인cf 끝*/
+
+/*메뉴 슬라이더 박스 시작*/
+.menu-slider-box>.slider-1-2{
+  max-width: 1600px;
+  height: 620px;
+}
+
+/*메뉴 슬라이더 박스 끝*/
+
+/*메인 베네핏 시작*/
+.main-benefit>.benefit-img{
+  min-height: 520px;
+  padding: 90px 15px;
+}
+/*메인 베네핏 끝*/
+/*리워드 박스 시작*/
+.reward-box >div>.reward-title{
+  width: 280px;
+  height: 260px;
+  border: 5px solid #222;
+  margin-right: 70px;
+}
+.reward-box >div>.reward-title>div{
+  position: absolute;
+  top:0;
+  left: 0;
+  background-color: #fff;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+.reward-box >div>.reward-title>div>h2{
+  margin-top: -15px;
+  color: #222;
+  font-size: 32px;
+  line-height: 52px;
+  letter-spacing: 1.92px;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+.reward-box >div>.reward-title>div>h1{
+  display: block;
+  font-size: 52px;
+  letter-spacing: 3.12px;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+.reward-box >div>.reward-title>div>p{
+  margin-top: 20px;
+  color: #666;
+  font-size: 16px;
+  line-height: 24px;
+}
+.reward-box >div>.reward-title>div>a{
+  font-size: 13px;
+  padding: 10px 20px;
+  background-color: #222;
+  color: #fff;
+}
+/* .reward-box >div>div:not(:first-child){
+  padding: 20px;
+} */
+.number{
+  font-size: 16px;
+  color: #96603d;
+  opacity: 0.4;
+}
+.ward-name{
+  margin-top: 10px;
+  color: #222;
+  font-size: 18px;
+  font-weight: bold;
+}
+.ward-info{
+  height: 63px;
+  margin-top: 10px;
+  color: #666;
+  font-size: 14px;
+  line-height: 21px;
+  overflow: hidden
+}
+/*리워드 박스 끝*/
+.footer-box{
+  width: 100%;
+  background-color: #222;
+  margin-top: 200px;
+  height: 500px;
+  position: relative;
+  top:0;
+}
+.footer-box>nav{
+  position: relative;
+}
+.footer-box>nav>ul{
+  position: absolute;
+  top:-80px;
+  width: 1180px;
+}
+.footer-box>nav>ul>li{
+  height: 160px;
+}

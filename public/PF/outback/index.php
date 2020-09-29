@@ -111,15 +111,92 @@
         </div>
     </section>
     <section class="main-cf">
-        <div class="inner-date con">
+        <div class="inner-date flex con relative">
             <div class="cf-wrap">
                 <div class="av-con">
-                <iframe width="854" height="480" src="https://www.youtube.com/embed/7dVwlbHvV0Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="">
-                </iframe>
+                    <iframe width="676" height="380" src="https://www.youtube.com/embed/7dVwlbHvV0Q" frameborder="0"
+                        allow="autoplay; encrypted-media" allowfullscreen="">
+                    </iframe>
+                </div>
+            </div>
+            <div class="text-box">
+                <h1>BRAND CAMPAIGN <br> OUTBACK CF</h1>
+                <h3>아웃백 토마호크 스테이크</h3>
+                <p>빠져들 수 밖에 없는 예술적인 스테이크 <br>
+                    아웃백 토마호크 스테이크를 지금 감상해 보세요</p>
+            </div>
+            <div class="bg-img-box"></div>
+        </div>
+        <a href="#">
+            <div class="banner-box img-box con">
+                <img src="https://kima-rin.github.io/img1/pf/outback/20190715141112161001.jpg" alt="">
+            </div>
+        </a>
+    </section>
+    <section class="menu-slider-box">
+        <div class="slider-1-2 con"></div>
+    </section>
+    <section class="main-benefit">
+        <div class="benefit-img con">
+            <img src="https://kima-rin.github.io/img1/pf/outback/main_benefit_visual.jpg" alt="">
+        </div>
+    </section>
+    <section class="reward-box">
+        <div class="flex con relative">
+            <div class="reward-title flex-1-0-0">
+                <div>
+                    <h2>BOOMERANG</h2>
+                    <h1>REWARD</h1>
+                    <p>부메랑 카드 <br>리워드 혜택을 만나보세요</p>
+                    <a href="#">자세히 보기</a>
+                </div>
+            </div>
+            <div class="reward-mt1 flex-column-nowrap flex-1-0-0">
+                <div>
+                    <h3 class="number">01</h3>
+                    <h1 class="ward-name">생맥주 2잔 4,500원</h1>
+                    <p class="ward-info">카스 생맥주 2잔을 4,500원에 <br>즐길 수 있는 혜택 제공</p>
+                </div>
+                <div>
+                    <h3 class="number">04</h3>
+                    <h1 class="ward-name">블랙라벨 스테이크 할인쿠폰</h1>
+                    <p class="ward-info">블랙라벨 스테이크 한정<br>1만원 할인 쿠폰 제공!</p>
+                </div>
+            </div>
+            <div class="reward-mt2 flex-column-nowrap flex-1-0-0">
+                <div>
+                    <h3 class="number">02</h3>
+                    <h1 class="ward-name">2020 신규가입 웰컴 쿠폰</h1>
+                    <p class="ward-info">2020 신규 부메랑 회원을 위한 <br>‘치킨 텐더 샐러드’ 웰컴 쿠폰</p>
+                </div>
+                <div>
+                    <h3 class="number">05</h3>
+                    <h1 class="ward-name">10% 할인 또는 3% 적립</h1>
+                    <p class="ward-info">부메랑 카드만 있다면<br>10% 할인 또는 3% 적립!</p>
+                </div>
+            </div>
+            <div class="reward-mt3 flex-column-nowrap flex-1-0-0">
+                <div>
+                    <h3 class="number">03</h3>
+                    <h1 class="ward-name">1년 1회, 생일기념 쿠폰</h1>
+                    <p class="ward-info">소중한 당신의 생일, 아웃백에서 <br>1만원 할인 혜택 제공</p>
+                </div>
+                <div>
+                    <h3 class="number">06</h3>
+                    <h1 class="ward-name">부메랑 회원전용 이벤트 참여</h1>
+                    <p class="ward-info">부메랑 전용 다양한 이벤트<br>참여 기회 제공</p>
                 </div>
             </div>
         </div>
-    </section>
+        <section class="footer-box">
+            <nav class="con">
+                <ul class="flex">
+                    <li class="flex flex-1-0-0" style="background-color:#907354;"></li>
+                    <li class="flex flex-1-0-0" style="background-color:#434343;"></li>
+                    <li class="flex flex-1-0-0" style="background-color:#c30606;"></li>
+                </ul>
+            </nav>
+        </section>
 </body>
 
 </html>
