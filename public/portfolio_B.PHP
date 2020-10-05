@@ -69,7 +69,7 @@ include "../part/portfolio_head.php";
                         <div data-blur-in-duration="3.0" class="blur-in blur-in-type-1 blur-in-type-1-down pic"
                             data-trigger-inactive-delay="0" data-trigger-active-delay="5000">
                             <div class="blur-item img-box">
-                                <img src="https://kima-rin.github.io/img1/me/cory_01.png" alt="">
+                                <img src="https://kima-rin.github.io/img1/me/copy_00.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@ include "../part/portfolio_head.php";
                         <div data-blur-in-duration="3.0" class="blur-in blur-in-type-1 blur-in-type-1-down pic"
                             data-trigger-inactive-delay="0" data-trigger-active-delay="5000">
                             <div class="blur-item img-box">
-                                <img src="https://kima-rin.github.io/img1/me/copy_02.png" alt="">
+                                <img src="https://kima-rin.github.io/img1/me/cory_01.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -109,7 +109,7 @@ include "../part/portfolio_head.php";
                         <div data-blur-in-duration="3.0" class="blur-in blur-in-type-1 blur-in-type-1-down pic"
                             data-trigger-inactive-delay="0" data-trigger-active-delay="5000">
                             <div class="blur-item img-box">
-                                <img src="https://kima-rin.github.io/img1/me/copy_03.png" alt="">
+                                <img src="https://kima-rin.github.io/img1/me/copy_02.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -131,7 +131,7 @@ include "../part/portfolio_head.php";
                         <div data-blur-in-duration="3.0" class="blur-in blur-in-type-1 blur-in-type-1-down pic"
                             data-trigger-inactive-delay="0" data-trigger-active-delay="5000">
                             <div class="blur-item img-box">
-                                <img src="https://kima-rin.github.io/img1/me/copy_04.png" alt="">
+                                <img src="https://kima-rin.github.io/img1/me/copy_03.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -151,7 +151,7 @@ include "../part/portfolio_head.php";
                         <div data-blur-in-duration="3.0" class="blur-in blur-in-type-1 blur-in-type-1-down pic"
                             data-trigger-inactive-delay="0" data-trigger-active-delay="5000">
                             <div class="blur-item img-box">
-                                <img src="https://kima-rin.github.io/img1/me/blank_img.png" alt="">
+                                <img src="https://kima-rin.github.io/img1/me/copy_04.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -171,7 +171,7 @@ include "../part/portfolio_head.php";
                         <div data-blur-in-duration="3.0" class="blur-in blur-in-type-1 blur-in-type-1-down pic"
                             data-trigger-inactive-delay="0" data-trigger-active-delay="5000">
                             <div class="blur-item img-box">
-                                <img src="https://kima-rin.github.io/img1/me/blank_img.png" alt="">
+                                <img src="https://kima-rin.github.io/img1/me/copy_05.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -193,7 +193,7 @@ include "../part/portfolio_head.php";
                         <div data-blur-in-duration="3.0" class="blur-in blur-in-type-1 blur-in-type-1-down pic"
                             data-trigger-inactive-delay="0" data-trigger-active-delay="5000">
                             <div class="blur-item img-box">
-                                <img src="https://kima-rin.github.io/img1/me/blank_img.png" alt="">
+                                <img src="https://kima-rin.github.io/img1/me/copy_06.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -213,7 +213,7 @@ include "../part/portfolio_head.php";
                         <div data-blur-in-duration="3.0" class="blur-in blur-in-type-1 blur-in-type-1-down pic"
                             data-trigger-inactive-delay="0" data-trigger-active-delay="5000">
                             <div class="blur-item img-box">
-                                <img src="https://kima-rin.github.io/img1/me/blank_img.png" alt="">
+                                <img src="https://kima-rin.github.io/img1/me/copy_07.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -233,10 +233,11 @@ include "../part/portfolio_head.php";
                         <div data-blur-in-duration="3.0" class="blur-in blur-in-type-1 blur-in-type-1-down pic"
                             data-trigger-inactive-delay="0" data-trigger-active-delay="5000">
                             <div class="blur-item img-box">
-                                <img src="https://kima-rin.github.io/img1/me/blank_img.png" alt="">
+                                <img src="https://kima-rin.github.io/img1/me/copy_08.png" alt="">
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
 
@@ -298,7 +299,7 @@ include "../part/portfolio_head.php";
                         <div data-blur-in-duration="3.0" class="blur-in blur-in-type-1 blur-in-type-1-down pic"
                             data-trigger-active-delay="6000">
                             <div class="blur-item img-box">
-                                <img src="https://kima-rin.github.io/img1/me/blank_img.png" alt="">
+                                <img src="https://kima-rin.github.io/img1/me/cre_03.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -320,7 +321,7 @@ include "../part/portfolio_head.php";
                         <div data-blur-in-duration="3.0" class="blur-in blur-in-type-1 blur-in-type-1-down pic"
                             data-trigger-active-delay="6000">
                             <div class="blur-item img-box">
-                                <img src="https://kima-rin.github.io/img1/me/blank_img.png" alt="">
+                                <img src="https://kima-rin.github.io/img1/me/cre_04.png" alt="">
                             </div>
                         </div>
                     </div>
