@@ -137,8 +137,32 @@
         <div class="slider-1-2 con"></div>
     </section>
     <section class="main-benefit">
-        <div class="benefit-img con">
-            <img src="https://kima-rin.github.io/img1/pf/outback/main_benefit_visual.jpg" alt="">
+        <div class="benefit-box con">
+            <h1>OUTBACK BENEFIT</h1>
+            <p>다양한 멤버십과 제휴 할인 혜택을 누리세요</p>
+            <ul class="benefit-bar flex flex-jc-c">
+                <li class="flex flex-1-0-0 flex-jc-c">
+                    <a href="#">
+                        <img src="https://kima-rin.github.io/img1/pf/outback/main_benefit_icon_01.png" alt="">
+                        <h1 class="icon-name">MEMBERSHIP</h1>
+                        <p class="icon-info">부메랑클럽 가입하고<br>멤버십 혜택 풍성하게 즐겨보세요 </p>
+                    </a>
+                </li>
+                <li class="flex flex-1-0-0 flex-jc-c">
+                    <a href="#">
+                        <img src="https://kima-rin.github.io/img1/pf/outback/main_benefit_icon_02.png" alt="">
+                        <h1 class="icon-name">DISCOUNT</h1>
+                        <p class="icon-info">아웃백 제휴 할인 혜택의<br>기회를 놓치지 마세요 </p>
+                    </a>
+                </li>
+                <li class="flex flex-1-0-0 flex-jc-c">
+                    <a href="#">
+                        <img src="https://kima-rin.github.io/img1/pf/outback/main_benefit_icon_03.png" alt="">
+                        <h1 class="icon-name">GIFT CARD</h1>
+                        <p class="icon-info">소중한 사람에게<br>감사한 마음을 선물하세요</p>
+                    </a>
+                </li>
+            </ul>
         </div>
     </section>
     <section class="reward-box">
@@ -191,10 +215,80 @@
         <section class="footer-box">
             <nav class="con">
                 <ul class="flex">
-                    <li class="flex flex-1-0-0" style="background-color:#907354;"></li>
-                    <li class="flex flex-1-0-0" style="background-color:#434343;"></li>
-                    <li class="flex flex-1-0-0" style="background-color:#c30606;"></li>
+                    <li class="flex flex-1-0-0" style="background-color:#907354;">
+                        <a href="#">
+                            <span class="block"><img
+                                    src="https://kima-rin.github.io/img1/pf/outback/speed_menu_title_02.png"
+                                    alt=""></span>
+                            <span class="txt">예약하기</span>
+                            <span class="arrow"></span>
+                            <span class="icon"><img
+                                    src="https://kima-rin.github.io/img1/pf/outback/speed_menu_icon_02.png"
+                                    alt=""></span>
+                        </a>
+                    </li>
+                    <li class="flex flex-1-0-0" style="background-color:#434343;">
+                        <a href="#">
+                            <span class="block"><img
+                                    src="https://kima-rin.github.io/img1/pf/outback/speed_menu_title_03.png"
+                                    alt=""></span>
+                            <span class="txt">사후 적립</span>
+                            <span class="arrow"></span>
+                            <span class="icon"><img
+                                    src="https://kima-rin.github.io/img1/pf/outback/speed_menu_icon_03.png"
+                                    alt=""></span>
+                        </a>
+                    </li>
+                    <li class="flex flex-1-0-0" style="background-color:#c30606;">
+                        <a href="#">
+                            <span class="block"><img
+                                    src="https://kima-rin.github.io/img1/pf/outback/speed_menu_title_04.png"
+                                    alt=""></span>
+                            <span class="txt">딜리버리 전화주문 <br>1811-3650 </span>
+                            <span class="arrow"></span>
+                            <span class="icon"><img
+                                    src="https://kima-rin.github.io/img1/pf/outback/speed_menu_icon_04.png"
+                                    alt=""></span>
+                        </a>
+                    </li>
                 </ul>
+                <div class="footer-bottom-box flex">
+                    <div class="ft-logo"><img src="https://kima-rin.github.io/img1/pf/outback/footer_logo.png" alt="">
+                    </div>
+                    <div class="company">
+                        <span class="block">사업자등록번호 : 211-86-42619</span>
+                        <p>ⓒ 2018 OUTBACK STEAKHOUSE, All Rights Rerserved.</p>
+                        <div class="ft-etc-box flex">
+                            <span class="flex-1-0-0">아웃백소개</span>
+                            <span class="flex-1-0-0">채용안내</span>
+                            <span class="flex-1-0-0">신규 입점 제의</span>
+                        </div>
+                        <p class="hp">홈페이지 관련 문의 <em>070-7096-0416</em></p>
+                        <span class="time">상담시간 : 월~금 10:00~17:00(토/일, 공휴일 휴무, 점심시간 12:00~13:30)</span>
+                        <p class="tell">대표번호 <em>1577-0500</em>/ 딜리버리 주문번호 <em>1811-3650</em></p>
+                    </div>
+                    <div class="relative">
+                        <ul class="row">
+                            <li class="cell"><a href="#">개인정보처리방침</a></li>
+                            <li class="cell"><a href="#">홈페이지 이용약관</a></li>
+                            <li class="cell"><a href="#">위치정보 이용약관</a></li>
+                            <li class="cell"><a href="#">윤리경영</a></li>
+                            <li class="cell"><a href="#">공지사항</a></li>
+                            <li class="cell"><a href="#">모바일 아웃백</a></li>
+                            <li class="cell"><a href="#">사이트맵</a></li> 
+                        </ul>
+                        <div class="sns-box">
+                                <span><img src="https://kima-rin.github.io/img1/pf/outback/footer_sns_instargram.png"
+                                        alt=""></span>
+                                <span><img src="https://kima-rin.github.io/img1/pf/outback/footer_sns_facebook.png"
+                                        alt=""></span>
+                                <span><img src="https://kima-rin.github.io/img1/pf/outback/footer_sns_youtobe.png"
+                                        alt=""></span>
+                                <span><img src="https://kima-rin.github.io/img1/pf/outback/footer_sns_kakao.png"
+                                        alt=""></span>
+                            </div>
+                    </div>
+                </div>
             </nav>
         </section>
 </body>
