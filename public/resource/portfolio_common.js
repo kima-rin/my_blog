@@ -180,6 +180,8 @@ var Box1__$slider1;
 var Box1__detailBoxWidth = $('.box-1 > .box-detail').width();
 var Box1__detailBoxNowAnimating = false;
 
+var Box1__next = function() {};
+
 function Box1__init() {
     Box1__$slider1 = $('.box-1 .slider-1');
     var slidesCount = Box1__$slider1.find('.slide').length;
@@ -194,13 +196,42 @@ function Box1__init() {
     var $box1 = $('.box-outer > .box-1');
 
     var currentIndex = 0;
+    var wheelIsUp = false;
+
+    function Box1__move() {
+        if (wheelIsUp) {
+            currentIndex--;
+        } else {
+            currentIndex++;
+        }
+
+        if (currentIndex < 0) {
+            currentIndex = 0;
+        } else if (currentIndex + 1 > slidesCount - 3) {
+            currentIndex = slidesCount - 3;
+        }
+
+        //Box1__$slider1.css('left', currentIndex * 301 * -1);
+        Box1__$slider1.stop().animate({
+            'left': currentIndex * 301 * -1
+        }, 100);
+    }
+
+    Box1__next = function() {
+        wheelIsUp = false;
+        Box1__move();
+    }
+
+    Box1__prev = function() {
+        wheelIsUp = true;
+        Box1__move();
+    }
 
     setTimeout(function () {
         $('.box-outer').on('mousewheel DOMMouseScroll', function (e) {
             var E = e.originalEvent;
             delta = 0;
-            console.log(E);
-            var wheelIsUp = false;
+            
             if (E.detail) {
                 delta = E.detail * -40;
                 wheelIsUp = delta > 0;
@@ -209,22 +240,7 @@ function Box1__init() {
                 wheelIsUp = delta > 0;
             };
 
-            if (wheelIsUp) {
-                currentIndex--;
-            } else {
-                currentIndex++;
-            }
-
-            if (currentIndex < 0) {
-                currentIndex = 0;
-            } else if (currentIndex + 1 > slidesCount - 3) {
-                currentIndex = slidesCount - 3;
-            }
-
-            //Box1__$slider1.css('left', currentIndex * 301 * -1);
-            Box1__$slider1.stop().animate({
-                'left': currentIndex * 301 * -1
-            }, 100);
+            Box1__move();
         });
 
         var $detailBoxTitleFlyable = $('.box-outer > .box-1 > .box-detail .title.flyable');
@@ -323,6 +339,8 @@ function Box1__init() {
             }, ani1Duration);
         });
     }, 2000);
+
+    $('.box-1 .txt1 img').click(Box1__next);
 }
 
 
@@ -332,4 +350,5 @@ $(function () {
     leftSideBar__init();
     listviewSlide__init();
     Box1__init();
+    
 });

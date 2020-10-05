@@ -7,7 +7,7 @@ include "../part/portfolio_head.php";
 
 <div class="relative">
     <div class="pf-a relative con">
-    <a href="portfolio_B.php" onclick="movePage(this); return false;" class="btn-next">Next<div></div></a>
+    <a href="portfolio_B.php" onclick="movePage(this); return false;" class="btn-next">skip<div></div></a>
     </div>
     <div class="contect-box flex">
         <div class="box-1 flex flex-1-0-0 flex-jc-c flex-ai-c">

@@ -54,14 +54,13 @@ function MobileSideBar__init() {
   });
 }
 
+function a() {
+  $('.main-box > .slide-box > .side-btn> div:last-child').click();
+}
 
 $(function () {
   slide();
   gridSlide();
   MobileSideBar__init();
+  setInterval(a, 3000);
 });
-
-function a() {
-  $('.main-box > .slide-box > .side-btn> div:last-child').click();
-}
-setInterval(a, 3000);

@@ -103,8 +103,11 @@
                     </div>
                 </div>
                 <!-- Add Arrows -->
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+
                 <!-- Add Pagination -->
                 <div class="swiper-pagination"></div>
             </div>
@@ -133,9 +136,88 @@
             </div>
         </a>
     </section>
-    <section class="menu-slider-box">
-        <div class="slider-1-2 con"></div>
-    </section>
+    <div class="slider-box-7 con">
+        <div class="items">
+            <div class="item item1 item-p-0">
+                <div>
+                    <div class="img-box"><img src="https://kima-rin.github.io/img1/pf/outback/20180627183525455013.jpg"
+                            alt=""></div>
+                    <div class="txt-box">
+                        <div class="txt1">
+                            BABY BACK
+                            <br>
+                            RIBS
+                        </div>
+                        <div class="txt2">
+                            갈릭 립아이
+                        </div>
+                        <div class="txt3">
+                            두툼한 감자튀김에 체다치즈,<br>
+                            잭치즈를 듬뿍 녹여 베이컨을 뿌린 메뉴
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item item2 item-p-1">
+                <div>
+                    <div class="img-box"><img src="https://kima-rin.github.io/img1/pf/outback/20190108172841884005.jpg"
+                            alt=""></div>
+                    <div class="txt-box">
+                        <div class="txt1">
+                            GOLD COAST <br> COCONUT <br> SHRIMP
+                        </div>
+                        <div class="txt2">
+                            골드 코스트 코코넛 슈림프
+                        </div>
+                        <div class="txt3">
+                            달콤하고 고소한 코코넛 가루를 묻혀<br>
+                            바삭하게 튀긴 새우 요리
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item item3 item-p-2">
+                <div>
+                    <div class="img-box"><img src="https://kima-rin.github.io/img1/pf/outback/20180627183554751017.jpg"
+                            alt=""></div>
+                    <div class="txt-box">
+                        <div class="txt1">
+                            BABY BACK <br> RIBS
+                        </div>
+                        <div class="txt2">
+                            베이비 빅 립
+                        </div>
+                        <div class="txt3">
+                            부드러운 돼지갈비에 아웃백만의 특제 소스를 <br>
+                            발라 구워낸 바비큐 요리
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item item4 item-p-3">
+                <div>
+                    <div class="img-box"><img src="https://kima-rin.github.io/img1/pf/outback/20180627183609110019.jpg"
+                            alt=""></div>
+                    <div class="txt-box">
+                        <div class="txt1">
+                            AUSSIE <br> CHEESE <br> FRIES
+                        </div>
+                        <div class="txt2">
+                            오지 치즈 후라이즈
+                        </div>
+                        <div class="txt3">
+                            발사믹 소스에 조리한 마늘이 어우러진 <br>
+                            꽃등심 스테이크
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="side-btns">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
     <section class="main-benefit">
         <div class="benefit-box con">
             <h1>OUTBACK BENEFIT</h1>
@@ -275,18 +357,18 @@
                             <li class="cell"><a href="#">윤리경영</a></li>
                             <li class="cell"><a href="#">공지사항</a></li>
                             <li class="cell"><a href="#">모바일 아웃백</a></li>
-                            <li class="cell"><a href="#">사이트맵</a></li> 
+                            <li class="cell"><a href="#">사이트맵</a></li>
                         </ul>
                         <div class="sns-box">
-                                <span><img src="https://kima-rin.github.io/img1/pf/outback/footer_sns_instargram.png"
-                                        alt=""></span>
-                                <span><img src="https://kima-rin.github.io/img1/pf/outback/footer_sns_facebook.png"
-                                        alt=""></span>
-                                <span><img src="https://kima-rin.github.io/img1/pf/outback/footer_sns_youtobe.png"
-                                        alt=""></span>
-                                <span><img src="https://kima-rin.github.io/img1/pf/outback/footer_sns_kakao.png"
-                                        alt=""></span>
-                            </div>
+                            <span><img src="https://kima-rin.github.io/img1/pf/outback/footer_sns_instargram.png"
+                                    alt=""></span>
+                            <span><img src="https://kima-rin.github.io/img1/pf/outback/footer_sns_facebook.png"
+                                    alt=""></span>
+                            <span><img src="https://kima-rin.github.io/img1/pf/outback/footer_sns_youtobe.png"
+                                    alt=""></span>
+                            <span><img src="https://kima-rin.github.io/img1/pf/outback/footer_sns_kakao.png"
+                                    alt=""></span>
+                        </div>
                     </div>
                 </div>
             </nav>
