@@ -249,7 +249,7 @@ label[for] {
 
 .table-row.row::after {
     display: inline;
-    clear: non;
+    clear: none;
 }
 
 .table-row>.cell {

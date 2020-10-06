@@ -42,7 +42,8 @@ include "../part/portfolio_head.php";
                     <a href="portfolio_B.php" onclick="movePage(this); return false;" class="btn-next">list View<div>
                         </div>
                     </a>
-                    <a href="portfolio_C.php" onclick="movePage(this); return false;" class="btn-next btn-clone"> &nbsp; All
+                    <a href="portfolio_C.php" onclick="movePage(this); return false;" class="btn-next btn-clone"> &nbsp;
+                        All
                         view &nbsp;
                         <div></div></a>
                 </div>
@@ -55,61 +56,64 @@ include "../part/portfolio_head.php";
                 <div class="list-wrapper-1 flex">
                     <div class="list-box-1">
                         <div data-blur-in-duration="1.0" class="blur-in blur-in-type-1 blur-in-type-1-right number"
-                            data-trigger-inactive-delay="0" data-trigger-active-delay="3000">
+                            data-trigger-inactive-delay="0" data-trigger-active-delay="2500">
                             <div class="blur-item img-box">
                                 <a href="#" class="charm">NO.1</a>
                             </div>
                         </div>
                         <div data-blur-in-duration="2.0" class="blur-in blur-in-type-1 blur-in-type-1-down line"
-                            data-trigger-inactive-delay="0" data-trigger-active-delay="4000">
+                            data-trigger-inactive-delay="0" data-trigger-active-delay="3000">
                             <div class="blur-item img-box">
                                 <img src="https://kima-rin.github.io/img1/me/line.svg" alt="">
                             </div>
                         </div>
                         <div data-blur-in-duration="3.0" class="blur-in blur-in-type-1 blur-in-type-1-down pic"
-                            data-trigger-inactive-delay="0" data-trigger-active-delay="5000">
-                            <div class="blur-item img-box">
-                                <img src="https://kima-rin.github.io/img1/me/copy_00.png" alt="">
+                            data-trigger-inactive-delay="0" data-trigger-active-delay="3500">
+                            <div class="blur-item">
+                                <a class="img-box" href="/PF/bnx/"><img src="https://kima-rin.github.io/img1/me/copy_00.png"
+                                        alt=""></a>
                             </div>
                         </div>
                     </div>
                     <div class="list-box-2">
                         <div data-blur-in-duration="1.0" class="blur-in blur-in-type-1 blur-in-type-1-right number"
-                            data-trigger-inactive-delay="0" data-trigger-active-delay="3000">
+                            data-trigger-inactive-delay="0" data-trigger-active-delay="2500">
                             <div class="blur-item img-box">
                                 <a href="#" class="charm">NO.2</a>
                             </div>
                         </div>
                         <div data-blur-in-duration="2.0" class="blur-in blur-in-type-1 blur-in-type-1-down line"
-                            data-trigger-inactive-delay="0" data-trigger-active-delay="4000">
+                            data-trigger-inactive-delay="0" data-trigger-active-delay="3000">
                             <div class="blur-item img-box">
                                 <img src="https://kima-rin.github.io/img1/me/line.svg" alt="">
                             </div>
                         </div>
                         <div data-blur-in-duration="3.0" class="blur-in blur-in-type-1 blur-in-type-1-down pic"
-                            data-trigger-inactive-delay="0" data-trigger-active-delay="5000">
-                            <div class="blur-item img-box">
-                                <img src="https://kima-rin.github.io/img1/me/cory_01.png" alt="">
+                            data-trigger-inactive-delay="0" data-trigger-active-delay="3500">
+                            <div class="blur-item">
+                                <a class="img-box" href="/PF/kinfa/" target="_blank"> <img
+                                        src="https://kima-rin.github.io/img1/me/cory_01.png" alt=""></a>
                             </div>
                         </div>
                     </div>
                     <div class="list-box-3">
                         <div data-blur-in-duration="1.0" class="blur-in blur-in-type-1 blur-in-type-1-right number"
-                            data-trigger-inactive-delay="0" data-trigger-active-delay="3000">
+                            data-trigger-inactive-delay="0" data-trigger-active-delay="2500">
                             <div class="blur-item img-box">
                                 <a href="#" class="charm">NO.3</a>
                             </div>
                         </div>
                         <div data-blur-in-duration="2.0" class="blur-in blur-in-type-1 blur-in-type-1-down line"
-                            data-trigger-inactive-delay="0" data-trigger-active-delay="4000">
+                            data-trigger-inactive-delay="0" data-trigger-active-delay="3000">
                             <div class="blur-item img-box">
                                 <img src="https://kima-rin.github.io/img1/me/line.svg" alt="">
                             </div>
                         </div>
                         <div data-blur-in-duration="3.0" class="blur-in blur-in-type-1 blur-in-type-1-down pic"
-                            data-trigger-inactive-delay="0" data-trigger-active-delay="5000">
-                            <div class="blur-item img-box">
-                                <img src="https://kima-rin.github.io/img1/me/copy_02.png" alt="">
+                            data-trigger-inactive-delay="0" data-trigger-active-delay="3500">
+                            <div class="blur-item">
+                                <a class="img-box" href="/PF/Bon/" target="_blank"><img
+                                        src="https://kima-rin.github.io/img1/me/copy_002.png" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -117,61 +121,64 @@ include "../part/portfolio_head.php";
                 <div class="list-wrapper-2 flex">
                     <div class="list-box-1">
                         <div data-blur-in-duration="1.0" class="blur-in blur-in-type-1 blur-in-type-1-right number"
-                            data-trigger-inactive-delay="0" data-trigger-active-delay="3000">
+                            data-trigger-inactive-delay="0" data-trigger-active-delay="2500">
                             <div class="blur-item img-box">
                                 <a href="#" class="charm">NO.4</a>
                             </div>
                         </div>
                         <div data-blur-in-duration="2.0" class="blur-in blur-in-type-1 blur-in-type-1-down line"
-                            data-trigger-inactive-delay="0" data-trigger-active-delay="4000">
+                            data-trigger-inactive-delay="0" data-trigger-active-delay="3000">
                             <div class="blur-item img-box">
                                 <img src="https://kima-rin.github.io/img1/me/line.svg" alt="">
                             </div>
                         </div>
                         <div data-blur-in-duration="3.0" class="blur-in blur-in-type-1 blur-in-type-1-down pic"
-                            data-trigger-inactive-delay="0" data-trigger-active-delay="5000">
-                            <div class="blur-item img-box">
-                                <img src="https://kima-rin.github.io/img1/me/copy_03.png" alt="">
+                            data-trigger-inactive-delay="0" data-trigger-active-delay="3500">
+                            <div class="blur-item">
+                                <a class="img-box" href="/PF/eig/" target="_blank"><img
+                                        src="https://kima-rin.github.io/img1/me/copy_003.png" alt=""></a>
                             </div>
                         </div>
                     </div>
                     <div class="list-box-2">
                         <div data-blur-in-duration="1.0" class="blur-in blur-in-type-1 blur-in-type-1-right number"
-                            data-trigger-inactive-delay="0" data-trigger-active-delay="3000">
+                            data-trigger-inactive-delay="0" data-trigger-active-delay="2500">
                             <div class="blur-item img-box">
                                 <a href="#" class="charm">NO.5</a>
                             </div>
                         </div>
                         <div data-blur-in-duration="2.0" class="blur-in blur-in-type-1 blur-in-type-1-down line"
-                            data-trigger-inactive-delay="0" data-trigger-active-delay="4000">
+                            data-trigger-inactive-delay="0" data-trigger-active-delay="3000">
                             <div class="blur-item img-box">
                                 <img src="https://kima-rin.github.io/img1/me/line.svg" alt="">
                             </div>
                         </div>
                         <div data-blur-in-duration="3.0" class="blur-in blur-in-type-1 blur-in-type-1-down pic"
-                            data-trigger-inactive-delay="0" data-trigger-active-delay="5000">
-                            <div class="blur-item img-box">
-                                <img src="https://kima-rin.github.io/img1/me/copy_04.png" alt="">
+                            data-trigger-inactive-delay="0" data-trigger-active-delay="3500">
+                            <div class="blur-item">
+                                <a class="img-box" href="/PF/payletter/" target="_blank"><img
+                                        src="https://kima-rin.github.io/img1/me/copy_04.png" alt=""></a>
                             </div>
                         </div>
                     </div>
                     <div class="list-box-3">
                         <div data-blur-in-duration="1.0" class="blur-in blur-in-type-1 blur-in-type-1-right number"
-                            data-trigger-inactive-delay="0" data-trigger-active-delay="3000">
+                            data-trigger-inactive-delay="0" data-trigger-active-delay="2500">
                             <div class="blur-item img-box">
                                 <a href="#" class="charm">NO.6</a>
                             </div>
                         </div>
                         <div data-blur-in-duration="2.0" class="blur-in blur-in-type-1 blur-in-type-1-down line"
-                            data-trigger-inactive-delay="0" data-trigger-active-delay="4000">
+                            data-trigger-inactive-delay="0" data-trigger-active-delay="3000">
                             <div class="blur-item img-box">
                                 <img src="https://kima-rin.github.io/img1/me/line.svg" alt="">
                             </div>
                         </div>
                         <div data-blur-in-duration="3.0" class="blur-in blur-in-type-1 blur-in-type-1-down pic"
-                            data-trigger-inactive-delay="0" data-trigger-active-delay="5000">
-                            <div class="blur-item img-box">
-                                <img src="https://kima-rin.github.io/img1/me/copy_05.png" alt="">
+                            data-trigger-inactive-delay="0" data-trigger-active-delay="3500">
+                            <div class="blur-item">
+                                <a class="img-box" href="/PF/raemian/" target="_blank"><img
+                                        src="https://kima-rin.github.io/img1/me/copy_05.png" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -179,65 +186,68 @@ include "../part/portfolio_head.php";
                 <div class="list-wrapper-3 flex">
                     <div class="list-box-1">
                         <div data-blur-in-duration="1.0" class="blur-in blur-in-type-1 blur-in-type-1-right number"
-                            data-trigger-inactive-delay="0" data-trigger-active-delay="3000">
+                            data-trigger-inactive-delay="0" data-trigger-active-delay="2500">
                             <div class="blur-item img-box">
                                 <a href="#" class="charm">NO.7</a>
                             </div>
                         </div>
                         <div data-blur-in-duration="2.0" class="blur-in blur-in-type-1 blur-in-type-1-down line"
-                            data-trigger-inactive-delay="0" data-trigger-active-delay="4000">
+                            data-trigger-inactive-delay="0" data-trigger-active-delay="3000">
                             <div class="blur-item img-box">
                                 <img src="https://kima-rin.github.io/img1/me/line.svg" alt="">
                             </div>
                         </div>
                         <div data-blur-in-duration="3.0" class="blur-in blur-in-type-1 blur-in-type-1-down pic"
-                            data-trigger-inactive-delay="0" data-trigger-active-delay="5000">
-                            <div class="blur-item img-box">
-                                <img src="https://kima-rin.github.io/img1/me/copy_06.png" alt="">
+                            data-trigger-inactive-delay="0" data-trigger-active-delay="3500">
+                            <div class="blur-item">
+                                <a class="img-box" href="/PF/dopda/" target="_blank"><img
+                                        src="https://kima-rin.github.io/img1/me/copy_006.png" alt=""></a>
                             </div>
                         </div>
                     </div>
                     <div class="list-box-2">
                         <div data-blur-in-duration="1.0" class="blur-in blur-in-type-1 blur-in-type-1-right number"
-                            data-trigger-inactive-delay="0" data-trigger-active-delay="3000">
+                            data-trigger-inactive-delay="0" data-trigger-active-delay="2500">
                             <div class="blur-item img-box">
                                 <a href="#" class="charm">NO.8</a>
                             </div>
                         </div>
                         <div data-blur-in-duration="2.0" class="blur-in blur-in-type-1 blur-in-type-1-down line"
-                            data-trigger-inactive-delay="0" data-trigger-active-delay="4000">
+                            data-trigger-inactive-delay="0" data-trigger-active-delay="3000">
                             <div class="blur-item img-box">
                                 <img src="https://kima-rin.github.io/img1/me/line.svg" alt="">
                             </div>
                         </div>
                         <div data-blur-in-duration="3.0" class="blur-in blur-in-type-1 blur-in-type-1-down pic"
-                            data-trigger-inactive-delay="0" data-trigger-active-delay="5000">
-                            <div class="blur-item img-box">
-                                <img src="https://kima-rin.github.io/img1/me/copy_07.png" alt="">
+                            data-trigger-inactive-delay="0" data-trigger-active-delay="3500">
+                            <div class="blur-item">
+                                <a class="img-box" href="/PF/sagewood/" target="_blank"><img
+                                        src="https://kima-rin.github.io/img1/me/copy_007.png" alt=""></a>
                             </div>
                         </div>
                     </div>
                     <div class="list-box-3">
                         <div data-blur-in-duration="1.0" class="blur-in blur-in-type-1 blur-in-type-1-right number"
-                            data-trigger-inactive-delay="0" data-trigger-active-delay="3000">
+                            data-trigger-inactive-delay="0" data-trigger-active-delay="2500">
                             <div class="blur-item img-box">
                                 <a href="#" class="charm">NO.9</a>
                             </div>
                         </div>
                         <div data-blur-in-duration="2.0" class="blur-in blur-in-type-1 blur-in-type-1-down line"
-                            data-trigger-inactive-delay="0" data-trigger-active-delay="4000">
+                            data-trigger-inactive-delay="0" data-trigger-active-delay="3000">
                             <div class="blur-item img-box">
                                 <img src="https://kima-rin.github.io/img1/me/line.svg" alt="">
                             </div>
                         </div>
                         <div data-blur-in-duration="3.0" class="blur-in blur-in-type-1 blur-in-type-1-down pic"
-                            data-trigger-inactive-delay="0" data-trigger-active-delay="5000">
+                            data-trigger-inactive-delay="0" data-trigger-active-delay="3500">
                             <div class="blur-item img-box">
-                                <img src="https://kima-rin.github.io/img1/me/copy_08.png" alt="">
+                                <a class="img-box" href="/PF/outback/" target="_blank"><img
+                                        src="https://kima-rin.github.io/img1/me/copy_08.png" alt=""></a>
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
 

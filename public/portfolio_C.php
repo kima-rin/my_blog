@@ -47,12 +47,12 @@ include "../part/portfolio_head.php";
                 </div>
                 <div class="slide">
                     <div class="title Poppins">12</div>
-                    <div class="txt1">OCT10 ---- 2020</div>
+                    <div class="txt1">JUN6 ---- 2020</div>
                     <div class="txt2">
                         <img src="https://kima-rin.github.io/img1/me/co_t_012.svg" width="250" alt="">
                         <p class="cont-url">https://www.baskinrobbins.co.kr/</p>
                     </div>
-                    <div class="txt3"><img src="https://kima-rin.github.io/img1/me/txt3.svg" width="250" alt=""></div>
+                    <div class="txt3">OCT10 ---- 2020</div>
                     <div class="img-box">
                         <p class="project">project</p>
                         <div style="background-image:url(https://kima-rin.github.io/img1/me/port_012.png)"></div>
@@ -63,6 +63,7 @@ include "../part/portfolio_head.php";
                     </div>
                     <div><a href="#">more</a></div>
                 </div>
+                
                 <div class="slide">
                     <div class="title Poppins">11</div>
                     <div class="txt1">SEP9 ---- 2020</div>
@@ -79,14 +80,14 @@ include "../part/portfolio_head.php";
                         <p class="project">project</p>
                         <div style="background-image:url(https://kima-rin.github.io/img1/me/outback.png)"></div>
                     </div>
-                    <div><a href="/PF/raemian/" target="_blank">more</a></div>
+                    <div><a href="/PF/outback/" target="_blank">more</a></div>
                 </div>
                 <div class="slide">
                     <div class="title Poppins">10</div>
                     <div class="txt1">SEP9 ---- 2020</div>
                     <div class="txt2">
                         <img src="https://kima-rin.github.io/img1/me/co_t_010.svg" width="250" alt="">
-                        <p class="cont-url">https://www.lush.co.kr/</p>
+                        <p class="cont-url">https://www.sagewood.co.kr/global/main</p>
                     </div>
                     <div class="txt3"><img src="https://kima-rin.github.io/img1/me/lush-text.svg" width="250" alt=""></div>
                     <div class="img-box">
@@ -97,7 +98,7 @@ include "../part/portfolio_head.php";
                         <p class="project">project</p>
                         <div style="background-image:url(https://kima-rin.github.io/img1/me/sagewood.png)"></div>
                     </div>
-                    <div><a href="/PF/lush/" target="_blank">more</a></div>
+                    <div><a href="/PF/sagewood/" target="_blank">more</a></div>
                 </div>
                 <div class="slide">
                     <div class="title Poppins">09</div>
@@ -115,7 +116,7 @@ include "../part/portfolio_head.php";
                         <p class="project">project</p>
                         <div style="background-image:url(https://kima-rin.github.io/img1/me/dopda.png)"></div>
                     </div>
-                    <div><a href="#">more</a></div>
+                    <div><a href="/PF/dopda/" target="_blank">more</a></div>
                 </div>
                 <div class="slide">
                     <div class="title Poppins">08</div>
@@ -151,7 +152,7 @@ include "../part/portfolio_head.php";
                         <p class="project">project</p>
                         <div style="background-image:url(https://kima-rin.github.io/img1/me/raemian_img.jpg)"></div>
                     </div>
-                    <div><a href="#">more</a></div>
+                    <div><a href="/PF/raemian/" target="_blank">more</a></div>
                 </div>
                 <div class="slide">
                     <div class="title Poppins">06</div>
@@ -169,7 +170,7 @@ include "../part/portfolio_head.php";
                         <p class="project">project</p>
                         <div style="background-image:url(https://kima-rin.github.io/img1/me/lush_img.jpg)"></div>
                     </div>
-                    <div><a href="#">more</a></div>
+                    <div><a href="/PF/lush/" target="_blank">more</a></div>
                 </div>
                 <div class="slide">
                     <div class="title Poppins">05</div>
@@ -187,7 +188,7 @@ include "../part/portfolio_head.php";
                         <p class="project">project</p>
                         <div style="background-image:url(https://kima-rin.github.io/img1/me/payletter_img.png)"></div>
                     </div>
-                    <div><a href="#">more</a></div>
+                    <div><a href="/PF/payletter/" target="_blank">more</a></div>
                 </div>
                 
                 <div class="slide">
@@ -206,7 +207,7 @@ include "../part/portfolio_head.php";
                         <p class="project">project</p>
                         <div style="background-image:url(https://kima-rin.github.io/img1/me/8the.png)"></div>
                     </div>
-                    <div><a href="#">more</a></div>
+                    <div><a href="/PF/eig/" target="_blank">more</a></div>
                 </div>
                 <div class="slide">
                     <div class="title Poppins">03</div>
@@ -224,7 +225,7 @@ include "../part/portfolio_head.php";
                         <p class="project">project</p>
                         <div style="background-image:url(https://kima-rin.github.io/img1/me/bon_img.png)"></div>
                     </div>
-                    <div><a href="#">more</a></div>
+                    <div><a href="/PF/Bon/" target="_blank">more</a></div>
                 </div>
                 <div class="slide">
                     <div class="title Poppins">02</div>
@@ -242,7 +243,7 @@ include "../part/portfolio_head.php";
                         <p class="project">project</p>
                         <div style="background-image:url(https://kima-rin.github.io/img1/me/kinfa_img.png)"></div>
                     </div>
-                    <div><a href="#">more</a></div>
+                    <div><a href="/PF/kinfa/" target="_blank">more</a></div>
                 </div>
                 <div class="slide">
                     <div class="title Poppins">01</div>
@@ -258,9 +259,9 @@ include "../part/portfolio_head.php";
                     </div>
                     <div class="img-box-2">
                         <p class="project">project</p>
-                        <div style="background-image:url(https://kima-rin.github.io/img1/me/port_01.png)"></div>
+                        <div style="background-image:url(https://kima-rin.github.io/img1/me/bnx_img.png)"></div>
                     </div>
-                    <div><a href="#">more</a></div>
+                    <div><a href="/PF/bnx/" target="_blank">more</a></div>
                 </div>
             </div>
         </div>
