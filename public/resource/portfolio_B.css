@@ -201,3 +201,20 @@
     left: 70%;
     width: 200px;
 }
+
+.blank-img{
+    position: relative;
+}
+
+.blank-img::after{
+    content: "준비중";
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 2;
+}

@@ -16,14 +16,14 @@ include "../part/head.php";
                 <div class="flex">
                     <span class="deco"><i class="fas fa-caret-right"></i></span>
                     <span class="date"><a href="#">2005.03-2010.02</a> </span>
-                    <span class="content">Bachelor of Science at Architectural Design Cource. <br>
+                    <span class="content">Bachelor of Science at Architectural Design Cource <br>
                         Seoul National University of Technology</span>
                 </div>
                 <div class="flex">
                     <span class="deco"><i class="fas fa-caret-right"></i></span>
-                    <span class="date">2005.03-2010.02</span>
-                    <span class="content">Bachelor of Science at Architectural Design Cource. <br>
-                        Seoul National University of Technology</span>
+                    <span class="date">2001.03-2014.06</span>
+                    <span class="content">Bachelor of College of Fine Arts at Western Painting <br>
+                        Gwangju Chosun University</span>
                 </div>
             </div>
             <div class="award">

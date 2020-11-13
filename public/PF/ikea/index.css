@@ -1,0 +1,929 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;500;600;700&display=swap');
+html {
+    /* 영문이면 roboto가 적용되고, 한글이면 Noto Sans KR가 적용되도록 아래와 같은 순서로 배치 */
+    font-family: "Roboto", "gyeonggi-t", sans-serif;
+  }
+  
+  /* 노말라이즈 */
+  body,
+  ul,
+  li,
+  h1,
+  h2,
+  h3,p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  /* 라이브러리 */
+  .block {
+    display: block;
+  }
+  
+  .inline-block {
+    display: inline-block;
+  }
+  
+  .absolute-left {
+    position: absolute;
+    left: 0;
+  }
+  
+  .absolute-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .absolute-bottom {
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .absolute-top {
+    position: absolute;
+    top: 0;
+  }
+  
+  .absolute-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .abs-full {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .absolute-middle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .absolute-middle.absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  .cell {
+    float: left;
+    box-sizing: border-box;
+  }
+  
+  .cell-right {
+    float: right;
+    box-sizing: border-box;
+  }
+  
+  .row::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  .clear-both {
+    clear: both;
+  }
+  
+  .img-box>img {
+    width: 100%;
+    display: block;
+  }
+  
+  .con {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .min-con {
+    margin-left: auto;
+    margin-right: auto;
+    }
+  .margin-0-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .text-align-left {
+    text-align: left;
+  }
+  
+  .text-align-center {
+    text-align: center;
+  }
+  
+  .text-align-right {
+    text-align: right;
+  }
+  
+  .line-height-0 {
+    line-height: 0;
+  }
+  
+  .line-height-0>* {
+    line-height: normal;
+  }
+  
+  .height-100p {
+    height: 100%;
+  }
+  
+  .border-red {
+    border: 3px solid red;
+  }
+  
+  .ratio-1-1::after {
+    content: "";
+    display: block;
+    padding-top: 100%;
+  }
+  
+  
+  /* 라이브러리 - flex */
+  *>.flex {
+    display: flex;
+  }
+  
+  *>.flex-column-nowrap {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  
+  *>.flex-grow-1 {
+    flex-grow: 1;
+  }
+  
+  *>.flex-jc-end {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  *>.flex-jc-s {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  *>.flex-jc-c {
+    display: flex;
+    justify-content: center;
+  }
+  
+  *>.flex-ai-c {
+    display: flex;
+    align-items: center;
+  }
+  
+  *>.flex-ai-e {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  *>.flex-row-nowrap {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  
+  *>.flex-ch-basis-0 {
+    display: flex;
+  }
+  
+  .flex-ch-basis-0>* {
+    flex-basis: 0;
+  }
+  
+  *>.flex-1-0-0 {
+    flex: 1 0 0;
+  }
+  
+  .flex-jc-sb {
+    justify-content: space-between;
+  }
+  .flex-direction {
+    flex-direction: column;
+  }
+
+  /* 공통 css */
+  @media (max-width:799px) {
+    .visible-md-up {
+      display: none;
+    }
+  }
+  
+  @media (min-width:800px) {
+    .visible-sm-down {
+      display: none;
+    }
+  }
+  /* 커스텀 */
+  .con{
+    width: 92%;
+  }
+  .min-con{
+    width: 1280px;
+  }
+  /* 탑 박스 시작 */
+  .top-box{
+    width: 100%;
+    background-color:#04569c ;
+  }
+  .top-box>div>.logo{
+    width: 100%;
+  }
+  .top-box>div>.logo>.img-box{
+    width: 25%;
+    margin: 8px 0;
+  }
+  .top-box>div>.mobile-top-bar>.mobile-box{
+    width:30px;
+    height: 25px;
+  }
+  .top-box>div>.mobile-top-bar>.mobile-box>div{
+    width: 100%;
+    height: 20%;
+    background-color: #ffffff;
+  }
+  .top-box>div>.mobile-top-bar>.mobile-box>div:nth-child(2){
+    margin-top:20%;
+  }
+  .top-box>div>.mobile-top-bar>.mobile-box>div:nth-child(3){
+    margin-top:20%;
+  }
+  /* 메인박스 시작 */
+  .main-box{
+    height: calc(100vh - 120px) ;
+  }
+  .main-box>div{
+    width: 100%;
+    height: 100%;
+  }
+  .main-box>div>.side-menu-bar{
+    width: 4%;
+  }
+  .main-box>div>.side-menu-bar>ul{
+    padding-top: 30px;
+    text-align: center;
+  }
+  .main-box>div>.side-menu-bar>ul>li>a>img{
+    width: 70%;
+    padding: 10px;
+  }
+  .main-box>div>.main-img{
+    width: 92%;
+    height: 100%;
+    background-image: url(https://kima-rin.github.io/img1/pf/ikea/main_img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .main-box>div>.main-img>div{
+    height: 100%;
+  }
+  .main-box>div>.main-img>div>input{
+    width: 30%;
+    height: 3%;
+  }
+  .main-box>div>.right-bar{
+    width: 4%;
+    height: 100%;
+  }
+  .main-box>div>.right-bar>ul{
+    width: 100%;
+    transform: translateY(-10%);
+  }
+  .main-box>div>.right-bar>ul>li{
+    text-align: center;
+
+  }
+  .main-box>div>.right-bar>ul>li>a{
+    font-size: 0.9em;
+    padding: 15px 0;
+    
+  }
+  .main-box>div>.right-bar>ul>li:nth-child(2)>a{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+  }
+  /* 메인박스 끝 */
+  /* 비디오 박스 시작 */
+  .video-box{
+    width: 100%;
+    margin-top: 60px;
+    background-color: #f7f8f8;
+    
+  }
+  .video-box>div>.text-box{
+    flex:4 0 0;
+  }
+  .video-box>div>.text-box>div{
+    font-family: 'Spartan', sans-serif;
+  
+  }
+  .video-box>div>.text-box>div>h1{
+    font-size: 28px;
+    font-weight: 500;
+    margin-top:20px;
+  }
+  .video-box>div>.text-box>div>p{
+    font-size: 16px;
+    font-weight: 200;
+    margin-top:10px;
+  }
+  .video-box>div>.text-box>div>.btn-box{
+    margin-top: 100px;
+  }
+  .video-box>div>.text-box>div>.btn-box>a{
+    background-color: #04569c;
+    padding: 10px;
+    border-radius: 10px;
+    color: #f0cc21;
+  }
+  .video-box>div>.text-box>div>.btn-box>a>.btn-title{
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 30px;
+  }
+  .video-box>div>.text-box>div>.btn-box>a>.btn-play{
+    padding: 6px 8px;
+    border-radius: 50%;
+    background-color: #f0cc21;
+    color:#04569c;
+  }
+  .video-box>div>.text-box>.banner-box{
+    position: absolute;
+    top:-30px;
+    left: 100px;
+    width: 450px;
+    height: 150px;
+
+  }
+  .video-box>div>.text-box>.banner-box>li{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .video-box>div>.text-box>.banner-box>li::before{
+    content: "";
+    position: absolute;
+    top:-5px;
+    left: 0;
+    width: 100%;
+    height: 36px;
+    background-color:#000;
+    border-radius: 7px 7px 0px 0px;
+    z-index: 1;
+  }
+  
+  .video-box>div>.text-box>.banner-box>li:nth-child(2){
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+  }
+  .video-box>div>.text-box>.banner-box>li>a{
+    position: relative;
+    color: #fff;
+    font-size: 13px;
+    top: 4px;
+    z-index: 2;
+    white-space: nowrap;
+  }
+  .video-box>div>.text-box>.banner-box>li>a>.txt-1{
+    padding: 20px 10px;
+  }
+  .video-box>div>.text-box>.banner-box>li>a>.txt-2{
+    background-color: #fff;
+    color: #000;
+    padding: 4px 3px 3px 5px;
+    margin-left: 40px;
+    border-radius: 50%;
+  }
+  .video-box>div>.text-box>.banner-box>li:last-child>a>.txt-2{
+    margin-left: 10px;
+  }
+  .video-box>div>.prod-box{
+    flex: 6 0 0;
+    height: 700px;
+    background-image: url(https://kima-rin.github.io/img1/pf/ikea/prod-box-img2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 90%;
+  }
+  .video-box>div>.prod-box>.wrapper{
+    height: 100%;
+    
+  }
+  .video-box>div>.prod-box>.wrapper>.ulrik{
+    position: absolute;
+    left: 10%;
+    bottom:3%;
+  }
+  .video-box>div>.prod-box>.wrapper>div>h1>small{
+    font-size: 17px;
+  }
+  .video-box>div>.prod-box>.wrapper>div>.txt-box{
+    font-size: 16px;
+  }
+  .video-box>div>.prod-box>.wrapper>div>.cost-box>.cost{
+    font-size: 24px;
+  }
+  .video-box>div>.prod-box>.wrapper>.arod{
+    position: absolute;
+    top:20%;
+    right: 2%;
+  }
+  /* 비디오 박스 끝 */
+
+  /* 슬라이드 박스 시작 */
+  .slide-box>.my-slider{
+    padding: 30px 0 100px 0;
+    position: relative;
+  }
+  .slide-box>.my-slider::after{
+    content: "";
+    position: absolute;
+    top:35%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color:rgba(0, 0, 0, .3);
+  }
+
+  .swiper-button-prev{
+    width: 50px;
+    height: 80px;
+    top:32.5%;
+    left:5%;
+    color: transparent;
+    background-image: url(https://kima-rin.github.io/img1/pf/ikea/slide_arrow_left.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .swiper-button-next{
+    width:50px;
+    height: 80px;
+    top:32.5%;
+    right: 5%;
+    color: transparent;
+    background-image: url(https://kima-rin.github.io/img1/pf/ikea/slide_arrow_right.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .swiper-container-horizontal>.swiper-pagination-bullets{
+    color: #666;
+  }
+  .swiper-container .swiper-pagination-bullet{
+    background: #666;
+    width: 10px;
+    height: 10px;
+    bottom: -10px;
+    position: relative;
+    margin: 0 30px;
+  }
+
+  .slide-box>.my-slider>.swiper-container>.swiper-wrapper{
+    padding-bottom: 100px;
+  }
+  
+  /* 슬라이드 라이브러리 */
+  .slide-title1{
+    font-size: 24px;
+    text-align: left;
+    padding-left: 50px;
+  }
+  .slide-title2{
+    font-size: 24px;
+    text-align: left;
+  }
+  .slide-kotitle{
+    font-size: 18px;
+  }
+  .slide-txt1{
+    font-size: 16px;
+    color: #adadad;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 5px;
+  }
+  .slide-txt2{
+    font-size: 16px;
+    color: #adadad;
+    text-align: left;
+    padding-top: 5px;
+  }
+  .slide-cost-box1{
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 5px;
+  }
+  .slide-cost-box2{
+    text-align: left;
+    padding-top: 5px;
+  }
+  .slide-cost{
+    font-size: 32px;
+    
+  }
+  .color-box>li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left:10px;
+    margin-top: 10px;
+  }
+  .color-bk{
+    background-color: #000;
+  }
+  .color-be{
+    background-color: #b4987f;
+  }
+  .color-wh{
+    background-color: #dfdfdf;
+  }
+  .color-gr{
+    background-color:#666
+  }
+  .color-bw{
+    background-color: #604c3f;
+  }
+  .color-bl{
+    background-color:#074263 ;
+  }
+  .color-gr{
+    background-color: #034924;
+  }
+  .color-red{
+    background-color: red;
+  }
+  .color-sky{
+    background-color: #7ea5bb;
+  }
+  /* 슬라이드 박스 끝 */
+
+  /* 배너박스 2 시작 */
+  .banner-box2>ul>li{
+    height: calc(100vh - 250px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .banner-box2>ul>li>a{
+    position: absolute;
+    font-family: 'Spartan', sans-serif;
+    font-size: 25px;
+    padding: 5px 10px;
+    border:1px solid #fff;
+    color: #fff;
+    bottom: 3%;
+    right: 5%;
+  }
+  /* 배너박스 2 끝 */
+
+
+  /* 플랜박스 시작 */
+  .plan-box>div>.plan-text-box{
+    flex:3 0 0;
+  }
+  .plan-box>div>.plan-text-box>div>.etc-img-box{
+    margin-top: 150px;
+  }
+  .plan-box>div>.plan-text-box>div>.etc-img-box>img{
+    display: block;
+  }
+  .plan-box>div>.plan-text-box>div>.en{
+    font-family: 'Spartan', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top:30px;
+  }
+  .plan-box>div>.plan-text-box>div>.ko{
+    font-size: 13px;
+    padding: 30px 0;
+    opacity: .5;
+  }
+
+  /* 플랜박스 버튼 */
+  .plan-box>div>.plan-text-box>div>.btn-box{
+    margin-top: 50px;
+    margin-bottom: 150px;
+  }
+  .plan-box>div>.plan-text-box>div>.btn-box>a{
+    background-color: #f0cc21;
+    padding: 10px;
+    border-radius: 10px;
+    color: #04569c;
+  }
+  .plan-box>div>.plan-text-box>div>.btn-box>a>.btn-title{
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 30px;
+  }
+  .plan-box>div>.plan-text-box>div>.btn-box>a>.btn-play{
+    padding: 6px 8px;
+    border-radius: 50%;
+    background-color: #fff;
+    color:#04569c;
+  }
+  .plan-box>div>.plan-img-box{
+    flex:7 0 0;
+    background-image: url(https://kima-rin.github.io/img1/pf/ikea/planner_img.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto 100%;
+  }
+  /* 플랜박스 끝 */
+  /* 베스트 박스 시작 */
+  .best-box{
+    margin-top: 50px;
+    background-image: url(https://kima-rin.github.io/img1/pf/ikea/bast_back.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .best-box>div>h1{
+    padding: 100px 0 50px 0;
+  }
+  .best-box>div>ul{
+    margin-left: -10px;
+    margin-right: -10px;
+    overflow: hidden;
+  }
+  .best-box>div>ul>li{
+    padding: 40px;
+    background-color: #fff;
+    margin: 0 10px;
+    margin-bottom: 150px;
+    
+  } 
+  .best-title{
+    font-size: 24px;
+    text-align: left;
+    padding-top: 10px;
+  }
+  .best-kotitle{
+    font-size: 18px;
+  }
+  .best-txt{
+    font-size: 16px;
+    color: #adadad;
+    text-align: left;
+    padding-top: 5px;
+  }
+  .best-box>div>ul>li>.best-cost-box{
+    text-align: left;
+  }
+  .best-cost-box{
+    text-align: left;
+    padding-top: 5px;
+  }
+  .best-cost{
+    font-size: 32px;
+  }
+  .color-box>div{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left:10px;
+    margin-top: 10px;
+  }
+  /* 베스트 박스 끝 */
+
+  /* 푸드 박스 시작 */
+  .food-box{
+    width: 100%;
+    background-image: url(https://kima-rin.github.io/img1/pf/ikea/event_back_03.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+  }
+  /* 텍스트 박스 */
+  .food-box>div>.food-text-box{
+    flex:4 0 0;
+    font-family: 'Spartan', sans-serif;
+  }
+  
+  .food-box>div>.food-text-box>div>.btn-box{
+    margin-top: 150px;
+  }
+  .food-box>div>.food-text-box>div>.btn-box>a{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    color: #04569c;
+  }
+  .food-box>div>.food-text-box>div>.btn-box>a>.btn-title{
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 30px;
+  }
+  .food-box>div>.food-text-box>div>.btn-box>a>.btn-play{
+    padding: 6px 8px;
+    border-radius: 50%;
+    background-color: #f0cc21;
+    color:#04569c;
+  }
+  .food-box>div>.food-text-box>div>h1{
+    font-style: italic;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top:80px;
+    color: #fff;
+  }
+  .food-box>div>.food-text-box>div>.en{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top:50px;
+  }
+  .food-box>div>.food-text-box>div>.ko{
+    font-size: 13px;
+    padding: 60px 0;
+    opacity: .5;
+  }
+  /* 이미지 박스 */
+  .food-box>div>.food-img-box{
+    flex:6 0 0;
+  }
+  .food-box>div>.food-img-box>div{
+    text-align: center;
+    position: relative;
+  }
+  .food-box>div>.food-img-box>div::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://kima-rin.github.io/img1/pf/ikea/ikea_back.png);
+    background-repeat: no-repeat;
+    background-position:50% 10%;
+    background-size: 400px;
+    opacity: .3;
+  }
+  .food-box>div>.food-img-box>div::before{
+    content: "View our menu";
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+    text-decoration: underline;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .food-box>div>.food-img-box>div>img{
+    padding: 120px 0 100px 0;
+  }
+  
+  /* 푸드 박스 끝 */
+  /* 이벤트 박스 시작 */
+  .event-box{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://kima-rin.github.io/img1/pf/ikea/event_back_02.svg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+  }
+  .event-box>div>div>h1{
+    padding-top: 50px;
+  }
+  .event-box>div>div>h2{
+    display: block;
+    font-family: 'Spartan', sans-serif;
+    font-size: 32px;
+    font-style:italic;
+    color:#f0cc21;
+    font-weight: 400;
+    margin-top: 5px;
+  }
+  .event-box>div>div>p{
+    display: block;
+    font-size: 12px;
+    color: #adadad;
+    margin-top: 10px;
+  }
+  .event-box>div>.photo-box>li{
+    width: 200px;
+    height: 200px;
+    border:1px solid #000;
+  }
+  .event-box>div>.photo-box{
+    margin-top: 30px;
+  }
+  .event-box>div>.photo-box>li:nth-child(2){
+    margin: 0 10px;
+    background-color: #fff;
+  }
+  .event-box>div>.gaga-box{
+    position: absolute;
+    top:10%;
+    right: 0;
+    width: 400px;
+    height: 700px;
+  }
+
+  /* 이벤트 박스 끝 */
+
+  /* 푸터 박스 시작 */
+  .footer-box>.ft-service-box{
+    margin-top: 50px;
+    text-align: center;
+  }
+  .footer-box>.ft-service-box>h1{
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 1px;
+  }
+  .footer-box>.ft-service-box>p{
+    font-size: 16px;
+    opacity: .5;
+  }
+  .footer-box>.ft-s-icon{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+  }
+  .footer-box>.ft-s-icon>li{
+    padding: 30px 30px 50px 30px;
+  }
+  .footer-box>.ft-s-icon>li>h2{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .footer-box>.ft-s-icon>li>p{
+    font-size: 10px;
+    line-height: 14px;
+    padding-top: 5px;
+  }
+  .footer-box>.company-box>div:first-child>p{
+    font-size: 16px;
+  }
+  .footer-box>.company-box>div:first-child>div{
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  .footer-box>.company-box>div:last-child>div>span{
+    padding-left: 20px;
+  }
+  .footer-box>.company-box>div:last-child>div>div{
+    margin-top: 50px;
+  }
+  .footer-box>.company-box>div:last-child>div>div>span{
+    border: 1px solid #000;
+    border-radius: 20px;
+    margin-left: 20px;
+  }
+  .footer-box>.company-box>div:last-child>div>div>.state{
+    padding: 10px 20px 10px 50px;
+    position: relative;
+  }
+  .footer-box>.company-box>div:last-child>div>div>.state::after{
+    content: "";
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left: 8px;
+    width: 30px;
+    height: 30px;
+    background-image: url(https://kima-rin.github.io/img1/pf/ikea/footer_icon_01.svg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+  }
+  .footer-box>.company-box>div:last-child>div>div>.lang{
+    padding: 10px 50px 10px 20px;
+    position: relative;
+  }
+  .footer-box>.company-box>div:last-child>div>div>.lang::after{
+    content: "";
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right: 15px;
+    width: 20px;
+    height: 20px;
+    background-image: url(https://kima-rin.github.io/img1/pf/ikea/footer_icon_02.svg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+  }
+  /* 푸터 박스 끝 */

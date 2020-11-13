@@ -1,13 +1,19 @@
 html {
     /* 영문이면 roboto가 적용되고, 한글이면 Noto Sans KR가 적용되도록 아래와 같은 순서로 배치 */
-    font-family: "Roboto", "Noto Sans KR", sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
 }
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
 @import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+
+.spoqa { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
+
 
 .nanummyeongjo * {
  font-family: 'Nanum Myeongjo', serif;
 }
+
 
 /* 노말라이즈 */
 body,
@@ -347,29 +353,36 @@ label[for] {
 .con {
     max-width: 1370px;
 }
-
+/* 페이지-1 시작 */
 .bg{
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
-
-
 .slider, .slider > .slides, .slider > .slides > .item {
     height: 100%;
 }
 .slider > .slides {
     position: relative;
-    background: rgba(0, 0, 0, 0.2) url(https://kima-rin.github.io/img1/pf/sagewood/bg_main_gradient.png) left top no-repeat;
     z-index: 1;
+    overflow: hidden;
 }
 .slider > .slides > .item {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     opacity: 0;
     transform: scale(1);
     transition: opacity 1.5s, transform 2s;
+}
+.slider-1 > .slides > .item::after{
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.2) url(https://kima-rin.github.io/img1/pf/sagewood/bg_main_gradient.png) left top no-repeat;
 }
 .slider > .slides > .item.active {
     opacity: 1;
@@ -390,28 +403,187 @@ label[for] {
     z-index: 10;
 } */
 
-.logo-bar{
+.slider-1>.logo-bar{
     position: absolute;
     top:0;
     left: 0;
     width: 100%;
     z-index: 99;
 }
-.logo-bar>.logo{
+.slider-1>.logo-bar>.logo{
     flex:5 0 0;
     margin-left: 80px;
     margin-top: 50px;
 }
-.logo-bar>.login{
+.slider-1>.logo-bar>.login{
     flex:5 0 0;
     color: #fff;
     text-align: end;
-    margin-top:50px;
-    padding: 10px 30px;
+    margin-top:30px;
+    padding: 10px 2%;
 }
-.logo-bar>.login>a{
+.slider-1>.logo-bar>.login>a{
     font-family: 'Nanum Myeongjo', serif;
     font-size:14px;
     line-height: 2.71;
     font-weight: 600;
 }
+/* 오른쪽 사이드 메뉴 바 */
+.rs-menu-bar{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right: 2%;
+    color: #fff;
+    text-align: right;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    z-index: 10;
+}
+.rs-menu-bar>li{
+    font-size: 17px;
+    padding-right: 20px;
+}
+.rs-menu-bar:hover{
+    color:rgba(255, 255, 255, 0.5)
+}
+.rs-menu-bar>li:hover{
+    color: #fff;
+}
+.rs-menu-bar>li:first-child{
+    padding-bottom:18px;
+}
+.rs-menu-bar>li:not(:first-child):not(:last-child){
+    padding: 18px 0;
+    padding-right: 20px;
+}
+.rs-menu-bar>li:last-child{
+    padding-top: 18px;
+}
+/* 가운데 텍스트 */
+.center{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 11;
+}
+.center>.center-text{ 
+    font-size: 26px;
+    color:#fff;
+    font-weight: 300;
+}
+.center>.center-text>.scroll-wrap{
+    position: relative;
+    width: 100%;
+    height: 160px;
+    padding-top: 60px;
+}
+.center>.center-text>.scroll-wrap>.scroll{
+    position: absolute;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.center>.center-text>.scroll-wrap>.scroll>.bar{
+    width: 100%;
+    background-color: #fff;
+    animation-name: scroll-ani;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes scroll-ani{
+    0%{
+        height: 0;
+    }
+    100%{
+        height: 100%;
+    }
+}
+/* 왼쪽 텍스트 박스 */
+.left-text-box{
+    position: absolute;
+    left: 80px;
+    bottom: 0;
+    border-left:1px solid rgba(255, 255, 255, 0.2);
+    z-index: 12;
+    padding-bottom: 30px;
+}
+.left-text-box>div{
+    color: #fff;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+.left-text-box>div>a{
+    display: block;
+    font-size: 16px;
+    padding: 7px 0;
+    font-family: 'Nanum Myeongjo', serif;
+}
+.left-text-box>div>span{
+    font-size: 11px;
+    font-weight: 300;
+}
+.btn-area{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: transparent;
+    transition: all 2s;
+    z-index: 13;
+}
+.btn-area:hover{
+    background-color: black;
+}
+.btn-area>a{
+    display: inline-block;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 20px 130px 20px 25px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    position: relative;
+}
+.btn-area>a::before{
+    content: "";
+    position: absolute;
+    top:50%;
+    left: 55%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 1px;
+    background-color: #fff;
+}
+.btn-area:hover>a::before{
+    opacity: 0;
+}
+.btn-area>a::after{
+    content: "";
+    position: absolute;
+    top:50%;
+    left: 55%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 1px;
+    background-color: #fff;
+    transition: width 2s;
+}
+.btn-area:hover>a::after{
+    width: 50px;
+}
+
+/* 페이지-1 끝 */
+
+/* 페이지-2 시작 */
+/* 백그라운드 */
+.page2 > .slider> .slides > .item{
+    background-color: red !important; 
+}
+.empty{
+    height: 100px;
+    width: 100px;
+    
+}
+/* 페이지-2 끝 */

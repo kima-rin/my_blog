@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "gyeonggi-t";
+    /* 폰트이름 지정, 작업자 마음대로 */
+    src: url("font/gyeonggi-t_Bold.woff2") format("woff2"),
+    url("font/gyeonggi-t_Bold.ttf") format("truetype");
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-family: "gyeonggi-t";
+    /* 폰트이름 지정, 작업자 마음대로 */
+    src: url("font/gyeonggi-t_ExtraBold.woff2") format("woff2"),
+    url("font/gyeonggi-t_ExtraBold.ttf") format("truetype");
+    font-weight: 900;
+  }
+  
+  @font-face {
+    font-family: "gyeonggi-t_Ba";
+    /* 폰트이름 지정, 작업자 마음대로 */
+    src: url("font/gyeonggi-t_Ba_Regular.woff2") format("woff2"),
+    url("font/gyeonggi-t_Ba_Regular.ttf") format("truetype");
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: "gyeonggi-t_Ba_Bold";
+    /* 폰트이름 지정, 작업자 마음대로 */
+    src: url("font/gyeonggi-t_Ba_Bold.woff2") format("woff2"),
+    url("font/gyeonggi-t_Ba_Bold.ttf") format("truetype");
+    font-weight: 700;
+  }
+
+  .font-gyeonggi-t {
+    font-family: "gyeonggi-t";
+  }
+  .font-gyeonggi-t_Ba{
+    font-family: "gyeonggi-t_Ba";
+  }

@@ -344,8 +344,8 @@ body{
 }
 .top-bar>.top-menu-bar>.menu-box-1>ul>li>a{
     font-family: 'Montserrat', sans-serif;
-    padding:20px 10px;
-    font-size: .8rem;
+    padding:30px 20px;
+    font-size: .9rem;
     z-index: 100;
 }
 .top-bar>.top-menu-bar>.menu-box-1>ul>li:nth-child(2n+2)>a{
@@ -394,7 +394,10 @@ body{
     width: 350px;
     bottom: 0;
     transition: right .5s; 
+
 }
+
+
 .right-side-bar>.side-dc{
     position: absolute;
     left: -5%;

@@ -43,13 +43,15 @@ function gridSlide() {
 function MobileSideBar__init() {
   $('.btn-toggle-mobile-side-bar').click(function () {
     var $this = $(this);
-
+    var $right_btn = $('.rs-menu-bar');
     if ($this.hasClass('active')) {
       $this.removeClass('active');
       $('.right-side-bar').removeClass('active');
+      $right_btn.removeClass('active');
     } else {
       $this.addClass('active')
       $('.right-side-bar').addClass('active');
+      $right_btn.addClass('active');
     }
   });
 }
