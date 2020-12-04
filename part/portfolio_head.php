@@ -12,13 +12,13 @@
             <nav class="menu-box-1 ">
                 <ul class="flex">
                     <li class="flex"><a href="/" class="block">HOME</a></li>
-                    <li class="flex"><a href="#" class="block">/</a></li>
+                    
                     <li class="flex"><a href="/list.php" class="block">Article</a></li>
-                    <li class="flex"><a href="#" class="block">/</a></li>
+                    
                     <li class="flex"><a href="/aboutMe.php" class="block">About Me</a></li>
-                    <li class="flex"><a href="#" class="block">/</a></li>
+                    
                     <li class="flex"><a href="/portfolio_A.php" class="block">Portfolio</a></li>
-                    <li class="flex"><a href="#" class="block">/</a></li>
+                    
                     <li class="flex"><a href="#" class="block">Sns</a></li>
                 </ul>
             </nav>
@@ -46,9 +46,9 @@
                 </div>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">img</a></li>
-                <li><a href="#">Article</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Portfolio</a></li>
+                <li><a href="/list.php">Article</a></li>
+                <li><a href="/aboutMe.php">About Me</a></li>
+                <li><a href="portfolio_A.php">Portfolio</a></li>
                 <li><a href="#">Sns</a></li>
             </ul>
         </nav>

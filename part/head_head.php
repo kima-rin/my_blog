@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/resource/detail.css">
     <link rel="stylesheet" href="/resource/aboutMe.css">
     <link rel="stylesheet" href="/resource/portfolio_A.css">
-    <link rel="stylesheet" href="/PF/lush/font.css">
+    <link rel="stylesheet" href="/resource/font.css">
     <link rel="icon" href="../resource/img/icon4.png">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/resource/common.js"></script>

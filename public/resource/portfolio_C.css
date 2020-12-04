@@ -36,7 +36,7 @@
 .box-1 {
     flex-grow:1;
     display:flex;
-    height: calc(100vh - 55px);
+    height: 100vh;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -122,7 +122,7 @@
 .box-1 >.box-detail > .img-box > div::after {
     content:"";
     display:block;
-    padding-top:49%;
+    padding-top:51%;
 }
 
 .box-1 > .box-detail > .img-box > div:hover {
@@ -141,15 +141,35 @@
    
 }
 .box-1 > .box-detail >.txt3>h1{
-    font-size: 28px;
+    font-size: 18px;
     margin-top:10px;
     margin-bottom: 10px;
     font-weight: 400;
     letter-spacing: -.7px;
 }
 .box-1 > .box-detail >.txt3>p{
-    font-size: 13px;
+    font-size: 11px;
     line-height: 18px;
+}
+.btn-box{
+    margin-top:30px;
+}
+.process{
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px 30px;
+    border: 1px solid #000;
+}
+.website{
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 30px;
+    color: #fff;
+    background-color:#000;
+    border: 1px solid #000;
 }
 /*슬라이드-1*/
 
@@ -164,7 +184,7 @@
 
 .box-1 > .slider-1 > .slides > .slide {
     width:300px !important;
-    height: calc(100vh - 55px);
+    height: 100vh;
     border-right:1px solid #4d4d4d;
 }
 
@@ -202,9 +222,7 @@
     font-size: 12px;
     text-transform: uppercase;
 }
-.box-1> .slider-1> .slides > .slide:nth-child(2)> .txt2>img{
-    margin: 2px 0;
-}
+
 /*콘텐츠-normal*/
 .box-detail .title{
     font-size: 120px;
@@ -241,6 +259,7 @@
     font-size: 10px;  
     padding:5px 15px;
     line-height:8px;
+    font-weight: bold;
 }
 
 .slider-1 .title{

@@ -5,9 +5,9 @@ include "../part/head_head.php";
 include "../part/portfolio_head.php";
 ?>
 
-<div class="pf-a relative con">
+<!-- <div class="pf-a relative con">
     <a href="portfolio_B.php" onclick="movePage(this); return false;" class="btn-next">List view<div></div></a>
-</div>
+</div> -->
 <div class="box-outer">
     <div class="box-1 flex">
         <div class="box-detail blur-in blur-in-type-1 blur-in-type-1-right" data-blur-in-duration="3"
@@ -32,130 +32,149 @@ include "../part/portfolio_head.php";
             <div class="slides">
                 <div class="slide">
                     <div class="title Poppins">13</div>
-                    <div class="txt1">JUN6 ---- 2020</div>
+                    <div class="txt1">JUN6 --- 2020</div>
                     <div class="txt2">
-                        <img src="https://kima-rin.github.io/img1/me/co_t_013.svg" width="250" alt="">
+                        <img src="/resource/img/co_t_flying_tiger.svg" width="250" alt="">
                         <p class="cont-url">https://kr.flyingtiger.com/</p>
                     </div>
                     <div class="txt3">
-                        <h3>RE DESIGN</h3>
-                        <h1 class="Spartan">Listen up..</h1>
-                        <p class="Spartan">
-                            A few things about us,<br> you’ve probably never heard.
-                            <br>At Flying Tiger Copenhagen <br> we add extra to the ordinary.
+                        <h3>UI Design_Visual Design</h3>
+                        <h1 class="Spartan">플라잉 타이거 메인페이지, 상품페이지 <br> 반응형 웹사이트 리디자인 </h1>
+                        <p>
+                            Program : Adobe Photoshop/illustrator<br> size : 320w,480w,760w,960w,1920w
                         </p>
-                    </div>
-                    <div class="img-box">
-                        <p class="project">project</p>
-                        <div style="background-image:url(https://kima-rin.github.io/img1/me/port_013.png)"></div>
-                    </div>
-                    <div class="img-box-2">
-                        <p class="project">project</p>
-                        <div style="background-image:url(https://kima-rin.github.io/img1/me/flying_tiger_design.png)">
+                        <div class="btn-box">
+                            <a class="process" href="#">Process Page</a>
+                            <a class="website" href="#">Website Design</a>
                         </div>
                     </div>
-                    <div><a class="btn-popup-item" data-popup-index="0" href="#">more</a></div>
+                    <div class="img-box">
+                        <p class="project">PROJECT</p>
+                        <div style="background-image:url(/resource/img/port_flyingtiger.png)"></div>
+                    </div>
+                    <div class="img-box-2">
+                        <p class="project">PROJECT</p>
+                        <div style="background-image:url(/resource/img/flying_tiger_design.jpg)">
+                        </div>
+                    </div>
+                    <!-- <div><a class="btn-popup-item" data-popup-index="0" href="#">more</a></div> -->
                 </div>
+
                 <div class="slide">
                     <div class="title Poppins">12</div>
                     <div class="txt1">JUN6 ---- 2020</div>
                     <div class="txt2">
-                        <img src="https://kima-rin.github.io/img1/me/co_t_012.svg" width="250" alt="">
-                        <p class="cont-url">https://www.baskinrobbins.co.kr/</p>
+                        <img src="/resource/img/co_t_lush.svg" width="250" alt="">
+                        <p class="cont-url">https://www.lush.co.kr/</p>
                     </div>
                     <div class="txt3">
-                        <h3>RE DESIGN</h3>
-                        <h1 class="Spartan">You crave it.</h1>
-                        <p class="Spartan">
-                            We get it.<br> Ice cream can make a bad day <br> good, and a good day great.
-                            <br> And when you have a hankering<br>for ice cream it’s serious business.
+                        <h3>UI Design_Visual Design</h3>
+                        <h1>러쉬 코스메틱 메인페이지, 상품페이지 <br> 웹사이트 리디자인</h1>
+                        <p>
+                            Program : Adobe Photoshop/illustrator<br> size : 1920w
                         </p>
-                    </div>
-                    <div class="img-box">
-                        <p class="project">project</p>
-                        <div style="background-image:url(https://kima-rin.github.io/img1/me/port_012.png)"></div>
-                    </div>
-                    <div class="img-box-2">
-                        <p class="project">project</p>
-                        <div
-                            style="background-image:url(https://kima-rin.github.io/img1/me/baskin_robbins_design_1-2.png)">
+                        <div class="btn-box">
+                            <a class="process" href="#">Process Page</a>
+                            <a class="website" href="#">Website Design</a>
                         </div>
                     </div>
-                    <div><a class="btn-popup-item" data-popup-index="1" href="#">more</a></div>
+                    <div class="img-box">
+                        <p class="project">PROJECT</p>
+                        <div style="background-image:url(/resource/img/port_lush.png)"></div>
+                    </div>
+                    <div class="img-box-2">
+                        <p class="project">PROJECT</p>
+                        <div style="background-image:url(/resource/img/lushdesign.jpg)">
+                        </div>
+                    </div>
+                    <!-- <div><a class="btn-popup-item" data-popup-index="1" href="#">more</a></div> -->
                 </div>
 
                 <div class="slide">
                     <div class="title Poppins">11</div>
                     <div class="txt1">SEP9 ---- 2020</div>
                     <div class="txt2">
-                        <img src="https://kima-rin.github.io/img1/me/co_t_011.svg" width="250" alt="">
-                        <p class="cont-url">https://www.outback.co.kr/</p>
+                        <img src="/resource/img/co_t_ikea.svg" width="250" alt="">
+                        <p class="cont-url">https://www.ikea.com/kr/ko/</p>
                     </div>
                     <div class="txt3">
-                        <h3>IMITATION</h3>
-                        <h1 class="Spartan">“Zagat Survey”</h1>
-                        <p class="Spartan">
-                            The “Zagat Survey” in the United States,<br> which is recognized as a worldwide
-                            <br> authority, gave the highest points in all <br> of the evaluation items of [Food]
-                            <br>[Indoor Atmosphere], and [Service] <br>of Outback Steakhouse in 2013.
+                        <h3>UI Design_Visual Design</h3>
+                        <h1>이케아 메인페이지, 상품페이지 <br> 웹사이트 리디자인</h1>
+                        <p>
+                            Program : Adobe Photoshop/illustrator<br> size : 960w,1920w
                         </p>
+                        <div class="btn-box">
+                            <a class="process" href="#">Process Page</a>
+                            <a class="website" href="#">Website Design</a>
+                        </div>
                     </div>
                     <div class="img-box">
-                        <p class="project">project</p>
-                        <div style="background-image:url(https://kima-rin.github.io/img1/me/port_011.png)"></div>
+                        <p class="project">PROJECT</p>
+                        <div style="background-image:url(/resource/img/port_ikea.png)"></div>
                     </div>
                     <div class="img-box-2">
-                        <p class="project">project</p>
-                        <div style="background-image:url(https://kima-rin.github.io/img1/me/outback.png)"></div>
+                        <p class="project">PROJECT</p>
+                        <div style="background-image:url(/resource/img/ikea_redesign.png)"></div>
                     </div>
-                    <div><a href="/PF/outback/" target="_blank">more</a></div>
+                    <!-- <div><a href="/PF/outback/" target="_blank">more</a></div> -->
                 </div>
+
                 <div class="slide">
                     <div class="title Poppins">10</div>
                     <div class="txt1">SEP9 ---- 2020</div>
                     <div class="txt2">
-                        <img src="https://kima-rin.github.io/img1/me/co_t_010.svg" width="250" alt="">
-                        <p class="cont-url">https://www.sagewood.co.kr/global/main</p>
+                        <img src="/resource/img/co_t_outback.svg" width="250" alt="">
+                        <p class="cont-url">https://www.outback.co.kr/</p>
                     </div>
                     <div class="txt3">
-                        <h3>IMITATION</h3>
-                        <h1 class="Spartan">Get enough est.</h1>
-                        <p class="Spartan">
-                            What makes life wise is the <br> perfect break. <br> About a wise life that deepens
-                            <br> with perfect relaxation
+                        <h3>Web Publishing</h3>
+                        <h1>아웃백 스테이크 하우스 메인페이지 <br> 웹사이트 모작 </h1>
+                        <p>
+                            tool : Visual Studio/Java Script/jQuery<br> size : 1920w
                         </p>
-
+                        <div class="btn-box">                         
+                            <a class="website" href="/PF/outback/" target="_blank">Website</a>
+                        </div>
                     </div>
                     <div class="img-box">
-                        <p class="project">project</p>
-                        <div style="background-image:url(https://kima-rin.github.io/img1/me/port_010.png)"></div>
+                        <p class="project">PROJECT</p>
+                        <div style="background-image:url(/resource/img/port_outback.png)"></div>
                     </div>
                     <div class="img-box-2">
-                        <p class="project">project</p>
-                        <div style="background-image:url(https://kima-rin.github.io/img1/me/sagewood.png)"></div>
+                        <p class="project">PROJECT</p>
+                        <div style="background-image:url(/resource/img/outback.png)"></div>
                     </div>
-                    <div><a href="/PF/sagewood/" target="_blank">more</a></div>
+                    <div><a href="/PF/outback/" target="_blank">more</a></div>
                 </div>
+
                 <div class="slide">
                     <div class="title Poppins">09</div>
                     <div class="txt1">SEP9 ---- 2020</div>
                     <div class="txt2">
-                        <img src="https://kima-rin.github.io/img1/me/co_t_009.svg" width="250" alt="">
+                        <img src="/resource/img/co_t_dopda.svg" width="250" alt="">
                         <p class="cont-url">http://dopda.co.kr/</p>
                     </div>
                     <div class="txt3">
-                        <h3>IMITATION</h3>
+                        <h3>Web Publishing</h3>
+                        <h1>글로벌 컨시어지 서비스 돕다 메인페이지 <br> 웹사이트 모작 </h1>
+                        <p>
+                            tool : Visual Studio/Java Script/jQuery<br> size : 1920w
+                        </p>
+                        <div class="btn-box">                         
+                            <a class="website" href="/PF/dopda/" target="_blank">Website</a>
+                        </div>
                     </div>
                     <div class="img-box">
-                        <p class="project">project</p>
-                        <div style="background-image:url(https://kima-rin.github.io/img1/me/port_009.png)"></div>
+                        <p class="project">PROJECT</p>
+                        <div style="background-image:url(/resource/img/port_dopda.png)"></div>
                     </div>
                     <div class="img-box-2">
-                        <p class="project">project</p>
-                        <div style="background-image:url(https://kima-rin.github.io/img1/me/dopda.png)"></div>
+                        <p class="project">PROJECT</p>
+                        <div style="background-image:url(/resource/img/dopda.png)"></div>
                     </div>
                     <div><a href="/PF/dopda/" target="_blank">more</a></div>
                 </div>
+
                 <div class="slide">
                     <div class="title Poppins">08</div>
                     <div class="txt1">JUN6 ---- 2020</div>
@@ -182,23 +201,31 @@ include "../part/portfolio_head.php";
                     </div>
                     <div><a href="/PF/ikea/" target="_blank">more</a></div>
                 </div>
+
                 <div class="slide">
                     <div class="title Poppins">07</div>
                     <div class="txt1">JUL7 ---- 2020</div>
                     <div class="txt2">
-                        <img src="https://kima-rin.github.io/img1/me/co_t_007.svg" width="250" alt="">
+                        <img src="/resource/img/co_t_raemian.svg" width="250" alt="">
                         <p class="cont-url">https://raemian.co.kr/main.do</p>
                     </div>
                     <div class="txt3">
-                        <h3>IMITATION</h3>
+                        <h3>Web Publishing</h3>
+                        <h1>삼성 레미안 메인페이지 <br> 웹사이트 모작 </h1>
+                        <p>
+                            tool : Visual Studio/Java Script/jQuery<br> size : 1920w
+                        </p>
+                        <div class="btn-box">                         
+                            <a class="website" href="/PF/raemian/" target="_blank">Website</a>
+                        </div>
                     </div>
                     <div class="img-box">
-                        <p class="project">project</p>
-                        <div style="background-image:url(https://kima-rin.github.io/img1/me/port_007.png)"></div>
+                        <p class="project">PROJECT</p>
+                        <div style="background-image:url(/resource/img/port_raemian.png)"></div>
                     </div>
                     <div class="img-box-2">
-                        <p class="project">project</p>
-                        <div style="background-image:url(https://kima-rin.github.io/img1/me/raemian_img.jpg)"></div>
+                        <p class="project">PROJECT</p>
+                        <div style="background-image:url(/resource/img/raemian_img.jpg)"></div>
                     </div>
                     <div><a href="/PF/raemian/" target="_blank">more</a></div>
                 </div>

@@ -455,23 +455,23 @@
     <nav class="award-box">
         <ul class="flex con">
             <li class="flex flex-1-0-0 flex-ai-c">
-                <div><img src="https://kima-rin.github.io/img1/pf/raemian/award_f_ncsi.png"" alt=""></div>
+                <div><img src="https://kima-rin.github.io/img1/pf/raemian/award_f_ncsi.png" alt=""></div>
                 <span class="block">국가고객만족도 (NCSI) <br> 23년 연속 1위 </span>
             </li>
             <li class="flex flex-1-0-0">
-                <div><img src=" https://kima-rin.github.io/img1/pf/raemian/award_f_nbci.png"" alt=""></div>
+                <div><img src=" https://kima-rin.github.io/img1/pf/raemian/award_f_nbci.png" alt=""></div>
                 <span class="block">국가브랜드경쟁력지수(NBCI) <br> 17년 연속 1위 </span>
             </li>
             <li class="flex flex-1-0-0">
-                <div><img src="https://kima-rin.github.io/img1/pf/raemian/award_f_kbpi.png"" alt=""></div>
+                <div><img src="https://kima-rin.github.io/img1/pf/raemian/award_f_kbpi.png" alt=""></div>
                 <span class="block">한국 산업의 브랜드 파워 (K-BPI)) <br> 19년 연속 1위 </span>
             </li>
             <li class="flex flex-1-0-0">
-                <div><img src=" https://kima-rin.github.io/img1/pf/raemian/award_f_hf.png"" alt=""></div>
+                <div><img src=" https://kima-rin.github.io/img1/pf/raemian/award_f_hf.png" alt=""></div>
                 <span class="block">고객감동경영대상<br> '명예의 전당 최초 헌정기업' </span>
             </li>
             <li class="flex flex-1-0-0">
-                <div><img src="https://kima-rin.github.io/img1/pf/raemian/award_f_ks0sql.png"" alt=""></div>
+                <div><img src="https://kima-rin.github.io/img1/pf/raemian/award_f_ks0sql.png" alt=""></div>
                 <span class="block">한국 서비스 풀질지수(KS-SQI) <br> 5년 연속 1위 </span>
             </li>
             <li class="flex flex-1-0-0">
